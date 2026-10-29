@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+*.ttf binary
+*.csv text eol=lf
+# Preserve upstream font licence bytes, including their existing trailing spaces.
+reference/design/assets/*-OFL.txt whitespace=-blank-at-eol

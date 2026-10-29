@@ -1,0 +1,783 @@
+{
+  "schema_version": 1,
+  "scope": "All distributed files except this self-referential manifest",
+  "files": [
+    {
+      "path": ".agent/rules/biteaze-redesign.md",
+      "bytes": 529,
+      "sha256": "6b979a5344a0a7b57aeabb9700b4f959ee5a58f249885a2b86c2d771c7cd9186"
+    },
+    {
+      "path": ".agents/rules/biteaze-redesign.md",
+      "bytes": 529,
+      "sha256": "6b979a5344a0a7b57aeabb9700b4f959ee5a58f249885a2b86c2d771c7cd9186"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 217,
+      "sha256": "3fe491b51fe171fad726d8ade974f0720d33e86e82a191eced6d8e2561e9ec52"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 61,
+      "sha256": "76d673938a9c4c11f37a09924cf3ebdc15a0919bc217b5942135c92676e42312"
+    },
+    {
+      "path": ".quality-gate-required",
+      "bytes": 62,
+      "sha256": "525e06a47ff93aa79d87faf285d3a8840c88969106b252fe40182064a3fa33e5"
+    },
+    {
+      "path": "GEMINI-START-PROMPT.md",
+      "bytes": 4812,
+      "sha256": "6047ba712a6db510f76634c12b99c30d0c9c7ac9fd0abd0fa15ca7b58d4d0d78"
+    },
+    {
+      "path": "GEMINI.md",
+      "bytes": 2098,
+      "sha256": "91355abd34dcea024d2809259a1822164589bbc09907117a3269f867660cd39d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3892,
+      "sha256": "705b4c93202e11165f0eeb950c8f28fbaf21c200a1e4e829c4f604a34cdc2cd8"
+    },
+    {
+      "path": "START-HERE.md",
+      "bytes": 3114,
+      "sha256": "030181eb85063374ac6f349e1e05c33c94c86bb3fba919829f2b895861610e17"
+    },
+    {
+      "path": "app-source.json",
+      "bytes": 479,
+      "sha256": "ac51e633d64c4c3b4187089ebe5d0f0e2fb6a0692b365a046b5b10e9e5bec245"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 7511,
+      "sha256": "621e9a3c6c428687252c40df83db417ae03811b0a364412f3b917c832a7f4b57"
+    },
+    {
+      "path": "docs/ANTIGRAVITY-SETUP.md",
+      "bytes": 1858,
+      "sha256": "7086936feae77a515a7ead335be31956060113313fc5d4f9c3bb0e7db78b93f6"
+    },
+    {
+      "path": "docs/CODEBASE-MAP.md",
+      "bytes": 10755,
+      "sha256": "1a32b1893a8277161bbbad2551967047816f9944895741f68d47bf7c16f98064"
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "bytes": 3239,
+      "sha256": "660c0402b2900dbc1c840955b7701aba774964d4dc8a0e616df2ebc758525ee9"
+    },
+    {
+      "path": "docs/IMPLEMENTATION-PLAN.md",
+      "bytes": 7776,
+      "sha256": "e86a5c4650bd09e41ff81985a73ec0652db3c5e236569d9ff3d5fc51f9867941"
+    },
+    {
+      "path": "docs/INSPECTED-SOURCE-HASHES.json",
+      "bytes": 4813,
+      "sha256": "4ce739ecabe1aa6ece70a2974b79dc537781305b023b5fbf0324304494649cbc"
+    },
+    {
+      "path": "docs/PRODUCTION-BOUNDARIES.md",
+      "bytes": 7187,
+      "sha256": "72d60a7f20b7a2d2b813fe2dad094560759f178602c13f26cf6cb9441f95aa9a"
+    },
+    {
+      "path": "docs/REFERENCE-TOOLING.md",
+      "bytes": 3603,
+      "sha256": "f8d88baa8a1028dfb4076be4537fb53ceb9ba2c658a6b29b83a340fa87b19030"
+    },
+    {
+      "path": "docs/SCREEN-COVERAGE.csv",
+      "bytes": 28535,
+      "sha256": "7672464f8592fd3af0e71ed0dfa7d512ce3f0f5d0eb123e260a615e21dd48ff1"
+    },
+    {
+      "path": "docs/SCREEN-COVERAGE.md",
+      "bytes": 1169,
+      "sha256": "d4cd92c35c4406dd3f849ae554bd74b1151bebf977075f9bef179efb6cb32351"
+    },
+    {
+      "path": "docs/TEAM-PLAN.md",
+      "bytes": 3934,
+      "sha256": "94da3f7b254cc381139bb770910a6eb1b2908d0edd9da74f30bfe8122747eb0a"
+    },
+    {
+      "path": "evidence/HANDOFF-REVIEW.md",
+      "bytes": 1029,
+      "sha256": "cae429591d17e07b2de0ccd160254982714abf40b4afff2f967e58e1b8335217"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 1783,
+      "sha256": "b8a6b0833cb9e0beb5e1a547b16b068bb943e53014ea382ed70d614bdb6178d0"
+    },
+    {
+      "path": "package.json",
+      "bytes": 407,
+      "sha256": "8f765065fb07f1ae67b3f480749b02c952b8e03ebec965a198982b6da27bc39b"
+    },
+    {
+      "path": "reference/Android-tablet-original.pdf",
+      "bytes": 1022576,
+      "sha256": "e7929ede26e647043475f2319644788ea20b6e9d4af8d0f94169b446f6a5e46e"
+    },
+    {
+      "path": "reference/Biteaze-Windows-UI-Reference.pdf",
+      "bytes": 26753832,
+      "sha256": "8e10dd33da8a446217688cfa326a947cb42506871575fb1b8e899ed836181ce1"
+    },
+    {
+      "path": "reference/design/IMPLEMENTATION-GUIDE.md",
+      "bytes": 22377,
+      "sha256": "65898d13cfa9235cc05d548123d5168f4ee0ca5fce41be777652816d885354f6"
+    },
+    {
+      "path": "reference/design/README.md",
+      "bytes": 1350,
+      "sha256": "39f3d430b09186fed588fe5b966eb31d16e2f2b81f93070e5e1cad3949595e9a"
+    },
+    {
+      "path": "reference/design/VALIDATION-SUMMARY.json",
+      "bytes": 971,
+      "sha256": "3448e7f545efaeaa5c780e3c9ce3effc797d356758a8362a72370bd7120bfe02"
+    },
+    {
+      "path": "reference/design/app.js",
+      "bytes": 16583,
+      "sha256": "a5b57ebdb43ea6000968ce37c925356c9565c0b27bd3c7f2b8ed7b6472df9541"
+    },
+    {
+      "path": "reference/design/assets/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "reference/design/assets/Inter.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "reference/design/assets/Jakarta-OFL.txt",
+      "bytes": 4402,
+      "sha256": "995c7199cab65954f545996326755daee7b63cc6b42b06c13da1f9502ab08a99"
+    },
+    {
+      "path": "reference/design/assets/PlusJakartaSans.ttf",
+      "bytes": 176288,
+      "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8"
+    },
+    {
+      "path": "reference/design/assets/brand-tokens.css",
+      "bytes": 28708,
+      "sha256": "a308cba81f7ce065f4c2defe0a98a02e934a7d473483094af37f36561c3b4633"
+    },
+    {
+      "path": "reference/design/continuations.json",
+      "bytes": 3089,
+      "sha256": "ac2b86d1abeac9ba7f7cb88f45a5d31bbc6901a0515d626a1e53b2956ffce750"
+    },
+    {
+      "path": "reference/design/core.js",
+      "bytes": 29234,
+      "sha256": "a8d7260e9dee122065514cb7c32e2bf2bab428bf0f026759d10e8474a68ac291"
+    },
+    {
+      "path": "reference/design/design.css",
+      "bytes": 43870,
+      "sha256": "ec90ba5256f4e6c179e550d71d43041ca06a1626ff8db7605bfad22d5d79adc9"
+    },
+    {
+      "path": "reference/design/dialogs.js",
+      "bytes": 34390,
+      "sha256": "efa003bd4526112707d52fd1054d27cc5a9e4f3d9643b29d441e24efd554ae43"
+    },
+    {
+      "path": "reference/design/extras.js",
+      "bytes": 7027,
+      "sha256": "7391d15ea5104cd4af529378af6c2e31f7964eacfb49884eb97a48a1132de215"
+    },
+    {
+      "path": "reference/design/guide.html",
+      "bytes": 31381,
+      "sha256": "bbc9a7b829da60249dd2c7a4874feb6e23af97adcf3530b363808613eda4c574"
+    },
+    {
+      "path": "reference/design/index.html",
+      "bytes": 655,
+      "sha256": "ed2c08ec09d3554ab0200984809e0247ebb5571114908dff40e63cde0e84d094"
+    },
+    {
+      "path": "reference/design/interaction-validation.json",
+      "bytes": 2747,
+      "sha256": "f48b3138702a738f2a9062e5041eced83c34dcb4799c1f8ae6754c3c6f3214fa"
+    },
+    {
+      "path": "reference/design/layout-validation.json",
+      "bytes": 144461,
+      "sha256": "a7a4a9dcdbff30bbf86bf3ecb2b03c7d77a3a29fd07e87cb587ee4bea28f68d7"
+    },
+    {
+      "path": "reference/design/pages.js",
+      "bytes": 41512,
+      "sha256": "f5e122e574d039aac5341a8e1ac2cddbc339c05f8366b9d8e259c395d9ffa527"
+    },
+    {
+      "path": "reference/design/pdf-validation.json",
+      "bytes": 408,
+      "sha256": "3783552fe7af16567c621b77adf1c2bdcb26cbaf087537f1946ac659940847cb"
+    },
+    {
+      "path": "reference/design/responsive/billing-1280x720.png",
+      "bytes": 135597,
+      "sha256": "7020499c403f5e348fc7cab096f451d7cedf13ef4d2a16da8c10ce8928a24a60"
+    },
+    {
+      "path": "reference/design/responsive/billing-1366x768.png",
+      "bytes": 144530,
+      "sha256": "6444066ab05b46ac7de8eb2d87902246f3e07fad37d3d78967f4062f7fb5b3ab"
+    },
+    {
+      "path": "reference/design/responsive/day-close-1280x720.png",
+      "bytes": 110965,
+      "sha256": "c6ec17f38ad826a51e3a73be0585ec535239f617a388f258d07eea6a0f3951e9"
+    },
+    {
+      "path": "reference/design/responsive/day-close-1366x768.png",
+      "bytes": 114938,
+      "sha256": "19c9d4ea5e8da239a05386000746f9795a4beacfe99643602a57cf6f93c62432"
+    },
+    {
+      "path": "reference/design/responsive/item-customize-1280x720.png",
+      "bytes": 185928,
+      "sha256": "e8dcabaefd75d9092759a3c59aadfe4317f30222d004ea0c6e90eba799a64c16"
+    },
+    {
+      "path": "reference/design/responsive/item-customize-1366x768.png",
+      "bytes": 207385,
+      "sha256": "d92fbebb4f65fe0e3b4d7dd5809c8e95a285a00e52294007ce0492c6e39343b6"
+    },
+    {
+      "path": "reference/design/responsive/payment-cash-1280x720.png",
+      "bytes": 166202,
+      "sha256": "2b6ecee5ac6604ed56f30529d08e32f1289a0ed73e3395e739235532325457a1"
+    },
+    {
+      "path": "reference/design/responsive/payment-cash-1366x768.png",
+      "bytes": 182830,
+      "sha256": "087d2b9b668cd775cca7e829321406690f1a292f0ef407bc57dde801c04fb6b5"
+    },
+    {
+      "path": "reference/design/responsive/printers-1280x720.png",
+      "bytes": 103971,
+      "sha256": "e61774c1d07aedfeee771b3bc80f57724eb1f28f48228a805215fbc2b8a76dc3"
+    },
+    {
+      "path": "reference/design/responsive/printers-1366x768.png",
+      "bytes": 110513,
+      "sha256": "49a79e6473bb8a2e6d2a444524f8aae367ce800c3d235ca1b40b2abbcbbdfd6f"
+    },
+    {
+      "path": "reference/design/responsive/tables-1280x720.png",
+      "bytes": 100472,
+      "sha256": "9b6bf984099f59cceffe62527d285ac8d40d07650eae8bd97af553161592c59e"
+    },
+    {
+      "path": "reference/design/responsive/tables-1366x768.png",
+      "bytes": 108504,
+      "sha256": "274d36a9595232589164b6505b5fa5a38740878f9b4da2caf6d31bc902c2a3c6"
+    },
+    {
+      "path": "reference/design/screen-manifest.json",
+      "bytes": 16573,
+      "sha256": "b9e9f6b528c562b281c0d7c4fdc665d4ddd7994a6511612944f1e3aaaf844925"
+    },
+    {
+      "path": "reference/design/screens/01-billing.png",
+      "bytes": 215791,
+      "sha256": "3eccf1f8da67ddfa2e735202531dbcd0135ebc680465f7130638763573a4c9f2"
+    },
+    {
+      "path": "reference/design/screens/02-billing-empty.png",
+      "bytes": 188885,
+      "sha256": "6d7884ed7637f9792aed775cf389d38765ee3afc603940605c24a0cc09679b54"
+    },
+    {
+      "path": "reference/design/screens/03-orders-continued-1.png",
+      "bytes": 137896,
+      "sha256": "60d00e8693ccef94f798836d4403b90b7e73b7964744604540de6a4d8ce48f4b"
+    },
+    {
+      "path": "reference/design/screens/03-orders.png",
+      "bytes": 141226,
+      "sha256": "5ec1ec2b0a13c88ab18fd31f67722d62de3b6412ea828129b61e453aea0d5a72"
+    },
+    {
+      "path": "reference/design/screens/04-tables.png",
+      "bytes": 135851,
+      "sha256": "c7b43396db42c4c19b92f2da7609a63ab0721c86370db9d2c2d8137f4cf4ebd5"
+    },
+    {
+      "path": "reference/design/screens/05-held.png",
+      "bytes": 107663,
+      "sha256": "b0503914016c83909d74ba2fe5927c98cc490e5a042fd026f2e78fe40146fa02"
+    },
+    {
+      "path": "reference/design/screens/06-item-customize.png",
+      "bytes": 321182,
+      "sha256": "f643b65124d73f5a099a97331d3c5bfd6a2bc221669308b7227883822d72cfc7"
+    },
+    {
+      "path": "reference/design/screens/07-line-edit.png",
+      "bytes": 324367,
+      "sha256": "4bea43f2d6f71fa5b99e86487ce574469b313bbbcd081884d52d03b5608dcc0b"
+    },
+    {
+      "path": "reference/design/screens/08-customer-select.png",
+      "bytes": 324761,
+      "sha256": "b24cef19036ce1d41f518b3038b9e4d77d746fbaba3456b19ab5b612088b44d8"
+    },
+    {
+      "path": "reference/design/screens/09-customer-add.png",
+      "bytes": 327359,
+      "sha256": "127ac441165e80ce3287392291782ee7f62c27d95eb2e6b8ecbe0a9ac398399d"
+    },
+    {
+      "path": "reference/design/screens/10-table-assign.png",
+      "bytes": 323925,
+      "sha256": "6637678f67e7060ac99cdcc9d3f6be646d38acd04e6868f71c78cfa9a8350260"
+    },
+    {
+      "path": "reference/design/screens/11-order-details-continued-1.png",
+      "bytes": 277770,
+      "sha256": "40d1a3faa0722913e23557c766e5ec0aeb4e033a7802500b6b010ff7b26a8c25"
+    },
+    {
+      "path": "reference/design/screens/11-order-details.png",
+      "bytes": 276215,
+      "sha256": "fa5d2a41e6cb4a228dfda89f1a4d98da75929f4ad3a14ebbbc0eda1f26379025"
+    },
+    {
+      "path": "reference/design/screens/12-discount.png",
+      "bytes": 331147,
+      "sha256": "799efbbe1fc44b3229a4a337e17db7e8dc0638515ff884afed7752c392f360ba"
+    },
+    {
+      "path": "reference/design/screens/13-coupon.png",
+      "bytes": 323869,
+      "sha256": "7f83a4a117d3bd758cd5754506c4428eb0f4a0ce8d00395e436ba42ad31afbb1"
+    },
+    {
+      "path": "reference/design/screens/14-charges.png",
+      "bytes": 323194,
+      "sha256": "c69988cc6a721fafaa745ea9b2564818e21bbae0b910f707a42c809aeb6471eb"
+    },
+    {
+      "path": "reference/design/screens/15-note.png",
+      "bytes": 324545,
+      "sha256": "e5d2120cee9065525b2af49c2affdaf27f435e6b64d9230e077879adb0081f42"
+    },
+    {
+      "path": "reference/design/screens/16-hold.png",
+      "bytes": 331296,
+      "sha256": "0a90a7f556a7fcd0307a8fbb517bd1d3cb8efc9329208cf656c3ae386521b6d5"
+    },
+    {
+      "path": "reference/design/screens/17-kot.png",
+      "bytes": 323891,
+      "sha256": "db3c06505acba3f071ca5ccf81359bcc5affe02a62c2b528a9ea68679421b6b4"
+    },
+    {
+      "path": "reference/design/screens/18-split-bill.png",
+      "bytes": 313687,
+      "sha256": "0294dfb949269abc87a68eec5e655e6339accf8f8a8da1981a8ffbec28668243"
+    },
+    {
+      "path": "reference/design/screens/19-transfer.png",
+      "bytes": 326747,
+      "sha256": "5a5729f99168b4465ef5180833cc27e0529f87f18fd19ccaabf0cbc2d1653521"
+    },
+    {
+      "path": "reference/design/screens/20-payment-cash.png",
+      "bytes": 315282,
+      "sha256": "694e7dca9a2ac4a1535bf07aac2b1d0f8e3131803e01b6784329d00d3563e12f"
+    },
+    {
+      "path": "reference/design/screens/21-payment-upi.png",
+      "bytes": 323305,
+      "sha256": "b143cda7ce6cea68c22e52156f60927d452abb4db94cec5a5e4b9b47a315287a"
+    },
+    {
+      "path": "reference/design/screens/22-payment-card.png",
+      "bytes": 327928,
+      "sha256": "5feebefb1683ba66f475fa4e6a3baef99d0a7400995651c13c36022126318e43"
+    },
+    {
+      "path": "reference/design/screens/23-payment-split.png",
+      "bytes": 325332,
+      "sha256": "a2e3f9c1e170892dfb0a4cd701bf2783f92d3363c3f8140d22af76d75d274315"
+    },
+    {
+      "path": "reference/design/screens/24-payment-credit.png",
+      "bytes": 326412,
+      "sha256": "b73b251c659ec25415921ff0b1ef6ac175a826d06255fa1cee0f1638150b0510"
+    },
+    {
+      "path": "reference/design/screens/25-payment-success.png",
+      "bytes": 314955,
+      "sha256": "f339101b6fcb4baaaba737506089317b2a43c8943b41aec8a625f41e66da3276"
+    },
+    {
+      "path": "reference/design/screens/26-payment-pending.png",
+      "bytes": 334684,
+      "sha256": "618d52252c281f6e5160f1e27ce81090b7c3bc773461ddab980267051541a336"
+    },
+    {
+      "path": "reference/design/screens/27-payment-failed.png",
+      "bytes": 323699,
+      "sha256": "fcc9ff4f7d034453c9d5e00a6870d1114b49b43a45fcf431a202cb9245fafef8"
+    },
+    {
+      "path": "reference/design/screens/28-print-failed.png",
+      "bytes": 326256,
+      "sha256": "3909ee57567fdf90fc210f195004de5158253db9977e20539e2d1091379841b8"
+    },
+    {
+      "path": "reference/design/screens/29-void.png",
+      "bytes": 325755,
+      "sha256": "d3871ed6988b9388514fa2a0d6414cf2c5925fa3af03073616eef0c8d2330825"
+    },
+    {
+      "path": "reference/design/screens/30-manager.png",
+      "bytes": 332373,
+      "sha256": "94655d27f0b4f9cf8840648d89e0a24089286d24a4090cb96bc53085b37f18ae"
+    },
+    {
+      "path": "reference/design/screens/31-refund.png",
+      "bytes": 267365,
+      "sha256": "a0c3535a4fcedeac99f28a69913d9a4430b4eacb2b622779330b277fdaa32c51"
+    },
+    {
+      "path": "reference/design/screens/32-offline.png",
+      "bytes": 216705,
+      "sha256": "3a87f6406efcd2e0604a819aafa06eb7334d6b7da2e86dea6633157c92f0e815"
+    },
+    {
+      "path": "reference/design/screens/33-shortcuts.png",
+      "bytes": 303400,
+      "sha256": "496d3c10689ceaec8fa89960634a97436aa0b0922239a992ecce024375e47310"
+    },
+    {
+      "path": "reference/design/screens/34-sales-continued-1.png",
+      "bytes": 144345,
+      "sha256": "343b1432da7d86bd23a00e0dc37243616500bf698cec5aa07f3edb247bcd5ce4"
+    },
+    {
+      "path": "reference/design/screens/34-sales.png",
+      "bytes": 144637,
+      "sha256": "3cbef1765593354827ec6a4e99a154f319744a09a6865c518397d412d4ad795f"
+    },
+    {
+      "path": "reference/design/screens/35-sale-detail.png",
+      "bytes": 154653,
+      "sha256": "de94954a521f2a46d5412a767195a6163f731b76d71e563e578558ea72710a5b"
+    },
+    {
+      "path": "reference/design/screens/36-day-close-continued-1.png",
+      "bytes": 157889,
+      "sha256": "db93633993eb443221e2bc4beb6748964a95da89a472762f63495f61d7249738"
+    },
+    {
+      "path": "reference/design/screens/36-day-close.png",
+      "bytes": 158574,
+      "sha256": "4c5c0209ffeffd9c5509b42b7a77d8d81202fd2c9b7f815dde2c637abe2cf895"
+    },
+    {
+      "path": "reference/design/screens/37-cash-movement.png",
+      "bytes": 234139,
+      "sha256": "4416bbe85ee00c602dc7e8fd594e0f7a02c18fe9af9a5f3f02b87b24fd8dea5e"
+    },
+    {
+      "path": "reference/design/screens/38-customers.png",
+      "bytes": 136750,
+      "sha256": "667ddf3c9ab956e93042b8d924d2965d765c300ee131c58a5b1ad64ae425dafb"
+    },
+    {
+      "path": "reference/design/screens/39-customer-detail.png",
+      "bytes": 136219,
+      "sha256": "a2f4596d0224ece95421f87e23cd0ed59f974e5f01327eef2c609f4d96a85708"
+    },
+    {
+      "path": "reference/design/screens/40-credit.png",
+      "bytes": 125525,
+      "sha256": "33b21b9dea800a94779c1a7c32054ac16b832ee1aaa389e70dec418547fe4ba0"
+    },
+    {
+      "path": "reference/design/screens/41-credit-settle.png",
+      "bytes": 209042,
+      "sha256": "e821426340b79bcc7e09fae70a919af8041a14941730e873914ce8760dafc787"
+    },
+    {
+      "path": "reference/design/screens/42-inventory.png",
+      "bytes": 146727,
+      "sha256": "8012599d139a3640eb37ce453997dc488c3ba36f4abfa812737aae24431a12e2"
+    },
+    {
+      "path": "reference/design/screens/43-item-edit-continued-1.png",
+      "bytes": 128120,
+      "sha256": "7996690377a9a4179f6cfa215761ec6e44360f511ea6895d47bfe9d4f3b26fef"
+    },
+    {
+      "path": "reference/design/screens/43-item-edit.png",
+      "bytes": 134694,
+      "sha256": "4226de95941d4350b4de5d3fe9ae8f691ac15a2e577994d656c029796e42f300"
+    },
+    {
+      "path": "reference/design/screens/44-reports.png",
+      "bytes": 112550,
+      "sha256": "7e2d44b06670490e7310ca12bfd6d1ab8f9b1ed8d52f718f4764429228a3ec19"
+    },
+    {
+      "path": "reference/design/screens/45-dashboard-continued-1.png",
+      "bytes": 119265,
+      "sha256": "cbe05e34cccbc3c1990ab50226bf72be32b6e59b13b61e3d28d83c3765189cb3"
+    },
+    {
+      "path": "reference/design/screens/45-dashboard.png",
+      "bytes": 123555,
+      "sha256": "03204f020b624d62615e5d52f2f98cfad61b31e18743507e772ecb6d984ce3be"
+    },
+    {
+      "path": "reference/design/screens/46-expenses.png",
+      "bytes": 127436,
+      "sha256": "318c2f3ef0a2519b4e72a9e58d3c06620287b2fb8a4c19bc76ab69ea19fc6647"
+    },
+    {
+      "path": "reference/design/screens/47-expense-add.png",
+      "bytes": 198874,
+      "sha256": "55579518d3036efd0b07a9f8c1fafde57cd609a33d68492585e4e2599faf0839"
+    },
+    {
+      "path": "reference/design/screens/48-suppliers.png",
+      "bytes": 127293,
+      "sha256": "e79bb6bbd6d822279a085c4a34d92143e36dd33a2d4bb47ab6732c1889f92df2"
+    },
+    {
+      "path": "reference/design/screens/49-supplier-payment.png",
+      "bytes": 231184,
+      "sha256": "aedbe5bf015248e43b45188735ac063388cde0c16b2c4e936cfe386ed85787e9"
+    },
+    {
+      "path": "reference/design/screens/50-greetings-continued-1.png",
+      "bytes": 128237,
+      "sha256": "69bdec53275aa2da4c26c906461a2b7b90d7d1f6ff58bd3ed4c0202308f3bf1c"
+    },
+    {
+      "path": "reference/design/screens/50-greetings.png",
+      "bytes": 137530,
+      "sha256": "19441ca891f01bfae617926087b05a52f1cf75491df2a031dbab5298b82f9f6c"
+    },
+    {
+      "path": "reference/design/screens/51-settings.png",
+      "bytes": 129699,
+      "sha256": "f91f13153805aab96ff428097c687bee48cfb89a1dda65243eb69a893f3b132a"
+    },
+    {
+      "path": "reference/design/screens/52-printers-continued-1.png",
+      "bytes": 134063,
+      "sha256": "f423ce5417ff3fe5ed663856b98950f8bbb949d57df7b09016f18b76f7f10da2"
+    },
+    {
+      "path": "reference/design/screens/52-printers.png",
+      "bytes": 144902,
+      "sha256": "794b59e571146a5de30174e121f120f74427e02c6ae1ba5106c61c4b7bdf3082"
+    },
+    {
+      "path": "reference/design/screens/53-receipt-continued-1.png",
+      "bytes": 162061,
+      "sha256": "27ac4f59b0b87b1ba19a0ff06d5ee431d78266d6f972199d7622149018787341"
+    },
+    {
+      "path": "reference/design/screens/53-receipt.png",
+      "bytes": 169152,
+      "sha256": "17e2370e01bb815cf54cea1a762ea8b7ddee273d1bd0a4ced117540b704d9d0c"
+    },
+    {
+      "path": "reference/design/screens/54-detailed-bill-continued-1.png",
+      "bytes": 167105,
+      "sha256": "e695e16a119c7dc15f8585cf231b6a6f2272fbe546ec7203cb3189bcfe373dfc"
+    },
+    {
+      "path": "reference/design/screens/54-detailed-bill.png",
+      "bytes": 167539,
+      "sha256": "89fd54f3d58d50c6e0980332006bb133924b8c0c5b932070c12769644ab4a084"
+    },
+    {
+      "path": "reference/design/screens/55-staff-continued-1.png",
+      "bytes": 142369,
+      "sha256": "8ddac56ca04341a08d9dd80891a61743ba77b6e6ccfd3c8145a3f0b422a18d79"
+    },
+    {
+      "path": "reference/design/screens/55-staff.png",
+      "bytes": 142165,
+      "sha256": "13158ae36e7ee53388bc76bc3934d9b92a178dbb215ab5f580cde592bfe23fa2"
+    },
+    {
+      "path": "reference/design/screens/56-staff-add.png",
+      "bytes": 245996,
+      "sha256": "17900b59ed8a493c64556915229b4f83090238379ac21adf25a09d19e923810a"
+    },
+    {
+      "path": "reference/design/screens/57-coupons.png",
+      "bytes": 120599,
+      "sha256": "9bf34d22a6f0b7a236d6260bf111e5c8d2f14c62a16fab864a37ec7df960d964"
+    },
+    {
+      "path": "reference/design/screens/58-coupon-add.png",
+      "bytes": 199886,
+      "sha256": "038e405cc374de54b18c13419ede6b7780d14c85461135b8449223acc44999a9"
+    },
+    {
+      "path": "reference/design/screens/59-qr.png",
+      "bytes": 139836,
+      "sha256": "fd14739c3aa7efcdf63c35efc963493d28e6b24f44387266f43c4c5b13ea429e"
+    },
+    {
+      "path": "reference/design/screens/60-order-id.png",
+      "bytes": 205426,
+      "sha256": "e2a99f2d80bd06954ce0e8891ca903a32367357003ae4f5200b50734deefd3c5"
+    },
+    {
+      "path": "reference/design/screens/61-tax-continued-1.png",
+      "bytes": 117557,
+      "sha256": "85458f1de2bd482a9c7c83115f9a31098cac2321c13894247d83d5c356c40c5a"
+    },
+    {
+      "path": "reference/design/screens/61-tax.png",
+      "bytes": 132707,
+      "sha256": "f32a310f99489a41cb879cb1b5f967e9e079637a6be8aa7dd72dbb4431003945"
+    },
+    {
+      "path": "reference/design/screens/62-billing-preferences-continued-1.png",
+      "bytes": 123803,
+      "sha256": "63b504ac173312337ee3563289073ac67a42c5e979e74ee4f874e61afd293154"
+    },
+    {
+      "path": "reference/design/screens/62-billing-preferences.png",
+      "bytes": 132665,
+      "sha256": "8f6aaf5126175b75f2664622161ac216c2803563ca9d119651a5dd361b4582fa"
+    },
+    {
+      "path": "reference/design/screens/63-profile-continued-1.png",
+      "bytes": 112694,
+      "sha256": "25446cebd85284a15f3ba1c6f0675b356533f02b91e3542a90c66e96ec7ce684"
+    },
+    {
+      "path": "reference/design/screens/63-profile.png",
+      "bytes": 144609,
+      "sha256": "8e263f26e538ac067f7373d7cbc0ecd9a49610494b632c01cad4791ecd80e9b4"
+    },
+    {
+      "path": "reference/design/screens/64-lock.png",
+      "bytes": 51410,
+      "sha256": "4a65a000b5a43a1c27113ad6687c317e756549a64d97bad994bcba1d201395b1"
+    },
+    {
+      "path": "reference/design/screens/65-billing-takeaway.png",
+      "bytes": 215854,
+      "sha256": "e9cc1480c5783a50115a1a78a3513ca6e8c43ed6cd908b96ca7eb9d1df2d9753"
+    },
+    {
+      "path": "reference/design/screens/66-billing-delivery.png",
+      "bytes": 215794,
+      "sha256": "1361537620d9bbb786dc08550c844c9191385ee9fd25c5623304fdb9f687bb89"
+    },
+    {
+      "path": "reference/design/screens/67-delivery-details.png",
+      "bytes": 334376,
+      "sha256": "b94640b1059724bdba437584abc669baf403dcda269676e3349387bf08809847"
+    },
+    {
+      "path": "reference/design/screens/68-printer-select.png",
+      "bytes": 253354,
+      "sha256": "437196ee6441a4f96d54a9c40387bbd0afdba67bcc1c1290955c3d479fe66ab3"
+    },
+    {
+      "path": "reference/design/screens/69-kot-failed.png",
+      "bytes": 328177,
+      "sha256": "afc6bfc61ce8ec695d2ae0f767c4991d9c531642b06152789f07d6aa49d65d5f"
+    },
+    {
+      "path": "reference/design/screens/70-discount-approval.png",
+      "bytes": 325391,
+      "sha256": "38b8bf374b34fa813bf3f3b5b33518146b6594c634b17cb8548e24c2e2e38d48"
+    },
+    {
+      "path": "reference/design/screens/71-day-close-review.png",
+      "bytes": 242294,
+      "sha256": "4b992826282867c0966d449c5b3f865825f0634b23a94ff2e9b5e2760d909dc1"
+    },
+    {
+      "path": "reference/design/screens/72-discard-draft.png",
+      "bytes": 193694,
+      "sha256": "5ff548d09aa0cc4ed6c733a7314db395d2abe334b173087eca26da4cabe9fba4"
+    },
+    {
+      "path": "reference/design/viewer-validation.json",
+      "bytes": 5727,
+      "sha256": "e5efc0196734f3ce6c143cf111aa2f17f9e291ad418758f1a06d911b7e9cfd84"
+    },
+    {
+      "path": "reference/pdf-page-map.json",
+      "bytes": 9281,
+      "sha256": "a3c1ceaae7fef1f5c26a1328df035a0badb2327570d77a8b655a32aed2dc8fcb"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 49,
+      "sha256": "cd0eb86a9580e380b7a0db9e6c9766da83e2ad76203e4b8a5b918bfb7484c6a6"
+    },
+    {
+      "path": "scripts/build-design-book.py",
+      "bytes": 12504,
+      "sha256": "8658176cac1f1c768173f8955086f36fb57ae67c1e1e9e7e12f37e3bd9d668a1"
+    },
+    {
+      "path": "scripts/generate-manifest.py",
+      "bytes": 1136,
+      "sha256": "798a9f9887410c8594231e81b7f216401e694d764a4cb869beaf7673e8129ac6"
+    },
+    {
+      "path": "scripts/run-reference-checks.py",
+      "bytes": 2175,
+      "sha256": "f4754051575fadfea456e207a70d92caa4118e43df018f056c9a791804165d9d"
+    },
+    {
+      "path": "scripts/validate-interactions.cjs",
+      "bytes": 7697,
+      "sha256": "ac4bab40596a09eaa532cd7df47376989b55b758057e46ab0443e0b927a77d28"
+    },
+    {
+      "path": "scripts/validate-package.py",
+      "bytes": 6882,
+      "sha256": "597d746c2b06c94af8c6d5060aa3980a24a0292b281730995203f7cd96a16680"
+    },
+    {
+      "path": "scripts/validate-reference.cjs",
+      "bytes": 4564,
+      "sha256": "9668c5e03254d3e70777d0fcb481587d18c13d504acb000569985840d602138c"
+    },
+    {
+      "path": "templates/IMPLEMENTATION-TRACKER.md",
+      "bytes": 1691,
+      "sha256": "a965238dfcfaa56b7270235f834cce88267448aa967ca4b2bcff18efa2575f07"
+    }
+  ],
+  "file_count": 155,
+  "total_bytes": 49663453
+}

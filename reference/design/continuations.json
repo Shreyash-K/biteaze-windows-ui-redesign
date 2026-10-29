@@ -1,0 +1,128 @@
+[
+  {
+    "screen": "orders",
+    "title": "Ongoing orders",
+    "source": "Tablet p4",
+    "file": "03-orders-continued-1.png",
+    "scrollTop": 78,
+    "scrollHeight": 1018,
+    "clientHeight": 940
+  },
+  {
+    "screen": "order-details",
+    "title": "Order details & service",
+    "source": "Tablet p31",
+    "file": "11-order-details-continued-1.png",
+    "scrollTop": 19,
+    "scrollHeight": 847,
+    "clientHeight": 828
+  },
+  {
+    "screen": "sales",
+    "title": "Sales history",
+    "source": "Tablet p9",
+    "file": "34-sales-continued-1.png",
+    "scrollTop": 72,
+    "scrollHeight": 1012,
+    "clientHeight": 940
+  },
+  {
+    "screen": "day-close",
+    "title": "Day close & cash count",
+    "source": "Tablet p10\u201311",
+    "file": "36-day-close-continued-1.png",
+    "scrollTop": 92,
+    "scrollHeight": 1032,
+    "clientHeight": 940
+  },
+  {
+    "screen": "item-edit",
+    "title": "Item / variant editor",
+    "source": "Tablet p6\u20137",
+    "file": "43-item-edit-continued-1.png",
+    "scrollTop": 426,
+    "scrollHeight": 1366,
+    "clientHeight": 940
+  },
+  {
+    "screen": "dashboard",
+    "title": "Business overview",
+    "source": "Tablet p1\u20133,18\u201319",
+    "file": "45-dashboard-continued-1.png",
+    "scrollTop": 177,
+    "scrollHeight": 1117,
+    "clientHeight": 940
+  },
+  {
+    "screen": "greetings",
+    "title": "Greetings & reminders",
+    "source": "Tablet p15\u201316",
+    "file": "50-greetings-continued-1.png",
+    "scrollTop": 150,
+    "scrollHeight": 1090,
+    "clientHeight": 940
+  },
+  {
+    "screen": "printers",
+    "title": "Printers & kitchen routing",
+    "source": "Tablet p27",
+    "file": "52-printers-continued-1.png",
+    "scrollTop": 196,
+    "scrollHeight": 1136,
+    "clientHeight": 940
+  },
+  {
+    "screen": "receipt",
+    "title": "Receipt / KOT layout",
+    "source": "Tablet p28\u201329",
+    "file": "53-receipt-continued-1.png",
+    "scrollTop": 63,
+    "scrollHeight": 1003,
+    "clientHeight": 940
+  },
+  {
+    "screen": "detailed-bill",
+    "title": "Detailed A4 / A5 invoice",
+    "source": "Tablet p30",
+    "file": "54-detailed-bill-continued-1.png",
+    "scrollTop": 34,
+    "scrollHeight": 974,
+    "clientHeight": 940
+  },
+  {
+    "screen": "staff",
+    "title": "Staff & permissions",
+    "source": "Tablet p22\u201323",
+    "file": "55-staff-continued-1.png",
+    "scrollTop": 43,
+    "scrollHeight": 983,
+    "clientHeight": 940
+  },
+  {
+    "screen": "tax",
+    "title": "Tax & rounding",
+    "source": "Tablet p20",
+    "file": "61-tax-continued-1.png",
+    "scrollTop": 391,
+    "scrollHeight": 1331,
+    "clientHeight": 940
+  },
+  {
+    "screen": "billing-preferences",
+    "title": "Billing screen preferences",
+    "source": "Tablet p31",
+    "file": "62-billing-preferences-continued-1.png",
+    "scrollTop": 319,
+    "scrollHeight": 1259,
+    "clientHeight": 940
+  },
+  {
+    "screen": "profile",
+    "title": "Business profile & devices",
+    "source": "Tablet p32\u201333",
+    "file": "63-profile-continued-1.png",
+    "scrollTop": 534,
+    "scrollHeight": 1474,
+    "clientHeight": 940
+  }
+]

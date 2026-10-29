@@ -1,0 +1,719 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Biteaze Windows · Implementation guide</title><link rel="stylesheet" href="assets/brand-tokens.css"><style>@font-face{font-family:Inter;src:url(assets/Inter.ttf)}*{box-sizing:border-box}body{margin:0;background:#f8fafc;color:#0f172a;font:15px/1.7 Inter,system-ui,sans-serif}main{max-width:1120px;margin:40px auto;padding:40px 54px;background:white;border:1px solid #e2e8f0;border-radius:18px}h1{font-size:32px;line-height:1.3}h2{font-size:24px;line-height:1.4;margin-top:44px;padding-top:12px;border-top:1px solid #e2e8f0}a{color:#9a3412;text-decoration:none}a:hover{text-decoration:underline}nav{display:flex;gap:24px;font-size:13px;padding-bottom:24px;border-bottom:1px solid #e2e8f0}table{border-collapse:collapse;width:100%;font-size:13px;margin:20px 0}th,td{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid #e2e8f0}th{background:#f8fafc}code{background:#f1f5f9;padding:2px 4px;border-radius:4px}li{padding:4px 0}@media(max-width:800px){main{margin:0;padding:24px;border-radius:0}table{display:block;overflow:auto}}</style><main><nav><a href="index.html">← Explore the screens</a><a href="IMPLEMENTATION-GUIDE.md">Markdown source</a></nav><h1>Biteaze for Windows · UI implementation reference</h1>
+<p>Version 1 · 29 October 2026 · Viral Patiyala sample outlet</p>
+<p>This is a proposed desktop design system and visual reference, with 72 named screen states. It includes an offline clickable HTML prototype, screenshots, a PDF design book, and these implementation notes. The source is the supplied 33-page Android tablet reference, plus the official POS and Microsoft references listed below. The existing Windows codebase was not inspected or changed.</p>
+<h2>Open the reference</h2>
+<p>Open <code>index.html</code> in a desktop browser. The dark reference strip at the bottom is a design explorer, not part of the proposed app. Select any screen, use the previous/next controls, or click the relevant app actions. All fonts and assets are local; no install or network connection is required. The PNG files in <code>screens/</code> show the app without the explorer.</p>
+<p>The prototype uses synthetic people, masked contact information, illustrative prices and a demonstration bill. Search, item addition, modifier pricing, discounts, cash change, split tender, customer selection and selected keyboard paths work locally. Many secondary actions show the next design state or a preview notification. Forms, exports, printing, sync, receipts and account changes are not connected to production. Reload to reset the examples. The demo PIN accepts any six digits; it is not an authentication implementation. Payment QR panels are deliberately non-payable placeholders.</p>
+<h2>Design direction</h2>
+<p>Keep Biteaze’s light slate surfaces, orange brand accent and rounded geometry. Use orange for the next important action and the current selection. The result should feel like a calm counter workspace: prices aligned, fewer competing buttons, clear order status and a consistent location for checkout.</p>
+<p>The primary layout has a labelled application rail, an outlet/staff header, a catalog workspace and a persistent bill on the right. Category navigation and item search are immediately available. Menu items use text-first tiles so missing photography does not damage the layout. A native window title bar is represented for context; use the actual Windows title bar and window behavior in implementation.</p>
+<p>The source PDF shows ongoing orders but does not show the core item-entry or payment surfaces. Those screens and their exception states are proposed flows. The screen manifest records which source pages informed each design; the mapping is functional, not a claim that every proposed interaction already exists in the app. The small “b” marks are concept placeholders; replace them with the approved vector brand/outlet assets.</p>
+<h2>Desktop geometry</h2>
+<p>All dimensions are effective UI pixels / Windows DIPs. Design against available client area after real OS chrome, taskbar and scaling are accounted for. Do not scale a fixed 1920-pixel canvas down as an image.</p>
+<table>
+<thead>
+<tr>
+<th>Reference viewport</th>
+<th style="text-align: right;">Rail</th>
+<th style="text-align: right;">Bill width</th>
+<th>Catalog structure</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1920 × 1080</td>
+<td style="text-align: right;">96</td>
+<td style="text-align: right;">492</td>
+<td>178px category column + 4 product columns</td>
+<td>Comfortable desktop reference</td>
+</tr>
+<tr>
+<td>1366 × 768</td>
+<td style="text-align: right;">80</td>
+<td style="text-align: right;">404</td>
+<td>Horizontal category chips + 3 columns</td>
+<td>Compact desktop reference</td>
+</tr>
+<tr>
+<td>1280 × 720</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">380</td>
+<td>Horizontal category chips + 3 columns</td>
+<td>Effective-pixel check for 1080p at 150% scaling</td>
+</tr>
+</tbody>
+</table>
+<p>The provided large-screen style also defines a 2200px breakpoint with five product columns and a 520px bill. That larger breakpoint has not been visually qualified in this delivery. Below 1280 × 720 effective pixels, use a dedicated narrow-window design or an explicit minimum client size; this kit does not claim a phone layout.</p>
+<p>The title bar is represented as 32px, outlet header as 80/72/64px, and status bar as 28px. Bill items, products, categories, settings content and modal bodies own their scrolling. The total and primary payment action stay outside the bill item scroller. A growing order must never push checkout below the window.</p>
+<p>At short heights, compress nonessential spacing, move categories into a row, and keep fewer bill lines visible with scrolling. The full kitchen note remains in item details; compact billing hides the inline note and secondary bottom shortcuts. KOT, split and void remain available from Order details and keyboard paths. Do not hide the total, payment status or pending kitchen state.</p>
+<h2>Component system</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Reference value / rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Canvas / surface</td>
+<td><code>#F8FAFC</code> / <code>#FFFFFF</code></td>
+</tr>
+<tr>
+<td>Main / secondary text</td>
+<td><code>#0F172A</code> / <code>#64748B</code></td>
+</tr>
+<tr>
+<td>Divider</td>
+<td><code>#E2E8F0</code>, 1px</td>
+</tr>
+<tr>
+<td>Brand</td>
+<td><code>#F97316</code>; pale selection <code>#FFF7ED</code></td>
+</tr>
+<tr>
+<td>Text on orange action</td>
+<td>Dark orange <code>#431407</code>; avoid small white text on the bright fill</td>
+</tr>
+<tr>
+<td>Success</td>
+<td>Emerald text + pale emerald surface + explicit status word</td>
+</tr>
+<tr>
+<td>Pending / warning</td>
+<td>Amber text + pale amber surface + explicit state</td>
+</tr>
+<tr>
+<td>Destructive</td>
+<td>Rose fill/text, reserved for void/refund/discard confirmations</td>
+</tr>
+<tr>
+<td>Focus</td>
+<td>3px visible indigo outline, 3px offset in this reference</td>
+</tr>
+<tr>
+<td>Body</td>
+<td>Inter; 13–14px primary controls, 12px supporting text</td>
+</tr>
+<tr>
+<td>Headings</td>
+<td>Plus Jakarta Sans; 22–28px page/dialog titles</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>28–32px, bold, tabular numeric figures</td>
+</tr>
+<tr>
+<td>Spacing</td>
+<td>4px base rhythm; common 8, 12, 16, 20, 24, 28, 32</td>
+</tr>
+<tr>
+<td>Radius</td>
+<td>10px controls, 14–16px tiles/panels, 20px dialogs</td>
+</tr>
+<tr>
+<td>Primary controls</td>
+<td>44px default; checkout 48–50px</td>
+</tr>
+<tr>
+<td>Compact controls</td>
+<td>32–36px secondary actions, 26–30px quantity stepper</td>
+</tr>
+<tr>
+<td>Motion</td>
+<td>Subtle 150ms state changes; honor reduced-motion preference</td>
+</tr>
+</tbody>
+</table>
+<p>This is a keyboard/mouse desktop density. For a touch-first Windows deployment, enlarge quantity steppers, compact toggles and secondary targets to at least 44px and recheck the available bill height. Do not reduce operational labels below the compact examples to fit more rows. Small 9–11px metadata in this kit is secondary; essential names, totals and primary actions remain larger.</p>
+<p>The bundled <code>assets/brand-tokens.css</code> is the Biteaze foundation; <code>design.css</code> defines the concrete desktop adaptation. Its final rules are authoritative for the screenshots, including compact height overrides. Do not import unrelated web marketing effects into the billing view. Controls always need hover, focused, selected, disabled and error styles. Use text alongside color for status, align monetary values to the right and retain two decimal places where appropriate.</p>
+<h2>Dialogs and drawers</h2>
+<p>Use a centered 540px dialog for a short task, 640px for customer/item detail, 860px for comparison or bill splitting, and 1040px for payment (980px at short heights). Order details use a 580px right drawer (540px on smaller widths). Maximum height follows the available window, with the heading and action footer pinned and the body scrolling.</p>
+<p>Each dialog has one clear title, supporting bill identity, labelled fields, and one primary action. Keep Cancel/Back on the left and the primary action on the right. Destructive actions use specific names such as “Void bill” or “Discard draft.” Avoid generic “Yes” confirmations. Show the affected bill, amount, reason and approval scope before commitment.</p>
+<p>The prototype makes the background inert, traps Tab in dialogs and supports Escape. In the Windows implementation, also restore focus to the invoking control, announce validation errors, support Narrator and high-contrast themes, and prevent nested dialogs from creating confusing focus chains. Do not close a transaction merely because the user dismisses its progress window.</p>
+<h2>Billing and payment behavior</h2>
+<ol>
+<li><strong>Compose the order.</strong> Select service mode, table/pickup/delivery context and customer. Search by name or item code; reserve scanner handling for a dedicated input path. Add variants/modifiers before committing a configured line. Preserve notes and selected options per line, not just by product ID.</li>
+<li><strong>Send to the kitchen.</strong> Mark unsent, sent and changed quantities explicitly. The KOT preview groups only the relevant changes by kitchen station. Decreasing or cancelling a sent item creates a correction, with reason and permissions. Track station acknowledgements independently.</li>
+<li><strong>Adjust the bill.</strong> Discounts display the amount, effective percentage, reason and resulting total. Discounts above the cashier limit go to a scoped manager review. Coupon replacement is explicit. Packaging, delivery, taxes and rounding have separate lines.</li>
+<li><strong>Collect payment.</strong> Keep bill identity and amount alongside the selected method. Cash distinguishes received amount from change; card collection requires a confirmed terminal result/reference. Credit is a customer ledger posting, not cash received. Split tender preserves each confirmed portion and shows the remaining balance.</li>
+<li><strong>Resolve exceptions.</strong> Pending/unknown is distinct from failed. A timeout never fabricates success or authorizes a duplicate collection. Receipt print failure leaves a successful payment successful. Kitchen failure retains the pending station and ticket identity; a customer receipt printer is never silently used as a kitchen fallback.</li>
+</ol>
+<p>All tax values, credit limits, names, references and dates are sample configuration. Implement money, tax, discounts, refund allocation and rounding with the app’s approved domain rules; do not copy JavaScript demo arithmetic as a financial engine. The reference’s sample bill is subtotal ₹950 − discount ₹50 + tax ₹45 = ₹945, with ₹1,000 received and ₹55 change.</p>
+<p>Splitting a bill by items creates separate receipts; split tender settles one receipt using multiple methods. Keep both labels distinct. When splitting by items, preserve allocated discounts/tax and make the sum of child bills equal the original payable amount. Moves and merges must identify the source and destination, including the destination’s existing balance. Unpaid, unsent drafts can be discarded; kitchen-sent orders use the void/correction path.</p>
+<h2>Supporting workflows</h2>
+<ul>
+<li><strong>Orders and tables:</strong> offer a fast list plus a floor plan; table cards show occupancy, elapsed time, bill amount and status. Keep service filters consistent. A selected table opens a detail pane, with bill actions close to the order context.</li>
+<li><strong>Day close:</strong> show denominations beside expected/actual cash reconciliation. Keep open orders and held bills visible before final closure. Carry-forward must be explicit; closure, export and messaging are separate actions.</li>
+<li><strong>Customers and credit:</strong> maintain a profile, ledger, due balance, ageing and collection history. Keep collection allocation and receipt identity visible. Reminder sending requires a recipient/content review and the app’s consent rules.</li>
+<li><strong>Inventory:</strong> use a dense item table with availability, prices and quick search. Group variant/modifier editing in a dedicated page instead of an oversized popup.</li>
+<li><strong>Settings:</strong> keep a stable settings sub-navigation. Receipt, kitchen routing, tax, staff, numbering and billing tools each have a separate home. Long settings pages include continuation screenshots so lower controls remain part of the reference.</li>
+<li><strong>Printers:</strong> separate customer receipt, default kitchen and per-station roles. Show readiness, connection and paper width before assignment. Test-print status and physical printer behavior require device verification.</li>
+<li><strong>Permissions:</strong> show roles and limits in context. Approval authorizes the named operation and reviewed revision; it does not temporarily unlock unrestricted cashier permissions. The reference does not implement permission enforcement.</li>
+<li><strong>Messaging:</strong> greetings and reminders offer language/template and recipient review. No automatic send is implied by saving a template, collecting money or closing the day.</li>
+</ul>
+<h2>Keyboard mapping</h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Proposed shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Search / scan items</td>
+<td>Ctrl K</td>
+</tr>
+<tr>
+<td>Start another bill (hold current first)</td>
+<td>F2</td>
+</tr>
+<tr>
+<td>Find customer</td>
+<td>F3</td>
+</tr>
+<tr>
+<td>Send KOT</td>
+<td>F4</td>
+</tr>
+<tr>
+<td>Discount</td>
+<td>F6</td>
+</tr>
+<tr>
+<td>Payment</td>
+<td>F8</td>
+</tr>
+<tr>
+<td>Hold bill</td>
+<td>F9</td>
+</tr>
+<tr>
+<td>Lock counter</td>
+<td>Ctrl L</td>
+</tr>
+<tr>
+<td>Close dialog</td>
+<td>Escape</td>
+</tr>
+<tr>
+<td>Shortcuts help</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<p>Enter activates the focused action; it must not trigger payment merely because an input submitted. Preserve draft state when switching screens. Windows/browser reserved-key conflicts and scanner termination behavior need native integration checks.</p>
+<h2>Mapping to the supplied tablet document</h2>
+<table>
+<thead>
+<tr>
+<th>Tablet pages</th>
+<th>Observed module</th>
+<th>Desktop designs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–3</td>
+<td>Overview</td>
+<td>45</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Ongoing orders / tables</td>
+<td>3–5; proposed core billing 1–2, 65–66</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Item inventory</td>
+<td>42</td>
+</tr>
+<tr>
+<td>6–7</td>
+<td>Item prices, variants, modifiers, units</td>
+<td>6–7, 43</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Reports hub</td>
+<td>44</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sales history / returns</td>
+<td>31, 34–35</td>
+</tr>
+<tr>
+<td>10–11</td>
+<td>Day close, cash count, cash movement</td>
+<td>36–37, 71</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Credit outstanding</td>
+<td>39–41</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Suppliers / payables</td>
+<td>48–49</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Customers</td>
+<td>8–9, 38–39</td>
+</tr>
+<tr>
+<td>15–16</td>
+<td>Greetings / reminder templates</td>
+<td>50</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Expenses</td>
+<td>46–47</td>
+</tr>
+<tr>
+<td>18–19</td>
+<td>Sales summaries</td>
+<td>44–45</td>
+</tr>
+<tr>
+<td>20</td>
+<td>General settings / tax</td>
+<td>51, 61</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Order numbering</td>
+<td>60</td>
+</tr>
+<tr>
+<td>22–23</td>
+<td>Staff, PINs, permissions</td>
+<td>29–30, 55–56, 64, 70</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Coupons</td>
+<td>13, 57–58</td>
+</tr>
+<tr>
+<td>25–26</td>
+<td>QR menu / ordering</td>
+<td>59</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Receipt/KOT printers</td>
+<td>52, 68–69</td>
+</tr>
+<tr>
+<td>28–29</td>
+<td>Receipt and KOT format</td>
+<td>53</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Detailed A4/A5 invoices</td>
+<td>54</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Billing tool visibility</td>
+<td>11–19, 62</td>
+</tr>
+<tr>
+<td>32–33</td>
+<td>Business profile, subscription, devices, backup</td>
+<td>63</td>
+</tr>
+</tbody>
+</table>
+<p>Source screenshots inform theme, feature groups and terminology. The design book is not a field-for-field specification for every source setting, account-deletion flow or administrative feature. Before implementation, reconcile the live Windows feature inventory with this mapping. Core payments, modifiers, line corrections, order changes, confirmations and recovery designs are explicit proposals where the source did not show their full flow.</p>
+<h2>Research and decisions</h2>
+<ul>
+<li><a href="https://www.petpooja.com/poss/restaurant-billing-software">Petpooja restaurant billing</a> describes restaurant billing, kitchen tickets, table management and keyboard/touch use. These informed the compact operator workspace and separation of bill actions from configuration.</li>
+<li><a href="https://squareup.com/help/us/en/article/6427-building-your-floor-plan">Square floor plans</a> describes floor sections and table management. This informed the proposed floor-plan view beside an order detail panel.</li>
+<li><a href="https://o-series-support.lightspeedhq.com/hc/en-us/articles/31329418475419-Merging-or-splitting-orders">Lightspeed merging/splitting orders</a> describes order splitting and merging. The reference distinguishes item-based bill splitting from multiple tender methods.</li>
+<li><a href="https://learn.microsoft.com/en-ca/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design">Microsoft responsive screen sizes</a> explains effective pixels and adaptive layouts. This informed the 1280 × 720 effective-pixel check in addition to the requested monitor sizes.</li>
+</ul>
+<p>These are design interpretations from official sources, not copied screens or claims of feature parity. No third-party screenshots or logos are included.</p>
+<h2>Build sequence and acceptance</h2>
+<p>Implement the shell, tokens and reusable controls first; then the billing/catalog layout; then modifiers and order tools; then payments/recovery; then supporting modules and settings. Keep domain/payment/printing logic behind the view model, with the layout bound to explicit state. Map these components to the Windows framework already in use; this HTML is a reference, not a recommendation to replace the application framework.</p>
+<p>Accept the layout only when the bill total and checkout stay visible at the agreed effective sizes with an empty bill, a long bill, long names, multiple modifiers, error text and real translated strings. Check 100%, 125%, 150% and 200% scaling against available client dimensions on real Windows hardware. Test keyboard focus, Narrator, high contrast, scanner input and touch targets where applicable. Verify actual receipt/KOT printers, provider callbacks, offline recovery and account permissions with the application’s own integration tests.</p>
+<p>The delivered automated checks cover browser-rendered geometry and selected demo interactions only. <code>layout-validation.json</code> records every named state at the three effective sizes; <code>interaction-validation.json</code> records exercised prototype paths. These do not establish native Windows DPI behavior, accessibility conformance, production calculation correctness or device/provider reliability.</p>
+<h2>Screen index</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">#</th>
+<th>Screen</th>
+<th>Source / basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">01</td>
+<td><a href="index.html?screen=billing">Billing workspace</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">02</td>
+<td><a href="index.html?screen=billing-empty">Start a new bill</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">03</td>
+<td><a href="index.html?screen=orders">Ongoing orders</a></td>
+<td>Tablet p4</td>
+</tr>
+<tr>
+<td style="text-align: right;">04</td>
+<td><a href="index.html?screen=tables">Tables &amp; floor plan</a></td>
+<td>Tablet p4 + proposed floor plan</td>
+</tr>
+<tr>
+<td style="text-align: right;">05</td>
+<td><a href="index.html?screen=held">Held bills</a></td>
+<td>Tablet p31 + proposed detail</td>
+</tr>
+<tr>
+<td style="text-align: right;">06</td>
+<td><a href="index.html?screen=item-customize">Item modifiers</a></td>
+<td>Tablet p6–7 + proposed ordering flow</td>
+</tr>
+<tr>
+<td style="text-align: right;">07</td>
+<td><a href="index.html?screen=line-edit">Edit an order line</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">08</td>
+<td><a href="index.html?screen=customer-select">Find / attach customer</a></td>
+<td>Tablet p14 + proposed billing flow</td>
+</tr>
+<tr>
+<td style="text-align: right;">09</td>
+<td><a href="index.html?screen=customer-add">Add customer</a></td>
+<td>Tablet p14</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td><a href="index.html?screen=table-assign">Assign a table</a></td>
+<td>Tablet p4</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td><a href="index.html?screen=order-details">Order details &amp; service</a></td>
+<td>Tablet p31</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td><a href="index.html?screen=discount">Apply bill discount</a></td>
+<td>Tablet p22–23,31</td>
+</tr>
+<tr>
+<td style="text-align: right;">13</td>
+<td><a href="index.html?screen=coupon">Apply coupon</a></td>
+<td>Tablet p24,31</td>
+</tr>
+<tr>
+<td style="text-align: right;">14</td>
+<td><a href="index.html?screen=charges">Charges &amp; tax breakdown</a></td>
+<td>Tablet p20,31</td>
+</tr>
+<tr>
+<td style="text-align: right;">15</td>
+<td><a href="index.html?screen=note">Order note</a></td>
+<td>Tablet p31</td>
+</tr>
+<tr>
+<td style="text-align: right;">16</td>
+<td><a href="index.html?screen=hold">Hold this bill</a></td>
+<td>Tablet p31</td>
+</tr>
+<tr>
+<td style="text-align: right;">17</td>
+<td><a href="index.html?screen=kot">Send to kitchen</a></td>
+<td>Tablet p27 + proposed send flow</td>
+</tr>
+<tr>
+<td style="text-align: right;">18</td>
+<td><a href="index.html?screen=split-bill">Split a bill by items</a></td>
+<td>Proposed · optional capability</td>
+</tr>
+<tr>
+<td style="text-align: right;">19</td>
+<td><a href="index.html?screen=transfer">Move / merge table</a></td>
+<td>Proposed · optional capability</td>
+</tr>
+<tr>
+<td style="text-align: right;">20</td>
+<td><a href="index.html?screen=payment-cash">Cash payment</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">21</td>
+<td><a href="index.html?screen=payment-upi">UPI payment</a></td>
+<td>Tablet p20,25 + proposed checkout</td>
+</tr>
+<tr>
+<td style="text-align: right;">22</td>
+<td><a href="index.html?screen=payment-card">Card payment</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">23</td>
+<td><a href="index.html?screen=payment-split">Split tender</a></td>
+<td>Proposed · optional capability</td>
+</tr>
+<tr>
+<td style="text-align: right;">24</td>
+<td><a href="index.html?screen=payment-credit">Credit / Udhar</a></td>
+<td>Tablet p12,22 + proposed checkout</td>
+</tr>
+<tr>
+<td style="text-align: right;">25</td>
+<td><a href="index.html?screen=payment-success">Payment complete</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">26</td>
+<td><a href="index.html?screen=payment-pending">Payment status unknown</a></td>
+<td>Proposed · failure state</td>
+</tr>
+<tr>
+<td style="text-align: right;">27</td>
+<td><a href="index.html?screen=payment-failed">Payment failed</a></td>
+<td>Proposed · failure state</td>
+</tr>
+<tr>
+<td style="text-align: right;">28</td>
+<td><a href="index.html?screen=print-failed">Receipt print failed</a></td>
+<td>Tablet p27 + proposed failure state</td>
+</tr>
+<tr>
+<td style="text-align: right;">29</td>
+<td><a href="index.html?screen=void">Void bill / cancel order</a></td>
+<td>Tablet p9,22</td>
+</tr>
+<tr>
+<td style="text-align: right;">30</td>
+<td><a href="index.html?screen=manager">Manager approval</a></td>
+<td>Tablet p22–23</td>
+</tr>
+<tr>
+<td style="text-align: right;">31</td>
+<td><a href="index.html?screen=refund">Return / refund</a></td>
+<td>Tablet p9 + proposed detail</td>
+</tr>
+<tr>
+<td style="text-align: right;">32</td>
+<td><a href="index.html?screen=offline">Offline billing</a></td>
+<td>Proposed · recovery state</td>
+</tr>
+<tr>
+<td style="text-align: right;">33</td>
+<td><a href="index.html?screen=shortcuts">Keyboard shortcuts</a></td>
+<td>Proposed · desktop adaptation</td>
+</tr>
+<tr>
+<td style="text-align: right;">34</td>
+<td><a href="index.html?screen=sales">Sales history</a></td>
+<td>Tablet p9</td>
+</tr>
+<tr>
+<td style="text-align: right;">35</td>
+<td><a href="index.html?screen=sale-detail">Receipt &amp; payment detail</a></td>
+<td>Tablet p9 + proposed detail</td>
+</tr>
+<tr>
+<td style="text-align: right;">36</td>
+<td><a href="index.html?screen=day-close">Day close &amp; cash count</a></td>
+<td>Tablet p10–11</td>
+</tr>
+<tr>
+<td style="text-align: right;">37</td>
+<td><a href="index.html?screen=cash-movement">Cash in / cash out</a></td>
+<td>Tablet p10–11</td>
+</tr>
+<tr>
+<td style="text-align: right;">38</td>
+<td><a href="index.html?screen=customers">Customers</a></td>
+<td>Tablet p14</td>
+</tr>
+<tr>
+<td style="text-align: right;">39</td>
+<td><a href="index.html?screen=customer-detail">Customer profile &amp; ledger</a></td>
+<td>Tablet p12,14</td>
+</tr>
+<tr>
+<td style="text-align: right;">40</td>
+<td><a href="index.html?screen=credit">Credit outstanding</a></td>
+<td>Tablet p12</td>
+</tr>
+<tr>
+<td style="text-align: right;">41</td>
+<td><a href="index.html?screen=credit-settle">Receive credit payment</a></td>
+<td>Tablet p12</td>
+</tr>
+<tr>
+<td style="text-align: right;">42</td>
+<td><a href="index.html?screen=inventory">Items &amp; inventory</a></td>
+<td>Tablet p5</td>
+</tr>
+<tr>
+<td style="text-align: right;">43</td>
+<td><a href="index.html?screen=item-edit">Item / variant editor</a></td>
+<td>Tablet p6–7</td>
+</tr>
+<tr>
+<td style="text-align: right;">44</td>
+<td><a href="index.html?screen=reports">Reports &amp; exports</a></td>
+<td>Tablet p8,18–19</td>
+</tr>
+<tr>
+<td style="text-align: right;">45</td>
+<td><a href="index.html?screen=dashboard">Business overview</a></td>
+<td>Tablet p1–3,18–19</td>
+</tr>
+<tr>
+<td style="text-align: right;">46</td>
+<td><a href="index.html?screen=expenses">Expense ledger</a></td>
+<td>Tablet p17</td>
+</tr>
+<tr>
+<td style="text-align: right;">47</td>
+<td><a href="index.html?screen=expense-add">Add expense</a></td>
+<td>Tablet p17</td>
+</tr>
+<tr>
+<td style="text-align: right;">48</td>
+<td><a href="index.html?screen=suppliers">Suppliers &amp; payables</a></td>
+<td>Tablet p13</td>
+</tr>
+<tr>
+<td style="text-align: right;">49</td>
+<td><a href="index.html?screen=supplier-payment">Pay supplier</a></td>
+<td>Tablet p13</td>
+</tr>
+<tr>
+<td style="text-align: right;">50</td>
+<td><a href="index.html?screen=greetings">Greetings &amp; reminders</a></td>
+<td>Tablet p15–16</td>
+</tr>
+<tr>
+<td style="text-align: right;">51</td>
+<td><a href="index.html?screen=settings">Settings home</a></td>
+<td>Tablet p20</td>
+</tr>
+<tr>
+<td style="text-align: right;">52</td>
+<td><a href="index.html?screen=printers">Printers &amp; kitchen routing</a></td>
+<td>Tablet p27</td>
+</tr>
+<tr>
+<td style="text-align: right;">53</td>
+<td><a href="index.html?screen=receipt">Receipt / KOT layout</a></td>
+<td>Tablet p28–29</td>
+</tr>
+<tr>
+<td style="text-align: right;">54</td>
+<td><a href="index.html?screen=detailed-bill">Detailed A4 / A5 invoice</a></td>
+<td>Tablet p30</td>
+</tr>
+<tr>
+<td style="text-align: right;">55</td>
+<td><a href="index.html?screen=staff">Staff &amp; permissions</a></td>
+<td>Tablet p22–23</td>
+</tr>
+<tr>
+<td style="text-align: right;">56</td>
+<td><a href="index.html?screen=staff-add">Add staff member</a></td>
+<td>Tablet p22–23</td>
+</tr>
+<tr>
+<td style="text-align: right;">57</td>
+<td><a href="index.html?screen=coupons">Coupons &amp; offers</a></td>
+<td>Tablet p24</td>
+</tr>
+<tr>
+<td style="text-align: right;">58</td>
+<td><a href="index.html?screen=coupon-add">Create a coupon</a></td>
+<td>Tablet p24</td>
+</tr>
+<tr>
+<td style="text-align: right;">59</td>
+<td><a href="index.html?screen=qr">QR ordering</a></td>
+<td>Tablet p25–26</td>
+</tr>
+<tr>
+<td style="text-align: right;">60</td>
+<td><a href="index.html?screen=order-id">Order &amp; invoice numbering</a></td>
+<td>Tablet p21</td>
+</tr>
+<tr>
+<td style="text-align: right;">61</td>
+<td><a href="index.html?screen=tax">Tax &amp; rounding</a></td>
+<td>Tablet p20</td>
+</tr>
+<tr>
+<td style="text-align: right;">62</td>
+<td><a href="index.html?screen=billing-preferences">Billing screen preferences</a></td>
+<td>Tablet p31</td>
+</tr>
+<tr>
+<td style="text-align: right;">63</td>
+<td><a href="index.html?screen=profile">Business profile &amp; devices</a></td>
+<td>Tablet p32–33</td>
+</tr>
+<tr>
+<td style="text-align: right;">64</td>
+<td><a href="index.html?screen=lock">Staff lock screen</a></td>
+<td>Tablet p22–23 + proposed lock screen</td>
+</tr>
+<tr>
+<td style="text-align: right;">65</td>
+<td><a href="index.html?screen=billing-takeaway">Takeaway billing</a></td>
+<td>Tablet p4 + proposed ordering flow</td>
+</tr>
+<tr>
+<td style="text-align: right;">66</td>
+<td><a href="index.html?screen=billing-delivery">Delivery billing</a></td>
+<td>Tablet p4 + proposed ordering flow</td>
+</tr>
+<tr>
+<td style="text-align: right;">67</td>
+<td><a href="index.html?screen=delivery-details">Delivery / pickup details</a></td>
+<td>Proposed · core workflow</td>
+</tr>
+<tr>
+<td style="text-align: right;">68</td>
+<td><a href="index.html?screen=printer-select">Choose a printer</a></td>
+<td>Tablet p27 + proposed picker</td>
+</tr>
+<tr>
+<td style="text-align: right;">69</td>
+<td><a href="index.html?screen=kot-failed">Kitchen ticket not sent</a></td>
+<td>Proposed · recovery</td>
+</tr>
+<tr>
+<td style="text-align: right;">70</td>
+<td><a href="index.html?screen=discount-approval">Approve a larger discount</a></td>
+<td>Tablet p22–23 + proposed approval</td>
+</tr>
+<tr>
+<td style="text-align: right;">71</td>
+<td><a href="index.html?screen=day-close-review">Review day closure</a></td>
+<td>Tablet p10–11 + proposed review</td>
+</tr>
+<tr>
+<td style="text-align: right;">72</td>
+<td><a href="index.html?screen=discard-draft">Discard a held draft</a></td>
+<td>Proposed · recovery</td>
+</tr>
+</tbody>
+</table></main></html>

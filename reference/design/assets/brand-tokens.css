@@ -1,0 +1,720 @@
+/* ============================================================================
+   BITEAZE DESIGN SYSTEM — tokens.css (v1)
+   ----------------------------------------------------------------------------
+   Platform-agnostic design tokens as CSS custom properties.
+   Three tiers: PRIMITIVE -> SEMANTIC -> (component tokens live elsewhere).
+
+   Theme model:
+     :root                      -> primitives + LIGHT semantic defaults
+     .dark / [data-theme=dark]  -> DARK semantic overrides (the signature look)
+     [data-theme=void]          -> true-void intensifier (atop dark)
+
+   Naming: --bz-* for all vars. Transcribe values EXACTLY from the contract.
+   Default product theme is DARK glass; LIGHT is fully supported & clean.
+   ============================================================================ */
+
+:root {
+  /* ==========================================================================
+     PRIMITIVE COLOR RAMPS (raw, theme-agnostic)
+     ========================================================================== */
+
+  /* --- Orange (BRAND) --- */
+  --bz-orange-50:  #FFF7ED;
+  --bz-orange-100: #FFEDD5;
+  --bz-orange-200: #FED7AA;
+  --bz-orange-300: #FDBA74;
+  --bz-orange-400: #FB923C;
+  --bz-orange-500: #F97316;
+  --bz-orange-600: #EA580C;
+  --bz-orange-700: #C2410C;
+  --bz-orange-800: #9A3412;
+  --bz-orange-900: #7C2D12;
+  --bz-orange-950: #431407;
+
+  /* --- Indigo (ACCENT) --- */
+  --bz-indigo-50:  #EEF2FF;
+  --bz-indigo-100: #E0E7FF;
+  --bz-indigo-200: #C7D2FE;
+  --bz-indigo-300: #A5B4FC;
+  --bz-indigo-400: #818CF8;
+  --bz-indigo-500: #6366F1;
+  --bz-indigo-600: #4F46E5;
+  --bz-indigo-700: #4338CA;
+  --bz-indigo-800: #3730A3;
+  --bz-indigo-900: #312E81;
+  --bz-indigo-950: #1E1B4B;
+
+  /* --- Slate (NEUTRAL) --- */
+  --bz-slate-50:  #F8FAFC;
+  --bz-slate-100: #F1F5F9;
+  --bz-slate-200: #E2E8F0;
+  --bz-slate-300: #CBD5E1;
+  --bz-slate-400: #94A3B8;
+  --bz-slate-500: #64748B;
+  --bz-slate-600: #475569;
+  --bz-slate-700: #334155;
+  --bz-slate-800: #1E293B;
+  --bz-slate-900: #0F172A;
+  --bz-slate-950: #020617;
+
+  /* --- Emerald (SUCCESS) --- */
+  --bz-emerald-50:  #ECFDF5;
+  --bz-emerald-100: #D1FAE5;
+  --bz-emerald-400: #34D399;
+  --bz-emerald-500: #10B981;
+  --bz-emerald-600: #059669;
+  --bz-emerald-700: #047857;
+
+  /* --- Rose (DANGER) --- */
+  --bz-rose-50:  #FFF1F2;
+  --bz-rose-100: #FFE4E6;
+  --bz-rose-400: #FB7185;
+  --bz-rose-500: #F43F5E;
+  --bz-rose-600: #E11D48;
+  --bz-rose-700: #BE123C;
+
+  /* --- Amber (WARNING) --- */
+  --bz-amber-50:  #FFFBEB;
+  --bz-amber-100: #FEF3C7;
+  --bz-amber-400: #FBBF24;
+  --bz-amber-500: #F59E0B;
+  --bz-amber-600: #D97706;
+  --bz-amber-700: #B45309;
+
+  /* --- Blue (INFO) --- */
+  --bz-blue-50:  #EFF6FF;
+  --bz-blue-100: #DBEAFE;
+  --bz-blue-400: #60A5FA;
+  --bz-blue-500: #3B82F6;
+  --bz-blue-600: #2563EB;
+  --bz-blue-700: #1D4ED8;
+
+  /* --- Pure / canvas primitives --- */
+  --bz-white:     #FFFFFF;
+  --bz-black:     #000000;
+  --bz-void:      #050505;
+  --bz-void-card: #0A0A0A;
+
+  /* ==========================================================================
+     TYPOGRAPHY — families, weights
+     ========================================================================== */
+  --bz-font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --bz-font-body:    "Inter", ui-sans-serif, system-ui, sans-serif;
+  --bz-font-mono:    ui-monospace, "JetBrains Mono", "SFMono-Regular", Menlo, monospace;
+
+  --bz-weight-light:      300;
+  --bz-weight-regular:    400;
+  --bz-weight-medium:     500;
+  --bz-weight-semibold:   600;
+  --bz-weight-bold:       700;
+  --bz-weight-extrabold:  800;
+  --bz-weight-black:      900;
+
+  /* ==========================================================================
+     TYPE SCALE — each token: size / line-height / letter-spacing / weight
+     Sizes fluid via clamp() where noted. ~1.25 ratio, brave hero sizes.
+     ========================================================================== */
+
+  /* display-2xl — hero */
+  --bz-text-display-2xl-size:   clamp(3rem, 6vw, 4.5rem);   /* 60 -> 72px */
+  --bz-text-display-2xl-lh:     1.0;
+  --bz-text-display-2xl-ls:     -0.02em;
+  --bz-text-display-2xl-weight: 900;
+
+  /* display-xl */
+  --bz-text-display-xl-size:    clamp(2.5rem, 5vw, 3.5rem); /* 40 -> 56px */
+  --bz-text-display-xl-lh:      1.05;
+  --bz-text-display-xl-ls:      -0.02em;
+  --bz-text-display-xl-weight:  900;
+
+  /* display-lg */
+  --bz-text-display-lg-size:    clamp(2rem, 4vw, 2.75rem);  /* 32 -> 44px */
+  --bz-text-display-lg-lh:      1.1;
+  --bz-text-display-lg-ls:      -0.02em;
+  --bz-text-display-lg-weight:  800;
+
+  /* h1 */
+  --bz-text-h1-size:   clamp(1.875rem, 3vw, 2.25rem);       /* 30 -> 36px */
+  --bz-text-h1-lh:     1.15;
+  --bz-text-h1-ls:     -0.01em;
+  --bz-text-h1-weight: 800;
+
+  /* h2 */
+  --bz-text-h2-size:   clamp(1.5rem, 2.5vw, 1.875rem);      /* 24 -> 30px */
+  --bz-text-h2-lh:     1.2;
+  --bz-text-h2-ls:     -0.01em;
+  --bz-text-h2-weight: 800;
+
+  /* h3 */
+  --bz-text-h3-size:   1.25rem;   /* 20px */
+  --bz-text-h3-lh:     1.25;
+  --bz-text-h3-ls:     -0.01em;
+  --bz-text-h3-weight: 800;
+
+  /* h4 */
+  --bz-text-h4-size:   1.125rem;  /* 18px */
+  --bz-text-h4-lh:     1.3;
+  --bz-text-h4-ls:     0;
+  --bz-text-h4-weight: 700;
+
+  /* body-lg */
+  --bz-text-body-lg-size:   1.125rem;  /* 18px */
+  --bz-text-body-lg-lh:     1.6;
+  --bz-text-body-lg-ls:     0;
+  --bz-text-body-lg-weight: 400;       /* 400-500 */
+
+  /* body */
+  --bz-text-body-size:   1rem;     /* 16px */
+  --bz-text-body-lh:     1.6;
+  --bz-text-body-ls:     0;
+  --bz-text-body-weight: 400;          /* 400-500 */
+
+  /* body-sm */
+  --bz-text-body-sm-size:   0.875rem;  /* 14px */
+  --bz-text-body-sm-lh:     1.5;
+  --bz-text-body-sm-ls:     0;
+  --bz-text-body-sm-weight: 500;
+
+  /* caption */
+  --bz-text-caption-size:   0.75rem;   /* 12px */
+  --bz-text-caption-lh:     1.4;
+  --bz-text-caption-ls:     0;
+  --bz-text-caption-weight: 700;
+
+  /* overline / eyebrow — the SIGNATURE label */
+  --bz-text-overline-size:   0.6875rem; /* 11px (range 10-11px) */
+  --bz-text-overline-lh:     1.2;
+  --bz-text-overline-ls:     0.15em;    /* 0.15em - 0.2em */
+  --bz-text-overline-weight: 900;
+  --bz-text-overline-transform: uppercase;
+
+  /* Numeric helper */
+  --bz-font-feature-numeric: "tnum" 1, "lnum" 1; /* tabular-nums for values */
+
+  /* ==========================================================================
+     SPACING — 4px base, 8px layout rhythm
+     ========================================================================== */
+  --bz-space-0:    0px;
+  --bz-space-1:    4px;
+  --bz-space-2:    8px;
+  --bz-space-3:    12px;
+  --bz-space-3-5:  14px;
+  --bz-space-4:    16px;
+  --bz-space-5:    20px;
+  --bz-space-6:    24px;
+  --bz-space-8:    32px;
+  --bz-space-10:   40px;
+  --bz-space-12:   48px;
+  --bz-space-16:   64px;
+  --bz-space-20:   80px;
+  --bz-space-24:   96px;
+  --bz-space-32:   128px;
+
+  /* Layout caps */
+  --bz-container-max:   1280px;  /* max-w-7xl */
+  --bz-content-cap-min: 1440px;  /* big-screen content cap (then center) */
+  --bz-content-cap-max: 1600px;
+
+  /* ==========================================================================
+     RADIUS
+     ========================================================================== */
+  --bz-radius-xs:   8px;
+  --bz-radius-sm:   12px;
+  --bz-radius-md:   16px;   /* default control: buttons / inputs */
+  --bz-radius-lg:   24px;
+  --bz-radius-xl:   32px;
+  --bz-radius-2xl:  40px;   /* card signature */
+  --bz-radius-3xl:  48px;   /* hero / stat card */
+  --bz-radius-full: 9999px; /* pills / avatars */
+
+  /* ==========================================================================
+     ELEVATION — shadows, glows, inner light
+     ========================================================================== */
+  --bz-shadow-sm:   0 1px 2px rgba(0,0,0,.05);
+  --bz-shadow-md:   0 4px 12px -2px rgba(0,0,0,.08);
+  --bz-shadow-soft: 0 10px 40px -10px rgba(0,0,0,.08);
+  --bz-shadow-lg:   0 10px 30px -10px rgba(0,0,0,.15);
+  --bz-shadow-xl:   0 20px 50px -12px rgba(0,0,0,.25);
+  --bz-shadow-2xl:  0 30px 80px -20px rgba(0,0,0,.35);
+
+  --bz-glow-brand:      0 0 30px -5px rgba(249,115,22,.6);
+  --bz-glow-brand-soft: 0 10px 30px -10px rgba(249,115,22,.4);
+  --bz-glow-accent:     0 0 30px -5px rgba(99,102,241,.5);
+  --bz-inner-light:     inset 0 2px 4px rgba(255,255,255,.05);
+
+  /* ==========================================================================
+     GLASS — blur radii, ambient glow, noise overlay, inset hairline ring
+     ========================================================================== */
+  --bz-blur-md:   12px;
+  --bz-blur-xl:   24px;
+  --bz-blur-2xl:  40px;
+  --bz-blur-3xl:  64px;
+
+  --bz-ambient-glow-blur:     150px;     /* 120 - 150px ambient bg glow */
+  --bz-ambient-glow-blur-min: 120px;
+  --bz-noise-opacity:         0.02;      /* 2% noise texture overlay */
+
+  /* Inset hairline ring — LIGHT default (overridden in dark) */
+  --bz-inset-ring: inset 0 0 0 1px rgba(0,0,0,.05);
+
+  /* ==========================================================================
+     MOTION — durations (ms), easings
+     ========================================================================== */
+  --bz-dur-fast:         150ms;
+  --bz-dur-quick:        200ms;
+  --bz-dur-base:         300ms;
+  --bz-dur-slow:         500ms;
+  --bz-dur-slower:       700ms;
+  --bz-dur-ambient:      6000ms;
+  --bz-dur-ambient-slow: 8000ms;
+
+  --bz-ease-entrance: cubic-bezier(0.16, 1, 0.3, 1);
+  --bz-ease-smooth:   cubic-bezier(0.22, 1, 0.36, 1);
+  --bz-ease-spring:   cubic-bezier(0.34, 1.56, 0.64, 1);
+  --bz-ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ==========================================================================
+     BREAKPOINTS (reference values — usable via custom media tooling)
+     ========================================================================== */
+  --bz-bp-sm:     640px;
+  --bz-bp-md:     768px;
+  --bz-bp-lg:     1024px;
+  --bz-bp-xl:     1280px;
+  --bz-bp-2xl:    1536px;
+  --bz-bp-bigscreen: 1920px;
+  --bz-touch-target-min: 44px;
+
+  /* ==========================================================================
+     SEMANTIC COLOR TOKENS — LIGHT THEME (default)
+     ========================================================================== */
+
+  /* Surfaces / canvas */
+  --bz-bg:             #F8FAFC;            /* slate-50 */
+  --bz-surface:        #FFFFFF;            /* card / panel */
+  --bz-surface-raised: #FFFFFF;
+  --bz-surface-sunken: #F8FAFC;           /* inputs (slate-50) */
+  --bz-overlay:        rgba(255,255,255,.9); /* modal scrim */
+
+  /* Brand */
+  --bz-brand:               #F97316;
+  --bz-brand-hover:         #EA580C;
+  --bz-brand-subtle:        #FFF7ED;
+  --bz-brand-subtle-border: #FFEDD5;
+  --bz-on-brand:            #FFFFFF;
+
+  /* Accent */
+  --bz-accent:        #6366F1;
+  --bz-accent-subtle: #EEF2FF;
+
+  /* Text */
+  --bz-text:           #0F172A;  /* slate-900 */
+  --bz-text-secondary: #64748B;  /* slate-500 */
+  --bz-text-tertiary:  #94A3B8;  /* slate-400 */
+  --bz-text-disabled:  #CBD5E1;  /* slate-300 */
+  --bz-text-on-brand:  #FFFFFF;
+
+  /* Borders */
+  --bz-border:          #F1F5F9;  /* slate-100 hairline */
+  --bz-border-strong:   #E2E8F0;  /* slate-200 */
+  --bz-glass-border:    rgba(0,0,0,.05);
+  --bz-glass-highlight: rgba(255,255,255,.2);
+
+  /* Focus ring (brand, both themes) */
+  --bz-ring: #F97316;
+
+  /* Status — success */
+  --bz-success-fg:     #059669;
+  --bz-success-bg:     #ECFDF5;
+  --bz-success-border: #D1FAE5;
+
+  /* Status — danger */
+  --bz-danger-fg:     #E11D48;
+  --bz-danger-bg:     #FFF1F2;
+  --bz-danger-border: #FFE4E6;
+
+  /* Status — warning */
+  --bz-warning-fg:     #D97706;
+  --bz-warning-bg:     #FFFBEB;
+  --bz-warning-border: #FEF3C7;
+
+  /* Status — info */
+  --bz-info-fg:     #2563EB;
+  --bz-info-bg:     #EFF6FF;
+  --bz-info-border: #DBEAFE;
+
+  /* Status — deal / special (indigo) */
+  --bz-deal-fg:     #4F46E5;
+  --bz-deal-bg:     #EEF2FF;
+  --bz-deal-border: #E0E7FF;
+
+  /* Glass solid fallback (when backdrop-filter unsupported) */
+  --bz-glass-bg:          rgba(255,255,255,.7);
+  --bz-glass-bg-fallback: #FFFFFF;
+  --bz-glass-blur:        var(--bz-blur-2xl);
+
+  /* ==========================================================================
+     NOISE TEXTURE — data-URI (fractal noise, used at 2% opacity)
+     ========================================================================== */
+  --bz-noise-texture: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ============================================================================
+   DARK THEME — the signature glass look.
+   Applies via either `.dark` (class strategy) or [data-theme="dark"].
+   Only SEMANTIC vars are overridden; primitives stay constant.
+   ============================================================================ */
+.dark,
+[data-theme="dark"] {
+  /* Surfaces / canvas */
+  --bz-bg:             #020617;                /* slate-950 */
+  --bz-surface:        rgba(15,23,42,.4);      /* slate-900/40 over blur */
+  --bz-surface-raised: #0F172A;                /* slate-900 */
+  --bz-surface-sunken: rgba(2,6,23,.8);        /* slate-950/80 (inputs) */
+  --bz-overlay:        rgba(0,0,0,.8);         /* black/80 modal scrim */
+
+  /* Brand */
+  --bz-brand:               #F97316;
+  --bz-brand-hover:         #EA580C;
+  --bz-brand-subtle:        rgba(249,115,22,.1);
+  --bz-brand-subtle-border: rgba(249,115,22,.2);
+  --bz-on-brand:            #FFFFFF;
+
+  /* Accent */
+  --bz-accent:        #818CF8;
+  --bz-accent-subtle: rgba(99,102,241,.1);
+
+  /* Text */
+  --bz-text:           #F8FAFC;   /* near-white */
+  --bz-text-secondary: #94A3B8;   /* slate-400 */
+  --bz-text-tertiary:  #64748B;   /* slate-500 */
+  --bz-text-disabled:  #475569;   /* slate-600 */
+  --bz-text-on-brand:  #FFFFFF;
+
+  /* Borders */
+  --bz-border:          rgba(255,255,255,.05);  /* white/5 hairline */
+  --bz-border-strong:   rgba(255,255,255,.1);   /* white/10 */
+  --bz-glass-border:    rgba(255,255,255,.1);
+  --bz-glass-highlight: rgba(255,255,255,.2);
+
+  /* Focus ring stays brand */
+  --bz-ring: #F97316;
+
+  /* Status — success */
+  --bz-success-fg:     #34D399;
+  --bz-success-bg:     rgba(16,185,129,.1);
+  --bz-success-border: rgba(16,185,129,.2);
+
+  /* Status — danger */
+  --bz-danger-fg:     #FB7185;
+  --bz-danger-bg:     rgba(244,63,94,.1);
+  --bz-danger-border: rgba(244,63,94,.2);
+
+  /* Status — warning */
+  --bz-warning-fg:     #FBBF24;
+  --bz-warning-bg:     rgba(245,158,11,.1);
+  --bz-warning-border: rgba(245,158,11,.2);
+
+  /* Status — info */
+  --bz-info-fg:     #60A5FA;
+  --bz-info-bg:     rgba(59,130,246,.1);
+  --bz-info-border: rgba(59,130,246,.2);
+
+  /* Status — deal / special (indigo) */
+  --bz-deal-fg:     #818CF8;
+  --bz-deal-bg:     rgba(99,102,241,.1);
+  --bz-deal-border: rgba(99,102,241,.2);
+
+  /* Glass — solid fallback uses slate-900 */
+  --bz-glass-bg:          rgba(15,23,42,.4);
+  --bz-glass-bg-fallback: #0F172A;
+
+  /* Inset hairline ring — dark uses white/[0.03] */
+  --bz-inset-ring: inset 0 0 0 1px rgba(255,255,255,.03);
+}
+
+/* ============================================================================
+   VOID THEME — true-void intensifier. Layer atop dark.
+   Use [data-theme="void"] on the root; inherits dark semantics, deepens canvas.
+   ============================================================================ */
+[data-theme="void"] {
+  /* Inherit all dark semantics first */
+  --bz-bg:             #050505;             /* true void */
+  --bz-surface:        rgba(10,10,10,.6);   /* void-card over blur */
+  --bz-surface-raised: #0A0A0A;             /* void-card */
+  --bz-surface-sunken: rgba(0,0,0,.8);
+
+  --bz-overlay:        rgba(0,0,0,.85);
+
+  --bz-text:           #F8FAFC;
+  --bz-text-secondary: #94A3B8;
+  --bz-text-tertiary:  #64748B;
+  --bz-text-disabled:  #475569;
+
+  --bz-border:        rgba(255,255,255,.05);
+  --bz-border-strong: rgba(255,255,255,.1);
+
+  --bz-glass-bg:          rgba(10,10,10,.6);
+  --bz-glass-bg-fallback: #0A0A0A;
+  --bz-inset-ring:        inset 0 0 0 1px rgba(255,255,255,.03);
+}
+
+/* ============================================================================
+   KEYFRAMES — choreographed entrance + ambient motion.
+   Animate transform + opacity only (60fps). All gated by reduced-motion below.
+   ============================================================================ */
+@keyframes bz-fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes bz-pop {
+  from { opacity: 0; transform: scale(.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bz-slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bz-float {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+
+@keyframes bz-pulse-slow {
+  0%, 100% { opacity: .4; }
+  50%      { opacity: .8; }
+}
+
+/* Animation utilities */
+.bz-animate-fade-in   { animation: bz-fadeIn   var(--bz-dur-fade)   var(--bz-ease-smooth)   both; }
+.bz-animate-pop       { animation: bz-pop      var(--bz-dur-base)   var(--bz-ease-spring)   both; }
+.bz-animate-slide-up  { animation: bz-slideUp  var(--bz-dur-slow)   var(--bz-ease-entrance) both; }
+.bz-animate-float     { animation: bz-float    var(--bz-dur-ambient)      var(--bz-ease-standard) infinite; }
+.bz-animate-pulse-slow{ animation: bz-pulse-slow var(--bz-dur-ambient-slow) var(--bz-ease-standard) infinite; }
+
+/* Note: fadeIn uses --bz-dur-fade (600ms) to match the original Biteaze
+   `fadeIn 0.6s` animation and every platform theme. slideUp/pop use slow/base. */
+
+/* ============================================================================
+   GLASS HELPER — premium glassmorphism surface.
+   Translucent fill + heavy backdrop blur + hairline glass border +
+   inset hairline ring. Falls back to solid surface when backdrop-filter
+   is unsupported.
+   ============================================================================ */
+.bz-glass {
+  position: relative;
+  background-color: var(--bz-glass-bg-fallback);
+  border: 1px solid var(--bz-glass-border);
+  border-radius: var(--bz-radius-2xl);
+  box-shadow: var(--bz-inset-ring), var(--bz-shadow-soft);
+}
+
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .bz-glass {
+    background-color: var(--bz-glass-bg);
+    -webkit-backdrop-filter: blur(var(--bz-glass-blur));
+    backdrop-filter: blur(var(--bz-glass-blur));
+  }
+}
+
+/* Blur intensity modifiers */
+.bz-glass--md  { --bz-glass-blur: var(--bz-blur-md);  }
+.bz-glass--xl  { --bz-glass-blur: var(--bz-blur-xl);  }
+.bz-glass--2xl { --bz-glass-blur: var(--bz-blur-2xl); }
+.bz-glass--3xl { --bz-glass-blur: var(--bz-blur-3xl); }
+
+/* ============================================================================
+   NOISE TEXTURE UTILITY — 2% grain overlay above background, below content.
+   Apply to a positioned container; the ::before paints the grain.
+   ============================================================================ */
+.bz-noise {
+  position: relative;
+}
+.bz-noise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--bz-noise-texture);
+  background-repeat: repeat;
+  opacity: var(--bz-noise-opacity);
+}
+
+/* ============================================================================
+   REDUCED MOTION — neutralize transform-based & ambient motion.
+   Premium contract: respect prefers-reduced-motion; opacity-only fades remain.
+   ============================================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* Keep gentle opacity fade; strip transform & looping ambient motion */
+  .bz-animate-fade-in   { animation: bz-fadeIn var(--bz-dur-base) linear both; }
+  .bz-animate-pop,
+  .bz-animate-slide-up  { animation: bz-fadeIn var(--bz-dur-base) linear both; }
+  .bz-animate-float,
+  .bz-animate-pulse-slow{ animation: none !important; }
+}
+
+/* ============================================================================
+   EXTENSION TOKENS (v1.1) — consolidated from the component/pattern/platform
+   specs. These name, ONCE and canonically, the recurring tokens the docs
+   reference (charts, density, rings, containers, safe-area, desktop chrome,
+   z-index, brand HSL channels, status alias spelling). Theme-agnostic +
+   LIGHT defaults live in :root; theme-dependent values are overridden in the
+   .dark / void blocks that follow.
+   ============================================================================ */
+:root {
+  /* --- Brand HSL channels (drive the multi-product brand-swap recipe) ------
+     #F97316 == hsl(24.6 95% 53.1%). A sibling F&B product re-skins by changing
+     ONLY these three channels; derive the ramp + glow from them. See
+     foundations/08-theming.md. */
+  --bz-brand-h: 24.6;
+  --bz-brand-s: 95%;
+  --bz-brand-l: 53.1%;
+
+  /* --- Status token alias spelling (--bz-status-<role>-<fg|bg|border>) ------
+     Some specs use this longer spelling; it resolves to the canonical
+     --bz-<role>-* semantics, so both work and stay theme-aware. */
+  --bz-status-success-fg: var(--bz-success-fg);
+  --bz-status-success-bg: var(--bz-success-bg);
+  --bz-status-success-border: var(--bz-success-border);
+  --bz-status-success: var(--bz-success-fg);
+  --bz-status-danger-fg: var(--bz-danger-fg);
+  --bz-status-danger-bg: var(--bz-danger-bg);
+  --bz-status-danger-border: var(--bz-danger-border);
+  --bz-status-danger: var(--bz-danger-fg);
+  --bz-status-warning-fg: var(--bz-warning-fg);
+  --bz-status-warning-bg: var(--bz-warning-bg);
+  --bz-status-warning-border: var(--bz-warning-border);
+  --bz-status-warning: var(--bz-warning-fg);
+  --bz-status-info-fg: var(--bz-info-fg);
+  --bz-status-info-bg: var(--bz-info-bg);
+  --bz-status-info-border: var(--bz-info-border);
+  --bz-status-info: var(--bz-info-fg);
+  --bz-status-deal-fg: var(--bz-deal-fg);
+  --bz-status-deal-bg: var(--bz-deal-bg);
+  --bz-status-deal-border: var(--bz-deal-border);
+
+  /* --- Focus ring spec (see foundations/07-accessibility.md) --------------- */
+  --bz-ring-width:        2px;
+  --bz-ring-offset:       2px;
+  --bz-ring-offset-color: var(--bz-bg);
+  --bz-ring-danger:       var(--bz-danger-fg);
+  --bz-touch-min:         var(--bz-touch-target-min); /* 44px alias */
+
+  /* --- Container widths (aliases + extras) -------------------------------- */
+  --bz-container:        var(--bz-container-max);   /* 1280 (max-w-7xl) */
+  --bz-container-prose:  720px;                     /* ~65ch reading column */
+  --bz-container-wide:   1440px;
+  --bz-container-max-2xl:1536px;
+  --bz-container-cap:    var(--bz-content-cap-max); /* 1600 big-screen cap */
+
+  /* --- Density / table (comfortable default; compact for data-dense ops) -- */
+  --bz-control-h:    44px;   /* default control height (md) */
+  --bz-control-h-sm: 36px;
+  --bz-control-h-lg: 52px;
+  --bz-row-h:        56px;   /* table row */
+  --bz-row-py:       16px;   /* comfortable cell padding-y */
+  --bz-row-py-compact: 8px;
+  --bz-cell-py:      12px;
+
+  /* --- Extra elevation / glow / decorative blur --------------------------- */
+  --bz-glow-success:        0 0 30px -5px rgba(16,185,129,.4);
+  --bz-shadow-hover-accent: var(--bz-shadow-xl);   /* light: neutral lift */
+  --bz-blur-glow:           80px;   /* decorative per-card radial glow */
+  --bz-blur-glow-ambient:   150px;  /* ambient background glow */
+
+  /* --- Safe-area insets (mobile web / PWA / native webviews) -------------- */
+  --bz-safe-top:    env(safe-area-inset-top, 0px);
+  --bz-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --bz-safe-left:   env(safe-area-inset-left, 0px);
+  --bz-safe-right:  env(safe-area-inset-right, 0px);
+
+  /* --- Desktop window chrome (Electron / Tauri) -------------------------- */
+  --bz-titlebar-h:  40px;
+  --bz-inset-start: 0px;   /* leading inset for OS window controls (set per-OS) */
+  --bz-inset-end:   0px;
+
+  /* --- z-index scale ------------------------------------------------------ */
+  --bz-z-below:    -1;
+  --bz-z-base:      0;
+  --bz-z-raised:    10;
+  --bz-z-sticky:    30;
+  --bz-z-header:    40;
+  --bz-z-sidebar:   50;
+  --bz-z-dropdown:  1000;
+  --bz-z-overlay:   1080;
+  --bz-z-modal:     1100;
+  --bz-z-popover:   1200;
+  --bz-z-toast:     1300;
+
+  /* --- Motion extras ------------------------------------------------------ */
+  --bz-dur-fade:     600ms;  /* exact fadeIn spec */
+  --bz-dur-glow:     4000ms; /* ambient glow pulse (short) */
+  --bz-stagger-step: 60ms;   /* per-item entrance delay step */
+
+  /* --- Component-level aliases (convenience) ------------------------------ */
+  --bz-btn-primary-bg: var(--bz-brand);
+  --bz-card-bg:        var(--bz-surface);
+
+  /* --- Chart / data-viz (recharts) — LIGHT defaults ----------------------- */
+  --bz-chart-grid:           #F1F5F9;
+  --bz-chart-axis-text:      #94A3B8;
+  --bz-chart-cursor:         rgba(249,115,22,.10);
+  --bz-chart-track:          #F1F5F9;
+  --bz-chart-tooltip-bg:     #FFFFFF;
+  --bz-chart-tooltip-border: #E2E8F0;
+  --bz-chart-series-brand:   #F97316;
+  --bz-chart-series-accent:  #6366F1;
+}
+
+/* DARK overrides for the theme-dependent extension tokens */
+.dark,
+[data-theme="dark"] {
+  --bz-shadow-hover-accent:  0 20px 50px -12px rgba(99,102,241,.25);
+  --bz-chart-grid:           rgba(255,255,255,.06);
+  --bz-chart-axis-text:      #64748B;
+  --bz-chart-cursor:         rgba(249,115,22,.18);
+  --bz-chart-track:          rgba(255,255,255,.06);
+  --bz-chart-tooltip-bg:     #0F172A;
+  --bz-chart-tooltip-border: rgba(255,255,255,.10);
+  --bz-chart-series-brand:   #F97316;
+  --bz-chart-series-accent:  #818CF8;
+}
+
+/* ============================================================================
+   TYPE SCALE UTILITIES — apply a full scale step (size + line-height +
+   letter-spacing + weight) in one class. Pair with .bz-font-display or
+   .bz-font-body. Mirrors the --bz-text-* composite tokens.
+   ============================================================================ */
+.bz-font-display { font-family: var(--bz-font-display); }
+.bz-font-body    { font-family: var(--bz-font-body); }
+.bz-font-mono    { font-family: var(--bz-font-mono); font-feature-settings: var(--bz-font-feature-numeric); }
+.bz-numeric      { font-feature-settings: var(--bz-font-feature-numeric); font-variant-numeric: tabular-nums; }
+
+.bz-text-display-2xl { font: var(--bz-text-display-2xl-weight) var(--bz-text-display-2xl-size)/var(--bz-text-display-2xl-lh) var(--bz-font-display); letter-spacing: var(--bz-text-display-2xl-ls); }
+.bz-text-display-xl  { font: var(--bz-text-display-xl-weight) var(--bz-text-display-xl-size)/var(--bz-text-display-xl-lh) var(--bz-font-display); letter-spacing: var(--bz-text-display-xl-ls); }
+.bz-text-display-lg  { font: var(--bz-text-display-lg-weight) var(--bz-text-display-lg-size)/var(--bz-text-display-lg-lh) var(--bz-font-display); letter-spacing: var(--bz-text-display-lg-ls); }
+.bz-text-h1 { font: var(--bz-text-h1-weight) var(--bz-text-h1-size)/var(--bz-text-h1-lh) var(--bz-font-display); letter-spacing: var(--bz-text-h1-ls); }
+.bz-text-h2 { font: var(--bz-text-h2-weight) var(--bz-text-h2-size)/var(--bz-text-h2-lh) var(--bz-font-display); letter-spacing: var(--bz-text-h2-ls); }
+.bz-text-h3 { font: var(--bz-text-h3-weight) var(--bz-text-h3-size)/var(--bz-text-h3-lh) var(--bz-font-display); letter-spacing: var(--bz-text-h3-ls); }
+.bz-text-h4 { font: var(--bz-text-h4-weight) var(--bz-text-h4-size)/var(--bz-text-h4-lh) var(--bz-font-display); }
+.bz-text-body-lg { font: var(--bz-text-body-lg-weight) var(--bz-text-body-lg-size)/var(--bz-text-body-lg-lh) var(--bz-font-body); }
+.bz-text-body    { font: var(--bz-text-body-weight) var(--bz-text-body-size)/var(--bz-text-body-lh) var(--bz-font-body); }
+.bz-text-body-sm { font: var(--bz-text-body-sm-weight) var(--bz-text-body-sm-size)/var(--bz-text-body-sm-lh) var(--bz-font-body); }
+.bz-text-caption { font: var(--bz-text-caption-weight) var(--bz-text-caption-size)/var(--bz-text-caption-lh) var(--bz-font-body); }
+.bz-text-overline, .bz-eyebrow {
+  font: var(--bz-text-overline-weight) var(--bz-text-overline-size)/var(--bz-text-overline-lh) var(--bz-font-display);
+  letter-spacing: var(--bz-text-overline-ls);
+  text-transform: var(--bz-text-overline-transform);
+}

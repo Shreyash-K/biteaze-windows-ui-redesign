@@ -1,0 +1,7191 @@
+{
+  "created": "2026-10-29T12:22:27.896Z",
+  "seconds": 26.62,
+  "measurements": [
+    {
+      "screen": "billing",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "billing-empty",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": {
+        "x": 1457,
+        "y": 988,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1038
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "orders",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "tables",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "held",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "item-customize",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 126.421875,
+        "width": 640,
+        "height": 831.140625,
+        "right": 1280,
+        "bottom": 957.5625
+      },
+      "footer": {
+        "x": 641,
+        "y": 871.5625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 956.5625
+      },
+      "dialogScroll": {
+        "client": 640,
+        "total": 640,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "line-edit",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 182.375,
+        "width": 640,
+        "height": 719.234375,
+        "right": 1280,
+        "bottom": 901.609375
+      },
+      "footer": {
+        "x": 641,
+        "y": 815.609375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 900.609375
+      },
+      "dialogScroll": {
+        "client": 528,
+        "total": 528,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "customer-select",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 230.421875,
+        "width": 640,
+        "height": 623.140625,
+        "right": 1280,
+        "bottom": 853.5625
+      },
+      "footer": {
+        "x": 641,
+        "y": 767.5625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 852.5625
+      },
+      "dialogScroll": {
+        "client": 432,
+        "total": 432,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "customer-add",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 179.375,
+        "width": 640,
+        "height": 725.234375,
+        "right": 1280,
+        "bottom": 904.609375
+      },
+      "footer": {
+        "x": 641,
+        "y": 818.609375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 903.609375
+      },
+      "dialogScroll": {
+        "client": 534,
+        "total": 534,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "table-assign",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 206.671875,
+        "width": 640,
+        "height": 670.640625,
+        "right": 1280,
+        "bottom": 877.3125
+      },
+      "footer": {
+        "x": 641,
+        "y": 791.3125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 876.3125
+      },
+      "dialogScroll": {
+        "client": 479,
+        "total": 479,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "order-details",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 1340,
+        "y": 32,
+        "width": 580,
+        "height": 1020,
+        "right": 1920,
+        "bottom": 1052
+      },
+      "footer": {
+        "x": 1341,
+        "y": 966,
+        "width": 578,
+        "height": 85,
+        "right": 1919,
+        "bottom": 1051
+      },
+      "dialogScroll": {
+        "client": 828,
+        "total": 847,
+        "width": 578,
+        "scrollWidth": 578
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "discount",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 690,
+        "y": 218.375,
+        "width": 540,
+        "height": 647.234375,
+        "right": 1230,
+        "bottom": 865.609375
+      },
+      "footer": {
+        "x": 691,
+        "y": 779.609375,
+        "width": 538,
+        "height": 85,
+        "right": 1229,
+        "bottom": 864.609375
+      },
+      "dialogScroll": {
+        "client": 456,
+        "total": 456,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "coupon",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 226.421875,
+        "width": 640,
+        "height": 631.140625,
+        "right": 1280,
+        "bottom": 857.5625
+      },
+      "footer": {
+        "x": 641,
+        "y": 771.5625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 856.5625
+      },
+      "dialogScroll": {
+        "client": 440,
+        "total": 440,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "charges",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 72.265625,
+        "width": 640,
+        "height": 939.46875,
+        "right": 1280,
+        "bottom": 1011.734375
+      },
+      "footer": {
+        "x": 641,
+        "y": 925.734375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 1010.734375
+      },
+      "dialogScroll": {
+        "client": 748,
+        "total": 748,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "note",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 690,
+        "y": 262.171875,
+        "width": 540,
+        "height": 559.640625,
+        "right": 1230,
+        "bottom": 821.8125
+      },
+      "footer": {
+        "x": 691,
+        "y": 735.8125,
+        "width": 538,
+        "height": 85,
+        "right": 1229,
+        "bottom": 820.8125
+      },
+      "dialogScroll": {
+        "client": 368,
+        "total": 368,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "hold",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 690,
+        "y": 264.875,
+        "width": 540,
+        "height": 554.234375,
+        "right": 1230,
+        "bottom": 819.109375
+      },
+      "footer": {
+        "x": 691,
+        "y": 733.109375,
+        "width": 538,
+        "height": 85,
+        "right": 1229,
+        "bottom": 818.109375
+      },
+      "dialogScroll": {
+        "client": 363,
+        "total": 363,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "kot",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 137.875,
+        "width": 640,
+        "height": 808.234375,
+        "right": 1280,
+        "bottom": 946.109375
+      },
+      "footer": {
+        "x": 641,
+        "y": 860.109375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 945.109375
+      },
+      "dialogScroll": {
+        "client": 617,
+        "total": 617,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "split-bill",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 530,
+        "y": 165.890625,
+        "width": 860,
+        "height": 752.21875,
+        "right": 1390,
+        "bottom": 918.109375
+      },
+      "footer": {
+        "x": 531,
+        "y": 832.109375,
+        "width": 858,
+        "height": 85,
+        "right": 1389,
+        "bottom": 917.109375
+      },
+      "dialogScroll": {
+        "client": 561,
+        "total": 561,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "transfer",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 249.875,
+        "width": 640,
+        "height": 584.234375,
+        "right": 1280,
+        "bottom": 834.109375
+      },
+      "footer": {
+        "x": 641,
+        "y": 748.109375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 833.109375
+      },
+      "dialogScroll": {
+        "client": 393,
+        "total": 393,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-cash",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 440,
+        "y": 167.671875,
+        "width": 1040,
+        "height": 748.640625,
+        "right": 1480,
+        "bottom": 916.3125
+      },
+      "footer": {
+        "x": 441,
+        "y": 830.3125,
+        "width": 1038,
+        "height": 85,
+        "right": 1479,
+        "bottom": 915.3125
+      },
+      "dialogScroll": {
+        "client": 557,
+        "total": 557,
+        "width": 1038,
+        "scrollWidth": 1038
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-upi",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 440,
+        "y": 189.9375,
+        "width": 1040,
+        "height": 704.125,
+        "right": 1480,
+        "bottom": 894.0625
+      },
+      "footer": {
+        "x": 441,
+        "y": 808.0625,
+        "width": 1038,
+        "height": 85,
+        "right": 1479,
+        "bottom": 893.0625
+      },
+      "dialogScroll": {
+        "client": 512,
+        "total": 512,
+        "width": 1038,
+        "scrollWidth": 1038
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-card",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 440,
+        "y": 166.4375,
+        "width": 1040,
+        "height": 751.125,
+        "right": 1480,
+        "bottom": 917.5625
+      },
+      "footer": {
+        "x": 441,
+        "y": 831.5625,
+        "width": 1038,
+        "height": 85,
+        "right": 1479,
+        "bottom": 916.5625
+      },
+      "dialogScroll": {
+        "client": 559,
+        "total": 559,
+        "width": 1038,
+        "scrollWidth": 1038
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-split",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 440,
+        "y": 195.359375,
+        "width": 1040,
+        "height": 693.28125,
+        "right": 1480,
+        "bottom": 888.640625
+      },
+      "footer": {
+        "x": 441,
+        "y": 802.640625,
+        "width": 1038,
+        "height": 85,
+        "right": 1479,
+        "bottom": 887.640625
+      },
+      "dialogScroll": {
+        "client": 502,
+        "total": 502,
+        "width": 1038,
+        "scrollWidth": 1038
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-credit",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 440,
+        "y": 185.9375,
+        "width": 1040,
+        "height": 712.125,
+        "right": 1480,
+        "bottom": 898.0625
+      },
+      "footer": {
+        "x": 441,
+        "y": 812.0625,
+        "width": 1038,
+        "height": 85,
+        "right": 1479,
+        "bottom": 897.0625
+      },
+      "dialogScroll": {
+        "client": 520,
+        "total": 520,
+        "width": 1038,
+        "scrollWidth": 1038
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-success",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 138.96875,
+        "width": 640,
+        "height": 806.0625,
+        "right": 1280,
+        "bottom": 945.03125
+      },
+      "footer": {
+        "x": 641,
+        "y": 859.03125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 944.03125
+      },
+      "dialogScroll": {
+        "client": 614,
+        "total": 614,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-pending",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 124.578125,
+        "width": 640,
+        "height": 834.84375,
+        "right": 1280,
+        "bottom": 959.421875
+      },
+      "footer": {
+        "x": 641,
+        "y": 873.421875,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 958.421875
+      },
+      "dialogScroll": {
+        "client": 643,
+        "total": 643,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "payment-failed",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 163.9375,
+        "width": 640,
+        "height": 756.109375,
+        "right": 1280,
+        "bottom": 920.046875
+      },
+      "footer": {
+        "x": 641,
+        "y": 834.046875,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 919.046875
+      },
+      "dialogScroll": {
+        "client": 564,
+        "total": 564,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "print-failed",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 211.734375,
+        "width": 640,
+        "height": 660.515625,
+        "right": 1280,
+        "bottom": 872.25
+      },
+      "footer": {
+        "x": 641,
+        "y": 786.25,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 871.25
+      },
+      "dialogScroll": {
+        "client": 469,
+        "total": 469,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "void",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 201.875,
+        "width": 640,
+        "height": 680.234375,
+        "right": 1280,
+        "bottom": 882.109375
+      },
+      "footer": {
+        "x": 641,
+        "y": 796.109375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 881.109375
+      },
+      "dialogScroll": {
+        "client": 489,
+        "total": 489,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "manager",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 690,
+        "y": 236.640625,
+        "width": 540,
+        "height": 610.703125,
+        "right": 1230,
+        "bottom": 847.34375
+      },
+      "footer": {
+        "x": 691,
+        "y": 761.34375,
+        "width": 538,
+        "height": 85,
+        "right": 1229,
+        "bottom": 846.34375
+      },
+      "dialogScroll": {
+        "client": 419,
+        "total": 419,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "refund",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 530,
+        "y": 129.328125,
+        "width": 860,
+        "height": 825.328125,
+        "right": 1390,
+        "bottom": 954.65625
+      },
+      "footer": {
+        "x": 531,
+        "y": 868.65625,
+        "width": 858,
+        "height": 85,
+        "right": 1389,
+        "bottom": 953.65625
+      },
+      "dialogScroll": {
+        "client": 634,
+        "total": 634,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "offline",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 1429,
+        "y": 420.640625,
+        "width": 491,
+        "height": 331.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "shortcuts",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 530,
+        "y": 239.125,
+        "width": 860,
+        "height": 605.734375,
+        "right": 1390,
+        "bottom": 844.859375
+      },
+      "footer": {
+        "x": 531,
+        "y": 758.859375,
+        "width": 858,
+        "height": 85,
+        "right": 1389,
+        "bottom": 843.859375
+      },
+      "dialogScroll": {
+        "client": 414,
+        "total": 414,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "sales",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "sale-detail",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "day-close",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "cash-movement",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 174.171875,
+        "width": 640,
+        "height": 735.640625,
+        "right": 1280,
+        "bottom": 909.8125
+      },
+      "footer": {
+        "x": 641,
+        "y": 823.8125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 908.8125
+      },
+      "dialogScroll": {
+        "client": 544,
+        "total": 544,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "customers",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "customer-detail",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "credit",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "credit-settle",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 189.875,
+        "width": 640,
+        "height": 704.234375,
+        "right": 1280,
+        "bottom": 894.109375
+      },
+      "footer": {
+        "x": 641,
+        "y": 808.109375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 893.109375
+      },
+      "dialogScroll": {
+        "client": 513,
+        "total": 513,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "inventory",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "item-edit",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "reports",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "dashboard",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "expenses",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "expense-add",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 216.171875,
+        "width": 640,
+        "height": 651.640625,
+        "right": 1280,
+        "bottom": 867.8125
+      },
+      "footer": {
+        "x": 641,
+        "y": 781.8125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 866.8125
+      },
+      "dialogScroll": {
+        "client": 460,
+        "total": 460,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "suppliers",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "supplier-payment",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 131.359375,
+        "width": 640,
+        "height": 821.28125,
+        "right": 1280,
+        "bottom": 952.640625
+      },
+      "footer": {
+        "x": 641,
+        "y": 866.640625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 951.640625
+      },
+      "dialogScroll": {
+        "client": 630,
+        "total": 630,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "greetings",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "settings",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "printers",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "receipt",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "detailed-bill",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "staff",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "staff-add",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 110.328125,
+        "width": 640,
+        "height": 863.328125,
+        "right": 1280,
+        "bottom": 973.65625
+      },
+      "footer": {
+        "x": 641,
+        "y": 887.65625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 972.65625
+      },
+      "dialogScroll": {
+        "client": 672,
+        "total": 672,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "coupons",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "coupon-add",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 132.625,
+        "width": 640,
+        "height": 818.734375,
+        "right": 1280,
+        "bottom": 951.359375
+      },
+      "footer": {
+        "x": 641,
+        "y": 865.359375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 950.359375
+      },
+      "dialogScroll": {
+        "client": 627,
+        "total": 627,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "qr",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "order-id",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 185.625,
+        "width": 640,
+        "height": 712.734375,
+        "right": 1280,
+        "bottom": 898.359375
+      },
+      "footer": {
+        "x": 641,
+        "y": 812.359375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 897.359375
+      },
+      "dialogScroll": {
+        "client": 521,
+        "total": 521,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "tax",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "billing-preferences",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "profile",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "lock",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "billing-takeaway",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "billing-delivery",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "delivery-details",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 186.125,
+        "width": 640,
+        "height": 711.734375,
+        "right": 1280,
+        "bottom": 897.859375
+      },
+      "footer": {
+        "x": 641,
+        "y": 811.859375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 896.859375
+      },
+      "dialogScroll": {
+        "client": 520,
+        "total": 520,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "printer-select",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 206.125,
+        "width": 640,
+        "height": 671.734375,
+        "right": 1280,
+        "bottom": 877.859375
+      },
+      "footer": {
+        "x": 641,
+        "y": 791.859375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 876.859375
+      },
+      "dialogScroll": {
+        "client": 480,
+        "total": 480,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "kot-failed",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 181.390625,
+        "width": 640,
+        "height": 721.203125,
+        "right": 1280,
+        "bottom": 902.59375
+      },
+      "footer": {
+        "x": 641,
+        "y": 816.59375,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 901.59375
+      },
+      "dialogScroll": {
+        "client": 530,
+        "total": 530,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "discount-approval",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 127.46875,
+        "width": 640,
+        "height": 829.0625,
+        "right": 1280,
+        "bottom": 956.53125
+      },
+      "footer": {
+        "x": 641,
+        "y": 870.53125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 955.53125
+      },
+      "dialogScroll": {
+        "client": 637,
+        "total": 637,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 1429,
+        "y": 363.640625,
+        "width": 491,
+        "height": 388.359375,
+        "right": 1920,
+        "bottom": 752
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 957,
+        "width": 435,
+        "height": 50,
+        "right": 1892,
+        "bottom": 1007
+      },
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "day-close-review",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 183.71875,
+        "width": 640,
+        "height": 716.5625,
+        "right": 1280,
+        "bottom": 900.28125
+      },
+      "footer": {
+        "x": 641,
+        "y": 814.28125,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 899.28125
+      },
+      "dialogScroll": {
+        "client": 525,
+        "total": 525,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "discard-draft",
+      "size": [
+        1920,
+        1080
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 640,
+        "y": 208.328125,
+        "width": 640,
+        "height": 667.328125,
+        "right": 1280,
+        "bottom": 875.65625
+      },
+      "footer": {
+        "x": 641,
+        "y": 789.65625,
+        "width": 638,
+        "height": 85,
+        "right": 1279,
+        "bottom": 874.65625
+      },
+      "dialogScroll": {
+        "client": 476,
+        "total": 476,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1824,
+      "pageClientWidth": 1824
+    },
+    {
+      "screen": "billing",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "billing-empty",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "orders",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "tables",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "held",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "item-customize",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 624,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "line-edit",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 508,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "customer-select",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 93.71875,
+        "width": 640,
+        "height": 584.546875,
+        "right": 1003,
+        "bottom": 678.265625
+      },
+      "footer": {
+        "x": 364,
+        "y": 602.265625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 677.265625
+      },
+      "dialogScroll": {
+        "client": 420,
+        "total": 420,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "customer-add",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 506,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "table-assign",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 71.96875,
+        "width": 640,
+        "height": 628.046875,
+        "right": 1003,
+        "bottom": 700.015625
+      },
+      "footer": {
+        "x": 364,
+        "y": 624.015625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 699.015625
+      },
+      "dialogScroll": {
+        "client": 463,
+        "total": 463,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "order-details",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 826,
+        "y": 32,
+        "width": 540,
+        "height": 708,
+        "right": 1366,
+        "bottom": 740
+      },
+      "footer": {
+        "x": 827,
+        "y": 664,
+        "width": 538,
+        "height": 75,
+        "right": 1365,
+        "bottom": 739
+      },
+      "dialogScroll": {
+        "client": 543,
+        "total": 827,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "discount",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 413,
+        "y": 85.671875,
+        "width": 540,
+        "height": 600.640625,
+        "right": 953,
+        "bottom": 686.3125
+      },
+      "footer": {
+        "x": 414,
+        "y": 610.3125,
+        "width": 538,
+        "height": 75,
+        "right": 952,
+        "bottom": 685.3125
+      },
+      "dialogScroll": {
+        "client": 436,
+        "total": 436,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "coupon",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 89.71875,
+        "width": 640,
+        "height": 592.546875,
+        "right": 1003,
+        "bottom": 682.265625
+      },
+      "footer": {
+        "x": 364,
+        "y": 606.265625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 681.265625
+      },
+      "dialogScroll": {
+        "client": 428,
+        "total": 428,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "charges",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 732,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "note",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 413,
+        "y": 129.46875,
+        "width": 540,
+        "height": 513.046875,
+        "right": 953,
+        "bottom": 642.515625
+      },
+      "footer": {
+        "x": 414,
+        "y": 566.515625,
+        "width": 538,
+        "height": 75,
+        "right": 952,
+        "bottom": 641.515625
+      },
+      "dialogScroll": {
+        "client": 348,
+        "total": 348,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "hold",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 413,
+        "y": 130.171875,
+        "width": 540,
+        "height": 511.640625,
+        "right": 953,
+        "bottom": 641.8125
+      },
+      "footer": {
+        "x": 414,
+        "y": 565.8125,
+        "width": 538,
+        "height": 75,
+        "right": 952,
+        "bottom": 640.8125
+      },
+      "dialogScroll": {
+        "client": 347,
+        "total": 347,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "kot",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 601,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "split-bill",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 253,
+        "y": 52,
+        "width": 860,
+        "height": 668,
+        "right": 1113,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 254,
+        "y": 644,
+        "width": 858,
+        "height": 75,
+        "right": 1112,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 549,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "transfer",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 117.171875,
+        "width": 640,
+        "height": 537.640625,
+        "right": 1003,
+        "bottom": 654.8125
+      },
+      "footer": {
+        "x": 364,
+        "y": 578.8125,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 653.8125
+      },
+      "dialogScroll": {
+        "client": 373,
+        "total": 373,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-cash",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 193,
+        "y": 58.65625,
+        "width": 980,
+        "height": 654.6875,
+        "right": 1173,
+        "bottom": 713.34375
+      },
+      "footer": {
+        "x": 194,
+        "y": 637.34375,
+        "width": 978,
+        "height": 75,
+        "right": 1172,
+        "bottom": 712.34375
+      },
+      "dialogScroll": {
+        "client": 490,
+        "total": 490,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-upi",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 193,
+        "y": 53.234375,
+        "width": 980,
+        "height": 665.53125,
+        "right": 1173,
+        "bottom": 718.765625
+      },
+      "footer": {
+        "x": 194,
+        "y": 642.765625,
+        "width": 978,
+        "height": 75,
+        "right": 1172,
+        "bottom": 717.765625
+      },
+      "dialogScroll": {
+        "client": 500,
+        "total": 500,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-card",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 193,
+        "y": 52,
+        "width": 980,
+        "height": 668,
+        "right": 1173,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 194,
+        "y": 644,
+        "width": 978,
+        "height": 75,
+        "right": 1172,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 520,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-split",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 193,
+        "y": 58.65625,
+        "width": 980,
+        "height": 654.6875,
+        "right": 1173,
+        "bottom": 713.34375
+      },
+      "footer": {
+        "x": 194,
+        "y": 637.34375,
+        "width": 978,
+        "height": 75,
+        "right": 1172,
+        "bottom": 712.34375
+      },
+      "dialogScroll": {
+        "client": 490,
+        "total": 490,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-credit",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 193,
+        "y": 52,
+        "width": 980,
+        "height": 668,
+        "right": 1173,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 194,
+        "y": 644,
+        "width": 978,
+        "height": 75,
+        "right": 1172,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 504,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-success",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 561,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-pending",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 590,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "payment-failed",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 511,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "print-failed",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 92.53125,
+        "width": 640,
+        "height": 586.921875,
+        "right": 1003,
+        "bottom": 679.453125
+      },
+      "footer": {
+        "x": 364,
+        "y": 603.453125,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 678.453125
+      },
+      "dialogScroll": {
+        "client": 422,
+        "total": 422,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "void",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 69.171875,
+        "width": 640,
+        "height": 633.640625,
+        "right": 1003,
+        "bottom": 702.8125
+      },
+      "footer": {
+        "x": 364,
+        "y": 626.8125,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 701.8125
+      },
+      "dialogScroll": {
+        "client": 469,
+        "total": 469,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "manager",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 413,
+        "y": 103.9375,
+        "width": 540,
+        "height": 564.109375,
+        "right": 953,
+        "bottom": 668.046875
+      },
+      "footer": {
+        "x": 414,
+        "y": 592.046875,
+        "width": 538,
+        "height": 75,
+        "right": 952,
+        "bottom": 667.046875
+      },
+      "dialogScroll": {
+        "client": 399,
+        "total": 399,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "refund",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 253,
+        "y": 52,
+        "width": 860,
+        "height": 668,
+        "right": 1113,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 254,
+        "y": 644,
+        "width": 858,
+        "height": 75,
+        "right": 1112,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 618,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "offline",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 963,
+        "y": 354.03125,
+        "width": 403,
+        "height": 158.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "shortcuts",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 253,
+        "y": 102.421875,
+        "width": 860,
+        "height": 567.140625,
+        "right": 1113,
+        "bottom": 669.5625
+      },
+      "footer": {
+        "x": 254,
+        "y": 593.5625,
+        "width": 858,
+        "height": 75,
+        "right": 1112,
+        "bottom": 668.5625
+      },
+      "dialogScroll": {
+        "client": 402,
+        "total": 402,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "sales",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "sale-detail",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "day-close",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "cash-movement",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 516,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "customers",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "customer-detail",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "credit",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "credit-settle",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 57.171875,
+        "width": 640,
+        "height": 657.640625,
+        "right": 1003,
+        "bottom": 714.8125
+      },
+      "footer": {
+        "x": 364,
+        "y": 638.8125,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 713.8125
+      },
+      "dialogScroll": {
+        "client": 493,
+        "total": 493,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "inventory",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "item-edit",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "reports",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "dashboard",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "expenses",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "expense-add",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 87.46875,
+        "width": 640,
+        "height": 597.046875,
+        "right": 1003,
+        "bottom": 684.515625
+      },
+      "footer": {
+        "x": 364,
+        "y": 608.515625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 683.515625
+      },
+      "dialogScroll": {
+        "client": 432,
+        "total": 432,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "suppliers",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "supplier-payment",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 610,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "greetings",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "settings",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "printers",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "receipt",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "detailed-bill",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "staff",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "staff-add",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 648,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "coupons",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "coupon-add",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 595,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "qr",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "order-id",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 60.96875,
+        "width": 640,
+        "height": 650.046875,
+        "right": 1003,
+        "bottom": 711.015625
+      },
+      "footer": {
+        "x": 364,
+        "y": 635.015625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 710.015625
+      },
+      "dialogScroll": {
+        "client": 485,
+        "total": 485,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "tax",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "billing-preferences",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "profile",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "lock",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "billing-takeaway",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "billing-delivery",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "delivery-details",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 65.46875,
+        "width": 640,
+        "height": 641.046875,
+        "right": 1003,
+        "bottom": 706.515625
+      },
+      "footer": {
+        "x": 364,
+        "y": 630.515625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 705.515625
+      },
+      "dialogScroll": {
+        "client": 476,
+        "total": 476,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "printer-select",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 79.46875,
+        "width": 640,
+        "height": 613.046875,
+        "right": 1003,
+        "bottom": 692.515625
+      },
+      "footer": {
+        "x": 364,
+        "y": 616.515625,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 691.515625
+      },
+      "dialogScroll": {
+        "client": 448,
+        "total": 448,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "kot-failed",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 62.1875,
+        "width": 640,
+        "height": 647.609375,
+        "right": 1003,
+        "bottom": 709.796875
+      },
+      "footer": {
+        "x": 364,
+        "y": 633.796875,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 708.796875
+      },
+      "dialogScroll": {
+        "client": 483,
+        "total": 483,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "discount-approval",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 617,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 963,
+        "y": 297.03125,
+        "width": 403,
+        "height": 215.96875,
+        "right": 1366,
+        "bottom": 513
+      },
+      "checkout": {
+        "x": 983,
+        "y": 680,
+        "width": 363,
+        "height": 48,
+        "right": 1346,
+        "bottom": 728
+      },
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "day-close-review",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 52,
+        "width": 640,
+        "height": 668,
+        "right": 1003,
+        "bottom": 720
+      },
+      "footer": {
+        "x": 364,
+        "y": 644,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 719
+      },
+      "dialogScroll": {
+        "client": 503,
+        "total": 513,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "discard-draft",
+      "size": [
+        1366,
+        768
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 363,
+        "y": 73.625,
+        "width": 640,
+        "height": 624.734375,
+        "right": 1003,
+        "bottom": 698.359375
+      },
+      "footer": {
+        "x": 364,
+        "y": 622.359375,
+        "width": 638,
+        "height": 75,
+        "right": 1002,
+        "bottom": 697.359375
+      },
+      "dialogScroll": {
+        "client": 460,
+        "total": 460,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1286,
+      "pageClientWidth": 1286
+    },
+    {
+      "screen": "billing",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "billing-empty",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "orders",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "tables",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "held",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "item-customize",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 624,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "line-edit",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 508,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "customer-select",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 69.71875,
+        "width": 640,
+        "height": 584.546875,
+        "right": 960,
+        "bottom": 654.265625
+      },
+      "footer": {
+        "x": 321,
+        "y": 578.265625,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 653.265625
+      },
+      "dialogScroll": {
+        "client": 420,
+        "total": 420,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "customer-add",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 506,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "table-assign",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 463,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "order-details",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 740,
+        "y": 32,
+        "width": 540,
+        "height": 660,
+        "right": 1280,
+        "bottom": 692
+      },
+      "footer": {
+        "x": 741,
+        "y": 616,
+        "width": 538,
+        "height": 75,
+        "right": 1279,
+        "bottom": 691
+      },
+      "dialogScroll": {
+        "client": 495,
+        "total": 827,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "discount",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 370,
+        "y": 61.671875,
+        "width": 540,
+        "height": 600.640625,
+        "right": 910,
+        "bottom": 662.3125
+      },
+      "footer": {
+        "x": 371,
+        "y": 586.3125,
+        "width": 538,
+        "height": 75,
+        "right": 909,
+        "bottom": 661.3125
+      },
+      "dialogScroll": {
+        "client": 436,
+        "total": 436,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "coupon",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 65.71875,
+        "width": 640,
+        "height": 592.546875,
+        "right": 960,
+        "bottom": 658.265625
+      },
+      "footer": {
+        "x": 321,
+        "y": 582.265625,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 657.265625
+      },
+      "dialogScroll": {
+        "client": 428,
+        "total": 428,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "charges",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 732,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "note",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 370,
+        "y": 105.46875,
+        "width": 540,
+        "height": 513.046875,
+        "right": 910,
+        "bottom": 618.515625
+      },
+      "footer": {
+        "x": 371,
+        "y": 542.515625,
+        "width": 538,
+        "height": 75,
+        "right": 909,
+        "bottom": 617.515625
+      },
+      "dialogScroll": {
+        "client": 348,
+        "total": 348,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "hold",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 370,
+        "y": 106.171875,
+        "width": 540,
+        "height": 511.640625,
+        "right": 910,
+        "bottom": 617.8125
+      },
+      "footer": {
+        "x": 371,
+        "y": 541.8125,
+        "width": 538,
+        "height": 75,
+        "right": 909,
+        "bottom": 616.8125
+      },
+      "dialogScroll": {
+        "client": 347,
+        "total": 347,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "kot",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 601,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "split-bill",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 210,
+        "y": 52,
+        "width": 860,
+        "height": 620,
+        "right": 1070,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 211,
+        "y": 596,
+        "width": 858,
+        "height": 75,
+        "right": 1069,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 549,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "transfer",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 93.171875,
+        "width": 640,
+        "height": 537.640625,
+        "right": 960,
+        "bottom": 630.8125
+      },
+      "footer": {
+        "x": 321,
+        "y": 554.8125,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 629.8125
+      },
+      "dialogScroll": {
+        "client": 373,
+        "total": 373,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-cash",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 150,
+        "y": 52,
+        "width": 980,
+        "height": 620,
+        "right": 1130,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 151,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "right": 1129,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 490,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-upi",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 150,
+        "y": 52,
+        "width": 980,
+        "height": 620,
+        "right": 1130,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 151,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "right": 1129,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 500,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-card",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 150,
+        "y": 52,
+        "width": 980,
+        "height": 620,
+        "right": 1130,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 151,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "right": 1129,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 520,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-split",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 150,
+        "y": 52,
+        "width": 980,
+        "height": 620,
+        "right": 1130,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 151,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "right": 1129,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 490,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-credit",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 150,
+        "y": 52,
+        "width": 980,
+        "height": 620,
+        "right": 1130,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 151,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "right": 1129,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 504,
+        "width": 978,
+        "scrollWidth": 978
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-success",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 561,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-pending",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 590,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "payment-failed",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 511,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "print-failed",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 68.53125,
+        "width": 640,
+        "height": 586.921875,
+        "right": 960,
+        "bottom": 655.453125
+      },
+      "footer": {
+        "x": 321,
+        "y": 579.453125,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 654.453125
+      },
+      "dialogScroll": {
+        "client": 422,
+        "total": 422,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "void",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 469,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "manager",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 370,
+        "y": 79.9375,
+        "width": 540,
+        "height": 564.109375,
+        "right": 910,
+        "bottom": 644.046875
+      },
+      "footer": {
+        "x": 371,
+        "y": 568.046875,
+        "width": 538,
+        "height": 75,
+        "right": 909,
+        "bottom": 643.046875
+      },
+      "dialogScroll": {
+        "client": 399,
+        "total": 399,
+        "width": 538,
+        "scrollWidth": 538
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "refund",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 210,
+        "y": 52,
+        "width": 860,
+        "height": 620,
+        "right": 1070,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 211,
+        "y": 596,
+        "width": 858,
+        "height": 75,
+        "right": 1069,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 618,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "offline",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 901,
+        "y": 346.03125,
+        "width": 379,
+        "height": 118.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "shortcuts",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 210,
+        "y": 78.421875,
+        "width": 860,
+        "height": 567.140625,
+        "right": 1070,
+        "bottom": 645.5625
+      },
+      "footer": {
+        "x": 211,
+        "y": 569.5625,
+        "width": 858,
+        "height": 75,
+        "right": 1069,
+        "bottom": 644.5625
+      },
+      "dialogScroll": {
+        "client": 402,
+        "total": 402,
+        "width": 858,
+        "scrollWidth": 858
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "sales",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "sale-detail",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "day-close",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "cash-movement",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 516,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "customers",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "customer-detail",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "credit",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "credit-settle",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 493,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "inventory",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "item-edit",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "reports",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "dashboard",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "expenses",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "expense-add",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 63.46875,
+        "width": 640,
+        "height": 597.046875,
+        "right": 960,
+        "bottom": 660.515625
+      },
+      "footer": {
+        "x": 321,
+        "y": 584.515625,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 659.515625
+      },
+      "dialogScroll": {
+        "client": 432,
+        "total": 432,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "suppliers",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "supplier-payment",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 610,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "greetings",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "settings",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "printers",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "receipt",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "detailed-bill",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "staff",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "staff-add",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 648,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "coupons",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "coupon-add",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 595,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "qr",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "order-id",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 485,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "tax",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "billing-preferences",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "profile",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "lock",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "billing-takeaway",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "billing-delivery",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": null,
+      "footer": null,
+      "dialogScroll": null,
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "delivery-details",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 476,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "printer-select",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 55.46875,
+        "width": 640,
+        "height": 613.046875,
+        "right": 960,
+        "bottom": 668.515625
+      },
+      "footer": {
+        "x": 321,
+        "y": 592.515625,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 667.515625
+      },
+      "dialogScroll": {
+        "client": 448,
+        "total": 448,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "kot-failed",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 483,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "discount-approval",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 617,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": {
+        "x": 901,
+        "y": 289.03125,
+        "width": 379,
+        "height": 175.96875,
+        "right": 1280,
+        "bottom": 465
+      },
+      "checkout": {
+        "x": 917,
+        "y": 632,
+        "width": 347,
+        "height": 48,
+        "right": 1264,
+        "bottom": 680
+      },
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "day-close-review",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 513,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    },
+    {
+      "screen": "discard-draft",
+      "size": [
+        1280,
+        720
+      ],
+      "errors": [],
+      "windowOverflow": false,
+      "dialog": {
+        "x": 320,
+        "y": 52,
+        "width": 640,
+        "height": 620,
+        "right": 960,
+        "bottom": 672
+      },
+      "footer": {
+        "x": 321,
+        "y": 596,
+        "width": 638,
+        "height": 75,
+        "right": 959,
+        "bottom": 671
+      },
+      "dialogScroll": {
+        "client": 455,
+        "total": 460,
+        "width": 638,
+        "scrollWidth": 638
+      },
+      "billItems": null,
+      "checkout": null,
+      "pageScrollWidth": 1208,
+      "pageClientWidth": 1208
+    }
+  ]
+}

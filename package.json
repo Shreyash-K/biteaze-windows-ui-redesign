@@ -1,0 +1,13 @@
+{
+  "name": "biteaze-windows-ui-redesign-reference",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reference-only design kit and implementation handoff; not the Windows application",
+  "scripts": {
+    "validate:reference": "node scripts/validate-reference.cjs",
+    "validate:interactions": "node scripts/validate-interactions.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

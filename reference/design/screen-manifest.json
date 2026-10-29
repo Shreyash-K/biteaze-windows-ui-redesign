@@ -1,0 +1,578 @@
+[
+  {
+    "id": "billing",
+    "title": "Billing workspace",
+    "group": "Billing",
+    "source": "Proposed · core workflow",
+    "note": "Persistent order, clear category navigation and a fixed payment action.",
+    "number": 1
+  },
+  {
+    "id": "billing-empty",
+    "title": "Start a new bill",
+    "group": "Billing",
+    "source": "Proposed · core workflow",
+    "note": "Empty state explains the next action without hiding menu selection.",
+    "number": 2
+  },
+  {
+    "id": "orders",
+    "title": "Ongoing orders",
+    "group": "Orders",
+    "source": "Tablet p4",
+    "note": "Queue states use text labels, elapsed time and direct resume actions.",
+    "number": 3
+  },
+  {
+    "id": "tables",
+    "title": "Tables & floor plan",
+    "group": "Orders",
+    "source": "Tablet p4 + proposed floor plan",
+    "note": "Table occupancy, amount and service state stay visible together.",
+    "number": 4
+  },
+  {
+    "id": "held",
+    "title": "Held bills",
+    "group": "Orders",
+    "source": "Tablet p31 + proposed detail",
+    "note": "Parked bills have a named owner and can be resumed or discarded explicitly.",
+    "number": 5
+  },
+  {
+    "id": "item-customize",
+    "title": "Item modifiers",
+    "group": "Bill tools",
+    "source": "Tablet p6–7 + proposed ordering flow",
+    "note": "Required choices precede optional add-ons. Price changes remain visible.",
+    "number": 6
+  },
+  {
+    "id": "line-edit",
+    "title": "Edit an order line",
+    "group": "Bill tools",
+    "source": "Proposed · core workflow",
+    "note": "Edit quantity and notes; kitchen-sent items require a separate correction.",
+    "number": 7
+  },
+  {
+    "id": "customer-select",
+    "title": "Find / attach customer",
+    "group": "Bill tools",
+    "source": "Tablet p14 + proposed billing flow",
+    "note": "Search by name or phone; adding a customer is secondary.",
+    "number": 8
+  },
+  {
+    "id": "customer-add",
+    "title": "Add customer",
+    "group": "Bill tools",
+    "source": "Tablet p14",
+    "note": "Only the essential fields lead; consent is explicit and unchecked.",
+    "number": 9
+  },
+  {
+    "id": "table-assign",
+    "title": "Assign a table",
+    "group": "Bill tools",
+    "source": "Tablet p4",
+    "note": "Available and occupied tables are visibly different.",
+    "number": 10
+  },
+  {
+    "id": "order-details",
+    "title": "Order details & service",
+    "group": "Bill tools",
+    "source": "Tablet p31",
+    "note": "Service mode, staff, price mode and order details are one coherent panel.",
+    "number": 11
+  },
+  {
+    "id": "discount",
+    "title": "Apply bill discount",
+    "group": "Bill tools",
+    "source": "Tablet p22–23,31",
+    "note": "Scope, amount and effective discount are visible before applying.",
+    "number": 12
+  },
+  {
+    "id": "coupon",
+    "title": "Apply coupon",
+    "group": "Bill tools",
+    "source": "Tablet p24,31",
+    "note": "Eligibility and reason for unavailable offers are explicit.",
+    "number": 13
+  },
+  {
+    "id": "charges",
+    "title": "Charges & tax breakdown",
+    "group": "Bill tools",
+    "source": "Tablet p20,31",
+    "note": "Show configured tax and charges without silent recalculation.",
+    "number": 14
+  },
+  {
+    "id": "note",
+    "title": "Order note",
+    "group": "Bill tools",
+    "source": "Tablet p31",
+    "note": "Receipt notes and kitchen instructions have distinct visibility.",
+    "number": 15
+  },
+  {
+    "id": "hold",
+    "title": "Hold this bill",
+    "group": "Bill tools",
+    "source": "Tablet p31",
+    "note": "A meaningful label makes the parked bill easy to retrieve.",
+    "number": 16
+  },
+  {
+    "id": "kot",
+    "title": "Send to kitchen",
+    "group": "Kitchen",
+    "source": "Tablet p27 + proposed send flow",
+    "note": "New items route to named stations; existing kitchen tickets are not resent.",
+    "number": 17
+  },
+  {
+    "id": "split-bill",
+    "title": "Split a bill by items",
+    "group": "Bill tools",
+    "source": "Proposed · optional capability",
+    "note": "Item splitting creates separate bills; it is distinct from multiple tenders.",
+    "number": 18
+  },
+  {
+    "id": "transfer",
+    "title": "Move / merge table",
+    "group": "Bill tools",
+    "source": "Proposed · optional capability",
+    "note": "Preview destination and source before moving or combining orders.",
+    "number": 19
+  },
+  {
+    "id": "payment-cash",
+    "title": "Cash payment",
+    "group": "Payments",
+    "source": "Proposed · core workflow",
+    "note": "Cash tender, quick amounts and change are readable at a glance.",
+    "number": 20
+  },
+  {
+    "id": "payment-upi",
+    "title": "UPI payment",
+    "group": "Payments",
+    "source": "Tablet p20,25 + proposed checkout",
+    "note": "Reference is deliberately non-payable; live status must come from the provider.",
+    "number": 21
+  },
+  {
+    "id": "payment-card",
+    "title": "Card payment",
+    "group": "Payments",
+    "source": "Proposed · core workflow",
+    "note": "Do not collect card data in the POS; use the configured terminal.",
+    "number": 22
+  },
+  {
+    "id": "payment-split",
+    "title": "Split tender",
+    "group": "Payments",
+    "source": "Proposed · optional capability",
+    "note": "Each tender has its own amount and status; balance remains visible.",
+    "number": 23
+  },
+  {
+    "id": "payment-credit",
+    "title": "Credit / Udhar",
+    "group": "Payments",
+    "source": "Tablet p12,22 + proposed checkout",
+    "note": "Require a customer and show limit, outstanding balance and due date.",
+    "number": 24
+  },
+  {
+    "id": "payment-success",
+    "title": "Payment complete",
+    "group": "Payments",
+    "source": "Proposed · core workflow",
+    "note": "Payment success and receipt delivery are separate statuses.",
+    "number": 25
+  },
+  {
+    "id": "payment-pending",
+    "title": "Payment status unknown",
+    "group": "Recovery",
+    "source": "Proposed · failure state",
+    "note": "Keep the bill locked while checking; prevent an accidental second charge.",
+    "number": 26
+  },
+  {
+    "id": "payment-failed",
+    "title": "Payment failed",
+    "group": "Recovery",
+    "source": "Proposed · failure state",
+    "note": "Only a confirmed failure exposes retry or an alternative method.",
+    "number": 27
+  },
+  {
+    "id": "print-failed",
+    "title": "Receipt print failed",
+    "group": "Recovery",
+    "source": "Tablet p27 + proposed failure state",
+    "note": "A print failure never changes the successful payment state.",
+    "number": 28
+  },
+  {
+    "id": "void",
+    "title": "Void bill / cancel order",
+    "group": "Recovery",
+    "source": "Tablet p9,22",
+    "note": "Show affected bill, kitchen state, mandatory reason and approval requirement.",
+    "number": 29
+  },
+  {
+    "id": "manager",
+    "title": "Manager approval",
+    "group": "Recovery",
+    "source": "Tablet p22–23",
+    "note": "Approval names the exact action and does not elevate the entire session.",
+    "number": 30
+  },
+  {
+    "id": "refund",
+    "title": "Return / refund",
+    "group": "Recovery",
+    "source": "Tablet p9 + proposed detail",
+    "note": "Select original items, reason and refund route; preserve receipt history.",
+    "number": 31
+  },
+  {
+    "id": "offline",
+    "title": "Offline billing",
+    "group": "Recovery",
+    "source": "Proposed · recovery state",
+    "note": "Separate local availability, sync queue and unavailable online methods.",
+    "number": 32
+  },
+  {
+    "id": "shortcuts",
+    "title": "Keyboard shortcuts",
+    "group": "Desktop",
+    "source": "Proposed · desktop adaptation",
+    "note": "Explicit shortcuts, focus handling and no global Enter-to-pay.",
+    "number": 33
+  },
+  {
+    "id": "sales",
+    "title": "Sales history",
+    "group": "Records",
+    "source": "Tablet p9",
+    "note": "Compact filterable ledger with a clear detail action per receipt.",
+    "number": 34
+  },
+  {
+    "id": "sale-detail",
+    "title": "Receipt & payment detail",
+    "group": "Records",
+    "source": "Tablet p9 + proposed detail",
+    "note": "Keep tender, receipt, refunds and activity tied to one transaction.",
+    "number": 35
+  },
+  {
+    "id": "day-close",
+    "title": "Day close & cash count",
+    "group": "Cash operations",
+    "source": "Tablet p10–11",
+    "note": "Counted cash, expected cash and variance are separate; closure is explicit.",
+    "number": 36
+  },
+  {
+    "id": "cash-movement",
+    "title": "Cash in / cash out",
+    "group": "Cash operations",
+    "source": "Tablet p10–11",
+    "note": "Record a reason and tender movement without mixing it with sales.",
+    "number": 37
+  },
+  {
+    "id": "customers",
+    "title": "Customers",
+    "group": "People",
+    "source": "Tablet p14",
+    "note": "Readable customer ledger, outstanding balance and direct context.",
+    "number": 38
+  },
+  {
+    "id": "customer-detail",
+    "title": "Customer profile & ledger",
+    "group": "People",
+    "source": "Tablet p12,14",
+    "note": "Balance and recent transactions sit together; consent is visible.",
+    "number": 39
+  },
+  {
+    "id": "credit",
+    "title": "Credit outstanding",
+    "group": "People",
+    "source": "Tablet p12",
+    "note": "Aging and due dates guide collection; reminders remain explicit.",
+    "number": 40
+  },
+  {
+    "id": "credit-settle",
+    "title": "Receive credit payment",
+    "group": "People",
+    "source": "Tablet p12",
+    "note": "Allocate received money to an identified outstanding balance.",
+    "number": 41
+  },
+  {
+    "id": "inventory",
+    "title": "Items & inventory",
+    "group": "Catalog",
+    "source": "Tablet p5",
+    "note": "Stock, availability and price are scannable; changes open an editor.",
+    "number": 42
+  },
+  {
+    "id": "item-edit",
+    "title": "Item / variant editor",
+    "group": "Catalog",
+    "source": "Tablet p6–7",
+    "note": "Organize price, inventory, modifiers and kitchen routing into groups.",
+    "number": 43
+  },
+  {
+    "id": "reports",
+    "title": "Reports & exports",
+    "group": "Management",
+    "source": "Tablet p8,18–19",
+    "note": "Separate report selection from the detailed operational billing view.",
+    "number": 44
+  },
+  {
+    "id": "dashboard",
+    "title": "Business overview",
+    "group": "Management",
+    "source": "Tablet p1–3,18–19",
+    "note": "A restrained summary with operational links; no dashboard clutter in billing.",
+    "number": 45
+  },
+  {
+    "id": "expenses",
+    "title": "Expense ledger",
+    "group": "Management",
+    "source": "Tablet p17",
+    "note": "Date, category, payment method and status form a compact ledger.",
+    "number": 46
+  },
+  {
+    "id": "expense-add",
+    "title": "Add expense",
+    "group": "Management",
+    "source": "Tablet p17",
+    "note": "Required amount, category and method; optional supporting detail.",
+    "number": 47
+  },
+  {
+    "id": "suppliers",
+    "title": "Suppliers & payables",
+    "group": "Management",
+    "source": "Tablet p13",
+    "note": "Outstanding amount and due status anchor the supplier ledger.",
+    "number": 48
+  },
+  {
+    "id": "supplier-payment",
+    "title": "Pay supplier",
+    "group": "Management",
+    "source": "Tablet p13",
+    "note": "Record payment against invoices and show the remaining payable.",
+    "number": 49
+  },
+  {
+    "id": "greetings",
+    "title": "Greetings & reminders",
+    "group": "Management",
+    "source": "Tablet p15–16",
+    "note": "Preview recipient, template and consent before each manual send.",
+    "number": 50
+  },
+  {
+    "id": "settings",
+    "title": "Settings home",
+    "group": "Settings",
+    "source": "Tablet p20",
+    "note": "Group billing, printing, people and store configuration.",
+    "number": 51
+  },
+  {
+    "id": "printers",
+    "title": "Printers & kitchen routing",
+    "group": "Settings",
+    "source": "Tablet p27",
+    "note": "Receipt, default KOT and station printers are separate assignments.",
+    "number": 52
+  },
+  {
+    "id": "receipt",
+    "title": "Receipt / KOT layout",
+    "group": "Settings",
+    "source": "Tablet p28–29",
+    "note": "Live sample preview and explicit paper size beside grouped toggles.",
+    "number": 53
+  },
+  {
+    "id": "detailed-bill",
+    "title": "Detailed A4 / A5 invoice",
+    "group": "Settings",
+    "source": "Tablet p30",
+    "note": "Keep detailed invoice choices distinct from thermal receipt settings.",
+    "number": 54
+  },
+  {
+    "id": "staff",
+    "title": "Staff & permissions",
+    "group": "Settings",
+    "source": "Tablet p22–23",
+    "note": "Role, status and privileges; discount and void limits stay visible.",
+    "number": 55
+  },
+  {
+    "id": "staff-add",
+    "title": "Add staff member",
+    "group": "Settings",
+    "source": "Tablet p22–23",
+    "note": "Role-scoped permissions and PIN setup in one bounded form.",
+    "number": 56
+  },
+  {
+    "id": "coupons",
+    "title": "Coupons & offers",
+    "group": "Settings",
+    "source": "Tablet p24",
+    "note": "Show offer value, validity and eligibility with distinct statuses.",
+    "number": 57
+  },
+  {
+    "id": "coupon-add",
+    "title": "Create a coupon",
+    "group": "Settings",
+    "source": "Tablet p24",
+    "note": "Name, type, validity and limits; preview the customer-facing offer.",
+    "number": 58
+  },
+  {
+    "id": "qr",
+    "title": "QR ordering",
+    "group": "Settings",
+    "source": "Tablet p25–26",
+    "note": "Payment timing and menu publication are separate configuration steps.",
+    "number": 59
+  },
+  {
+    "id": "order-id",
+    "title": "Order & invoice numbering",
+    "group": "Settings",
+    "source": "Tablet p21",
+    "note": "Preview the next number and explain reset cadence.",
+    "number": 60
+  },
+  {
+    "id": "tax",
+    "title": "Tax & rounding",
+    "group": "Settings",
+    "source": "Tablet p20",
+    "note": "Configuration reference only; rates require business validation.",
+    "number": 61
+  },
+  {
+    "id": "billing-preferences",
+    "title": "Billing screen preferences",
+    "group": "Settings",
+    "source": "Tablet p31",
+    "note": "One clean list of tools with role-specific visibility guidance.",
+    "number": 62
+  },
+  {
+    "id": "profile",
+    "title": "Business profile & devices",
+    "group": "Settings",
+    "source": "Tablet p32–33",
+    "note": "Account, plan, connected devices and data actions are clearly grouped.",
+    "number": 63
+  },
+  {
+    "id": "lock",
+    "title": "Staff lock screen",
+    "group": "Desktop",
+    "source": "Tablet p22–23 + proposed lock screen",
+    "note": "Lock hides transaction details and preserves the active bill.",
+    "number": 64
+  },
+  {
+    "id": "billing-takeaway",
+    "title": "Takeaway billing",
+    "group": "Billing",
+    "source": "Tablet p4 + proposed ordering flow",
+    "note": "Pickup reference replaces the table. Bill and payment positions stay fixed.",
+    "number": 65
+  },
+  {
+    "id": "billing-delivery",
+    "title": "Delivery billing",
+    "group": "Billing",
+    "source": "Tablet p4 + proposed ordering flow",
+    "note": "Delivery contact and address replace dine-in context.",
+    "number": 66
+  },
+  {
+    "id": "delivery-details",
+    "title": "Delivery / pickup details",
+    "group": "Bill tools",
+    "source": "Proposed · core workflow",
+    "note": "Keep recipient, address and delivery instructions separate from kitchen notes.",
+    "number": 67
+  },
+  {
+    "id": "printer-select",
+    "title": "Choose a printer",
+    "group": "Settings",
+    "source": "Tablet p27 + proposed picker",
+    "note": "Show connection, paper width and readiness before assignment.",
+    "number": 68
+  },
+  {
+    "id": "kot-failed",
+    "title": "Kitchen ticket not sent",
+    "group": "Recovery",
+    "source": "Proposed · recovery",
+    "note": "Preserve the failed ticket and station; receipt printers are never a KOT fallback.",
+    "number": 69
+  },
+  {
+    "id": "discount-approval",
+    "title": "Approve a larger discount",
+    "group": "Bill tools",
+    "source": "Tablet p22–23 + proposed approval",
+    "note": "Approval identifies the bill, amount, percentage, reason and new total.",
+    "number": 70
+  },
+  {
+    "id": "day-close-review",
+    "title": "Review day closure",
+    "group": "Management",
+    "source": "Tablet p10–11 + proposed review",
+    "note": "A final review keeps unresolved orders visible and blocks premature closure.",
+    "number": 71
+  },
+  {
+    "id": "discard-draft",
+    "title": "Discard a held draft",
+    "group": "Orders",
+    "source": "Proposed · recovery",
+    "note": "Only unsent, unpaid drafts can be discarded; kitchen-sent orders use void instead.",
+    "number": 72
+  }
+]

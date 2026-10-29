@@ -1,0 +1,522 @@
+[
+  {
+    "page": 1,
+    "title": "Start here",
+    "key": "cover"
+  },
+  {
+    "page": 2,
+    "title": "Layout principles",
+    "key": "principles"
+  },
+  {
+    "page": 3,
+    "title": "Visual foundations and dimensions",
+    "key": "foundations"
+  },
+  {
+    "page": 4,
+    "title": "Screen index",
+    "key": "index0"
+  },
+  {
+    "page": 5,
+    "title": "Screen index continued",
+    "key": "index1"
+  },
+  {
+    "page": 6,
+    "title": "Implementation, sources and evidence",
+    "key": "handoff"
+  },
+  {
+    "page": 7,
+    "title": "Billing workspace",
+    "key": "billing"
+  },
+  {
+    "page": 8,
+    "title": "Start a new bill",
+    "key": "billing-empty"
+  },
+  {
+    "page": 9,
+    "title": "Ongoing orders",
+    "key": "orders"
+  },
+  {
+    "page": 10,
+    "title": "Ongoing orders \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 11,
+    "title": "Tables & floor plan",
+    "key": "tables"
+  },
+  {
+    "page": 12,
+    "title": "Held bills",
+    "key": "held"
+  },
+  {
+    "page": 13,
+    "title": "Item modifiers",
+    "key": "item-customize"
+  },
+  {
+    "page": 14,
+    "title": "Edit an order line",
+    "key": "line-edit"
+  },
+  {
+    "page": 15,
+    "title": "Find / attach customer",
+    "key": "customer-select"
+  },
+  {
+    "page": 16,
+    "title": "Add customer",
+    "key": "customer-add"
+  },
+  {
+    "page": 17,
+    "title": "Assign a table",
+    "key": "table-assign"
+  },
+  {
+    "page": 18,
+    "title": "Order details & service",
+    "key": "order-details"
+  },
+  {
+    "page": 19,
+    "title": "Order details & service \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 20,
+    "title": "Apply bill discount",
+    "key": "discount"
+  },
+  {
+    "page": 21,
+    "title": "Apply coupon",
+    "key": "coupon"
+  },
+  {
+    "page": 22,
+    "title": "Charges & tax breakdown",
+    "key": "charges"
+  },
+  {
+    "page": 23,
+    "title": "Order note",
+    "key": "note"
+  },
+  {
+    "page": 24,
+    "title": "Hold this bill",
+    "key": "hold"
+  },
+  {
+    "page": 25,
+    "title": "Send to kitchen",
+    "key": "kot"
+  },
+  {
+    "page": 26,
+    "title": "Split a bill by items",
+    "key": "split-bill"
+  },
+  {
+    "page": 27,
+    "title": "Move / merge table",
+    "key": "transfer"
+  },
+  {
+    "page": 28,
+    "title": "Cash payment",
+    "key": "payment-cash"
+  },
+  {
+    "page": 29,
+    "title": "UPI payment",
+    "key": "payment-upi"
+  },
+  {
+    "page": 30,
+    "title": "Card payment",
+    "key": "payment-card"
+  },
+  {
+    "page": 31,
+    "title": "Split tender",
+    "key": "payment-split"
+  },
+  {
+    "page": 32,
+    "title": "Credit / Udhar",
+    "key": "payment-credit"
+  },
+  {
+    "page": 33,
+    "title": "Payment complete",
+    "key": "payment-success"
+  },
+  {
+    "page": 34,
+    "title": "Payment status unknown",
+    "key": "payment-pending"
+  },
+  {
+    "page": 35,
+    "title": "Payment failed",
+    "key": "payment-failed"
+  },
+  {
+    "page": 36,
+    "title": "Receipt print failed",
+    "key": "print-failed"
+  },
+  {
+    "page": 37,
+    "title": "Void bill / cancel order",
+    "key": "void"
+  },
+  {
+    "page": 38,
+    "title": "Manager approval",
+    "key": "manager"
+  },
+  {
+    "page": 39,
+    "title": "Return / refund",
+    "key": "refund"
+  },
+  {
+    "page": 40,
+    "title": "Offline billing",
+    "key": "offline"
+  },
+  {
+    "page": 41,
+    "title": "Keyboard shortcuts",
+    "key": "shortcuts"
+  },
+  {
+    "page": 42,
+    "title": "Sales history",
+    "key": "sales"
+  },
+  {
+    "page": 43,
+    "title": "Sales history \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 44,
+    "title": "Receipt & payment detail",
+    "key": "sale-detail"
+  },
+  {
+    "page": 45,
+    "title": "Day close & cash count",
+    "key": "day-close"
+  },
+  {
+    "page": 46,
+    "title": "Day close & cash count \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 47,
+    "title": "Cash in / cash out",
+    "key": "cash-movement"
+  },
+  {
+    "page": 48,
+    "title": "Customers",
+    "key": "customers"
+  },
+  {
+    "page": 49,
+    "title": "Customer profile & ledger",
+    "key": "customer-detail"
+  },
+  {
+    "page": 50,
+    "title": "Credit outstanding",
+    "key": "credit"
+  },
+  {
+    "page": 51,
+    "title": "Receive credit payment",
+    "key": "credit-settle"
+  },
+  {
+    "page": 52,
+    "title": "Items & inventory",
+    "key": "inventory"
+  },
+  {
+    "page": 53,
+    "title": "Item / variant editor",
+    "key": "item-edit"
+  },
+  {
+    "page": 54,
+    "title": "Item / variant editor \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 55,
+    "title": "Reports & exports",
+    "key": "reports"
+  },
+  {
+    "page": 56,
+    "title": "Business overview",
+    "key": "dashboard"
+  },
+  {
+    "page": 57,
+    "title": "Business overview \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 58,
+    "title": "Expense ledger",
+    "key": "expenses"
+  },
+  {
+    "page": 59,
+    "title": "Add expense",
+    "key": "expense-add"
+  },
+  {
+    "page": 60,
+    "title": "Suppliers & payables",
+    "key": "suppliers"
+  },
+  {
+    "page": 61,
+    "title": "Pay supplier",
+    "key": "supplier-payment"
+  },
+  {
+    "page": 62,
+    "title": "Greetings & reminders",
+    "key": "greetings"
+  },
+  {
+    "page": 63,
+    "title": "Greetings & reminders \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 64,
+    "title": "Settings home",
+    "key": "settings"
+  },
+  {
+    "page": 65,
+    "title": "Printers & kitchen routing",
+    "key": "printers"
+  },
+  {
+    "page": 66,
+    "title": "Printers & kitchen routing \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 67,
+    "title": "Receipt / KOT layout",
+    "key": "receipt"
+  },
+  {
+    "page": 68,
+    "title": "Receipt / KOT layout \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 69,
+    "title": "Detailed A4 / A5 invoice",
+    "key": "detailed-bill"
+  },
+  {
+    "page": 70,
+    "title": "Detailed A4 / A5 invoice \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 71,
+    "title": "Staff & permissions",
+    "key": "staff"
+  },
+  {
+    "page": 72,
+    "title": "Staff & permissions \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 73,
+    "title": "Add staff member",
+    "key": "staff-add"
+  },
+  {
+    "page": 74,
+    "title": "Coupons & offers",
+    "key": "coupons"
+  },
+  {
+    "page": 75,
+    "title": "Create a coupon",
+    "key": "coupon-add"
+  },
+  {
+    "page": 76,
+    "title": "QR ordering",
+    "key": "qr"
+  },
+  {
+    "page": 77,
+    "title": "Order & invoice numbering",
+    "key": "order-id"
+  },
+  {
+    "page": 78,
+    "title": "Tax & rounding",
+    "key": "tax"
+  },
+  {
+    "page": 79,
+    "title": "Tax & rounding \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 80,
+    "title": "Billing screen preferences",
+    "key": "billing-preferences"
+  },
+  {
+    "page": 81,
+    "title": "Billing screen preferences \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 82,
+    "title": "Business profile & devices",
+    "key": "profile"
+  },
+  {
+    "page": 83,
+    "title": "Business profile & devices \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 84,
+    "title": "Staff lock screen",
+    "key": "lock"
+  },
+  {
+    "page": 85,
+    "title": "Takeaway billing",
+    "key": "billing-takeaway"
+  },
+  {
+    "page": 86,
+    "title": "Delivery billing",
+    "key": "billing-delivery"
+  },
+  {
+    "page": 87,
+    "title": "Delivery / pickup details",
+    "key": "delivery-details"
+  },
+  {
+    "page": 88,
+    "title": "Choose a printer",
+    "key": "printer-select"
+  },
+  {
+    "page": 89,
+    "title": "Kitchen ticket not sent",
+    "key": "kot-failed"
+  },
+  {
+    "page": 90,
+    "title": "Approve a larger discount",
+    "key": "discount-approval"
+  },
+  {
+    "page": 91,
+    "title": "Review day closure",
+    "key": "day-close-review"
+  },
+  {
+    "page": 92,
+    "title": "Discard a held draft",
+    "key": "discard-draft"
+  },
+  {
+    "page": 93,
+    "title": "Billing workspace \u00b7 1366x768",
+    "key": "responsive-billing-1366x768"
+  },
+  {
+    "page": 94,
+    "title": "Tables & floor plan \u00b7 1366x768",
+    "key": "responsive-tables-1366x768"
+  },
+  {
+    "page": 95,
+    "title": "Cash payment \u00b7 1366x768",
+    "key": "responsive-payment-cash-1366x768"
+  },
+  {
+    "page": 96,
+    "title": "Item modifiers \u00b7 1366x768",
+    "key": "responsive-item-customize-1366x768"
+  },
+  {
+    "page": 97,
+    "title": "Printers & kitchen routing \u00b7 1366x768",
+    "key": "responsive-printers-1366x768"
+  },
+  {
+    "page": 98,
+    "title": "Day close & cash count \u00b7 1366x768",
+    "key": "responsive-day-close-1366x768"
+  },
+  {
+    "page": 99,
+    "title": "Billing workspace \u00b7 1280x720",
+    "key": "responsive-billing-1280x720"
+  },
+  {
+    "page": 100,
+    "title": "Tables & floor plan \u00b7 1280x720",
+    "key": "responsive-tables-1280x720"
+  },
+  {
+    "page": 101,
+    "title": "Cash payment \u00b7 1280x720",
+    "key": "responsive-payment-cash-1280x720"
+  },
+  {
+    "page": 102,
+    "title": "Item modifiers \u00b7 1280x720",
+    "key": "responsive-item-customize-1280x720"
+  },
+  {
+    "page": 103,
+    "title": "Printers & kitchen routing \u00b7 1280x720",
+    "key": "responsive-printers-1280x720"
+  },
+  {
+    "page": 104,
+    "title": "Day close & cash count \u00b7 1280x720",
+    "key": "responsive-day-close-1280x720"
+  }
+]

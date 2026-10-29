@@ -1,0 +1,130 @@
+{
+  "commit": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "scope": "Key inspected files, not complete audit",
+  "files": [
+    {
+      "path": ".quality-gate-required",
+      "sha256": "668dd964d4648aa1e55c373f4646ecdf25ca3590b5958bcaca4afde25b56f0bd"
+    },
+    {
+      "path": "ci/performance-budgets.json",
+      "sha256": "a4962377dc6c81b088174b106b308a477b3542083c3881a5bab3a8f16e215a4a"
+    },
+    {
+      "path": "package.json",
+      "sha256": "2cc433429569a9300e55a637fdb19ee794f75d853396e8e848ce8b5fe31aedaf"
+    },
+    {
+      "path": "scripts/run-canonical-full-gate.mjs",
+      "sha256": "51d9408a125bf492ee0d7d799745df75a496f1ddf78a223ae18588f2a9519209"
+    },
+    {
+      "path": "src/main/billing/register-billing-totals-handler.ts",
+      "sha256": "eafe1e076170bf6a92a61048dcec68d66ec6ba7eca1f656787b677d44dc75092"
+    },
+    {
+      "path": "src/main/ipc-router.ts",
+      "sha256": "477697ad2e057749dde688c02db81837d6e659bffbfa2b68251b384b872bb498"
+    },
+    {
+      "path": "src/main/printing/print-queue.ts",
+      "sha256": "06ecd79da43d1f2c4cfbc3164756d2cddcb6f33b50fab9b7c18826aad7628d32"
+    },
+    {
+      "path": "src/main/printing/production-printing-runtime.ts",
+      "sha256": "4fead6e1d4b28ed53607ea170c564127e588775074172bd0c93be1aa173df992"
+    },
+    {
+      "path": "src/main/security.ts",
+      "sha256": "8c6e3252c0c23e54a71fa07faeaa48e0cfed2743659a343dc22c0c686a7bb03f"
+    },
+    {
+      "path": "src/preload/billing-totals-bridge.ts",
+      "sha256": "9dc43369dc4a3baaf9e79822f3405516c18722a3b0142947596f3b734dd07aa1"
+    },
+    {
+      "path": "src/preload/documents-bridge.ts",
+      "sha256": "2beeb4801d34fa6eb9507c3574f81991339cdc1295a9fd8ee04bfe94d051fb79"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "sha256": "54c61ef4a866a594e9b7fd599cdb17af57fd9970d727a608a589e196e4a1e970"
+    },
+    {
+      "path": "src/renderer/features/billing/billing-cart-route.ts",
+      "sha256": "e5031a71da5506192900417c1173eaf5b7825dbb67082770de391e5aeaafd781"
+    },
+    {
+      "path": "src/renderer/features/customers/customer-khata-route.ts",
+      "sha256": "938b76464621d2d6d52768b22eebd1726a8ecacae13f9b2eaaf472935c7565bd"
+    },
+    {
+      "path": "src/renderer/features/documents/documents-route.ts",
+      "sha256": "622c49cd429e74e40bccfb044bae610eeabda9e51cbd1c3ae595af56f84197cb"
+    },
+    {
+      "path": "src/renderer/features/financial/financial-route.ts",
+      "sha256": "bebe5a62dde1abdac4deb24a2b976ee31b26b317b23430183934e24126aaac1a"
+    },
+    {
+      "path": "src/renderer/features/food-service/food-service-route.ts",
+      "sha256": "791f1c1aa308cfcdc9aee80cc8f319a581c855e1d81d85caef22e5ff2f6b3bf0"
+    },
+    {
+      "path": "src/renderer/features/inventory/inventory-route.ts",
+      "sha256": "4a02e2418274c08be5f51c9405f3d3f3f0379612f02dc4f11224edf267def805"
+    },
+    {
+      "path": "src/renderer/features/marketing/marketing-route.ts",
+      "sha256": "0be5551b8f5bf523b41cc82730f4568bf2d2223ddf715e129bd039df4e0b4014"
+    },
+    {
+      "path": "src/renderer/features/operator-experience/operator-experience-route.ts",
+      "sha256": "8e27536917312197b711c3f285600bb95137b9935a4a8eb9ab4189d467018238"
+    },
+    {
+      "path": "src/renderer/features/print-center/print-center-route.ts",
+      "sha256": "3a85569a931cc19791c66077148ed285c0ec0adbad5d45c2ec474523af884ae8"
+    },
+    {
+      "path": "src/renderer/features/reporting/reporting-route.ts",
+      "sha256": "eb9ac4303b62dfdeee188f5240c9079ed4006dbe885d97937dab946e364683ee"
+    },
+    {
+      "path": "src/renderer/global.d.ts",
+      "sha256": "1ee792b14ac66fa5bcc3dd92f9c786d4ac6a684f422f369e8cba388e43c6856b"
+    },
+    {
+      "path": "src/renderer/index.html",
+      "sha256": "48c9e3c6f18e4ea9dd6e9f4794f90aa3c7507ea6e8320a0fc3ef559dbd72a39d"
+    },
+    {
+      "path": "src/renderer/main.ts",
+      "sha256": "6db6580c0eee1415446eed0347db818fefab8d61f7806e84c1f08d608d6a222a"
+    },
+    {
+      "path": "src/renderer/navigation-state.ts",
+      "sha256": "5a0a402e9f97ee6cdafcf8535e9effeb2180d9c62a325d9ecdc4a4132bfaabde"
+    },
+    {
+      "path": "src/renderer/navigation-view.ts",
+      "sha256": "7ba1dd6dd9a9f0718c113c11ccf0e1510e386ab255294e87effa914fa07a5af6"
+    },
+    {
+      "path": "src/renderer/styles.css",
+      "sha256": "0a1541c2fb582aa7270de18ac668854749a7a0f6b858e7e62a4a5bfc134fc637"
+    },
+    {
+      "path": "src/shared/documents-contract.ts",
+      "sha256": "e973da359851dde1b0b8ce7f9102c285de782b9a3385658fbed6037758f1465c"
+    },
+    {
+      "path": "src/shared/ipc-contract.ts",
+      "sha256": "a2ec2bbbceede6e3f56bab0278d041c545ee8c95cfed3971b40919de6e0d514b"
+    },
+    {
+      "path": "src/shared/printing/print-center-contract.ts",
+      "sha256": "67d9312245a88a2c77f57144f559679090e875cb876d752250b899cb16a11951"
+    }
+  ]
+}

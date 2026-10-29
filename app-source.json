@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/Shreyash-K/android-billing-desktop",
+  "visibility": "private",
+  "branch": "main",
+  "inspected_remote_commit": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "inspection_date": "2026-10-29",
+  "local_checkout_head_at_inspection": "6717d4c9703bf821b45e77094b410a184ff9c236",
+  "local_dirty_paths_observed": 49,
+  "local_changes_included": false,
+  "implementation_status": "NOT_STARTED",
+  "windows_hardware_qualification": "NOT_MEASURED"
+}

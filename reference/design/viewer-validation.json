@@ -1,0 +1,300 @@
+{
+  "seconds": 2.242,
+  "checked": 9,
+  "issues": [],
+  "guide": {
+    "heading": "Biteaze for Windows · UI implementation reference",
+    "screenLinks": 72,
+    "overflow": false
+  },
+  "results": [
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "screen": "billing",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 1032,
+        "width": 1920,
+        "height": 48,
+        "top": 1032,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 0
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 909,
+        "width": 435,
+        "height": 50,
+        "top": 909,
+        "right": 1892,
+        "bottom": 959,
+        "left": 1457
+      },
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "screen": "payment-cash",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 1032,
+        "width": 1920,
+        "height": 48,
+        "top": 1032,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 0
+      },
+      "checkout": {
+        "x": 1457,
+        "y": 909,
+        "width": 435,
+        "height": 50,
+        "top": 909,
+        "right": 1892,
+        "bottom": 959,
+        "left": 1457
+      },
+      "dialogFooter": {
+        "x": 441,
+        "y": 806.3125,
+        "width": 1038,
+        "height": 85,
+        "top": 806.3125,
+        "right": 1479,
+        "bottom": 891.3125,
+        "left": 441
+      },
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "screen": "printers",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 1032,
+        "width": 1920,
+        "height": 48,
+        "top": 1032,
+        "right": 1920,
+        "bottom": 1080,
+        "left": 0
+      },
+      "checkout": null,
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "screen": "billing",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 720,
+        "width": 1366,
+        "height": 48,
+        "top": 720,
+        "right": 1366,
+        "bottom": 768,
+        "left": 0
+      },
+      "checkout": {
+        "x": 983,
+        "y": 632,
+        "width": 363,
+        "height": 48,
+        "top": 632,
+        "right": 1346,
+        "bottom": 680,
+        "left": 983
+      },
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "screen": "payment-cash",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 720,
+        "width": 1366,
+        "height": 48,
+        "top": 720,
+        "right": 1366,
+        "bottom": 768,
+        "left": 0
+      },
+      "checkout": {
+        "x": 983,
+        "y": 632,
+        "width": 363,
+        "height": 48,
+        "top": 632,
+        "right": 1346,
+        "bottom": 680,
+        "left": 983
+      },
+      "dialogFooter": {
+        "x": 194,
+        "y": 596,
+        "width": 978,
+        "height": 75,
+        "top": 596,
+        "right": 1172,
+        "bottom": 671,
+        "left": 194
+      },
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "screen": "printers",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 720,
+        "width": 1366,
+        "height": 48,
+        "top": 720,
+        "right": 1366,
+        "bottom": 768,
+        "left": 0
+      },
+      "checkout": null,
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "screen": "billing",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 672,
+        "width": 1280,
+        "height": 48,
+        "top": 672,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      },
+      "checkout": {
+        "x": 917,
+        "y": 584,
+        "width": 347,
+        "height": 48,
+        "top": 584,
+        "right": 1264,
+        "bottom": 632,
+        "left": 917
+      },
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "screen": "payment-cash",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 672,
+        "width": 1280,
+        "height": 48,
+        "top": 672,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      },
+      "checkout": {
+        "x": 917,
+        "y": 584,
+        "width": 347,
+        "height": 48,
+        "top": 584,
+        "right": 1264,
+        "bottom": 632,
+        "left": 917
+      },
+      "dialogFooter": {
+        "x": 151,
+        "y": 548,
+        "width": 978,
+        "height": 75,
+        "top": 548,
+        "right": 1129,
+        "bottom": 623,
+        "left": 151
+      },
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "screen": "printers",
+      "errors": [],
+      "overflow": false,
+      "explorer": {
+        "x": 0,
+        "y": 672,
+        "width": 1280,
+        "height": 48,
+        "top": 672,
+        "right": 1280,
+        "bottom": 720,
+        "left": 0
+      },
+      "checkout": null,
+      "dialogFooter": null,
+      "screenCount": 72,
+      "guideHref": "guide.html"
+    }
+  ]
+}

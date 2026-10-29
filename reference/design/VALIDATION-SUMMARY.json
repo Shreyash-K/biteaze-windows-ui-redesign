@@ -1,0 +1,47 @@
+{
+  "scope": "Standalone UI design prototype. Browser measurements and selected demo interactions only.",
+  "layout": {
+    "states": 72,
+    "sizes": [
+      [
+        1920,
+        1080
+      ],
+      [
+        1366,
+        768
+      ],
+      [
+        1280,
+        720
+      ]
+    ],
+    "measurements": 216,
+    "horizontalOverflow": 0,
+    "footerOutsideViewport": 0,
+    "scriptErrors": 0
+  },
+  "interactions": {
+    "passed": 29,
+    "failed": 0
+  },
+  "explorer": {
+    "viewsChecked": 9,
+    "issues": 0,
+    "guideScreenLinks": 72
+  },
+  "pdf": {
+    "pages": 104,
+    "screenStates": 72,
+    "continuations": 14,
+    "responsiveExamples": 12,
+    "measuredIssues": 0
+  },
+  "notMeasured": [
+    "Native Windows runtime and DPI behavior",
+    "Production business/payment/permission integration",
+    "Device and printer behavior",
+    "Accessibility conformance"
+  ],
+  "source": "User-supplied 33-page tablet PDF plus primary sources cited in guide.html"
+}

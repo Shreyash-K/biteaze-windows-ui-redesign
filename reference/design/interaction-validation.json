@@ -1,0 +1,124 @@
+{
+  "created": "2026-10-29T12:28:28.139Z",
+  "seconds": 2.53,
+  "scope": "Offline visual prototype interactions; not production payment, permission or printer verification",
+  "count": 29,
+  "checks": [
+    {
+      "name": "Default bill total",
+      "state": "PASS"
+    },
+    {
+      "name": "Menu search narrows visible items",
+      "state": "PASS"
+    },
+    {
+      "name": "Menu search can recover",
+      "state": "PASS"
+    },
+    {
+      "name": "Add item updates bill",
+      "state": "PASS"
+    },
+    {
+      "name": "Item options calculate selected portion and extras",
+      "state": "PASS"
+    },
+    {
+      "name": "Configured item enters bill",
+      "state": "PASS"
+    },
+    {
+      "name": "Percentage discount preview",
+      "state": "PASS"
+    },
+    {
+      "name": "Within-limit discount applied",
+      "state": "PASS"
+    },
+    {
+      "name": "Larger discount preserves exact requested amount for approval",
+      "state": "PASS"
+    },
+    {
+      "name": "Approval demo rejects incomplete PIN",
+      "state": "PASS"
+    },
+    {
+      "name": "Approval demo applies reviewed value",
+      "state": "PASS"
+    },
+    {
+      "name": "Cash shortage disables completion",
+      "state": "PASS"
+    },
+    {
+      "name": "Cash change calculation",
+      "state": "PASS"
+    },
+    {
+      "name": "Cash success preserves received amount and change",
+      "state": "PASS"
+    },
+    {
+      "name": "Split cash shortage prevents completion",
+      "state": "PASS"
+    },
+    {
+      "name": "Split tender preserves method and cash change",
+      "state": "PASS"
+    },
+    {
+      "name": "Card record requires terminal reference",
+      "state": "PASS"
+    },
+    {
+      "name": "Card reference routes to card receipt state",
+      "state": "PASS"
+    },
+    {
+      "name": "Customer search and selection attaches selected person",
+      "state": "PASS"
+    },
+    {
+      "name": "Takeaway context replaces table",
+      "state": "PASS"
+    },
+    {
+      "name": "Delivery context replaces table",
+      "state": "PASS"
+    },
+    {
+      "name": "Payment preserves service context",
+      "state": "PASS"
+    },
+    {
+      "name": "Empty bill contains no hidden cart",
+      "state": "PASS"
+    },
+    {
+      "name": "Dialog background is inert",
+      "state": "PASS"
+    },
+    {
+      "name": "Escape returns to bill",
+      "state": "PASS"
+    },
+    {
+      "name": "Search shortcut focuses item input",
+      "state": "PASS"
+    },
+    {
+      "name": "Status checking does not fabricate payment success",
+      "state": "PASS"
+    },
+    {
+      "name": "Cash count reconciles",
+      "state": "PASS"
+    },
+    {
+      "name": "Unresolved orders block day closure",
+      "state": "PASS"
+    }
+  ]
+}
