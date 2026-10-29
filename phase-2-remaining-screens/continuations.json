@@ -1,0 +1,134 @@
+[
+  {
+    "screen": "phase2-overview",
+    "file": "073-phase2-overview-continued-1.png",
+    "offset": 503,
+    "index": 1
+  },
+  {
+    "screen": "supplier-directory-detail",
+    "file": "074-supplier-directory-detail-continued-1.png",
+    "offset": 70,
+    "index": 1
+  },
+  {
+    "screen": "purchase-create",
+    "file": "078-purchase-create-continued-1.png",
+    "offset": 74,
+    "index": 1
+  },
+  {
+    "screen": "expense-history-edit",
+    "file": "081-expense-history-edit-continued-1.png",
+    "offset": 64,
+    "index": 1
+  },
+  {
+    "screen": "gst-credit-note-completion",
+    "file": "097-gst-credit-note-completion-continued-1.png",
+    "offset": 205,
+    "index": 1
+  },
+  {
+    "screen": "product-create-advanced",
+    "file": "113-product-create-advanced-continued-1.png",
+    "offset": 486,
+    "index": 1
+  },
+  {
+    "screen": "bulk-import-preview",
+    "file": "119-bulk-import-preview-continued-1.png",
+    "offset": 137,
+    "index": 1
+  },
+  {
+    "screen": "bulk-import-terminal-states",
+    "file": "122-bulk-import-terminal-states-continued-1.png",
+    "offset": 63,
+    "index": 1
+  },
+  {
+    "screen": "customer-profile-khata-detail",
+    "file": "126-customer-profile-khata-detail-continued-1.png",
+    "offset": 26,
+    "index": 1
+  },
+  {
+    "screen": "khata-statement-share",
+    "file": "127-khata-statement-share-continued-1.png",
+    "offset": 201,
+    "index": 1
+  },
+  {
+    "screen": "outreach-consent-detail",
+    "file": "132-outreach-consent-detail-continued-1.png",
+    "offset": 16,
+    "index": 1
+  },
+  {
+    "screen": "manual-communication-preview",
+    "file": "133-manual-communication-preview-continued-1.png",
+    "offset": 101,
+    "index": 1
+  },
+  {
+    "screen": "setup-product-import",
+    "file": "145-setup-product-import-continued-1.png",
+    "offset": 149,
+    "index": 1
+  },
+  {
+    "screen": "labels-batch-setup",
+    "file": "161-labels-batch-setup-continued-1.png",
+    "offset": 345,
+    "index": 1
+  },
+  {
+    "screen": "support-health",
+    "file": "178-support-health-continued-1.png",
+    "offset": 173,
+    "index": 1
+  },
+  {
+    "screen": "food-order-compose",
+    "file": "190-food-order-compose-continued-1.png",
+    "offset": 111,
+    "index": 1
+  },
+  {
+    "screen": "food-modifier-requirements",
+    "file": "191-food-modifier-requirements-continued-1.png",
+    "offset": 391,
+    "index": 1
+  },
+  {
+    "screen": "food-output-config",
+    "file": "198-food-output-config-continued-1.png",
+    "offset": 18,
+    "index": 1
+  },
+  {
+    "screen": "billing-quotation-review",
+    "file": "211-billing-quotation-review-continued-1.png",
+    "offset": 28,
+    "index": 1
+  },
+  {
+    "screen": "billing-challan-review",
+    "file": "212-billing-challan-review-continued-1.png",
+    "offset": 28,
+    "index": 1
+  },
+  {
+    "screen": "retail-line-configuration",
+    "file": "219-retail-line-configuration-continued-1.png",
+    "offset": 37,
+    "index": 1
+  },
+  {
+    "screen": "windows-update-ready",
+    "file": "244-windows-update-ready-continued-1.png",
+    "offset": 47,
+    "index": 1
+  }
+]

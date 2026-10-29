@@ -5,7 +5,8 @@
   "description": "Reference-only design kit and implementation handoff; not the Windows application",
   "scripts": {
     "validate:reference": "node scripts/validate-reference.cjs",
-    "validate:interactions": "node scripts/validate-interactions.cjs"
+    "validate:interactions": "node scripts/validate-interactions.cjs",
+    "validate:phase2": "node scripts/validate-phase2.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

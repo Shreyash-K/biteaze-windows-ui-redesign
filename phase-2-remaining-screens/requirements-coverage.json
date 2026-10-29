@@ -1,0 +1,3567 @@
+{
+  "schema_version": 1,
+  "application": {
+    "repository": "https://github.com/Shreyash-K/android-billing-desktop",
+    "revision": "7932bbbedabdd0cef4295919a91674f35fa815cf"
+  },
+  "scope": "Phase 2 visual reference coverage; not native application qualification",
+  "inventory_requirement_count": 174,
+  "rendered_screen_count": 214,
+  "requirements": [
+    {
+      "requirement_id": "commerce:supplier-directory-detail",
+      "area": "commerce",
+      "inventory_number": 1,
+      "inventory_id": "supplier-directory-detail",
+      "rendered_ids": [
+        "supplier-directory-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name",
+          "phone",
+          "GSTIN",
+          "payable",
+          "purchases",
+          "payments"
+        ],
+        "actions": [
+          "search",
+          "add",
+          "save",
+          "record payment"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:supplier-new",
+      "area": "commerce",
+      "inventory_number": 2,
+      "inventory_id": "supplier-new",
+      "rendered_ids": [
+        "supplier-new"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name",
+          "phone",
+          "GSTIN"
+        ],
+        "actions": [
+          "save supplier"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:supplier-payment-record",
+      "area": "commerce",
+      "inventory_number": 3,
+      "inventory_id": "supplier-payment-record",
+      "rendered_ids": [
+        "supplier-payment-record"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "supplier",
+          "payable",
+          "amount",
+          "reason"
+        ],
+        "actions": [
+          "record payment"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:purchase-register",
+      "area": "commerce",
+      "inventory_number": 4,
+      "inventory_id": "purchase-register",
+      "rendered_ids": [
+        "purchase-register"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "start",
+          "exclusive end",
+          "bill number",
+          "supplier",
+          "total",
+          "paid"
+        ],
+        "actions": [
+          "filter period",
+          "open",
+          "new purchase"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:purchase-create",
+      "area": "commerce",
+      "inventory_number": 5,
+      "inventory_id": "purchase-create",
+      "rendered_ids": [
+        "purchase-create"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "supplier",
+          "total",
+          "paid",
+          "bill number",
+          "note",
+          "received stock"
+        ],
+        "actions": [
+          "add stock row",
+          "save purchase"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:purchase-received-stock-row",
+      "area": "commerce",
+      "inventory_number": 6,
+      "inventory_id": "purchase-received-stock-row",
+      "rendered_ids": [
+        "purchase-received-stock-row"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "product",
+          "variation",
+          "batch",
+          "quantity",
+          "expiry"
+        ],
+        "actions": [
+          "add row"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:purchase-correction",
+      "area": "commerce",
+      "inventory_number": 7,
+      "inventory_id": "purchase-correction",
+      "rendered_ids": [
+        "purchase-correction"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "immutable source",
+          "corrected values",
+          "reason",
+          "financial effect"
+        ],
+        "actions": [
+          "save linked correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:expense-history-edit",
+      "area": "commerce",
+      "inventory_number": 8,
+      "inventory_id": "expense-history-edit",
+      "rendered_ids": [
+        "expense-history-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "title",
+          "amount",
+          "category",
+          "locked occurrence",
+          "reason"
+        ],
+        "actions": [
+          "select",
+          "save correction",
+          "delete by correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:cash-paid-in-out-linked-expense",
+      "area": "commerce",
+      "inventory_number": 9,
+      "inventory_id": "cash-paid-in-out-linked-expense",
+      "rendered_ids": [
+        "cash-paid-in-out-linked-expense"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "direction",
+          "amount",
+          "reason",
+          "expense link",
+          "operator history"
+        ],
+        "actions": [
+          "record movement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:financial-period-summary",
+      "area": "commerce",
+      "inventory_number": 10,
+      "inventory_id": "financial-period-summary",
+      "rendered_ids": [
+        "financial-period-summary"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "period",
+          "purchases",
+          "expenses",
+          "cash in",
+          "cash out",
+          "payable"
+        ],
+        "actions": [
+          "refresh",
+          "open registers"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:document-search-register",
+      "area": "commerce",
+      "inventory_number": 11,
+      "inventory_id": "document-search-register",
+      "rendered_ids": [
+        "document-search-register"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "document tabs",
+          "search",
+          "status",
+          "total",
+          "cursor page"
+        ],
+        "actions": [
+          "load more",
+          "open",
+          "new quotation",
+          "new challan"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:document-detail-complete",
+      "area": "commerce",
+      "inventory_number": 12,
+      "inventory_id": "document-detail-complete",
+      "rendered_ids": [
+        "document-detail-complete"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "number",
+          "customer",
+          "lines",
+          "total",
+          "completeness",
+          "activity"
+        ],
+        "actions": [
+          "copy document",
+          "open A4 invoice"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:document-detail-incomplete-conflict",
+      "area": "commerce",
+      "inventory_number": 13,
+      "inventory_id": "document-detail-incomplete-conflict",
+      "rendered_ids": [
+        "document-detail-incomplete-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "issued values",
+          "conflicting values",
+          "incomplete evidence"
+        ],
+        "actions": [
+          "retry same request",
+          "prepare qualified copy"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:reprint-queue",
+      "area": "commerce",
+      "inventory_number": 14,
+      "inventory_id": "reprint-queue",
+      "rendered_ids": [
+        "reprint-queue"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "job",
+          "invoice",
+          "printer",
+          "status",
+          "attempt"
+        ],
+        "actions": [
+          "check",
+          "open retry options"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:sales-a4-invoice",
+      "area": "commerce",
+      "inventory_number": 15,
+      "inventory_id": "sales-a4-invoice",
+      "rendered_ids": [
+        "sales-a4-invoice"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/a4-invoice-view.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "invoice identity",
+          "bill-to",
+          "issued lines",
+          "tax",
+          "total"
+        ],
+        "actions": [
+          "queue print",
+          "back"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:sales-return-builder",
+      "area": "commerce",
+      "inventory_number": 16,
+      "inventory_id": "sales-return-builder",
+      "rendered_ids": [
+        "sales-return-builder"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "per-line quantities",
+          "reason",
+          "refund mode",
+          "document kind"
+        ],
+        "actions": [
+          "preview return"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:sales-return-preview-confirm",
+      "area": "commerce",
+      "inventory_number": 17,
+      "inventory_id": "sales-return-preview-confirm",
+      "rendered_ids": [
+        "sales-return-preview-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "source",
+          "preview identity",
+          "financial effect",
+          "tax effect"
+        ],
+        "actions": [
+          "back to edit",
+          "confirm correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:sales-void-preview-confirm",
+      "area": "commerce",
+      "inventory_number": 18,
+      "inventory_id": "sales-void-preview-confirm",
+      "rendered_ids": [
+        "sales-void-preview-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "reason",
+          "sale total",
+          "tender reversal",
+          "source status"
+        ],
+        "actions": [
+          "confirm correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:quotation-create-edit",
+      "area": "commerce",
+      "inventory_number": 19,
+      "inventory_id": "quotation-create-edit",
+      "rendered_ids": [
+        "quotation-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "phone",
+          "notes",
+          "valid until",
+          "up to 200 lines",
+          "prices"
+        ],
+        "actions": [
+          "add line",
+          "save quotation"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:quotation-detail-review",
+      "area": "commerce",
+      "inventory_number": 20,
+      "inventory_id": "quotation-detail-review",
+      "rendered_ids": [
+        "quotation-detail-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "validity",
+          "lines",
+          "customer",
+          "total",
+          "catalog validation"
+        ],
+        "actions": [
+          "edit",
+          "review in Billing"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:quotation-draft-conflict",
+      "area": "commerce",
+      "inventory_number": 21,
+      "inventory_id": "quotation-draft-conflict",
+      "rendered_ids": [
+        "quotation-draft-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "active draft identity",
+          "requested quotation identity"
+        ],
+        "actions": [
+          "return",
+          "open existing draft"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:challan-create-edit",
+      "area": "commerce",
+      "inventory_number": 22,
+      "inventory_id": "challan-create-edit",
+      "rendered_ids": [
+        "challan-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "site",
+          "vehicle",
+          "driver",
+          "notes",
+          "lines"
+        ],
+        "actions": [
+          "add line",
+          "save challan"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:challan-selection-invoice-handoff",
+      "area": "commerce",
+      "inventory_number": 23,
+      "inventory_id": "challan-selection-invoice-handoff",
+      "rendered_ids": [
+        "challan-selection-invoice-handoff"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "open challans",
+          "selection",
+          "expected identities",
+          "totals"
+        ],
+        "actions": [
+          "review selected in Billing"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-credit-note-completion",
+      "area": "commerce",
+      "inventory_number": 24,
+      "inventory_id": "gst-credit-note-completion",
+      "rendered_ids": [
+        "gst-credit-note-completion"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/document-legal-form.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "frozen money",
+          "recipient type",
+          "legal identity",
+          "place of supply",
+          "HSN/SAC",
+          "signature",
+          "reason"
+        ],
+        "actions": [
+          "complete legal details"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-credit-note-review-chain",
+      "area": "commerce",
+      "inventory_number": 25,
+      "inventory_id": "gst-credit-note-review-chain",
+      "rendered_ids": [
+        "gst-credit-note-review-chain"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/document-legal-form.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "immutable branches",
+          "relationship",
+          "reason",
+          "actor",
+          "digest",
+          "line-set digest",
+          "publication"
+        ],
+        "actions": [
+          "review only"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:report-catalog",
+      "area": "commerce",
+      "inventory_number": 26,
+      "inventory_id": "report-catalog",
+      "rendered_ids": [
+        "report-catalog"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "exact 23 report types",
+          "start",
+          "exclusive end",
+          "search"
+        ],
+        "actions": [
+          "select report"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:report-processing",
+      "area": "commerce",
+      "inventory_number": 27,
+      "inventory_id": "report-processing",
+      "rendered_ids": [
+        "report-processing"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "queued/running state",
+          "processed rows",
+          "total rows",
+          "identity"
+        ],
+        "actions": [
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:report-table-result",
+      "area": "commerce",
+      "inventory_number": 28,
+      "inventory_id": "report-table-result",
+      "rendered_ids": [
+        "report-table-result"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "business",
+          "range",
+          "summary",
+          "dynamic columns",
+          "totals",
+          "pagination"
+        ],
+        "actions": [
+          "next page",
+          "export"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:report-private-export",
+      "area": "commerce",
+      "inventory_number": 29,
+      "inventory_id": "report-private-export",
+      "rendered_ids": [
+        "report-private-export"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "report identity",
+          "CSV",
+          "PDF",
+          "local path outcome"
+        ],
+        "actions": [
+          "save CSV privately",
+          "save PDF privately"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:report-error-or-catalog-mismatch",
+      "area": "commerce",
+      "inventory_number": 30,
+      "inventory_id": "report-error-or-catalog-mismatch",
+      "rendered_ids": [
+        "report-error-or-catalog-mismatch"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "state",
+          "reason",
+          "progress",
+          "expected catalogue denominator"
+        ],
+        "actions": [
+          "retry",
+          "back"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:operational-dashboard-stock-exceptions",
+      "area": "commerce",
+      "inventory_number": 31,
+      "inventory_id": "operational-dashboard-stock-exceptions",
+      "rendered_ids": [
+        "operational-dashboard-stock-exceptions"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "revenue",
+          "bills",
+          "average",
+          "tenders",
+          "expenses",
+          "low stock",
+          "expiry"
+        ],
+        "actions": [
+          "open inventory"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-filing-period",
+      "area": "commerce",
+      "inventory_number": 32,
+      "inventory_id": "gst-filing-period",
+      "rendered_ids": [
+        "gst-filing-period"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "start",
+          "exclusive end",
+          "evidence counts"
+        ],
+        "actions": [
+          "build pack"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-filing-identity-blockers",
+      "area": "commerce",
+      "inventory_number": 33,
+      "inventory_id": "gst-filing-identity-blockers",
+      "rendered_ids": [
+        "gst-filing-identity-blockers"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "business",
+          "range",
+          "blockers",
+          "source evidence"
+        ],
+        "actions": [
+          "complete identity",
+          "review source"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-filing-pack-summary",
+      "area": "commerce",
+      "inventory_number": 34,
+      "inventory_id": "gst-filing-pack-summary",
+      "rendered_ids": [
+        "gst-filing-pack-summary"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "outward supply",
+          "output GST",
+          "returns",
+          "credit-note components",
+          "evidence quality"
+        ],
+        "actions": [
+          "review blockers"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:gst-relief-blockers",
+      "area": "commerce",
+      "inventory_number": 35,
+      "inventory_id": "gst-relief-blockers",
+      "rendered_ids": [
+        "gst-relief-blockers"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "credit note",
+          "value",
+          "blocker code",
+          "reason"
+        ],
+        "actions": [
+          "complete",
+          "review"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:day-close-denomination-entry",
+      "area": "commerce",
+      "inventory_number": 36,
+      "inventory_id": "day-close-denomination-entry",
+      "rendered_ids": [
+        "day-close-denomination-entry"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "note counts",
+          "coins",
+          "expected",
+          "counted",
+          "opening float",
+          "variance"
+        ],
+        "actions": [
+          "preview",
+          "save close"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:day-close-history-reclose",
+      "area": "commerce",
+      "inventory_number": 37,
+      "inventory_id": "day-close-history-reclose",
+      "rendered_ids": [
+        "day-close-history-reclose"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "14-close history",
+          "selected business date",
+          "expected",
+          "counted",
+          "variance"
+        ],
+        "actions": [
+          "select",
+          "save re-close"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:inventory-catalog-browse",
+      "area": "commerce",
+      "inventory_number": 38,
+      "inventory_id": "inventory-catalog-browse",
+      "rendered_ids": [
+        "inventory-catalog-browse"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "search",
+          "favorites",
+          "category",
+          "bounded range",
+          "stock",
+          "prices"
+        ],
+        "actions": [
+          "page",
+          "edit",
+          "create",
+          "import"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:inventory-loading-empty-unavailable",
+      "area": "commerce",
+      "inventory_number": 39,
+      "inventory_id": "inventory-loading-empty-unavailable",
+      "rendered_ids": [
+        "inventory-loading-empty-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "preparing",
+          "no matches",
+          "temporary unavailable"
+        ],
+        "actions": [
+          "clear",
+          "retry"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:product-create-advanced",
+      "area": "commerce",
+      "inventory_number": 40,
+      "inventory_id": "product-create-advanced",
+      "rendered_ids": [
+        "product-create-advanced"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "identity",
+          "category",
+          "codes",
+          "units",
+          "prices",
+          "stock",
+          "tax",
+          "addons",
+          "metadata"
+        ],
+        "actions": [
+          "save product"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:product-edit-delete-revision",
+      "area": "commerce",
+      "inventory_number": 41,
+      "inventory_id": "product-edit-delete-revision",
+      "rendered_ids": [
+        "product-edit-delete-revision"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "loaded product",
+          "prices",
+          "blank cost semantics",
+          "stock",
+          "tax"
+        ],
+        "actions": [
+          "save",
+          "delete"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:inventory-entity-create-edit",
+      "area": "commerce",
+      "inventory_number": 42,
+      "inventory_id": "inventory-entity-create-edit",
+      "rendered_ids": [
+        "inventory-entity-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "entity type",
+          "name",
+          "parent",
+          "price",
+          "cost",
+          "stock",
+          "metadata"
+        ],
+        "actions": [
+          "save",
+          "delete"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:stock-movement-entry",
+      "area": "commerce",
+      "inventory_number": 43,
+      "inventory_id": "stock-movement-entry",
+      "rendered_ids": [
+        "stock-movement-entry"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "type",
+          "product",
+          "variation",
+          "batch",
+          "quantity",
+          "reason",
+          "reference",
+          "expiry"
+        ],
+        "actions": [
+          "record movement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:stock-movement-history-undo",
+      "area": "commerce",
+      "inventory_number": 44,
+      "inventory_id": "stock-movement-history-undo",
+      "rendered_ids": [
+        "stock-movement-history-undo"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "paged history",
+          "operator",
+          "reason",
+          "source"
+        ],
+        "actions": [
+          "append compensating undo"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:inventory-conflicts-quarantine",
+      "area": "commerce",
+      "inventory_number": 45,
+      "inventory_id": "inventory-conflicts-quarantine",
+      "rendered_ids": [
+        "inventory-conflicts-quarantine"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "entities",
+          "movements",
+          "conflicts",
+          "quarantines",
+          "codes",
+          "reasons"
+        ],
+        "actions": [
+          "reload editable record"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:bulk-import-preview",
+      "area": "commerce",
+      "inventory_number": 46,
+      "inventory_id": "bulk-import-preview",
+      "rendered_ids": [
+        "bulk-import-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "mode",
+          "CSV",
+          "limits",
+          "rows",
+          "pages",
+          "digest"
+        ],
+        "actions": [
+          "preview",
+          "apply"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:bulk-import-progress-recovery",
+      "area": "commerce",
+      "inventory_number": 47,
+      "inventory_id": "bulk-import-progress-recovery",
+      "rendered_ids": [
+        "bulk-import-progress-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "committed pages",
+          "replayed pages",
+          "rows",
+          "attempt",
+          "unknown outcome"
+        ],
+        "actions": [
+          "recover same import",
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:bulk-import-reversal",
+      "area": "commerce",
+      "inventory_number": 48,
+      "inventory_id": "bulk-import-reversal",
+      "rendered_ids": [
+        "bulk-import-reversal"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "applied pages",
+          "correction pages",
+          "remaining"
+        ],
+        "actions": [
+          "continue source-linked reversal"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:bulk-import-terminal-states",
+      "area": "commerce",
+      "inventory_number": 49,
+      "inventory_id": "bulk-import-terminal-states",
+      "rendered_ids": [
+        "bulk-import-terminal-states"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "complete",
+          "partial",
+          "corrected",
+          "cancelled",
+          "invalid",
+          "stale",
+          "denied",
+          "unknown"
+        ],
+        "actions": [
+          "new preview",
+          "return"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:catalog-export-builder",
+      "area": "commerce",
+      "inventory_number": 50,
+      "inventory_id": "catalog-export-builder",
+      "rendered_ids": [
+        "catalog-export-builder"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "retail/wholesale",
+          "business",
+          "labels",
+          "captions",
+          "HTTPS/WhatsApp URL"
+        ],
+        "actions": [
+          "build catalogue"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:catalog-export-ready",
+      "area": "commerce",
+      "inventory_number": 51,
+      "inventory_id": "catalog-export-ready",
+      "rendered_ids": [
+        "catalog-export-ready"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "PDF",
+          "QR",
+          "share text",
+          "ready state"
+        ],
+        "actions": [
+          "download privately",
+          "preview QR",
+          "prepare share"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:customer-search-aging",
+      "area": "commerce",
+      "inventory_number": 52,
+      "inventory_id": "customer-search-aging",
+      "rendered_ids": [
+        "customer-search-aging"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name/phone search",
+          "five ageing buckets",
+          "balance"
+        ],
+        "actions": [
+          "filter",
+          "open profile"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:customer-profile-khata-detail",
+      "area": "commerce",
+      "inventory_number": 53,
+      "inventory_id": "customer-profile-khata-detail",
+      "rendered_ids": [
+        "customer-profile-khata-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "profile fields",
+          "per-field authority",
+          "ageing",
+          "self-consistent statement",
+          "running balance"
+        ],
+        "actions": [
+          "save fields",
+          "settle",
+          "prepare statement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:khata-statement-share",
+      "area": "commerce",
+      "inventory_number": 54,
+      "inventory_id": "khata-statement-share",
+      "rendered_ids": [
+        "khata-statement-share"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "phone",
+          "balance",
+          "message",
+          "outcome language"
+        ],
+        "actions": [
+          "open manual composer",
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:khata-settlement-receipt",
+      "area": "commerce",
+      "inventory_number": 55,
+      "inventory_id": "khata-settlement-receipt",
+      "rendered_ids": [
+        "khata-settlement-receipt"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "expected balance",
+          "amount",
+          "tender",
+          "receipt",
+          "QR",
+          "repeat/price checks"
+        ],
+        "actions": [
+          "record settlement",
+          "review order",
+          "check price"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:marketing-authority-workspace",
+      "area": "commerce",
+      "inventory_number": 56,
+      "inventory_id": "marketing-authority-workspace",
+      "rendered_ids": [
+        "marketing-authority-workspace",
+        "coupon-authority-detail",
+        "loyalty-authority-detail",
+        "outreach-consent-detail",
+        "marketing-recovery-diagnostics"
+      ],
+      "source_paths": [
+        "src/renderer/features/marketing/marketing-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "coupon authority",
+          "loyalty configuration/history",
+          "consent",
+          "suppression",
+          "audit export",
+          "checkout ledger recovery"
+        ],
+        "actions": [
+          "save",
+          "quote",
+          "delete",
+          "record consent",
+          "suppress",
+          "preview recovery"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "commerce:manual-communication-and-promo-preview",
+      "area": "commerce",
+      "inventory_number": 57,
+      "inventory_id": "manual-communication-and-promo-preview",
+      "rendered_ids": [
+        "manual-communication-and-promo-preview",
+        "manual-communication-preview",
+        "promotion-receipt-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/marketing/marketing-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "released message",
+          "customer",
+          "phone",
+          "PDF display name",
+          "prior attempt",
+          "receipt promotion",
+          "order QR"
+        ],
+        "actions": [
+          "open manual composer",
+          "save receipt preview"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:auth-sign-in",
+      "area": "operations",
+      "inventory_number": 1,
+      "inventory_id": "auth-sign-in",
+      "rendered_ids": [
+        "auth-sign-in"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "email, password, Google authorization, reset, create account",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:auth-create-account",
+      "area": "operations",
+      "inventory_number": 2,
+      "inventory_id": "auth-create-account",
+      "rendered_ids": [
+        "auth-create-account"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "business, category, email, phone, password, create",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:auth-password-reset",
+      "area": "operations",
+      "inventory_number": 3,
+      "inventory_id": "auth-password-reset",
+      "rendered_ids": [
+        "auth-password-reset"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "email, request, back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:auth-google-pending",
+      "area": "operations",
+      "inventory_number": 4,
+      "inventory_id": "auth-google-pending",
+      "rendered_ids": [
+        "auth-google-pending"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "provider progress, cancel, denied/timeout boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:eula-first-launch",
+      "area": "operations",
+      "inventory_number": 5,
+      "inventory_id": "eula-first-launch",
+      "rendered_ids": [
+        "eula-first-launch"
+      ],
+      "source_paths": [
+        "src/renderer/eula-acceptance.ts"
+      ],
+      "functionality": "versioned scroll area, accept, verification failure boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:boot-contract-error",
+      "area": "operations",
+      "inventory_number": 6,
+      "inventory_id": "boot-contract-error",
+      "rendered_ids": [
+        "boot-contract-error"
+      ],
+      "source_paths": [
+        "src/renderer/main.ts"
+      ],
+      "functionality": "contract/identity/workspace variants, unlock retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:account-deletion-progress",
+      "area": "operations",
+      "inventory_number": 7,
+      "inventory_id": "account-deletion-progress",
+      "rendered_ids": [
+        "account-deletion-progress"
+      ],
+      "source_paths": [
+        "src/renderer/account-deletion-progress.ts"
+      ],
+      "functionality": "accepted progress, billing paused, status refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:device-claim",
+      "area": "operations",
+      "inventory_number": 8,
+      "inventory_id": "device-claim",
+      "rendered_ids": [
+        "device-claim"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "device, outlet, seat readiness, continue",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:setup-product-import",
+      "area": "operations",
+      "inventory_number": 9,
+      "inventory_id": "setup-product-import",
+      "rendered_ids": [
+        "setup-product-import"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "file, mapping, stock choice, starter catalog, preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:setup-import-preview",
+      "area": "operations",
+      "inventory_number": 10,
+      "inventory_id": "setup-import-preview",
+      "rendered_ids": [
+        "setup-import-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "create/update/skip/needs-price, issues, commit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:setup-khata-import",
+      "area": "operations",
+      "inventory_number": 11,
+      "inventory_id": "setup-khata-import",
+      "rendered_ids": [
+        "setup-khata-import"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "customer balance CSV, duplicate decision, preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:restore-progress",
+      "area": "operations",
+      "inventory_number": 12,
+      "inventory_id": "restore-progress",
+      "rendered_ids": [
+        "restore-progress"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "page progress, trust, resume/cancel/refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:restore-readiness-blocked",
+      "area": "operations",
+      "inventory_number": 13,
+      "inventory_id": "restore-readiness-blocked",
+      "rendered_ids": [
+        "restore-readiness-blocked"
+      ],
+      "source_paths": [
+        "src/renderer/account-readiness-presentation.ts"
+      ],
+      "functionality": "required/optional checks, soft override, recheck",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:wizard-category-account",
+      "area": "operations",
+      "inventory_number": 14,
+      "inventory_id": "wizard-category-account",
+      "rendered_ids": [
+        "wizard-category-account"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "stepper, category, starter catalog, account status",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:wizard-hardware",
+      "area": "operations",
+      "inventory_number": 15,
+      "inventory_id": "wizard-hardware",
+      "rendered_ids": [
+        "wizard-hardware"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "printer/scanner/display evidence levels and links",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:wizard-business-settings",
+      "area": "operations",
+      "inventory_number": 16,
+      "inventory_id": "wizard-business-settings",
+      "rendered_ids": [
+        "wizard-business-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "GST, UPI, language, preview/confirm",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:wizard-review-complete",
+      "area": "operations",
+      "inventory_number": 17,
+      "inventory_id": "wizard-review-complete",
+      "rendered_ids": [
+        "wizard-review-complete"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "readiness summary, previous/recheck/finish",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-setup-discovery",
+      "area": "operations",
+      "inventory_number": 18,
+      "inventory_id": "print-setup-discovery",
+      "rendered_ids": [
+        "print-setup-discovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "discover, candidate, paper, confirm, save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-printer-editor",
+      "area": "operations",
+      "inventory_number": 19,
+      "inventory_id": "print-printer-editor",
+      "rendered_ids": [
+        "print-printer-editor"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "ID/name, transport, endpoint, routes, paper, cutter, drawer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-fleet-tests",
+      "area": "operations",
+      "inventory_number": 20,
+      "inventory_id": "print-fleet-tests",
+      "rendered_ids": [
+        "print-fleet-tests"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "fleet status, route/cutter tests, edit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-hardware-qualification",
+      "area": "operations",
+      "inventory_number": 21,
+      "inventory_id": "print-hardware-qualification",
+      "rendered_ids": [
+        "print-hardware-qualification"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "build/machine/time, target evidence, NOT PASS semantics",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:receipt-operational-preview",
+      "area": "operations",
+      "inventory_number": 22,
+      "inventory_id": "receipt-operational-preview",
+      "rendered_ids": [
+        "receipt-operational-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "business copy, route, QR toggles, exact preview, reprint reason",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-job-history",
+      "area": "operations",
+      "inventory_number": 23,
+      "inventory_id": "print-job-history",
+      "rendered_ids": [
+        "print-job-history"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "role/status/attempts/failure, retry/reprint/reconcile",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:print-outcome-reconcile",
+      "area": "operations",
+      "inventory_number": 24,
+      "inventory_id": "print-outcome-reconcile",
+      "rendered_ids": [
+        "print-outcome-reconcile"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "unknown attempt, confirm printed/not printed",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:labels-batch-setup",
+      "area": "operations",
+      "inventory_number": 25,
+      "inventory_id": "labels-batch-setup",
+      "rendered_ids": [
+        "labels-batch-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "route, size, offsets, fields, product rows, copies",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:labels-exact-preview",
+      "area": "operations",
+      "inventory_number": 26,
+      "inventory_id": "labels-exact-preview",
+      "rendered_ids": [
+        "labels-exact-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "exact layout, warnings, immutable preview submit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:labels-submit-failure",
+      "area": "operations",
+      "inventory_number": 27,
+      "inventory_id": "labels-submit-failure",
+      "rendered_ids": [
+        "labels-submit-failure"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "conflict reason, no-job truth, correction path",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:operator-settings",
+      "area": "operations",
+      "inventory_number": 28,
+      "inventory_id": "operator-settings",
+      "rendered_ids": [
+        "operator-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "language, issued settings, scanner/device/update links",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:scanner-configuration",
+      "area": "operations",
+      "inventory_number": 29,
+      "inventory_id": "scanner-configuration",
+      "rendered_ids": [
+        "scanner-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "prefix/timing, keys, inter-key and quiet gap, apply",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:scanner-test",
+      "area": "operations",
+      "inventory_number": 30,
+      "inventory_id": "scanner-test",
+      "rendered_ids": [
+        "scanner-test"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "arm one scan, catalog result and rejection variants",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:windows-device-settings",
+      "area": "operations",
+      "inventory_number": 31,
+      "inventory_id": "windows-device-settings",
+      "rendered_ids": [
+        "windows-device-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/windows-operations-surface.ts"
+      ],
+      "functionality": "startup, kiosk preference, activity, exit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:exit-biteaze-confirmation",
+      "area": "operations",
+      "inventory_number": 32,
+      "inventory_id": "exit-biteaze-confirmation",
+      "rendered_ids": [
+        "exit-biteaze-confirmation"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/windows-operations-surface.ts"
+      ],
+      "functionality": "active-work warning, cancel/exit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:backup-recovery",
+      "area": "operations",
+      "inventory_number": 33,
+      "inventory_id": "backup-recovery",
+      "rendered_ids": [
+        "backup-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "recovery password, create/rehearse/restore/cancel/status",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:restore-backup-confirm",
+      "area": "operations",
+      "inventory_number": 34,
+      "inventory_id": "restore-backup-confirm",
+      "rendered_ids": [
+        "restore-backup-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/recovery/recovery-command-client.ts"
+      ],
+      "functionality": "destructive boundary, package identity, confirm/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:profile-security",
+      "area": "operations",
+      "inventory_number": 35,
+      "inventory_id": "profile-security",
+      "rendered_ids": [
+        "profile-security"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "business/email, password change, sign out, delete entry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:delete-account-confirm",
+      "area": "operations",
+      "inventory_number": 36,
+      "inventory_id": "delete-account-confirm",
+      "rendered_ids": [
+        "delete-account-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "DELETE phrase, current password, custody boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:staff-authorization",
+      "area": "operations",
+      "inventory_number": 37,
+      "inventory_id": "staff-authorization",
+      "rendered_ids": [
+        "staff-authorization"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "challenge method, protected credential, submit/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:staff-member-security",
+      "area": "operations",
+      "inventory_number": 38,
+      "inventory_id": "staff-member-security",
+      "rendered_ids": [
+        "staff-member-security"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "roster, role, PIN, deactivate, refresh, lock",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:staff-pin-recovery",
+      "area": "operations",
+      "inventory_number": 39,
+      "inventory_id": "staff-pin-recovery",
+      "rendered_ids": [
+        "staff-pin-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "member identity, PIN/confirm, resume",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:voice-command",
+      "area": "operations",
+      "inventory_number": 40,
+      "inventory_id": "voice-command",
+      "rendered_ids": [
+        "voice-command"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "mode, text, Windows voice typing, preview, privacy",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:voice-action-confirm",
+      "area": "operations",
+      "inventory_number": 41,
+      "inventory_id": "voice-action-confirm",
+      "rendered_ids": [
+        "voice-action-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "proposal, tender option, speech, confirm/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:sync-conflict-review",
+      "area": "operations",
+      "inventory_number": 42,
+      "inventory_id": "sync-conflict-review",
+      "rendered_ids": [
+        "sync-conflict-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "reason, local/synced values, resolvable choices",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:sync-quarantine",
+      "area": "operations",
+      "inventory_number": 43,
+      "inventory_id": "sync-quarantine",
+      "rendered_ids": [
+        "sync-quarantine"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "record, code, path, read-only detail",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:support-health",
+      "area": "operations",
+      "inventory_number": 44,
+      "inventory_id": "support-health",
+      "rendered_ids": [
+        "support-health"
+      ],
+      "source_paths": [
+        "src/renderer/features/support/support-route.ts"
+      ],
+      "functionality": "version, alerts, feature switches, refresh/preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:support-diagnostics-preview",
+      "area": "operations",
+      "inventory_number": 45,
+      "inventory_id": "support-diagnostics-preview",
+      "rendered_ids": [
+        "support-diagnostics-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/support/support-route.ts"
+      ],
+      "functionality": "bounded redacted preview, private local save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:legal-operations",
+      "area": "operations",
+      "inventory_number": 46,
+      "inventory_id": "legal-operations",
+      "rendered_ids": [
+        "legal-operations"
+      ],
+      "source_paths": [
+        "src/renderer/features/legal-ops/legal-ops-route.ts"
+      ],
+      "functionality": "release, retention, inventory, crash/MPL/EULA/DPDP boundaries",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:windows-update-banner",
+      "area": "operations",
+      "inventory_number": 47,
+      "inventory_id": "windows-update-banner",
+      "rendered_ids": [
+        "windows-update-available",
+        "windows-update-deferred",
+        "windows-update-ready",
+        "windows-update-failed"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "flexible/mandatory, download/later, safe defer, restart/retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:category-dashboard",
+      "area": "operations",
+      "inventory_number": 48,
+      "inventory_id": "category-dashboard",
+      "rendered_ids": [
+        "category-dashboard"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "category selector, issued metrics, gated service routes",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:category-setup-reports",
+      "area": "operations",
+      "inventory_number": 49,
+      "inventory_id": "category-setup-reports",
+      "rendered_ids": [
+        "category-setup-reports"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "starter count, catalog label, issued reports",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:appointments-schedule",
+      "area": "operations",
+      "inventory_number": 50,
+      "inventory_id": "appointments-schedule",
+      "rendered_ids": [
+        "appointments-schedule"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "range/status/query filters, booking fields and list",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:appointment-detail",
+      "area": "operations",
+      "inventory_number": 51,
+      "inventory_id": "appointment-detail",
+      "rendered_ids": [
+        "appointment-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "status, new start/duration, cancel reason",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:jobs-intake",
+      "area": "operations",
+      "inventory_number": 52,
+      "inventory_id": "jobs-intake",
+      "rendered_ids": [
+        "jobs-intake"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "customer, item/fault/work/time/money/device/warranty/notes",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:job-lifecycle",
+      "area": "operations",
+      "inventory_number": 53,
+      "inventory_id": "job-lifecycle",
+      "rendered_ids": [
+        "job-lifecycle"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "exact status path, cancel and cancelled-only delete",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:job-quotation-billing",
+      "area": "operations",
+      "inventory_number": 54,
+      "inventory_id": "job-quotation-billing",
+      "rendered_ids": [
+        "job-quotation-billing"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "quotation create/link and Billing review handoff",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "operations:repair-ready-message",
+      "area": "operations",
+      "inventory_number": 55,
+      "inventory_id": "repair-ready-message",
+      "rendered_ids": [
+        "repair-ready-message"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "shop, language, exact preview, manual composer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-service-workspace",
+      "area": "service",
+      "inventory_number": 1,
+      "inventory_id": "food-service-workspace",
+      "rendered_ids": [
+        "food-service-workspace"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "menu count, open and held orders, order type, table, item, route, refresh, compose, open",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-order-compose",
+      "area": "service",
+      "inventory_number": 2,
+      "inventory_id": "food-order-compose",
+      "rendered_ids": [
+        "food-order-compose"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "DINE_IN or TAKEAWAY, table, packaging, item, route, variation, quantity, note, draft lines, open",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-modifier-requirements",
+      "area": "service",
+      "inventory_number": 3,
+      "inventory_id": "food-modifier-requirements",
+      "rendered_ids": [
+        "food-modifier-requirements"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "required and optional groups, min/max, add-ons, price estimate, add line",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-running-order",
+      "area": "service",
+      "inventory_number": 4,
+      "inventory_id": "food-running-order",
+      "rendered_ids": [
+        "food-running-order"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "order status, type, table, total, lines, hold, commit, KOT, transfer, merge, split",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-order-held",
+      "area": "service",
+      "inventory_number": 5,
+      "inventory_id": "food-order-held",
+      "rendered_ids": [
+        "food-order-held"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "held state, retained totals and kitchen history, resume",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-table-transfer",
+      "area": "service",
+      "inventory_number": 6,
+      "inventory_id": "food-table-transfer",
+      "rendered_ids": [
+        "food-table-transfer"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "current order and table, available destination, preview, transfer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-order-merge",
+      "area": "service",
+      "inventory_number": 7,
+      "inventory_id": "food-order-merge",
+      "rendered_ids": [
+        "food-order-merge"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "source and target orders, totals, retained history, merge",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-order-split-lines",
+      "area": "service",
+      "inventory_number": 8,
+      "inventory_id": "food-order-split-lines",
+      "rendered_ids": [
+        "food-order-split-lines"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "source line, bounded quantity, target table, remains and moves preview, split",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:routed-kot-preview",
+      "area": "service",
+      "inventory_number": 9,
+      "inventory_id": "routed-kot-preview",
+      "rendered_ids": [
+        "routed-kot-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "multi-route 58/80 mm tickets, table, count, variation, add-ons, price omission, queue",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-output-config",
+      "area": "service",
+      "inventory_number": 10,
+      "inventory_id": "food-output-config",
+      "rendered_ids": [
+        "food-output-config"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "KOT title, paper width, table/count/variation/add-on toggles, receipt price, save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:food-service-stale",
+      "area": "service",
+      "inventory_number": 11,
+      "inventory_id": "food-service-stale",
+      "rendered_ids": [
+        "food-service-stale"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "last-known orders, stale/unavailable labels, retained work, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:qr-backend-readiness",
+      "area": "service",
+      "inventory_number": 12,
+      "inventory_id": "qr-backend-readiness",
+      "rendered_ids": [
+        "qr-backend-readiness"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "LIVE/NOT LIVE backend, menu, mirror, intake, refresh, gated publish/QR/intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:menu-publish-confirm",
+      "area": "service",
+      "inventory_number": 13,
+      "inventory_id": "menu-publish-confirm",
+      "rendered_ids": [
+        "menu-publish-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "menu counts, source and last-live revisions, category summary, publish",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:menu-publish-live",
+      "area": "service",
+      "inventory_number": 14,
+      "inventory_id": "menu-publish-live",
+      "rendered_ids": [
+        "menu-publish-live"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed revision, digest, customer-live confirmation, table QR and intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:menu-publish-mirror-pending",
+      "area": "service",
+      "inventory_number": 15,
+      "inventory_id": "menu-publish-mirror-pending",
+      "rendered_ids": [
+        "menu-publish-mirror-pending"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed source versus pending mirror, previous live, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:menu-publish-mirror-failed",
+      "area": "service",
+      "inventory_number": 16,
+      "inventory_id": "menu-publish-mirror-failed",
+      "rendered_ids": [
+        "menu-publish-mirror-failed"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed source, failed-retrying mirror, customer-live false, same-operation retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:table-qr-create",
+      "area": "service",
+      "inventory_number": 17,
+      "inventory_id": "table-qr-create",
+      "rendered_ids": [
+        "table-qr-create"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "table 1-200, backend/menu status, create",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:table-qr-ready",
+      "area": "service",
+      "inventory_number": 18,
+      "inventory_id": "table-qr-ready",
+      "rendered_ids": [
+        "table-qr-ready"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "non-payable table QR reference, purpose and revision, print/save, create another",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:qr-order-intake",
+      "area": "service",
+      "inventory_number": 19,
+      "inventory_id": "qr-order-intake",
+      "rendered_ids": [
+        "qr-order-intake"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "successful queue, table/takeaway, customer, time, lines, total, accepted-here and correction states, receive",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:qr-order-accepted",
+      "area": "service",
+      "inventory_number": 20,
+      "inventory_id": "qr-order-accepted",
+      "rendered_ids": [
+        "qr-order-accepted"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "pending and resulting IDs, repriced/dropped items, finalized flag, order/KOT next actions",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:qr-intake-unavailable",
+      "area": "service",
+      "inventory_number": 21,
+      "inventory_id": "qr-intake-unavailable",
+      "rendered_ids": [
+        "qr-intake-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "retained last queue, unavailable truth, retry same intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-attribution",
+      "area": "service",
+      "inventory_number": 22,
+      "inventory_id": "billing-attribution",
+      "rendered_ids": [
+        "billing-attribution"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "customer search/select, serving staff, signed-in operator, apply and clear",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-quotation-review",
+      "area": "service",
+      "inventory_number": 23,
+      "inventory_id": "billing-quotation-review",
+      "rendered_ids": [
+        "billing-quotation-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "source quotation, locked customer, current-catalog check, restored lines, checkout or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-challan-review",
+      "area": "service",
+      "inventory_number": 24,
+      "inventory_id": "billing-challan-review",
+      "rendered_ids": [
+        "billing-challan-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "source challan lineage, locked customer, current-catalog check, checkout or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-document-correction",
+      "area": "service",
+      "inventory_number": 25,
+      "inventory_id": "billing-document-correction",
+      "rendered_ids": [
+        "billing-document-correction"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unavailable product, ambiguous customer, changed price, preserved lines, return/retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-document-discard-unknown",
+      "area": "service",
+      "inventory_number": 26,
+      "inventory_id": "billing-document-discard-unknown",
+      "rendered_ids": [
+        "billing-document-discard-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "preserved review, unknown discard, payment hidden, same-operation retry and reopen",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-checkout-recovery",
+      "area": "service",
+      "inventory_number": 27,
+      "inventory_id": "billing-checkout-recovery",
+      "rendered_ids": [
+        "billing-checkout-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "restored draft/cart/customer/staff/promotions, current-authority warning, continue or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:ongoing-order-recovery",
+      "area": "service",
+      "inventory_number": 28,
+      "inventory_id": "ongoing-order-recovery",
+      "rendered_ids": [
+        "ongoing-order-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "hold limit, active cart and checkout guards, customer, staff, amount, resume/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:ongoing-order-limit",
+      "area": "service",
+      "inventory_number": 29,
+      "inventory_id": "ongoing-order-limit",
+      "rendered_ids": [
+        "ongoing-order-limit"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "current/max holds, retained cart, attempted hold not created, existing holds review",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:ongoing-order-conflict",
+      "area": "service",
+      "inventory_number": 30,
+      "inventory_id": "ongoing-order-conflict",
+      "rendered_ids": [
+        "ongoing-order-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "stale/conflict result, retained cancellation reason, refresh and safe retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:retail-line-configuration",
+      "area": "service",
+      "inventory_number": 31,
+      "inventory_id": "retail-line-configuration",
+      "rendered_ids": [
+        "retail-line-configuration"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retail/wholesale, unit, variation, add-on, decimal quantity, custom price, packaging, note",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:retail-line-invalid",
+      "area": "service",
+      "inventory_number": 32,
+      "inventory_id": "retail-line-invalid",
+      "rendered_ids": [
+        "retail-line-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unavailable variation, retained values, numeric validation, reselect or cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-promotions-authority",
+      "area": "service",
+      "inventory_number": 33,
+      "inventory_id": "billing-promotions-authority",
+      "rendered_ids": [
+        "billing-promotions-authority"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "line/cart discounts, uppercase coupon, loyalty, order note, customer dependency, revalidate",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:billing-tcs-review",
+      "area": "service",
+      "inventory_number": 34,
+      "inventory_id": "billing-tcs-review",
+      "rendered_ids": [
+        "billing-tcs-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "policy availability, TCS rate, apply/remove, canonical totals",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:checkout-draft-locked",
+      "area": "service",
+      "inventory_number": 35,
+      "inventory_id": "checkout-draft-locked",
+      "rendered_ids": [
+        "checkout-draft-locked"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "draft identity, canonical payable, locked edits, payment review and discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:checkout-save-unknown",
+      "area": "service",
+      "inventory_number": 36,
+      "inventory_id": "checkout-save-unknown",
+      "rendered_ids": [
+        "checkout-save-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retained cart, uncertain save, original operation, exact retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:checkout-draft-conflict",
+      "area": "service",
+      "inventory_number": 37,
+      "inventory_id": "checkout-draft-conflict",
+      "rendered_ids": [
+        "checkout-draft-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "conflict/denied/refused distinctions, retained cart, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:checkout-discard-unknown",
+      "area": "service",
+      "inventory_number": 38,
+      "inventory_id": "checkout-discard-unknown",
+      "rendered_ids": [
+        "checkout-discard-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "locked checkout, payment hidden, same discard request retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:payment-authority-preview",
+      "area": "service",
+      "inventory_number": 39,
+      "inventory_id": "payment-authority-preview",
+      "rendered_ids": [
+        "payment-authority-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "canonical payable, tender, change, checkout, attribution, promotions, save or save-plus-print",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:payment-preview-unavailable",
+      "area": "service",
+      "inventory_number": 40,
+      "inventory_id": "payment-preview-unavailable",
+      "rendered_ids": [
+        "payment-preview-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retained draft and tender, no completion/print claim, retry or return",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:credit-warning",
+      "area": "service",
+      "inventory_number": 41,
+      "inventory_id": "credit-warning",
+      "rendered_ids": [
+        "credit-warning"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "current balance, sale, exposure, limit, explicit acknowledgement",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:credit-reservation-required",
+      "area": "service",
+      "inventory_number": 42,
+      "inventory_id": "credit-reservation-required",
+      "rendered_ids": [
+        "credit-reservation-required"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "available limit, reservation, remaining authority, customer, confirm",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:credit-override-required",
+      "area": "service",
+      "inventory_number": 43,
+      "inventory_id": "credit-override-required",
+      "rendered_ids": [
+        "credit-override-required"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "blocked exposure, amount over limit, manager verification, back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:payment-completion-unknown",
+      "area": "service",
+      "inventory_number": 44,
+      "inventory_id": "payment-completion-unknown",
+      "rendered_ids": [
+        "payment-completion-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unknown result, locked checkout, no new sale, exact confirmation retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:payment-completion-conflict",
+      "area": "service",
+      "inventory_number": 45,
+      "inventory_id": "payment-completion-conflict",
+      "rendered_ids": [
+        "payment-completion-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "conflict/denied/refused paths, protected draft, refresh/manager/back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:payment-completion-stale",
+      "area": "service",
+      "inventory_number": 46,
+      "inventory_id": "payment-completion-stale",
+      "rendered_ids": [
+        "payment-completion-stale"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "old versus current totals, retained checkout, fresh preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:sale-saved-no-print",
+      "area": "service",
+      "inventory_number": 47,
+      "inventory_id": "sale-saved-no-print",
+      "rendered_ids": [
+        "sale-saved-no-print"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "committed invoice, tender and attribution, explicit no-print state, new bill/open sale",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:sale-print-queued",
+      "area": "service",
+      "inventory_number": 48,
+      "inventory_id": "sale-print-queued",
+      "rendered_ids": [
+        "sale-print-queued"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "committed invoice separate from queued receipt, no physical-print claim, queue link",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:command-palette",
+      "area": "service",
+      "inventory_number": 49,
+      "inventory_id": "command-palette",
+      "rendered_ids": [
+        "command-palette"
+      ],
+      "source_paths": [
+        "src/renderer/features/keyboard/command-palette.ts"
+      ],
+      "functionality": "search, selected commands, shortcuts, unavailable reason, keyboard navigation",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:scanner-setup",
+      "area": "service",
+      "inventory_number": 50,
+      "inventory_id": "scanner-setup",
+      "rendered_ids": [
+        "scanner-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "prefix/timing mode, prefix/suffix, inter-key and quiet timings, risk, apply",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:scanner-test",
+      "area": "service",
+      "inventory_number": 51,
+      "inventory_id": "scanner-test",
+      "rendered_ids": [
+        "scanner-test"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "arm one scan, captured code, catalog result, rejection variants, NOT MEASURED hardware",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:scanner-runtime-status",
+      "area": "service",
+      "inventory_number": 52,
+      "inventory_id": "scanner-runtime-status",
+      "rendered_ids": [
+        "scanner-runtime-status"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "disconnected/ready/collecting shell status, keyboard remains available, setup",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:plu-shortcode-result",
+      "area": "service",
+      "inventory_number": 53,
+      "inventory_id": "plu-shortcode-result",
+      "rendered_ids": [
+        "plu-shortcode-result"
+      ],
+      "source_paths": [
+        "src/renderer/features/keyboard/application-commands.ts"
+      ],
+      "functionality": "*code Enter syntax, exact match, not-found/ambiguous/unavailable, add or cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:windows-update-available",
+      "area": "service",
+      "inventory_number": 54,
+      "inventory_id": "windows-update-available",
+      "rendered_ids": [
+        "windows-update-available"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "installed/target version, flexible versus mandatory policy, download/later",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:windows-update-deferred",
+      "area": "service",
+      "inventory_number": 55,
+      "inventory_id": "windows-update-deferred",
+      "rendered_ids": [
+        "windows-update-deferred"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "downloaded version, open checkout, sending jobs, safe-point interlock, return/refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:windows-update-ready",
+      "area": "service",
+      "inventory_number": 56,
+      "inventory_id": "windows-update-ready",
+      "rendered_ids": [
+        "windows-update-ready"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "verified package, idle billing/printing, restart or return",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "service:windows-update-failed",
+      "area": "service",
+      "inventory_number": 57,
+      "inventory_id": "windows-update-failed",
+      "rendered_ids": [
+        "windows-update-failed"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "current app remains open, versions, unaffected billing data, retry or close",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "readiness:account-readiness-gate",
+      "area": "readiness",
+      "inventory_number": 1,
+      "inventory_id": "account-readiness-gate",
+      "rendered_ids": [
+        "account-readiness-device-claim",
+        "account-readiness-handover",
+        "account-readiness-restore",
+        "account-readiness-gate",
+        "account-readiness-printer",
+        "account-readiness-ready",
+        "account-readiness-offline",
+        "account-readiness-unavailable",
+        "account-readiness-cancelled",
+        "account-readiness-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/account-readiness-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "readiness status",
+          "next action",
+          "reason"
+        ],
+        "actions": [
+          "continue to required admission step"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "readiness:current-device-claim-gate",
+      "area": "readiness",
+      "inventory_number": 2,
+      "inventory_id": "current-device-claim-gate",
+      "rendered_ids": [
+        "current-device-claim-success",
+        "current-device-claim-handover",
+        "current-device-claim-gate",
+        "current-device-claim-offline",
+        "current-device-claim-unavailable",
+        "current-device-claim-cancelled",
+        "current-device-claim-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/current-device-claim-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "claim status",
+          "device-seat outcome",
+          "reason"
+        ],
+        "actions": [
+          "continue or retry only when issued state permits"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "readiness:handover-admission-gate",
+      "area": "readiness",
+      "inventory_number": 3,
+      "inventory_id": "handover-admission-gate",
+      "rendered_ids": [
+        "handover-admission-ready",
+        "handover-admission-gate",
+        "handover-admission-unavailable",
+        "handover-admission-cancelled",
+        "handover-admission-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/handover-admission-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "handover admission status",
+          "reason"
+        ],
+        "actions": [
+          "continue only after admission result"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "readiness:invoice-counter-verification-gate",
+      "area": "readiness",
+      "inventory_number": 4,
+      "inventory_id": "invoice-counter-verification-gate",
+      "rendered_ids": [
+        "invoice-counter-already-verified",
+        "invoice-counter-restore-required",
+        "invoice-counter-offline",
+        "invoice-counter-unavailable",
+        "invoice-counter-cancelled",
+        "invoice-counter-unavailable-invalid",
+        "invoice-counter-verified",
+        "invoice-counter-changed",
+        "invoice-counter-verification-gate",
+        "invoice-counter-forward-only",
+        "invoice-counter-outcome-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/invoice-counter-verification-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "counter verification status",
+          "forward-only next invoice",
+          "latched unknown outcome"
+        ],
+        "actions": [
+          "continue or resolve issued counter outcome"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "requirement_id": "readiness:restore-entry-admission-gate",
+      "area": "readiness",
+      "inventory_number": 5,
+      "inventory_id": "restore-entry-admission-gate",
+      "rendered_ids": [
+        "restore-entry-ready",
+        "restore-entry-transition-required",
+        "restore-entry-restore-required",
+        "restore-entry-offline",
+        "restore-entry-admission-gate",
+        "restore-entry-unavailable",
+        "restore-entry-cancelled",
+        "restore-entry-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/restore-entry-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "local restore-entry status",
+          "account-transition reason"
+        ],
+        "actions": [
+          "continue to required recovery step"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    }
+  ]
+}

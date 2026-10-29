@@ -1,0 +1,4485 @@
+{
+  "schema_version": 1,
+  "scope": "Phase 2 design reference only; not application or Windows qualification",
+  "capture_date": "2026-10-29",
+  "state": "PASS",
+  "screens": 214,
+  "layout_observations": 642,
+  "sizes": [
+    [
+      1920,
+      1080
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1280,
+      720
+    ]
+  ],
+  "seconds": 28.469,
+  "mechanism": "Three concurrent viewport pages in one Chromium process, all states at all sizes; then all declared dialog/navigation/identity checks and every enabled workspace/dialog action",
+  "interactions": [
+    {
+      "name": "Explorer selects a state",
+      "state": "PASS"
+    },
+    {
+      "name": "Purchase flow navigation",
+      "state": "PASS"
+    },
+    {
+      "name": "Browser back restores state",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-new direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-new traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-new closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-payment-record direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-payment-record traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-payment-record closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "purchase-received-stock-row direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "purchase-received-stock-row traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "purchase-received-stock-row closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-return-preview-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-return-preview-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-return-preview-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-void-preview-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-void-preview-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "sales-void-preview-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "quotation-draft-conflict direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "quotation-draft-conflict traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "quotation-draft-conflict closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "report-private-export direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "report-private-export traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "report-private-export closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "print-outcome-reconcile direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "print-outcome-reconcile traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "print-outcome-reconcile closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "labels-submit-failure direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "labels-submit-failure traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "labels-submit-failure closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "exit-biteaze-confirmation direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "exit-biteaze-confirmation traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "exit-biteaze-confirmation closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "restore-backup-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "restore-backup-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "restore-backup-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "delete-account-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "delete-account-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "delete-account-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-authorization direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-authorization traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-authorization closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-pin-recovery direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-pin-recovery traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "staff-pin-recovery closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "voice-action-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "voice-action-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "voice-action-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "support-diagnostics-preview direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "support-diagnostics-preview traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "support-diagnostics-preview closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "food-modifier-requirements direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "food-modifier-requirements traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "food-modifier-requirements closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "food-table-transfer direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "food-table-transfer traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "food-table-transfer closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-merge direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-merge traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-merge closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-split-lines direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-split-lines traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "food-order-split-lines closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "menu-publish-confirm direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "menu-publish-confirm traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "menu-publish-confirm closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "table-qr-create direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "table-qr-create traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "table-qr-create closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-warning direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-warning traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-warning closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-reservation-required direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-reservation-required traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-reservation-required closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-override-required direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-override-required traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "credit-override-required closes to parent",
+      "state": "PASS"
+    },
+    {
+      "name": "command-palette direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "command-palette traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "command-palette closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "plu-shortcode-result direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "plu-shortcode-result traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "plu-shortcode-result closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-available direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-available traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-available closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-ready direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-ready traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-ready closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-failed direct load focuses dialog",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-failed traps focus and isolates backdrop",
+      "state": "PASS"
+    },
+    {
+      "name": "windows-update-failed closes to Phase 1 parent",
+      "state": "PASS"
+    },
+    {
+      "name": "supplier-new restores opener for Escape and close",
+      "state": "PASS"
+    },
+    {
+      "name": "food-table-transfer restores opener for Escape and close",
+      "state": "PASS"
+    },
+    {
+      "name": "report-private-export restores opener for Escape and close",
+      "state": "PASS"
+    },
+    {
+      "name": "exit-biteaze-confirmation restores opener for Escape and close",
+      "state": "PASS"
+    },
+    {
+      "name": "Directory tiles open module",
+      "state": "PASS"
+    },
+    {
+      "name": "billing-quotation-review retains source authority during demo action",
+      "state": "PASS"
+    },
+    {
+      "name": "billing-challan-review retains source authority during demo action",
+      "state": "PASS"
+    },
+    {
+      "name": "billing-tcs-review retains source authority during demo action",
+      "state": "PASS"
+    },
+    {
+      "name": "payment-completion-conflict retains source authority during demo action",
+      "state": "PASS"
+    },
+    {
+      "name": "purchase-register selected PUR-1074 retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "inventory-catalog-browse selected BTR-500 retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "customer-search-aging selected Sample Customer A retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "ongoing-order-recovery selected H-1040 retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "print-fleet-tests selected Kitchen POS-58 retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "appointments-schedule selected Sample Customer D retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "purchase-create selected BT-106 retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "report-catalog selected GST tax retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "report-error-or-catalog-mismatch selected GST tax retains identity",
+      "state": "PASS"
+    },
+    {
+      "name": "Canonical report link opens its own result flow",
+      "state": "PASS"
+    }
+  ],
+  "action_outcomes": [
+    {
+      "screen": "phase2-overview",
+      "label": "PurchasingSuppliers, purchases, corrections and cash operations.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "DocumentsSales, quotations, delivery challans and legal records.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "ReportsOperational reports, GST packs and day-close history.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "InventoryCatalog details, stock, bulk operations and exports.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "CustomersCustomer history, credit statements and settlement.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "MarketingCoupons, loyalty, consent and manual communication.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "SetupAccount access, first-run setup and business readiness.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "RecoveryBackups, restore, account lifecycle and sync evidence.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "PrintingPrinter setup, job recovery and barcode label output.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "Device & staffOperator preferences, staff security and Windows controls.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "SupportHealth checks, diagnostic previews and legal information.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "ServicesCategory-specific workflows, appointments and job cards.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "Food serviceRunning orders, table operations and kitchen output.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "QR orderingMenu publication, table QR codes and incoming orders.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "Billing recoveryDocument review, retail configuration and saved work.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "CheckoutCurrent totals, credit decisions and completion recovery.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "phase2-overview",
+      "label": "DesktopCommand search, scanner setup and app updates.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "New supplier",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Record payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Add supplier",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "supplier-directory-detail",
+      "label": "Save changes",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "supplier-new",
+      "label": "Save supplier",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "supplier-payment-record",
+      "label": "Record payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-register",
+      "label": "New purchase",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-register",
+      "label": "Apply period",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "purchase-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "purchase-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "purchase-create",
+      "label": "Save purchase",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-create",
+      "label": "Add stock row",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-create",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-create",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "purchase-create",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "purchase-received-stock-row",
+      "label": "Add row",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "purchase-correction",
+      "label": "Save purchase correction",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "expense-history-edit",
+      "label": "Delete by correction",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "expense-history-edit",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "expense-history-edit",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "expense-history-edit",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "expense-history-edit",
+      "label": "Save correction",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "cash-paid-in-out-linked-expense",
+      "label": "Record movement",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "financial-period-summary",
+      "label": "Purchases",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "financial-period-summary",
+      "label": "Cash movement",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "financial-period-summary",
+      "label": "Refresh",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "New quotation",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "New challan",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Sales",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Quotations",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Delivery challans",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-search-register",
+      "label": "Load more",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "document-detail-complete",
+      "label": "Copy document",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "document-detail-complete",
+      "label": "Open A4 invoice",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "document-detail-incomplete-conflict",
+      "label": "Retry",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "document-detail-incomplete-conflict",
+      "label": "Prepare copy",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "reprint-queue",
+      "label": "Sales register",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "reprint-queue",
+      "label": "Check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "reprint-queue",
+      "label": "Retry options",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "reprint-queue",
+      "label": "Details",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "sales-a4-invoice",
+      "label": "Queue print",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sales-return-builder",
+      "label": "Preview return",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sales-return-preview-confirm",
+      "label": "Confirm correction",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sales-void-preview-confirm",
+      "label": "Confirm correction",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "quotation-create-edit",
+      "label": "Save quotation",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "quotation-create-edit",
+      "label": "Add line",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "quotation-create-edit",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "quotation-create-edit",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "quotation-detail-review",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "quotation-detail-review",
+      "label": "Review in Billing",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "quotation-draft-conflict",
+      "label": "Open existing draft",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "challan-create-edit",
+      "label": "Save challan",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "challan-create-edit",
+      "label": "Add line",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "challan-selection-invoice-handoff",
+      "label": "Review selected in Billing",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-credit-note-completion",
+      "label": "Complete legal details",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Open operational dashboard",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Sales summary",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Item sales",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Staff performance",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Hourly sales",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Customer insights",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Coupon performance",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Void / discount audit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Stock report",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Low stock",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Waste report",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "GST tax",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Sales register",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "HSN summary",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Documents register",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Returns register",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Expense report",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Profit and loss",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Bill profit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Party profit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Balance sheet lite",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Loyalty report",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Credit outstanding",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-catalog",
+      "label": "Payables aging",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-processing",
+      "label": "View sample result",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-table-result",
+      "label": "All reports",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-table-result",
+      "label": "Export",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "report-table-result",
+      "label": "Next page",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-private-export",
+      "label": "Save CSV privately",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-private-export",
+      "label": "Save PDF privately",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "report-error-or-catalog-mismatch",
+      "label": "Retry report",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "operational-dashboard-stock-exceptions",
+      "label": "Reports",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "operational-dashboard-stock-exceptions",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "operational-dashboard-stock-exceptions",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "operational-dashboard-stock-exceptions",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-filing-period",
+      "label": "Build filing pack",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-filing-identity-blockers",
+      "label": "View provisional summary",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-filing-identity-blockers",
+      "label": "Complete",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-filing-identity-blockers",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-filing-pack-summary",
+      "label": "Review blockers",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-relief-blockers",
+      "label": "Complete",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "gst-relief-blockers",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "day-close-denomination-entry",
+      "label": "Save day close",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "day-close-history-reclose",
+      "label": "Current day",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "day-close-history-reclose",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "day-close-history-reclose",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "day-close-history-reclose",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "day-close-history-reclose",
+      "label": "Save re-close",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Add product",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Bulk import",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "First",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Previous",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Next",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-catalog-browse",
+      "label": "Last",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-loading-empty-unavailable",
+      "label": "Clear search",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-loading-empty-unavailable",
+      "label": "Retry",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "product-create-advanced",
+      "label": "Save product",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "product-edit-delete-revision",
+      "label": "Save changes",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "product-edit-delete-revision",
+      "label": "Delete",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Save entity",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Category",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Add-on",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Variation",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Modifier",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-entity-create-edit",
+      "label": "Delete entity",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "stock-movement-entry",
+      "label": "Record movement",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "stock-movement-history-undo",
+      "label": "New movement",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "stock-movement-history-undo",
+      "label": "Undo movement",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Inventory",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Entities",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Movements",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Conflicts",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Quarantines",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "inventory-conflicts-quarantine",
+      "label": "Reload",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "bulk-import-preview",
+      "label": "Apply import",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "bulk-import-progress-recovery",
+      "label": "Recover saved import",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "bulk-import-reversal",
+      "label": "Stop",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "bulk-import-reversal",
+      "label": "Continue reversal",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "bulk-import-terminal-states",
+      "label": "Inventory",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "bulk-import-terminal-states",
+      "label": "New preview",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "catalog-export-builder",
+      "label": "Build catalogue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "catalog-export-ready",
+      "label": "Prepare share",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "catalog-export-ready",
+      "label": "Download PDF",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "catalog-export-ready",
+      "label": "Preview QR",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "customer-search-aging",
+      "label": "Customer list",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "customer-search-aging",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "customer-search-aging",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "customer-search-aging",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "customer-profile-khata-detail",
+      "label": "Save changed fields",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "customer-profile-khata-detail",
+      "label": "Receive payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "customer-profile-khata-detail",
+      "label": "Prepare statement",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "khata-statement-share",
+      "label": "Open WhatsApp composer",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "khata-settlement-receipt",
+      "label": "Record settlement",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "khata-settlement-receipt",
+      "label": "Review order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "khata-settlement-receipt",
+      "label": "Check price",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "CouponsCreate, revise, quote and retire customer offers.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "LoyaltyConfigure earning and redemption, then inspect history.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "Consent & suppressionRecord whether a customer may receive messages.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "Manual messagesPrepare an approved template for a named customer.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "Receipt promotionsPreview coupon and order-QR receipt content.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "marketing-authority-workspace",
+      "label": "Recovery diagnosticsOwner-only tools for correcting checkout records.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "coupon-authority-detail",
+      "label": "Save coupon",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "coupon-authority-detail",
+      "label": "Check coupon",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "coupon-authority-detail",
+      "label": "Delete coupon",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "loyalty-authority-detail",
+      "label": "Save configuration",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "outreach-consent-detail",
+      "label": "Save consent",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "outreach-consent-detail",
+      "label": "Block messages",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "outreach-consent-detail",
+      "label": "Save private audit copy",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "manual-communication-preview",
+      "label": "Open manual WhatsApp composer",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "promotion-receipt-preview",
+      "label": "Save preview settings",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "marketing-recovery-diagnostics",
+      "label": "Preview",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "marketing-recovery-diagnostics",
+      "label": "Preview",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "manual-communication-and-promo-preview",
+      "label": "Manual communicationPrepare text and open the customer composer.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "manual-communication-and-promo-preview",
+      "label": "Receipt promotionPreview coupon and ordering content.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "auth-sign-in",
+      "label": "Continue with Google",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "auth-sign-in",
+      "label": "Forgot password",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "auth-sign-in",
+      "label": "Create account",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "auth-password-reset",
+      "label": "Request reset",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "eula-first-launch",
+      "label": "Accept and continue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "boot-contract-error",
+      "label": "Unlock again to retry",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "account-deletion-progress",
+      "label": "Check deletion status",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "device-claim",
+      "label": "Continue to Add this PC",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "setup-product-import",
+      "label": "Preview import",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "setup-khata-import",
+      "label": "Preview khata import",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-progress",
+      "label": "Resume restore",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-progress",
+      "label": "Refresh status",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-readiness-blocked",
+      "label": "Check bill readiness",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "restore-readiness-blocked",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "restore-readiness-blocked",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "restore-readiness-blocked",
+      "label": "Recheck",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-readiness-blocked",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-category-account",
+      "label": "Restart guide",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "wizard-category-account",
+      "label": "Next: recovery",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-category-account",
+      "label": "Open detailed setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-hardware",
+      "label": "Previous",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-hardware",
+      "label": "Next",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-hardware",
+      "label": "Open print center",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-hardware",
+      "label": "Open scanner setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-hardware",
+      "label": "Recheck",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "wizard-business-settings",
+      "label": "Confirm settings",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-business-settings",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-business-settings",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-review-complete",
+      "label": "Previous",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "wizard-review-complete",
+      "label": "Recheck",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-setup-discovery",
+      "label": "Discover printers",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-setup-discovery",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-printer-editor",
+      "label": "Save printer",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Discover printers",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Import physical qualification",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Test route",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-fleet-tests",
+      "label": "Test cutter",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-hardware-qualification",
+      "label": "Import physical qualification",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "receipt-operational-preview",
+      "label": "Save receipt settings",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "receipt-operational-preview",
+      "label": "Print committed receipt",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "receipt-operational-preview",
+      "label": "Reprint as a new job",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-job-history",
+      "label": "All jobs",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-job-history",
+      "label": "Needs action",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-job-history",
+      "label": "Reprint",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-job-history",
+      "label": "Retry",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "print-job-history",
+      "label": "Reconcile",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-outcome-reconcile",
+      "label": "Confirm printed",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "print-outcome-reconcile",
+      "label": "Confirm not printed",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "labels-batch-setup",
+      "label": "Generate exact preview",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "labels-batch-setup",
+      "label": "Select visible",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "labels-batch-setup",
+      "label": "Clear",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "labels-exact-preview",
+      "label": "Print previewed labels",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "labels-exact-preview",
+      "label": "Refresh catalog and routes",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "labels-submit-failure",
+      "label": "Refresh exact preview",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "operator-settings",
+      "label": "Save language",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "operator-settings",
+      "label": "Configure",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "operator-settings",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "operator-settings",
+      "label": "Update status",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "windows-device-settings",
+      "label": "Exit Biteaze",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "exit-biteaze-confirmation",
+      "label": "Exit Biteaze",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "backup-recovery",
+      "label": "Refresh status",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-backup-confirm",
+      "label": "Confirm restore",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "profile-security",
+      "label": "Update password",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "profile-security",
+      "label": "Sign out",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "profile-security",
+      "label": "Delete account",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "staff-member-security",
+      "label": "Refresh roster",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "staff-member-security",
+      "label": "Update role",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "staff-member-security",
+      "label": "Reset PIN",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "staff-member-security",
+      "label": "Deactivate",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "staff-member-security",
+      "label": "Lock staff session now",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "voice-command",
+      "label": "Use Windows voice typing",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "voice-command",
+      "label": "Preview command",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "voice-action-confirm",
+      "label": "Confirm voice action",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sync-conflict-review",
+      "label": "Keep local value",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "sync-conflict-review",
+      "label": "Use synced value",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "sync-conflict-review",
+      "label": "Review later",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "support-health",
+      "label": "Preview diagnostics",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "support-health",
+      "label": "Refresh",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "support-diagnostics-preview",
+      "label": "Save diagnostics locally",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "legal-operations",
+      "label": "Release readiness",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "legal-operations",
+      "label": "Retention",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "legal-operations",
+      "label": "Data inventory",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "legal-operations",
+      "label": "Licences",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "category-dashboard",
+      "label": "AppointmentsBook, reschedule, and cancel entitled service appointments.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "category-dashboard",
+      "label": "JobsTrack repairs and services from intake to delivery.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "category-dashboard",
+      "label": "QuotationsCreate an open quotation and review it in Billing.Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "category-setup-reports",
+      "label": "Open starter catalog setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "appointments-schedule",
+      "label": "Apply",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "appointments-schedule",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "appointments-schedule",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "appointments-schedule",
+      "label": "Book appointment",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "appointment-detail",
+      "label": "Reschedule",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "jobs-intake",
+      "label": "Save new job",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "job-lifecycle",
+      "label": "Move to Ready",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "job-quotation-billing",
+      "label": "Create OPEN quotation",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "job-quotation-billing",
+      "label": "Link existing quotation snapshot",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "job-quotation-billing",
+      "label": "Review linked quotation in Billing",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "repair-ready-message",
+      "label": "Prepare repair-ready message",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "repair-ready-message",
+      "label": "Open WhatsApp with prepared message",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-service-workspace",
+      "label": "Compose order",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-service-workspace",
+      "label": "Refresh",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-service-workspace",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-service-workspace",
+      "label": "Resume",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-service-workspace",
+      "label": "Open",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Open order",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "New order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Running orders",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Output settings",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Choose modifiers",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Edit",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-compose",
+      "label": "Remove",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Commit order",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Hold",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Render routed KOT",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Transfer table",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Merge order",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-running-order",
+      "label": "Split line",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-order-held",
+      "label": "Resume order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-table-transfer",
+      "label": "Transfer to T08",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-order-merge",
+      "label": "Merge into #FS-1048",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "food-order-split-lines",
+      "label": "Create split order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "routed-kot-preview",
+      "label": "Queue route tickets",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "routed-kot-preview",
+      "label": "Output settings",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-output-config",
+      "label": "Save settings",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-output-config",
+      "label": "Preview KOT",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-service-stale",
+      "label": "Refresh current data",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "food-service-stale",
+      "label": "Keep working elsewhere",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "qr-backend-readiness",
+      "label": "Refresh readiness",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-backend-readiness",
+      "label": "QR settings",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-confirm",
+      "label": "Publish this revision",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-live",
+      "label": "Open table QR",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-live",
+      "label": "Create",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-live",
+      "label": "Receive",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-mirror-pending",
+      "label": "Refresh mirror status",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-mirror-pending",
+      "label": "View retrying state",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "menu-publish-mirror-failed",
+      "label": "Retry customer-site update",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "table-qr-create",
+      "label": "Create table QR",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "table-qr-ready",
+      "label": "Print / save preview",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "table-qr-ready",
+      "label": "Create another",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "Receive latest orders",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "View unavailable state",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "Open order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-order-intake",
+      "label": "Receive again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-order-accepted",
+      "label": "Open running order",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-order-accepted",
+      "label": "Render KOT",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "qr-intake-unavailable",
+      "label": "Retry same intake",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "qr-intake-unavailable",
+      "label": "Retry intake",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-attribution",
+      "label": "Apply attribution",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-attribution",
+      "label": "Clear optional fields",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-attribution",
+      "label": "Select",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-quotation-review",
+      "label": "Continue to checkout",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-quotation-review",
+      "label": "Complete through checkout",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-quotation-review",
+      "label": "Discard review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-quotation-review",
+      "label": "Open source document",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-challan-review",
+      "label": "Continue to checkout",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-challan-review",
+      "label": "Complete through checkout",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-challan-review",
+      "label": "Discard review",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-challan-review",
+      "label": "Open source document",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-document-correction",
+      "label": "Retry current-catalog review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-document-discard-unknown",
+      "label": "Retry same discard",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-document-discard-unknown",
+      "label": "Reopen source",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-checkout-recovery",
+      "label": "Continue payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-checkout-recovery",
+      "label": "Discard restored checkout",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-recovery",
+      "label": "New bill",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-recovery",
+      "label": "View limit state",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-recovery",
+      "label": "Resume",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-recovery",
+      "label": "Resume",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "ongoing-order-limit",
+      "label": "Review existing holds",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-limit",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-limit",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-limit",
+      "label": "Review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-conflict",
+      "label": "Refresh hold",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "ongoing-order-conflict",
+      "label": "Retry after refresh",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "retail-line-configuration",
+      "label": "Add configured line",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "retail-line-configuration",
+      "label": "View validation",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "retail-line-invalid",
+      "label": "Reselect variation",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-promotions-authority",
+      "label": "Revalidate promotions",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-promotions-authority",
+      "label": "Continue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "billing-tcs-review",
+      "label": "Apply and recheck",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "billing-tcs-review",
+      "label": "Remove TCS",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-draft-locked",
+      "label": "Review payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-draft-locked",
+      "label": "Discard checkout",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-draft-locked",
+      "label": "Review payment",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-draft-locked",
+      "label": "Discard checkout",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-save-unknown",
+      "label": "Check same save again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "checkout-draft-conflict",
+      "label": "Refresh checkout",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "checkout-discard-unknown",
+      "label": "Check discard again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "checkout-discard-unknown",
+      "label": "Keep checkout",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-authority-preview",
+      "label": "Save + queue print",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-authority-preview",
+      "label": "Save without print",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-authority-preview",
+      "label": "Save sale",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-authority-preview",
+      "label": "Save + queue print",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-preview-unavailable",
+      "label": "Retry payment review",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-preview-unavailable",
+      "label": "Retry",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "credit-warning",
+      "label": "Acknowledge and continue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "credit-reservation-required",
+      "label": "Reserve and continue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "credit-override-required",
+      "label": "Verify manager",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-completion-unknown",
+      "label": "Check same request again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "payment-completion-unknown",
+      "label": "Keep checkout locked",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "payment-completion-conflict",
+      "label": "Refresh payment review",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "payment-completion-conflict",
+      "label": "Refresh",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "payment-completion-conflict",
+      "label": "Manager approval",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sale-saved-no-print",
+      "label": "Start new bill",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sale-saved-no-print",
+      "label": "Open sale",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sale-print-queued",
+      "label": "Start new bill",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "sale-print-queued",
+      "label": "View print queue",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "command-palette",
+      "label": "Open selected command",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "scanner-setup",
+      "label": "Apply scanner setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "scanner-test",
+      "label": "Done",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "scanner-test",
+      "label": "Change setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "scanner-test",
+      "label": "Arm one test scan",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "scanner-runtime-status",
+      "label": "Open scanner setup",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "scanner-runtime-status",
+      "label": "Configure",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "plu-shortcode-result",
+      "label": "Add Paneer Tikka",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "windows-update-available",
+      "label": "Download update",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "windows-update-available",
+      "label": "Later",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "windows-update-deferred",
+      "label": "Refresh status",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "windows-update-ready",
+      "label": "Restart now",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "windows-update-failed",
+      "label": "Retry",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "windows-update-failed",
+      "label": "Retry update",
+      "state": "PASS",
+      "outcome": "navigation"
+    },
+    {
+      "screen": "account-readiness-device-claim",
+      "label": "Continue to Add this PC",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-handover",
+      "label": "Continue to device handover",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-restore",
+      "label": "Open restore",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-gate",
+      "label": "Continue to counter verification",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-printer",
+      "label": "Open printer setup",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-ready",
+      "label": "Continue to workspace",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-offline",
+      "label": "Try readiness check again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-unavailable",
+      "label": "Try readiness check again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-cancelled",
+      "label": "Start a new readiness check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "account-readiness-unavailable-invalid",
+      "label": "Try readiness check again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-success",
+      "label": "Continue readiness checks",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-handover",
+      "label": "Open device handover",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-gate",
+      "label": "Review registered devices",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-offline",
+      "label": "Try adding this PC again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-unavailable",
+      "label": "Try adding this PC again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-cancelled",
+      "label": "Start a new device claim",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "current-device-claim-unavailable-invalid",
+      "label": "Try adding this PC again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "handover-admission-ready",
+      "label": "Continue remaining checks",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "handover-admission-gate",
+      "label": "Check handover again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "handover-admission-unavailable",
+      "label": "Check handover again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "handover-admission-cancelled",
+      "label": "Start a new handover check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "handover-admission-unavailable-invalid",
+      "label": "Check handover again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-already-verified",
+      "label": "Continue remaining checks",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-restore-required",
+      "label": "Open restore",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-offline",
+      "label": "Start a new counter check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-unavailable",
+      "label": "Start a new check later",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-cancelled",
+      "label": "Start a new counter check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-unavailable-invalid",
+      "label": "Start a new check later",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-verified",
+      "label": "Continue remaining checks",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-changed",
+      "label": "Start a new counter check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-ready",
+      "label": "Continue remaining checks",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-transition-required",
+      "label": "Open account transition",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-restore-required",
+      "label": "Open restore",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-offline",
+      "label": "Check connection and continue",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-admission-gate",
+      "label": "Open local recovery",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-unavailable",
+      "label": "Try local entry check again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-cancelled",
+      "label": "Start a new local-entry check",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "restore-entry-unavailable-invalid",
+      "label": "Try local entry check again",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-verification-gate",
+      "label": "Verify proposed sequence",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-forward-only",
+      "label": "Review permitted proposal",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    },
+    {
+      "screen": "invoice-counter-outcome-unknown",
+      "label": "Review recovery guidance",
+      "state": "PASS",
+      "outcome": "demo-feedback"
+    }
+  ],
+  "full_hd_pngs": 236,
+  "compact_pngs": 56,
+  "pdf_pages": 300,
+  "inputs": [
+    {
+      "path": "phase-2-remaining-screens/app.js",
+      "sha256": "28b7f220d6523494265940f5698ccbc4d74a6925de6b905cfe09df04a228eb6d"
+    },
+    {
+      "path": "phase-2-remaining-screens/commerce.js",
+      "sha256": "f5fa34796ef02c75eaf3cfc6e2074ba712d9fee07223acd2a4dbb7a28c421d2a"
+    },
+    {
+      "path": "phase-2-remaining-screens/common.js",
+      "sha256": "05947689eb4ae32a387f40570c4d4e5f485b82da54317e29983242fbe4d8b66f"
+    },
+    {
+      "path": "phase-2-remaining-screens/index.html",
+      "sha256": "29144e64ef41a0fcfcd8f66c86384cf969fb0fecb54cc4f301a6822fbb2d2ec0"
+    },
+    {
+      "path": "phase-2-remaining-screens/operations.js",
+      "sha256": "3e8f5ef26363378bf8fc838af6115a1bec6efd504e38b0101d701570f766a5d2"
+    },
+    {
+      "path": "phase-2-remaining-screens/phase2.css",
+      "sha256": "5d0336dcf04138de38ba2ae214a0d8e0cec305b19366c5b8e53b92ac1f78238b"
+    },
+    {
+      "path": "phase-2-remaining-screens/readiness.js",
+      "sha256": "9223825a6f633ef1a2287da86bb20adb70f983865ab56eed871b013f531aa567"
+    },
+    {
+      "path": "phase-2-remaining-screens/service.js",
+      "sha256": "dcdae219d8753e0db979e18cb344399cc57d26e4697087abf5c1200134fab838"
+    },
+    {
+      "path": "reference/design/assets/Inter.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": "reference/design/assets/PlusJakartaSans.ttf",
+      "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8"
+    },
+    {
+      "path": "reference/design/assets/brand-tokens.css",
+      "sha256": "a308cba81f7ce065f4c2defe0a98a02e934a7d473483094af37f36561c3b4633"
+    },
+    {
+      "path": "reference/design/core.js",
+      "sha256": "a8d7260e9dee122065514cb7c32e2bf2bab428bf0f026759d10e8474a68ac291"
+    },
+    {
+      "path": "reference/design/design.css",
+      "sha256": "ec90ba5256f4e6c179e550d71d43041ca06a1626ff8db7605bfad22d5d79adc9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "phase-2-remaining-screens/Biteaze-Windows-Phase-2-Reference.pdf",
+      "sha256": "3ee109c38527caabe8143e02b9e00b243a9be0a1a28e525d508aca5b4a917e1f"
+    },
+    {
+      "path": "phase-2-remaining-screens/pdf-page-map.json",
+      "sha256": "06ce648c95fad3c334e9c396bf8d4a56f38d193960d30dc1107dd99f3d63daf2"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/073-phase2-overview-1280x720.png",
+      "sha256": "38cee3177500d3605e356c356d9a973b4f5931033a4bb064bd587d05aff9875b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/073-phase2-overview-1366x768.png",
+      "sha256": "1194d4eabba37e53648ba60d7249cd00dc22fe543094ac95e8f1d3aea0f93c47"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/074-supplier-directory-detail-1280x720.png",
+      "sha256": "a935884f3373faef83d69341d6315e713ea4676deb108f4d82f823eb5fbdc091"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/074-supplier-directory-detail-1366x768.png",
+      "sha256": "ea9e49dc76b4515b6d95f1b433b9c28ea67eccbbaa7dda32d7bdedfef338613a"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/078-purchase-create-1280x720.png",
+      "sha256": "318abc3db2b5af5eee72121315dee8377d64fb241164dec1ab7ddd858ac65bcf"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/078-purchase-create-1366x768.png",
+      "sha256": "65fac6bcf38712eb40340af52d644514562cbe7d1f3d43de7e8de42da6264759"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/084-document-search-register-1280x720.png",
+      "sha256": "27a72df8a062b8b5acead44f46e890fd60a84e8a7450c0ef41c4829eaba0f45f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/084-document-search-register-1366x768.png",
+      "sha256": "ca96e785c5f8fc30d25a2abb416148f20fee371e6a19608233910ced362f3296"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/092-quotation-create-edit-1280x720.png",
+      "sha256": "d1168e61fb3eb6d99959092e315bac0e31f6ca320f470cf04bad455968599274"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/092-quotation-create-edit-1366x768.png",
+      "sha256": "c62a21878214895b499a06dd4e5b5d8c0f6315ab66a613cde31b884b06ec49aa"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/099-report-catalog-1280x720.png",
+      "sha256": "686f1be35f15360ae6213d82692d4c86f51d8eee9b286b0ae2cac366be2b19a9"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/099-report-catalog-1366x768.png",
+      "sha256": "40a6f08c8d9ee92d101790e72be23ab3f6e59abbb3aa56f5c5d7ee280790aa91"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/111-inventory-catalog-browse-1280x720.png",
+      "sha256": "ad5b720af169a6d28a579ac88d0d3145a1710fac4be0102c4e2bac47ff918c56"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/111-inventory-catalog-browse-1366x768.png",
+      "sha256": "3b5488c501f0f51525c2a5018700fac00396f51282939e7fbdee52c72abe6f23"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/113-product-create-advanced-1280x720.png",
+      "sha256": "8bc324fa4975c54728ffc326f5263820608968ff4abf27dc1fd884a44db44335"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/113-product-create-advanced-1366x768.png",
+      "sha256": "83dc66f62ef73bb868a149b71b699a90b0ffd111c25f17b0593b856523263df5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/125-customer-search-aging-1280x720.png",
+      "sha256": "ae317748b871a59cac0a14da9ac56cbd6898589507a45e36a5a0ac7ea623acad"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/125-customer-search-aging-1366x768.png",
+      "sha256": "7eb9cc41af0b05bd6d1c100669b6107904685637e48b12fa9f5aef5f74892cf1"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/129-marketing-authority-workspace-1280x720.png",
+      "sha256": "06f145d5b3cb3d7d50a1513bef48e0a110098a3f8098486dc50bb3e936e9afea"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/129-marketing-authority-workspace-1366x768.png",
+      "sha256": "ffbffa6f6dda71d1c6e468430c0f20f1c20430aaeffb9f47c45f84eab18949b4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/137-auth-sign-in-1280x720.png",
+      "sha256": "4d87e209deafb7f61b1194909ea1ec61a636e37042aa6087007b3fef6fbab225"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/137-auth-sign-in-1366x768.png",
+      "sha256": "35c3895979cbede248d4453719be8d697b26ce92798156bec145747b3b07c3c2"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/138-auth-create-account-1280x720.png",
+      "sha256": "07e08e7b2927acd764b7cef7f4d938f0667f33dd719866dc7f54ba14034fce8a"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/138-auth-create-account-1366x768.png",
+      "sha256": "6c04b8c5f0181088701cde3e66b3441c6c018fd1bf4e9ba1898be91b379a1e0b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/143-account-deletion-progress-1280x720.png",
+      "sha256": "b1a2c436c3f592ad3c8637c5972f6e826bf81a181ba6a0045db14b08bf746ce4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/143-account-deletion-progress-1366x768.png",
+      "sha256": "63e9b573a03fa7f619662fe7f2fd863f6396e343a7419e132c74a2173b4f8140"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/154-print-setup-discovery-1280x720.png",
+      "sha256": "2ac950e46e3d494e4421f645a2f80ffa7e337edf917ddaf33188aeb9e40e6d25"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/154-print-setup-discovery-1366x768.png",
+      "sha256": "f1687db1f5fadbfeba8efcab1cae361bdffa4d96522a684045e57c938b480b8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/160-print-outcome-reconcile-1280x720.png",
+      "sha256": "350b0cb040f1da148b0b389a786dc15ab6bbe533f6dffef7b7a5bf6c2e26f344"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/160-print-outcome-reconcile-1366x768.png",
+      "sha256": "909664192ea665101f52e7927d95b963c309aa19d59e35c89e3f78c20747de13"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/161-labels-batch-setup-1280x720.png",
+      "sha256": "00b1df1a923404457594d63bf348241e9617a94f0d660a2a336dd198160e64d5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/161-labels-batch-setup-1366x768.png",
+      "sha256": "d39ff5facc441015a16fde874caf82eb36dbce36532aed6ee9dbd6d1e98b44e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/164-operator-settings-1280x720.png",
+      "sha256": "c6644cfdaeb84f4dc2dee0aeec1804a016887ce00d2a158d1874fc978e8e42e5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/164-operator-settings-1366x768.png",
+      "sha256": "591cb60bdea40d2cb871f22595b0389258511c89c200b4e36c1a54ea4c5d63e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/178-support-health-1280x720.png",
+      "sha256": "9e9b6ec875d3b5e089a0ce653a9200ccad6b238210c0888ecc332a134f0ad19d"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/178-support-health-1366x768.png",
+      "sha256": "1ad8a8d5f3040712818525ec151c26680055cb0bb877054ede29a6ac56d5ddd3"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/181-category-dashboard-1280x720.png",
+      "sha256": "27b58dab38f13d50c240ee5b998a2f00568c3b0be1e0383b7a95c811d9fad9d5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/181-category-dashboard-1366x768.png",
+      "sha256": "c363eea665760722eab9db82815264b16e09783746057a69ac5fb7f11809eeeb"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/185-jobs-intake-1280x720.png",
+      "sha256": "a4bee39f503271f5966da59082573c4ff9a9ad6d1a2c0275ee037ef732db53cf"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/185-jobs-intake-1366x768.png",
+      "sha256": "f77bf7734e00b79d92b9fad5e0a6f52a8e6a1ff9987822f9e6e1a4a31f3680d6"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/189-food-service-workspace-1280x720.png",
+      "sha256": "a7b1e0d1ad6f6d07756f867a3d350d1e36095e6d1f8d2b854e38082259ca0cba"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/189-food-service-workspace-1366x768.png",
+      "sha256": "048ec92d4ada4b7c6f711ea1acac4efbd701018a53be0ee9ea8328e9f3473396"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/190-food-order-compose-1280x720.png",
+      "sha256": "ccc6f2970789626f92413ea430901ee38e041af2a950fbc516b70b3369c3b0fc"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/190-food-order-compose-1366x768.png",
+      "sha256": "ca2219cbc1dd80e2d1ff28ce964305a599786af5b34a482dc1e685a5239d94b8"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/200-qr-backend-readiness-1280x720.png",
+      "sha256": "0c1a2abe823673ef30d8f4067ff2f49af22b3781535dcb04cf091d808f07bced"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/200-qr-backend-readiness-1366x768.png",
+      "sha256": "04af820b8691718fc79657998608ffc58d19cca03ca45c9fda321e2a02fd7052"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/210-billing-attribution-1280x720.png",
+      "sha256": "129008361c3d735bae381483462ad27ccd69eafec5e1efb5e005676537fa8ccc"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/210-billing-attribution-1366x768.png",
+      "sha256": "6653ee0bdd39e103383055f56cb4314fb4090c30d63b2c2c3f469f327d41506f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/219-retail-line-configuration-1280x720.png",
+      "sha256": "de555c91dcef62bc5537c1144adbb2389d5a7c4f42df32c5f6abca230263993e"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/219-retail-line-configuration-1366x768.png",
+      "sha256": "258f5e896f4780991f0a6fba9364ade84909d268da2f69c605e6360dbbf1d972"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/223-checkout-draft-locked-1280x720.png",
+      "sha256": "67221dc3ddd0034c10834ea539dc3e3dcb3e8c666517eaa79721e4d0e4c272b6"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/223-checkout-draft-locked-1366x768.png",
+      "sha256": "6a31f86cb385847c35a61b14edc1b2d5ac983fdedd4b50317de9d487059f1f50"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/232-payment-completion-unknown-1280x720.png",
+      "sha256": "9ad4eaa34705814dba22c2241000345dd4be66d733f45420a9be967ec45615fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/232-payment-completion-unknown-1366x768.png",
+      "sha256": "6d37895f817e3585b5fbdbed451d11d0a7c3e28a501edf6b9a98947d4aa4be24"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/237-command-palette-1280x720.png",
+      "sha256": "e89954ebc81ac3cdfb80caf40c1e8e8bd5376dde63f5e6c63f9b92b93519611b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/237-command-palette-1366x768.png",
+      "sha256": "26f930c66feb9f3722be099b32096e4e120fb925226970916e1fc4ef603c1c45"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/073-phase2-overview-continued-1.png",
+      "sha256": "ca05da1b965e7b967263bb183f8d526b3054a12b90c8509212c0059fc5538d0a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/073-phase2-overview.png",
+      "sha256": "20804a371c19f7ee65e3899cb1bb5234eae8e31830f173c38def7a72b0c6bd2c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/074-supplier-directory-detail-continued-1.png",
+      "sha256": "71f0bf74764759737caf6812bfbcc16380d9809824d61ef3347bc58296c55eb5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/074-supplier-directory-detail.png",
+      "sha256": "6dd06785d2325ccc9c4276f5708e42c78a46d32d9d0cc6e7c29c2e0455afeff5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/075-supplier-new.png",
+      "sha256": "67d8b9d0200eddcf03974dcf8d7794297295fa1f8310bd972241764648bd0f8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/076-supplier-payment-record.png",
+      "sha256": "2f0d1bea2dfbefe6a1b1699ba4d70d749a718b9d8f363710aff215ce74e29d9d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/077-purchase-register.png",
+      "sha256": "823e077c73930996e6e7d0f610403fca83e842d14b771cde27b6aef9523a2b48"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/078-purchase-create-continued-1.png",
+      "sha256": "c38f535c6ce2f90e78d24fc660690d194fbf7ad1e32b281b54e08241538b5df7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/078-purchase-create.png",
+      "sha256": "79066cf6c819bb312e3e98e5a36c9d93edc540d393b827bf8bddc73dda41f417"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/079-purchase-received-stock-row.png",
+      "sha256": "32e3b9ce9042f592671e8d567515a39116f7fd4a7935cd32786644416d647d4b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/080-purchase-correction.png",
+      "sha256": "0abc44cae2d3d81563d76eb7b69e22a4386dcc44dbc95187701bddbaa6befb08"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/081-expense-history-edit-continued-1.png",
+      "sha256": "5635b233f048674eea727a536eeca3e834f312ac5c007948964702cdc8c85bfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/081-expense-history-edit.png",
+      "sha256": "20089391d2710f201aa6f0830d129e502dbff7248f53cf4ed4ef3994ec1b9409"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/082-cash-paid-in-out-linked-expense.png",
+      "sha256": "ade01e03c648ee15f86e498055c4b444791da12819805b2892d48ee00265dba1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/083-financial-period-summary.png",
+      "sha256": "c6eb8bd6bc6780a222e4d670b74560a1c901df461aed1b0cc52f08aa6c76bc3e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/084-document-search-register.png",
+      "sha256": "444be6314cc953c3266131fae66987e6c4ea2d16b969b93810e76ff3e5bd073d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/085-document-detail-complete.png",
+      "sha256": "ccd3c5d79814de18def71a44a85f56bab95d353dd53be663eb09f43a880f971e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/086-document-detail-incomplete-conflict.png",
+      "sha256": "b04532fc72bc41f63d2df9c4ed461a1f29ac1e114af2a30261c7d5735b3facc9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/087-reprint-queue.png",
+      "sha256": "1dfa1d02c7f1d40192e8409f6aa6e0cba551bd499a9d076775183e08de8a5c20"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/088-sales-a4-invoice.png",
+      "sha256": "821ee0d20a4f0f78d6345f3a62397c1b8db511754928461aaa50f7d4cf54f45e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/089-sales-return-builder.png",
+      "sha256": "ecaf1436a2645f4f05e097668ebedb8aa61a23273735d56ac85d96631a106d73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/090-sales-return-preview-confirm.png",
+      "sha256": "b2a7b0b407dafb617a74adddfe1d4aa3fc65d43154959873ba549b2dfa568c37"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/091-sales-void-preview-confirm.png",
+      "sha256": "70a09e1b0460f5fcbb45874e47e87793749409372d9675ce6db2cf34335740b2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/092-quotation-create-edit.png",
+      "sha256": "89c88f4533847831670fee368359f154b51108696685a77e7b110b069cca7d17"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/093-quotation-detail-review.png",
+      "sha256": "5ef907e7943e9c125f42f2d0969fd6cefa44e7cd27d20df3026293afd60b3cd5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/094-quotation-draft-conflict.png",
+      "sha256": "14cea78212de9eaf48374b592ca749d47c800a79dcb70c2fe130c14f82bd16ac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/095-challan-create-edit.png",
+      "sha256": "003e53a812bb17d62378bbe56cd919dfb47416e93d326b72a8f0538115fbf4cb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/096-challan-selection-invoice-handoff.png",
+      "sha256": "60d7bb9534356ad10182fa24240447eb20b503eb1d2ea556933ffde5ef8f0f42"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/097-gst-credit-note-completion-continued-1.png",
+      "sha256": "ba9570a27f6265e320bba82df7ab59482fcb09613c64c7a9061a96bef87699e8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/097-gst-credit-note-completion.png",
+      "sha256": "77b54e22fbcc110535f1ff41c705e6bb8316a1c159387ccb30104c916cb6e809"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/098-gst-credit-note-review-chain.png",
+      "sha256": "6c7355c61be34ed3ac6f5da1e6f596e375e6bba3f2319a6efdd0f2102ccb2f04"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/099-report-catalog.png",
+      "sha256": "5a2a1737f9617b1a2ab81bae7b33b1f0923442dab7cf09308311f1cebe3e9ada"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/100-report-processing.png",
+      "sha256": "ab03b62c67c36bb1978c21442bc1e2dbbfea07f72c332d0b06326f8682d377c8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/101-report-table-result.png",
+      "sha256": "71f63a859f543efba557bf89707ce2ddb3c05fc37444b7f17355841676199f85"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/102-report-private-export.png",
+      "sha256": "fa6135a8926949413d1e1ae4746a873c7be14114d66aacfbfe80cb8e44953426"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/103-report-error-or-catalog-mismatch.png",
+      "sha256": "ea251f37aab5075184ddd7bb659ae720ec41b936b4e990f8934649e2e3d6cc38"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/104-operational-dashboard-stock-exceptions.png",
+      "sha256": "343180d622a00c6ec88c75cab19b31be07d5d52c49ac9dde4bca5dc64f1c0832"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/105-gst-filing-period.png",
+      "sha256": "e36edf7aba4501621f8bd3dc534f4ab33b6b0d01ca20797da7819b206bb72710"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/106-gst-filing-identity-blockers.png",
+      "sha256": "acd318bd247b0d08628aae8e732fb847df5acd1158350a38ea213297e589ed5d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/107-gst-filing-pack-summary.png",
+      "sha256": "d16581ab5c78367c239edab4dafa4e74c40802fe98953bde746750564cb677d0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/108-gst-relief-blockers.png",
+      "sha256": "2b68c20c5011a0dd54248165a3e7fb9e7acdeb46e15c1d642af331688a454442"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/109-day-close-denomination-entry.png",
+      "sha256": "3873d1e2986b087225ec73e47770dfaeb2bf0aabb002d7e4202a687fe7dc0db1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/110-day-close-history-reclose.png",
+      "sha256": "6e38b917b0a4dd9dfca9da83aae6e000d14f333c5d0ab0a34e366c8dd5b0a9d4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/111-inventory-catalog-browse.png",
+      "sha256": "f13a4ec2b2733e16207d9be5612204aa48786f9f0bb95a646e038156d0a77857"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/112-inventory-loading-empty-unavailable.png",
+      "sha256": "4e534b5dc85a9482c78cbc527bc75bc217a697a0faf78571a2f4f3fbb6823da8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/113-product-create-advanced-continued-1.png",
+      "sha256": "07d4e5c028fb13c6aab255d419b975c9cdb4ecf0018e0ad48c9051fb85b2df73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/113-product-create-advanced.png",
+      "sha256": "e3c843b84b24fd9479b9348fb425d28a40999fe8be8e57dbfb98b2f8253a0891"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/114-product-edit-delete-revision.png",
+      "sha256": "445000242ca7db2720de6c71d338abb3c594ddca49d6c0d20c1c43564e0d070c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/115-inventory-entity-create-edit.png",
+      "sha256": "dc40189aee27686be92364bcf8da1a71d707a20c45447c73058cf434972d6ef6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/116-stock-movement-entry.png",
+      "sha256": "b951557d61081fda070a5b8a55dc02034549525d25a268656c9a294b70e7c579"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/117-stock-movement-history-undo.png",
+      "sha256": "31f33186656cfaf2c974434bb05b4fef4a8f2f97b9c5dcac23f66cb017d7605e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/118-inventory-conflicts-quarantine.png",
+      "sha256": "483e49740ff1b674871a63d6fcb2fd2009ecee0febfbde3fdd85309ca3a509a3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/119-bulk-import-preview-continued-1.png",
+      "sha256": "5267a6e49674044e8bdef27fb21d6a5ea4d71235f2ba5dd5228b87a0c78f1da8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/119-bulk-import-preview.png",
+      "sha256": "ff606f9704685008d735e02a30cec9c86711e2151f111af9ccc34baefe6b5e97"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/120-bulk-import-progress-recovery.png",
+      "sha256": "1ad8184e096499d18729ed8da62daac4c9dd78e4a50507f1f0247ab30cf7c188"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/121-bulk-import-reversal.png",
+      "sha256": "7485427b617a7b6176706339ee0f0b175cad60fe2d5ecb1082b0dc6feb30aed9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/122-bulk-import-terminal-states-continued-1.png",
+      "sha256": "f67fb2886711464e16250edf45239432e1f1986ec0384b08ff6cbac4f449ee84"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/122-bulk-import-terminal-states.png",
+      "sha256": "860fe23f54c27e2429304a993fc19c62624f3517cbe8288a321aa82aa99a721d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/123-catalog-export-builder.png",
+      "sha256": "d6ded7599591ae509208f0fa65e9dd197499fa99acd03657e9f3e12d55f87ab6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/124-catalog-export-ready.png",
+      "sha256": "418dac9ae6cd4ca899c86266bf8abb6fbfaa6b81d17cc3f1f5870b80eaf96252"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/125-customer-search-aging.png",
+      "sha256": "f03e8b38269469e14d5530e8a60cada5f54836c82f14b4180e2cf7903e038dcd"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/126-customer-profile-khata-detail-continued-1.png",
+      "sha256": "bcb6615ac70365ed92ccb7568dac0c8302c3a6bb90939963cf35cfb1aba2f143"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/126-customer-profile-khata-detail.png",
+      "sha256": "3bd2b8d10d44211b1b3bd70a1cbc7ba18df8537c3e95f84a8b35605c2127eaa6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/127-khata-statement-share-continued-1.png",
+      "sha256": "cbda156561540762e24148649462a69bcf332135b37719652101f43aba676621"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/127-khata-statement-share.png",
+      "sha256": "9b4e17ef4b3b77941814b8bd05cb1b5f7bc807c377892c01ba1c20e43eab8b28"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/128-khata-settlement-receipt.png",
+      "sha256": "9446eced86df20e8ebbceef214581b1da1aa3e460bdd63345445931a9c227af5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/129-marketing-authority-workspace.png",
+      "sha256": "b8c642cf1a575d7392faae6aa40e2d93dcf24dee3e10da9f801e5a04e88d6ce8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/130-coupon-authority-detail.png",
+      "sha256": "fa4f1ef559bb8be8bb6402a5a088d0c31b1db045d1f39045c7f1c6a8015c35df"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/131-loyalty-authority-detail.png",
+      "sha256": "521f068975f71f7b40a82dbb95f60ca310cc51e48e4ca0cde612aa4dfbce4f4c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/132-outreach-consent-detail-continued-1.png",
+      "sha256": "c490cbbf5d0a54acfe0df2617f866d2458cd86f2806b769431959fa120422107"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/132-outreach-consent-detail.png",
+      "sha256": "4ae5346b53490527f6b30b40bf9fa8a8f8e1781ff6fafc28084de2d2c0022b12"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/133-manual-communication-preview-continued-1.png",
+      "sha256": "b8b01493560b7b040715641ef33739969faa5cfa330c6296c6b8549a63573501"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/133-manual-communication-preview.png",
+      "sha256": "f470bd4226ce2cc47c6118a6329881df53a20a2d8fbb22db2e359d5f253f09d3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/134-promotion-receipt-preview.png",
+      "sha256": "7289b195f3799f2699bb614ee848841883516ab6c1efec5273acd0dad3ec141e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/135-marketing-recovery-diagnostics.png",
+      "sha256": "8dfaeb1e95a204130fe2ca33bb8864f9575a57934875e9ec4e740d469c7697cf"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/136-manual-communication-and-promo-preview.png",
+      "sha256": "a9b40d2b14d73f4d2ca245c139884f50fd329558adb89f1fe2a7df3db912fea2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/137-auth-sign-in.png",
+      "sha256": "7f3dc3302cb91518c2777a4272235deda89380fb005012f67bf7a90cbb04744a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/138-auth-create-account.png",
+      "sha256": "8ef811638f14e839672fbe58210a1fa89c27118e5d5b6aa7c4fe06dc3240646e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/139-auth-password-reset.png",
+      "sha256": "006542f7dc95535fbb9032235e0da06e01343c48a354af6cdd0ffe2290841d16"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/140-auth-google-pending.png",
+      "sha256": "2d8d09304913ccd76bea464564a6ba94e5fbf7b208ed81fa1b2cd7e10dd7e2ed"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/141-eula-first-launch.png",
+      "sha256": "68f9e519af4262a89577f709d65b5f0830615f7a5b70d4477fa8e495e242c220"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/142-boot-contract-error.png",
+      "sha256": "7ebf3d0fd734364aa0876a243ed64f1dbf580fba45887dcb1d0a93c6e2da58d7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/143-account-deletion-progress.png",
+      "sha256": "b7f5c7a506d60c999a925cc178270f14a021b209d1d3c7c79032974a11d9d462"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/144-device-claim.png",
+      "sha256": "6bd179ed3fda4154929c9dd1e889955f26f0917a483657770c40da63729f89b3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/145-setup-product-import-continued-1.png",
+      "sha256": "8aad18e57529911cfc32f629345b48684bba70cca91d0be1bc39941bc2b21642"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/145-setup-product-import.png",
+      "sha256": "2c5a9351d763c63e9a67fb0f6b75d7060638858d1ebab0f81382418ba4693fc1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/146-setup-import-preview.png",
+      "sha256": "3d713a540a8747fb7749d2ef34bd2a620c5e6acd39e24663e85e9a6af3104777"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/147-setup-khata-import.png",
+      "sha256": "8aa6ab57c47fe5dfc3c22c8a0edf8d90daa6af7ba88219b6f4639665c63c2261"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/148-restore-progress.png",
+      "sha256": "53b7a093efb63d31c2e36268a14d61bdebc8dfc8b1de8215e01c8ce5ea79ad56"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/149-restore-readiness-blocked.png",
+      "sha256": "9a915608e60d964ba4211c15aa87c09a9ab662615f3678bf264f2e4be652db9e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/150-wizard-category-account.png",
+      "sha256": "65d356acb3d1854451b967be0d80f765e363f0a06ad5cd74a48290d8c371e1ff"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/151-wizard-hardware.png",
+      "sha256": "7931690dfb973fab67e46470a013d32fc2ba91aa57d487acb56e4a70d29fe3fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/152-wizard-business-settings.png",
+      "sha256": "d23d1f11d074af8a1595feb2bd62bd800d68e94bec89afdcb039373daa0f6d96"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/153-wizard-review-complete.png",
+      "sha256": "1c1019308649cb0f41c098e26c7f14a9c654b56ccdd7a75bdb0533039849c1ae"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/154-print-setup-discovery.png",
+      "sha256": "c241f4c537c5c9254203e925bafaba8247cf2da2808ffc5c2c889b30fc493b73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/155-print-printer-editor.png",
+      "sha256": "3af5360c9374d2e90e8af82f09fdde5958e66158c29d637b987f78bb8d9bcb01"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/156-print-fleet-tests.png",
+      "sha256": "8aac130e0b6f851d0a99326097c982fa6a77be3922a30a6ba9b7ec3c6f085f9a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/157-print-hardware-qualification.png",
+      "sha256": "987907963431db7a413510c19d4903e28573e2e0b36e504a609883def742bcf7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/158-receipt-operational-preview.png",
+      "sha256": "28738ff15040d4d502907d5781aef98f214626dbee2138746001f471672a75b7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/159-print-job-history.png",
+      "sha256": "a59168a14691da2753f048a7ed392662ca04aa62ee551bf12cdffb0546272044"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/160-print-outcome-reconcile.png",
+      "sha256": "cc01a00dbc2276b2a8e24272f90870b5887435a67bf713c312ae5025a20a92ed"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/161-labels-batch-setup-continued-1.png",
+      "sha256": "928a797184e12176203adc787a088a8c3ea2e561755643d32e5ab7da2f0eff8d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/161-labels-batch-setup.png",
+      "sha256": "30d36846a5a9d73173574e2b072e278893680daf871e73395d380d05a2266524"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/162-labels-exact-preview.png",
+      "sha256": "0bfd07764a17801f44a0555b9c7374b604eaeb051c62db8ee93760faad804626"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/163-labels-submit-failure.png",
+      "sha256": "7162d02b553838d86345393811f09ef92cbca1246047ed5e7f089432731c94d7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/164-operator-settings.png",
+      "sha256": "f7a65f1ded4ba80e6b9763828a58972d9ee3d63b7e6fe293e0793bad0daa3336"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/165-windows-device-settings.png",
+      "sha256": "fa01dad34656912d117f3e81e0694ff22b70ebee9839bc082f0c8ee11b5e46eb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/166-exit-biteaze-confirmation.png",
+      "sha256": "73796dc83fe7aabf522fdb644c1f2d05dca6c809fb6705e08e9bd39cfede97a0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/167-backup-recovery.png",
+      "sha256": "08fb5102cb44d2d2a01e21d529f2a25863665f6f6e9767d1016190c8a4f69bbe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/168-restore-backup-confirm.png",
+      "sha256": "d1fe7a2bd3559aa0d21a302b8e65412410100b1a808c5c60032eb2b46615f276"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/169-profile-security.png",
+      "sha256": "b4350e238eff3923970f2532a325f94146c382bb5932c68896cd4a2b13cccfd1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/170-delete-account-confirm.png",
+      "sha256": "ac273c031edd3d175b201dbc94ba747daecdac08eaccc3edd32e87dceb23902d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/171-staff-authorization.png",
+      "sha256": "a7ef4b0682d16de0b0dac7bb36b3715d6952c5c32cebf825dc3f7c326d1c1f33"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/172-staff-member-security.png",
+      "sha256": "53df8db3b8c474ec7eb682b662fc35c4382bdaa0789fb8bed1eb76947859f220"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/173-staff-pin-recovery.png",
+      "sha256": "86adeb171243f0fbf35e90e4da294502a48b08cdffe715595ffc7bd9d5788421"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/174-voice-command.png",
+      "sha256": "79eaab87d4249b027978f0638319ccf51722860d950114202380d7edfb674366"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/175-voice-action-confirm.png",
+      "sha256": "e8061b03e85b3f79d4a5168fa19f36e8bd06f549e4c4957c90638475c031c380"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/176-sync-conflict-review.png",
+      "sha256": "690bc2d4650731b0e40c085cf665620d8c9940b98c4ffd2bfe8b8fb389f3c933"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/177-sync-quarantine.png",
+      "sha256": "85604e270117639c34c2ed7b09eeb806b9f6ae91277fd9e32c3e9684008b481d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/178-support-health-continued-1.png",
+      "sha256": "b79c95ef4123c8db39286594bbadb14b497c4990d3718ad132b3d6c21777b0d0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/178-support-health.png",
+      "sha256": "b4ed102075e920bdc86e09a5374446ad7d0dc3bf4af9d63e45e80ca2a7233323"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/179-support-diagnostics-preview.png",
+      "sha256": "d9a55060228d0325e2bd6e630f110ec8d848f45d82e6ba4a12285d5996d5e7c1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/180-legal-operations.png",
+      "sha256": "2a00b34770f8b00ee34f0a0c8e5498b0194837d5e77d61969469368a16dfe4ac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/181-category-dashboard.png",
+      "sha256": "3f67f9a97ca27d1e9f998eca547704a25293174a31738bd0f795c21465ade003"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/182-category-setup-reports.png",
+      "sha256": "40dda42a17707f08237e5829ef09da2e9d549f179fa21b602ced4723994436d2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/183-appointments-schedule.png",
+      "sha256": "fe8310c7e89a5726979568a366397c85af80524e9f8ab42e5ca0150985c2d576"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/184-appointment-detail.png",
+      "sha256": "0b77fd6aff83db4a6ff3aabee5000140095e68eb2ae0f2d359ad72d930fcc4fa"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/185-jobs-intake.png",
+      "sha256": "3a6a5c5e8c3c67686a7e9ff9092d03e389076e7051b23b70f4bedde5a1c3d9c8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/186-job-lifecycle.png",
+      "sha256": "4e9d5b157a553debe3bf658d68954aa04b9c1e2f649d032cc137436c7417b5e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/187-job-quotation-billing.png",
+      "sha256": "489ca5aadd35f022fba9f542a9d614cf5c734d5c3c596f35533d550857333333"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/188-repair-ready-message.png",
+      "sha256": "6f3383b8e4a1a41282b1b852c8100cd714943fc1363049c286511b31965382fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/189-food-service-workspace.png",
+      "sha256": "88dc545bd89a824479252c2180bcc4cbaa8f8c17c098f51d625b742c980ba113"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/190-food-order-compose-continued-1.png",
+      "sha256": "84cfaa26eafad639492d233f87be34e875fbcb55d69ea83c96f847a2fc064134"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/190-food-order-compose.png",
+      "sha256": "d1d2a4b352d0895c7f4b05adc5eabd6db01be399df1a009eee21d5c2590ba4e1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/191-food-modifier-requirements-continued-1.png",
+      "sha256": "f9ce05906f196bd9a50ff0bd3f9307f20bf5be00cd7ed9f3c7c72141557ac9eb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/191-food-modifier-requirements.png",
+      "sha256": "e239278c024d2693d93685e1c7db072ae831d921c06fc8b4e00861cd0c89fb6f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/192-food-running-order.png",
+      "sha256": "aee1c3768c1ea85b037090a784f4c45294ff40dabb9cc3a08595719eea0a14b3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/193-food-order-held.png",
+      "sha256": "87bf0904f70d07c76cdc053920ab8faaa120ca8adeff72d27e812624d1912da4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/194-food-table-transfer.png",
+      "sha256": "f0f4375b1cdcaaff86b548b0378a9107b10c85ce5ac7d9d60da71fccf2d96b3b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/195-food-order-merge.png",
+      "sha256": "ef73550d2f669059c82dad380f079f4d931cc1fa2befc5375bbc2017b7c7c673"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/196-food-order-split-lines.png",
+      "sha256": "c41bc541a86eb0d1bd74635fd0f57c3e410a9a69d00121a50c09410ab9a4d82f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/197-routed-kot-preview.png",
+      "sha256": "78f115b46b1cc5dd86997207ef8a0f19af006f95decaf1006259e82558793a02"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/198-food-output-config-continued-1.png",
+      "sha256": "15671e7b8ab9077dc194ce8461fb712d29fa3d343b6a4aed260ef7595dc777fd"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/198-food-output-config.png",
+      "sha256": "1617fa4ee02f82344645e4fb07380ebbea97e1412828ff63ea5c8aa66a798bfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/199-food-service-stale.png",
+      "sha256": "cdf2501beec743b3000defcca9964573c250b29ace5bc5aff7994961af77f69b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/200-qr-backend-readiness.png",
+      "sha256": "296d8bd242e596c572a4e34eefd11363ba26c4bcb7db0697a3249a5250c09a0f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/201-menu-publish-confirm.png",
+      "sha256": "ed73b9fae4810194e36085f266bff25762db1d328fbd3e6a477f445ac6902732"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/202-menu-publish-live.png",
+      "sha256": "f84f2dc50a6692380996e7867f0fa683758be95a83f7d5d7487feab8ddc8460b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/203-menu-publish-mirror-pending.png",
+      "sha256": "b00549fbc1edcab0e3efd4d9ef7d07d09f78be4b8832d3784c7db6cdedfe06e5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/204-menu-publish-mirror-failed.png",
+      "sha256": "e374d3d895dcd40be6a54ff916207425ca60627549a3ce37d4e417974a1fe4c1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/205-table-qr-create.png",
+      "sha256": "27a3893d172fe9a9e62bca6f5a5c73f08f7c274c3d582fbf36034923ac31fd8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/206-table-qr-ready.png",
+      "sha256": "1118efea4adf9847762c86a72f61be95ae881be6f8cd5f87292bc8ebcabcc20d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/207-qr-order-intake.png",
+      "sha256": "52cc828707ce0fcd554b6ef99be8fe2d2bf1114c31687dec27a5f4faf36c7d43"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/208-qr-order-accepted.png",
+      "sha256": "ba5393d149ca8a430db660f5a6fa0748cb736b43fb80d53d4215d7a180fc7cbc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/209-qr-intake-unavailable.png",
+      "sha256": "8bd6d257c27752c03908a446d92066a44ec3366b782a7bd6850f535dd0cf3aac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/210-billing-attribution.png",
+      "sha256": "ae6a57ca65f5f12a750b0acfcdfae6c0fb707dd6e1c4df1cc414b28141c963f9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/211-billing-quotation-review-continued-1.png",
+      "sha256": "4e59b5659483cfd9769478d1c0554ff08260b91d1ec7c3e412106160c4e1023f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/211-billing-quotation-review.png",
+      "sha256": "45f0db842a4dde5be4cbe0b8961e93c9bcaf24b67bdc59e9c5b2d7b008f8d432"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/212-billing-challan-review-continued-1.png",
+      "sha256": "bedd35cf8d0ea0048ce3045a10250ee10ccfb4c7cebbb76ab5fc18d47c422cf3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/212-billing-challan-review.png",
+      "sha256": "62a710b1772a4e42592ace83ac8038ae02b61bbcf3077061ac2c81f219373dbf"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/213-billing-document-correction.png",
+      "sha256": "c621f037215a2b1b672236e1a9af61fb53246c0437f5b10aad3b4fdaddd5a188"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/214-billing-document-discard-unknown.png",
+      "sha256": "6fbe7d6e6da7d2bd9d0a8e9b60fe5b9f30b740b5105e685f5bd4b500011d4e75"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/215-billing-checkout-recovery.png",
+      "sha256": "913cdbf3716e48f1ac418efad2b78b9fa9f199d9c8be3513161e278c3f83aefe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/216-ongoing-order-recovery.png",
+      "sha256": "7a620e0f8030d4e8d87dc4c307eb82fb7d5024144aebdd1c9580c55d4da3d693"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/217-ongoing-order-limit.png",
+      "sha256": "03b06a3e1100379984bb88c061f73e783ffd6328301b1808123a21c9395319a0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/218-ongoing-order-conflict.png",
+      "sha256": "4961fced217ca193dab85cdcc1143ab2694ce91f49ef701e640d36e01eb2671b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/219-retail-line-configuration-continued-1.png",
+      "sha256": "15e5168b5e51cae5c0100311cc07d19a28cbcec1d808e29ba46937445c9f0bd9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/219-retail-line-configuration.png",
+      "sha256": "14acc237d028427b342a6a2465388ce8e6051e310411f55433d9707b55ac881a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/220-retail-line-invalid.png",
+      "sha256": "01de95d9b7c8b4f5e06efa78442ce0f38bf4d8c0dbd1c82a7df14435bc41e241"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/221-billing-promotions-authority.png",
+      "sha256": "c20832839f0f451c7461a476adcd58218cd5322867642a543aa77ea3fe4453f3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/222-billing-tcs-review.png",
+      "sha256": "6bcb89d983fc854dae0a96403503b4ac2eb9d0415e6bff39e43d3fbe9c4514c4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/223-checkout-draft-locked.png",
+      "sha256": "1b1f465ec3e3db650c6a7f1b553f10f66b52ec5b3a337a26321a60040b81d39a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/224-checkout-save-unknown.png",
+      "sha256": "c60ee7efabe1786da62c09e7d418c14d34bdd5351bae54c7a04a8e009f8b423b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/225-checkout-draft-conflict.png",
+      "sha256": "653f28d05c54be683bb82cc18085bd7f0854c5e1561fdfd10c7b0a62de95d51b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/226-checkout-discard-unknown.png",
+      "sha256": "1e8666c5c3db95cb164a36368d78bedf0aad74031d1942489a64e37ef9f8c872"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/227-payment-authority-preview.png",
+      "sha256": "461e3485e462179d567d0ce27ce39b29231088e611ab17bf6509ded7593a9e20"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/228-payment-preview-unavailable.png",
+      "sha256": "ef67a6af3759ecc6f6fd608ab626dbb8180b19a2f6d490d8743d1db085081ad8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/229-credit-warning.png",
+      "sha256": "37b0e1268872b3b7a8e31c63723a1a5e913bf53dc6bae0b10d651e617f68aa35"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/230-credit-reservation-required.png",
+      "sha256": "eff683e26b9cb199c17b77625bc80800e1109375e0ce4cd39816b4b80e1cbe8b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/231-credit-override-required.png",
+      "sha256": "d2111778e426e39c358df360dbfd25fd0c888e6858ad75bab1b5132622f4fcd5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/232-payment-completion-unknown.png",
+      "sha256": "d4cf8de922909642cff6b6ab43c3f4223d7d962c1c14047883ade710bdb87d85"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/233-payment-completion-conflict.png",
+      "sha256": "7da7504edced9c4b6ceeb5d2b2648d6129ff5762c1465b6fdb2187e3a2d52330"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/234-payment-completion-stale.png",
+      "sha256": "8391f8d63a78de3cb2254a5dc94b7f7677e41ccbeaefed59c8a667385222e319"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/235-sale-saved-no-print.png",
+      "sha256": "9f658f0225123d4d25fec0b6f6d0f30a765694ad89cb54b795ca40a14bf14cfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/236-sale-print-queued.png",
+      "sha256": "d31ef4561b2b527fc0623385da1d590d82e0b18a1f2ac4aeb0e085e368d0643b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/237-command-palette.png",
+      "sha256": "d67a17b020456af677f6935cb8b95a4f725e45321d4d65f09963dfd03820080e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/238-scanner-setup.png",
+      "sha256": "a4f3b19cd1a75e5f3949eef7c41f613c7b107eb41a7bfc7e012725668e9e3b76"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/239-scanner-test.png",
+      "sha256": "772f70288ae70e8ad3aa62f89efc175d67b41b7f43a56f5ee7ebbaf543f317da"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/240-scanner-runtime-status.png",
+      "sha256": "b96474ba869d088e8660dd210113a407cacd68c568e25588e6202bbc1407904a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/241-plu-shortcode-result.png",
+      "sha256": "77d2d0f0d6749f17f123d5639089741ad58a48b6026fa0485ff25f25d2057412"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/242-windows-update-available.png",
+      "sha256": "84f2e2b8b3abef67096890b60167103d13cab9fba3dca92ab1f2979964ece9a2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/243-windows-update-deferred.png",
+      "sha256": "021dc1fc66a2eb924fa04989faed250416618cde2842c9da80618ace38c84d6f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/244-windows-update-ready-continued-1.png",
+      "sha256": "670dee18ade86e057046e52a79eed2e492ace982176e6b4dc3ad2157efd0c900"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/244-windows-update-ready.png",
+      "sha256": "541f3b1af96439a21a4e38ed19f289c1c8fd8fc4e2b74ce7846cda5ab6628462"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/245-windows-update-failed.png",
+      "sha256": "a360bf4c34634ef6f16ca4803d556548ef785a18a25c7f6dfe35bcd4e30471fc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/246-account-readiness-device-claim.png",
+      "sha256": "9d5f7f1d8738b1ec3aa517f59c47c179aac01eb8f608de0ff6c9dade35d85c84"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/247-account-readiness-handover.png",
+      "sha256": "3b732636a3a74df373ced40cb4e550d7a0704da0056e1ef2c662f42b70a89a9a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/248-account-readiness-restore.png",
+      "sha256": "87138b5e4c1f8eb8b1c23762959ea014b596716f575d54b2b4ac9c66bc443a81"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/249-account-readiness-gate.png",
+      "sha256": "80603fdf4723c9a94646a6b2ed2fd91aff31dd52b3ae211d9382dc751a6ad730"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/250-account-readiness-printer.png",
+      "sha256": "2e11844fc53023c7ecf851ba4dc0558ae20b99eb16f97fd293f623bcce28890e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/251-account-readiness-ready.png",
+      "sha256": "8e20bb8175434499fe532d31255180b852520e37f223d59a2aeaf7eb45235718"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/252-account-readiness-offline.png",
+      "sha256": "babc1298df8aca7d699199dd5a1713c4ea27b2a5860e1698410531ca9f3db79e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/253-account-readiness-unavailable.png",
+      "sha256": "d294d7f9be73111dd4ce7a81eac74162d7f3dae1feff0bc62fb5f6bddf522535"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/254-account-readiness-cancelled.png",
+      "sha256": "6230900c1ee999e5b46e578a9c8bb5648f6f6631910c208920db9bf385056e0f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/255-account-readiness-unavailable-invalid.png",
+      "sha256": "f00f8637dc7a32e7b9b1de211148685c8abedeb4e462a5870bfd2c2f69e88920"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/256-current-device-claim-success.png",
+      "sha256": "a365c1df7b72e079e615f40a7ec4aed6433a2858b9193b51e710ef1decb412b7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/257-current-device-claim-handover.png",
+      "sha256": "da066ca1babac7438e88fbc696a0424b9d3da9cb8b951883741267320e238b0c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/258-current-device-claim-gate.png",
+      "sha256": "3d7aa9a2be97b54fad43a9fae4bfc24c10712c8d45a315b31e7ed1fc52958519"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/259-current-device-claim-offline.png",
+      "sha256": "79363d4eab5042b3644160fe55aa65f5f5f41c6a3c71ba2d2ba5dd38d0bd0700"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/260-current-device-claim-unavailable.png",
+      "sha256": "f30be5db6ebbe1ae0de3b1c9483eeeddf12cf347c4ce59233268d3c53f2d785e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/261-current-device-claim-cancelled.png",
+      "sha256": "81cd430579f761139866fc78eeef62b3e55b5c1d457cde768b9d8d5198d01fa6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/262-current-device-claim-unavailable-invalid.png",
+      "sha256": "f30be5db6ebbe1ae0de3b1c9483eeeddf12cf347c4ce59233268d3c53f2d785e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/263-handover-admission-ready.png",
+      "sha256": "97c9df38c13880f5da362171d2fe5225951d8e744b4e539bcbda46fa6f959048"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/264-handover-admission-gate.png",
+      "sha256": "5417ad0e584a0ae92068e1b42ab6adcf7a0238048f4a9ca71d130846fd5d4023"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/265-handover-admission-unavailable.png",
+      "sha256": "91ab3ec0710ecbdf6abe90da1ef3027987f8545595449dd4c6aa349457eac772"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/266-handover-admission-cancelled.png",
+      "sha256": "f80fd560bca598179b28b8e1dea2cdaa4091e1feb6dd82ee05563a4114725e44"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/267-handover-admission-unavailable-invalid.png",
+      "sha256": "91ab3ec0710ecbdf6abe90da1ef3027987f8545595449dd4c6aa349457eac772"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/268-invoice-counter-already-verified.png",
+      "sha256": "05688f873f81ee2c2f6dde981b21c189e720143a0a8675f282a8931601743248"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/269-invoice-counter-restore-required.png",
+      "sha256": "152714089ffc2cd70f2a213fb4cb934ed7715c622a944256274310003f6dfa83"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/270-invoice-counter-offline.png",
+      "sha256": "3e67cbbd44ce8c8c2f8b9def0cb7dc706cdff3049b0ecfbd79f8dc1df813b926"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/271-invoice-counter-unavailable.png",
+      "sha256": "52d28725bdef14b910a8fbbe8d1f52bb927e35390a9bcb33b11c9e332b65d3e2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/272-invoice-counter-cancelled.png",
+      "sha256": "79c3086db7a02294ba2f41a6bf81115ebff08da2a57736f86aa9d9fde7597b9d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/273-invoice-counter-unavailable-invalid.png",
+      "sha256": "328dfe29f74e18c1346421e4867a53b926f22706a7d62090ebba5bc3c817afaa"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/274-invoice-counter-verified.png",
+      "sha256": "d9ff870262f042a5611268454433a4a74ddafcdd7761e2baaee66b432e897781"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/275-invoice-counter-changed.png",
+      "sha256": "ae48baaace4720a351a88dbc46fa3d090118553053613e094b24d40bff78ed8a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/276-restore-entry-ready.png",
+      "sha256": "ca803ad4b06f6d2f7889631f7a5c691683b5c5e9cebadcd55d3cf1efc0ed1c21"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/277-restore-entry-transition-required.png",
+      "sha256": "af64e10d6091fabb154418c73e084a858d6285f50b4fba2ceb2bc391f377f792"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/278-restore-entry-restore-required.png",
+      "sha256": "862bb544e566e25a1619397b80d20a40037743948de64deda4ed2c90769e0851"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/279-restore-entry-offline.png",
+      "sha256": "6a7e3165ba4efc1bc24761484862187148f09bea8f6387d2a6c8610b3e601b01"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/280-restore-entry-admission-gate.png",
+      "sha256": "afcf7a2a2712f23097241746d9a08a4b27948d709795a80a652e8f609d17d0f7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/281-restore-entry-unavailable.png",
+      "sha256": "67b1eeba1d618d5bfe7e7ecfcdc147b0e97a6ecd4dd82c0d93c3eb564f121126"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/282-restore-entry-cancelled.png",
+      "sha256": "5beea60f6d044e242425e6c65285ba9276aebac8c467e81d9fd4a6480072c638"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/283-restore-entry-unavailable-invalid.png",
+      "sha256": "fd3bbc01a645f21f17f7c4540e74829b3e7a7a177b0a33f0196326ac65a28553"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/284-invoice-counter-verification-gate.png",
+      "sha256": "383339dfa0edddbf943b5990a7057f1fe1a4c740163ddc2b8970bb015c822a04"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/285-invoice-counter-forward-only.png",
+      "sha256": "11062b6ac12b465f495cf04861d6f178d503bfe52ee1e1bc4bf85e89d4b1a99b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/286-invoice-counter-outcome-unknown.png",
+      "sha256": "f96782653773f9f15a9d48bee66789590336633463c8721ddc7544e43efdf26a"
+    }
+  ],
+  "native_validation": "NOT_MEASURED",
+  "application_implementation": "NOT_STARTED"
+}

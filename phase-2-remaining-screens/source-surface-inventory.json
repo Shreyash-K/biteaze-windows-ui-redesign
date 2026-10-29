@@ -1,0 +1,1447 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "extraction": {
+    "method": "Enumerated every src/renderer/**/*.ts file in a clean read-only checkout; direct Phase 2 anchors come from screen-manifest.json; Phase 1 anchors and runtime-support relationships are explicit tables in the generator.",
+    "file_count": 154,
+    "public_data_only": "Paths, hashes, classifications, state IDs and rationales. No source text is copied."
+  },
+  "entries": [
+    {
+      "source_path": "src/renderer/__tests__/account-deletion-progress.test.ts",
+      "sha256": "6a27081187152440007cefa2299dc43e8a6ab2b87e9df561d6e6a30785da763e",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/account-readiness-controller.test.ts",
+      "sha256": "d00e37a1b233be6249f178b22154527577db502c713c1b6cdba0e3396b731a58",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/account-readiness-presentation.test.ts",
+      "sha256": "9e25ba8db0e90ca0c93cf66337e6e75877b94843a7c36aad691e989b11f1e622",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/auth-controller.test.ts",
+      "sha256": "d1825cf2a88aa43d98b5c36d512272b0a655e7abb9c01e3f9b9d4654dfc74164",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/auth-messages.test.ts",
+      "sha256": "45fc2de9ae6fd1f7378fa378586983f921779cbbbcc17c1ec866b43455524782",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/current-device-claim-controller.test.ts",
+      "sha256": "2364097d69ef7214c278b8bea6db24b392759a80a387e051a64560351283fc10",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/current-device-claim-presentation.test.ts",
+      "sha256": "e1ebdda73815a685efe28b30c2c079578f578e12f0e4b17f66fc9f08e4463cf4",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/eula-acceptance.test.ts",
+      "sha256": "dbf3328c63193f05a0edb7b35e2bb7a1203a96db1c5524d9451bbdbc16f68b7e",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/handover-admission-controller.test.ts",
+      "sha256": "4ebd73b0589fea7b14ba030ce93c06df5b78b43f6fb01dc0442f4a7e5603a8ae",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/handover-admission-presentation.test.ts",
+      "sha256": "96dff497a92933fd507c38bd71c8158c51bd4dd0136ec6d615e558cc2cd5febc",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/invoice-counter-verification-controller.test.ts",
+      "sha256": "5b372df4eba3b95a9014b585ec80f3619e707172feadfd49e0e89036e49a9042",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/invoice-counter-verification-presentation.test.ts",
+      "sha256": "2dbfb9d1d0ceab133fc4f6a3596fcc189ac643f2681fba72350e79c572c775eb",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/main-lifecycle.test.ts",
+      "sha256": "395ca1a37f765c8334604723a2d17982e02cb3c1207f27e48a68a8fac4308d71",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/read-only-workspaces.test.ts",
+      "sha256": "0be0b690057ba3019ce212361f382cdc41e63ff9556dfc2568f5383fb351f76b",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/renderer-fault-observer.test.ts",
+      "sha256": "c314d11f8a643d080c68324d7b64f2bca8071e91dd18645f4efbcfc3e1099f22",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/restore-entry-controller.test.ts",
+      "sha256": "23dc9e00480af5ea8b82761934ed431e9ab7a48eb572a2c4f6df4372318ce8a1",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/restore-entry-presentation.test.ts",
+      "sha256": "a55ef3773e33b2833c25d1912dd06f7e375a2724d25bd61210bae554bda35046",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/skip-to-main-content.test.ts",
+      "sha256": "e19b6624b5861e3ce3b792f31cca96bc7b5951568b12d01b0ac07d5c2af54e53",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/staff-authorization-controller.test.ts",
+      "sha256": "fecb8e643271d24e5972a54beb2e54b35c8254c697427cbd7b5e3980540919de",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/windows-update-controller.test.ts",
+      "sha256": "516fa417c140290e1a146ede8095630e35fdba74980bee859e9810c90d2a49f8",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/__tests__/windows-update-frame.test.ts",
+      "sha256": "f82b002ecfb30b36faad89004472013dacf447fa4a4bc0ca4d92cd954293c751",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/account-deletion-progress.ts",
+      "sha256": "1ec5a01881e001e4e020e0412396288b734a2dfc286640a2b41f025afefbb5fb",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "account-deletion-progress"
+      ]
+    },
+    {
+      "source_path": "src/renderer/account-readiness-controller.ts",
+      "sha256": "807e5b4299c28a6b0ac09a2fd918fcef7110e20a3dc5e3e6afc0245bbc673aa3",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/account-readiness-presentation.ts",
+      "sha256": "2eec02ced32ade68e6f6ada8bad06f431f9c0ba4d1b028e9ada0c78fa9e1eb88",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "account-readiness-device-claim",
+        "account-readiness-handover",
+        "account-readiness-restore",
+        "account-readiness-gate",
+        "account-readiness-printer",
+        "account-readiness-ready",
+        "account-readiness-offline",
+        "account-readiness-unavailable",
+        "account-readiness-cancelled",
+        "account-readiness-unavailable-invalid"
+      ]
+    },
+    {
+      "source_path": "src/renderer/auth-controller.ts",
+      "sha256": "6acb6939bc76ca5b2a15b3a946b30f4a5e48c485e42fe60252d183d82cd51a25",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "auth-sign-in",
+        "auth-create-account",
+        "auth-password-reset",
+        "auth-google-pending"
+      ]
+    },
+    {
+      "source_path": "src/renderer/auth-messages.ts",
+      "sha256": "2027ff2efd23c1bcff0ab26ef19300d90fe65ceb5398623625308a5b0b11e21c",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "auth-sign-in",
+        "auth-create-account",
+        "auth-password-reset"
+      ]
+    },
+    {
+      "source_path": "src/renderer/auth-view.ts",
+      "sha256": "5351663fa3ff3a71cccc06f9a7eecfd9baef62387dc49212d39f70c4cdd18a59",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "auth-sign-in",
+        "auth-create-account",
+        "auth-password-reset",
+        "auth-google-pending"
+      ]
+    },
+    {
+      "source_path": "src/renderer/current-device-claim-controller.ts",
+      "sha256": "c9b8386bf5feb8bc368d7be3c69f4ece43ea2152303d06dda1cb1f12633b5174",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/current-device-claim-presentation.ts",
+      "sha256": "21aa858f8a370eff3b1bc91ce351d99f2ede3c69bedde3d59305637d12dae1a3",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "current-device-claim-success",
+        "current-device-claim-handover",
+        "current-device-claim-gate",
+        "current-device-claim-offline",
+        "current-device-claim-unavailable",
+        "current-device-claim-cancelled",
+        "current-device-claim-unavailable-invalid"
+      ]
+    },
+    {
+      "source_path": "src/renderer/eula-acceptance.ts",
+      "sha256": "31c92321cfe20594889294e6ba9b72303532bddbe29720fcb639bcc7c7b3aade",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "eula-first-launch"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/barcode-labels/__tests__/barcode-label-route.test.ts",
+      "sha256": "96cf9f8d40e7d6e7217ab1e0a576ee5f5ee6cfa85486fe74e43cc3616e0d623e",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/barcode-labels/__tests__/barcode-label-wire.test.ts",
+      "sha256": "d00ce5c7c90d3170560c5204628379355b81f5845c6732c6594c8b148373babf",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/barcode-labels/barcode-label-route.ts",
+      "sha256": "1afc098a29a77dbe7a37e1854a803f72187935ea314510efdc00083cd272f144",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "labels-batch-setup",
+        "labels-exact-preview",
+        "labels-submit-failure"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/barcode-labels/barcode-label-wire.ts",
+      "sha256": "76a6a26559e508fee01a242eed79e03ec27d32560da877e443ca1a9c27a1f6f1",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "labels-batch-setup",
+        "labels-exact-preview",
+        "labels-submit-failure"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/billing/__tests__/billing-cart-route.test.ts",
+      "sha256": "c4c61bd7cd0be2ee94f731b2076342e1ed67b42cf272c61f44f6d29c6e8fee19",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/billing/billing-cart-route.ts",
+      "sha256": "e5031a71da5506192900417c1173eaf5b7825dbb67082770de391e5aeaafd781",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "billing-attribution",
+        "billing-quotation-review",
+        "billing-challan-review",
+        "billing-document-correction",
+        "billing-document-discard-unknown",
+        "billing-checkout-recovery",
+        "ongoing-order-recovery",
+        "ongoing-order-limit",
+        "ongoing-order-conflict",
+        "retail-line-configuration",
+        "retail-line-invalid",
+        "billing-promotions-authority",
+        "billing-tcs-review",
+        "checkout-draft-locked",
+        "checkout-save-unknown",
+        "checkout-draft-conflict",
+        "checkout-discard-unknown",
+        "payment-authority-preview",
+        "payment-preview-unavailable",
+        "credit-warning",
+        "credit-reservation-required",
+        "credit-override-required",
+        "payment-completion-unknown",
+        "payment-completion-conflict",
+        "payment-completion-stale",
+        "sale-saved-no-print",
+        "sale-print-queued"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/cart/__tests__/cart-workspace.test.ts",
+      "sha256": "186f865751e7d7f52a7e1288b62bde5e56fb2f1f358a3681674021bed406b82f",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/cart/cart-workspace.ts",
+      "sha256": "07bf054c9422f2f251f487916516afe731d5f190358e5db09f63bb9b28ac15f3",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "line-edit"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/catalog/__tests__/catalog-workspace.test.ts",
+      "sha256": "6f15fe4f2a9793ab8c815d7eeef8b30810732b98a102b0fdaf1faee57133f7ce",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/catalog/__tests__/item-configuration-workspace.test.ts",
+      "sha256": "c626071c4dfd3a4e02f1cf8141352021e80b843ef201b2d9dacf70eae52c4bb6",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/catalog/catalog-workspace.ts",
+      "sha256": "62e23ab05c8d4294c75de27d93718f04aed275d0d7aa8a38a5306a37a619f83b",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "billing",
+        "billing-empty"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/catalog/item-configuration-workspace.ts",
+      "sha256": "fc618cac2154e540e9cff63726ab70e4c2aba91dcfaff6cb10fc6f2a07ad8c56",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "item-customize"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/checkout/__tests__/discount-marketing-workspace.test.ts",
+      "sha256": "73500bece4a6a6634907dbd9455b74dccd6e9b85ceabfd06224137af598e38e7",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/checkout/__tests__/hold-resume-workspace.test.ts",
+      "sha256": "d8cf08242bb28ebd636bfd82282534d7a61de5ce0e7b1c1956d9a4277442f564",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/checkout/__tests__/parties-operators-workspace.test.ts",
+      "sha256": "d4fcc6de9d15389ca992dce6c0be623aa94107679cd0b349bfef5a07d72e6ea8",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/checkout/discount-marketing-workspace.ts",
+      "sha256": "ef7b425025d846c136ced6aac5fd3029265abca6a4d164fc81805200aead3ba2",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "discount",
+        "coupon",
+        "charges"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/checkout/hold-resume-workspace.ts",
+      "sha256": "970548e1443859efa05e98694ff166d3dc4abe5970520547d9cbd82f6f8bda0f",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "orders",
+        "hold",
+        "order-details"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/checkout/parties-operators-workspace.ts",
+      "sha256": "69f0001d202524332e95e1793d051b5a5201e8dbff458f512ccadcd98762b461",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "customer-select",
+        "customers",
+        "manager",
+        "staff"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/customers/__tests__/customer-khata-controller.test.ts",
+      "sha256": "709d19c57cd30e9a8b865909657b8d56d529b65b32ee7a808d06d2d0f763e0ab",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/customers/__tests__/customer-khata-route.test.ts",
+      "sha256": "58c673a78590aa4a4b1f201e3fdbaae74e25ae285cdc4dfd3ecea650a71698b6",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/customers/customer-khata-controller.ts",
+      "sha256": "0776e8ffb0bc3016095e469597de0b2dd6a467580d3f9aaada59a1a319dce1f0",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "customer-search-aging",
+        "customer-profile-khata-detail",
+        "khata-statement-share",
+        "khata-settlement-receipt"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/customers/customer-khata-route.ts",
+      "sha256": "938b76464621d2d6d52768b22eebd1726a8ecacae13f9b2eaaf472935c7565bd",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "customer-search-aging",
+        "customer-profile-khata-detail",
+        "khata-statement-share",
+        "khata-settlement-receipt"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/documents/__tests__/documents-controller.test.ts",
+      "sha256": "81d7559542468951aff0d653a48c498a457eb35d331b96dc8d4ca3575d9af8d6",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/documents/__tests__/documents-route.test.ts",
+      "sha256": "33cc07eed4a18ff9f87b47f121e573cdff6888d8020ecce24b5d6c117f39a2ff",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/documents/a4-invoice-view.ts",
+      "sha256": "a0d7f6bc955ac601977c710d0390696f507385362fdd3ce505408b1697bd25bc",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "sales-a4-invoice"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/documents/document-legal-form.ts",
+      "sha256": "9c1939ff9a2d2ce5544e0244c1c5ffc4bb53b51e54c15eee6eb2a6379a5026f9",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "gst-credit-note-completion",
+        "gst-credit-note-review-chain"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/documents/documents-controller.ts",
+      "sha256": "8efc19a6b93bceff3938c436943a0a8bf52c09b98ec0465965c92c331460ed9c",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "document-search-register",
+        "document-detail-complete",
+        "sales-return-preview-confirm",
+        "quotation-create-edit",
+        "challan-create-edit"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/documents/documents-route.ts",
+      "sha256": "622c49cd429e74e40bccfb044bae610eeabda9e51cbd1c3ae595af56f84197cb",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "document-search-register",
+        "document-detail-complete",
+        "document-detail-incomplete-conflict",
+        "reprint-queue",
+        "sales-return-builder",
+        "sales-return-preview-confirm",
+        "sales-void-preview-confirm",
+        "quotation-create-edit",
+        "quotation-detail-review",
+        "quotation-draft-conflict",
+        "challan-create-edit",
+        "challan-selection-invoice-handoff"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/documents/documents-types.ts",
+      "sha256": "61d46d8f5e6d9fb1ddfb763efe72a67818a8464555a7ccd4b3d347233defc8ec",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/financial/__tests__/financial-controller.test.ts",
+      "sha256": "16de3386a13f0d7cb1ee6e5145cf434d1e9fe1c057db4608a4e23efe45e51cef",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/financial/__tests__/financial-route.test.ts",
+      "sha256": "ff26abf56ce8672b2497321a5669138d764d5c2f4ce819662edf817acd386657",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/financial/financial-controller.ts",
+      "sha256": "12b033dd0962f844b080fc976494d06beff6570de12be415332fbf81295f3c0a",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "supplier-directory-detail",
+        "supplier-payment-record",
+        "purchase-create",
+        "expense-history-edit"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/financial/financial-route.ts",
+      "sha256": "bebe5a62dde1abdac4deb24a2b976ee31b26b317b23430183934e24126aaac1a",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "supplier-directory-detail",
+        "supplier-new",
+        "supplier-payment-record",
+        "purchase-register",
+        "purchase-create",
+        "purchase-received-stock-row",
+        "purchase-correction",
+        "expense-history-edit",
+        "cash-paid-in-out-linked-expense",
+        "financial-period-summary"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/food-service/__tests__/food-service-route.test.ts",
+      "sha256": "e5477d506ded197bf1585c01f28ba364b4a09d97372e7290c3559375ae22ba85",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/food-service/__tests__/food-service-wire.test.ts",
+      "sha256": "9e1cffb179e192f58650e487395ea07d2234d88f0f4f010944cad39be3b53170",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/food-service/food-service-route.ts",
+      "sha256": "791f1c1aa308cfcdc9aee80cc8f319a581c855e1d81d85caef22e5ff2f6b3bf0",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "food-service-workspace",
+        "food-order-compose",
+        "food-modifier-requirements",
+        "food-running-order",
+        "food-order-held",
+        "food-table-transfer",
+        "food-order-merge",
+        "food-order-split-lines",
+        "routed-kot-preview",
+        "food-output-config",
+        "food-service-stale",
+        "qr-backend-readiness",
+        "menu-publish-confirm",
+        "menu-publish-live",
+        "menu-publish-mirror-pending",
+        "menu-publish-mirror-failed",
+        "table-qr-create",
+        "table-qr-ready",
+        "qr-order-intake",
+        "qr-order-accepted",
+        "qr-intake-unavailable"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/food-service/food-service-wire.ts",
+      "sha256": "0741cd8efbe4fae47457f3826be0be3cdb8aa9b9e3d8471b97b00265de5f6ffc",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "food-service-workspace",
+        "food-running-order",
+        "qr-order-intake"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/inventory/__tests__/bulk-import-panel.test.ts",
+      "sha256": "f48c8a3012d797a15fcc25e31c9270f5d2f1b0ae79c62074fd4435f32d378837",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/inventory/__tests__/inventory-route.test.ts",
+      "sha256": "66f08359316700a8e48d88adb105aab55d6527e45e5e98b08118c623871f19fc",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/inventory/__tests__/inventory-workspace-controller.test.ts",
+      "sha256": "7cf7046c9a5b67062e1a15743ea63bfcc4c661c011f7843efb7b6336f06da298",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/inventory/bulk-import-panel.ts",
+      "sha256": "e4ffd6fe53b9cfb746d416c731b73375ddc2da8a90ec9e638ae2f546618f1011",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "bulk-import-preview",
+        "bulk-import-progress-recovery",
+        "bulk-import-reversal",
+        "bulk-import-terminal-states"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/inventory/inventory-route.ts",
+      "sha256": "4a02e2418274c08be5f51c9405f3d3f3f0379612f02dc4f11224edf267def805",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "inventory-catalog-browse",
+        "inventory-loading-empty-unavailable",
+        "product-create-advanced",
+        "product-edit-delete-revision",
+        "inventory-entity-create-edit",
+        "stock-movement-entry",
+        "stock-movement-history-undo",
+        "inventory-conflicts-quarantine",
+        "catalog-export-builder",
+        "catalog-export-ready"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/inventory/inventory-workspace-controller.ts",
+      "sha256": "dfdf7ca46c79f05a6933b8e0d7d8b854fd1dff50c5cab531c0edbcb10060c065",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "inventory-catalog-browse",
+        "product-edit-delete-revision",
+        "stock-movement-entry",
+        "inventory-conflicts-quarantine"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/__tests__/command-palette.test.ts",
+      "sha256": "cbca97fa1f51011adc5a923689944cba6446f9eead79455f1d5d73ed63e1d7fa",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/__tests__/command-registry.test.ts",
+      "sha256": "d03c337972b98e078691f7f93c460722a51da4a2ee301e802b1806c250e173fe",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/__tests__/key-only-journey.test.ts",
+      "sha256": "c18bcfd600f2e7bca53c333ee66c98160770f169ff5e23e5bc87abb0ddd16e6d",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/__tests__/keyboard-command-controller.test.ts",
+      "sha256": "bc20ce82c3660382a3df4df63c8f97919eda192ad4d461505d371ab7f70b4030",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/application-commands.ts",
+      "sha256": "3e71a4a267eb78a5aaca7fe4618cf4af2eb4a75e529b9cad0a6c889c3fdd39af",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "command-palette",
+        "plu-shortcode-result"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/command-palette.ts",
+      "sha256": "583b43b1c5ca491e4679a1d57a605e8a517cd8bea0d2c576ad147bc5fc82270c",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "command-palette",
+        "plu-shortcode-result"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/command-registry.ts",
+      "sha256": "e5e691a46a32dd2b9bba912ccdc4d7543b6eb21569e9dc56a33e7c0ff2cad46c",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "command-palette"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/keyboard-command-controller.ts",
+      "sha256": "8edb3607c113363b09e3372d54e2a69517ab9803be4a35e9d7ba31f772aec37d",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "command-palette",
+        "plu-shortcode-result"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/keyboard/keyboard-runtime.ts",
+      "sha256": "fe3b61c557bcc932bef66b8e6c3d31a71188eb260087f16f61d57876f371a066",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "command-palette",
+        "plu-shortcode-result"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/legal-ops/legal-ops-policy.generated.ts",
+      "sha256": "965ddf73d6952fc08a85cbfbd8889b69223bd9b0af98b1ae763e3762be3ad67b",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/legal-ops/legal-ops-route.ts",
+      "sha256": "72def23c828cccdbf3600d2637cb197752e76d8bb6985fb2325ec5b47bda67af",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "legal-operations"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/marketing/__tests__/marketing-route.test.ts",
+      "sha256": "f905807315e776a64c5ff548948be96335610664f90351856071b149438a9aa7",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/marketing/marketing-route.ts",
+      "sha256": "0be5551b8f5bf523b41cc82730f4568bf2d2223ddf715e129bd039df4e0b4014",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "marketing-authority-workspace",
+        "coupon-authority-detail",
+        "loyalty-authority-detail",
+        "outreach-consent-detail",
+        "manual-communication-preview",
+        "promotion-receipt-preview",
+        "marketing-recovery-diagnostics",
+        "manual-communication-and-promo-preview"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/onboarding/__tests__/onboarding-route.test.ts",
+      "sha256": "ec969d790afb8945806ddecc060a5f928da03b5a3d129df128ae58b85967aa25",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/onboarding/onboarding-route.ts",
+      "sha256": "ba38b7771d303b2c8ae734bd8fbb3f79a9b5ba4f303cc3a44825082c8a98c8f9",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "device-claim",
+        "setup-product-import",
+        "setup-import-preview",
+        "setup-khata-import",
+        "restore-progress",
+        "restore-readiness-blocked"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/onboarding-wizard/__tests__/onboarding-wizard-route.test.ts",
+      "sha256": "57852639a33c04ee262033d2794427c704bccfcc932679161b89d064f3c766e2",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+      "sha256": "59b6b23604126df2722e3efb06ed433ef1396060625e331f28de7badcae9776f",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "wizard-category-account",
+        "wizard-hardware",
+        "wizard-business-settings",
+        "wizard-review-complete"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/__tests__/operator-experience-controller.test.ts",
+      "sha256": "96bf3ce25ee6d31e90d1b8075c0ac8a97eb71b6f4dbe937f4fb0c7e56d173d9b",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/__tests__/operator-experience-route.test.ts",
+      "sha256": "7acd717491c6dd2e413715761c05b13d0861076596adb7fba1d349cb14563093",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/__tests__/windows-operations-surface.test.ts",
+      "sha256": "6ccbc0e0e32d105cd6db38b5043250ca8ca3f58e868139418e1efc4f31cda368",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/operator-experience-controller.ts",
+      "sha256": "a930409b652e7c760d259285dcd1b47043b742df99cb9a3aa5f7cb73691a8cad",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "operator-settings",
+        "backup-recovery",
+        "profile-security",
+        "sync-conflict-review"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/operator-experience-route.ts",
+      "sha256": "8e27536917312197b711c3f285600bb95137b9935a4a8eb9ab4189d467018238",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "operator-settings",
+        "backup-recovery",
+        "restore-backup-confirm",
+        "profile-security",
+        "delete-account-confirm",
+        "staff-authorization",
+        "staff-member-security",
+        "staff-pin-recovery",
+        "voice-command",
+        "voice-action-confirm",
+        "sync-conflict-review",
+        "sync-quarantine"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/operator-experience/windows-operations-surface.ts",
+      "sha256": "67e68f3352738fa9ead760a81efb55cc7a9c5ed0bdf4753b145634bd8c224343",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "windows-device-settings",
+        "exit-biteaze-confirmation"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/performance/__tests__/cooperative-catalog.test.ts",
+      "sha256": "571e8dbf1a430db9a230249fdbd990b879f780386e55f2e86e343beb523b5029",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/performance/cooperative-work.ts",
+      "sha256": "c7d4ef2c3fc7457ac6766266d8fcf498dd5ddd6201c0f8e558a386fb49b2de41",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/performance/display-preferences.ts",
+      "sha256": "419cb80c4a120241764d4af45714633cb4d32d23741d1f19c8ab07b2551afe57",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/print-center/__tests__/hardware-qualification-wire.test.ts",
+      "sha256": "18f2c2fa6a1df561aceb140d13ac9164e39538e20fc033fc74261ae37549ce49",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/print-center/__tests__/print-center-route.test.ts",
+      "sha256": "c29c09e932a6887945d275be266e7ae8d2f84805242e0b8da1457beb91ed2453",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/print-center/__tests__/print-center-wire.test.ts",
+      "sha256": "08bf9c6c3fbf60cd1b0f4b30b18d3d7c2947278fa906fc22d2e52dffc896cbcb",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/print-center/hardware-qualification-wire.ts",
+      "sha256": "51609da10a6bf30c6eb6736f78059d262523fb1ca2fdadb81eea9df22a8d0686",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "print-hardware-qualification"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/print-center/print-center-route.ts",
+      "sha256": "3a85569a931cc19791c66077148ed285c0ec0adbad5d45c2ec474523af884ae8",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "print-setup-discovery",
+        "print-printer-editor",
+        "print-fleet-tests",
+        "print-hardware-qualification",
+        "receipt-operational-preview",
+        "print-job-history",
+        "print-outcome-reconcile"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/print-center/print-center-wire.ts",
+      "sha256": "2a642351e1ef3bb4c4f2a7805d57f86c1c88064e8b1a3fa4ef79018c185b6069",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "print-setup-discovery",
+        "print-fleet-tests",
+        "print-job-history",
+        "print-outcome-reconcile"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/print-center/production-print-center-composition.ts",
+      "sha256": "3efc3b0caa4e11884e0f80f764e3b3cf90d3293e1813027f1470d475b1f8d066",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "print-setup-discovery",
+        "print-printer-editor",
+        "print-fleet-tests",
+        "print-job-history"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/reporting/__tests__/reporting-controller.test.ts",
+      "sha256": "afe91ccd68e1ae8d51b56907f0a50fe6867cf6a49447a62f441e40f5be289372",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/reporting/__tests__/reporting-route.test.ts",
+      "sha256": "630f54c9b180d92122c7589d735528c9b7e2466cedcccfe296b4fefcc7a94ac4",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/reporting/reporting-controller.ts",
+      "sha256": "7700e6066d179d2657822886ac8c47aaf46359d70638488e6bd8c414fb69d19d",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "report-catalog",
+        "report-processing",
+        "report-table-result",
+        "gst-filing-pack-summary"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/reporting/reporting-route.ts",
+      "sha256": "eb9ac4303b62dfdeee188f5240c9079ed4006dbe885d97937dab946e364683ee",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "report-catalog",
+        "report-processing",
+        "report-table-result",
+        "report-private-export",
+        "report-error-or-catalog-mismatch",
+        "operational-dashboard-stock-exceptions",
+        "gst-filing-period",
+        "gst-filing-identity-blockers",
+        "gst-filing-pack-summary",
+        "gst-relief-blockers",
+        "day-close-denomination-entry",
+        "day-close-history-reclose"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/reporting/reporting-types.ts",
+      "sha256": "505a0c72ffa48b14ceb40dad2425627a9cee7961057e6949bc5a9e036258f0be",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/catalog-code-dispatch.test.ts",
+      "sha256": "4591579ffbe6b7af7dc5878c5a829fea5f8981b8b6b1f4c2dd06295167807568",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/keyboard-wedge-scanner.test.ts",
+      "sha256": "3d02068ec918517fc3e76609318c0b430d5e8d7262a2b8850c14c70e792a379a",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/scanner-input-policy.test.ts",
+      "sha256": "77480223544f9a382dfa9d64080c03859235991b334e9fcdc0aa234c310fb6f7",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/scanner-production-composition.test.ts",
+      "sha256": "e22d3db936730955e360b085667005493b16ef955f17d334e2e424fbc2b66372",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/scanner-runtime.test.ts",
+      "sha256": "a34b36bc01c7b075befe9756d924261db4ef8d0e5c920c534f2f49b5ed71ea27",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/__tests__/scanner-setup-surface.test.ts",
+      "sha256": "9a81c8650e8523081a86521b176acbd929d46fd1a58098b0380ad5f12252c8c2",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/scanner/catalog-code-dispatch.ts",
+      "sha256": "24e7d1a18e99dcdba9992f014d662d5e88dd7c6e86b570245282b9004a6c9791",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "plu-shortcode-result"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/scanner/keyboard-wedge-scanner.ts",
+      "sha256": "3757cc079327a197378ba55319926dfd6dddb039877c8c708689f46af4a87f9f",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "scanner-setup",
+        "scanner-test",
+        "scanner-runtime-status"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/scanner/scanner-input-policy.ts",
+      "sha256": "7d6099caeb9c172ca6b0e8dd59a0f3df87ca51ef4a253eb21a3d91319e2d9e27",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "scanner-setup"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/scanner/scanner-runtime.ts",
+      "sha256": "f920c15bf2b11cbb82062ad0177c0d87f2a944ba61d4d21f25925122dab1fd7e",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "scanner-runtime-status"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/scanner/scanner-setup-controller.ts",
+      "sha256": "1585d845514f51ea4d61d5d98bfb0b8189a88b6c01797674a2a3d11636968298",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "scanner-setup",
+        "scanner-test"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/scanner/scanner-setup-surface.ts",
+      "sha256": "63b7776755437349c7f23c9b27d20c1df1e3bf0d3a406560162be86f220ee5b5",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "scanner-setup",
+        "scanner-test",
+        "scanner-runtime-status"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/support/__tests__/support-route.test.ts",
+      "sha256": "b07f505ebc4b5be2d7eb0251c14077ed27260a670ba7df3113a6d2a231ed7540",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/support/support-route.ts",
+      "sha256": "48a3c58a109a610d68f455d32f3a1185c4815ae95b17024acad4f41990459baa",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "support-health",
+        "support-diagnostics-preview"
+      ]
+    },
+    {
+      "source_path": "src/renderer/features/vertical/__tests__/vertical-route.test.ts",
+      "sha256": "4156ffdff758120cb49a799f3a29693e3ca5023274a84f21214d698ae6f4f0e0",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/features/vertical/vertical-route.ts",
+      "sha256": "f07fb1eadd84576f45b4f1f22bc694b379e0adb5022634bde9083caa26fcd294",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "category-dashboard",
+        "category-setup-reports",
+        "appointments-schedule",
+        "appointment-detail",
+        "jobs-intake",
+        "job-lifecycle",
+        "job-quotation-billing",
+        "repair-ready-message"
+      ]
+    },
+    {
+      "source_path": "src/renderer/generated/p5-11-z4-vertical-packs.generated.ts",
+      "sha256": "e17a99bcbe99701abed622ff565c1ef0e52a4cec751f52abce04bd5470ead127",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/generated/p5-6-food-service-wire.generated.ts",
+      "sha256": "e0341531c035db6f54df65c010f4a34ae4582d318fd53ecdc62ff56768515538",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/generated/p5-7-category-adaptations.generated.ts",
+      "sha256": "b259095f3ee23a689c98d9a67c16b5fdcecb42be40ffe44c59255f2c61ba6494",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/generated/p5-9-operator-inventory.generated.ts",
+      "sha256": "130687bd8414ada5049ee9a210a01afeb41a27dd17fd649b9f0a41507fd9e0c9",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/generated/p6-4-barcode-label-wire.generated.ts",
+      "sha256": "0e4e37108e4fa6e49e07196d67ba549820042d41e3ee25fb9f4fe48122d628d4",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/global.d.ts",
+      "sha256": "1ee792b14ac66fa5bcc3dd92f9c786d4ac6a684f422f369e8cba388e43c6856b",
+      "classification": "shared_non_ui",
+      "rationale": "Type declaration, not a renderer surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/handover-admission-controller.ts",
+      "sha256": "0d4f79e07a95e9c5b775f561cc986ccd482d12a5760c7173689583db0ca03b9b",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/handover-admission-presentation.ts",
+      "sha256": "b9b8e358278e463ab71131e97b602761952a3fe068b4e32c879ac1d787200f6b",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "handover-admission-ready",
+        "handover-admission-gate",
+        "handover-admission-unavailable",
+        "handover-admission-cancelled",
+        "handover-admission-unavailable-invalid"
+      ]
+    },
+    {
+      "source_path": "src/renderer/invoice-counter-verification-controller.ts",
+      "sha256": "75b4b4a8a3c1774ec53689b4dbb14cda9db3f35fb8996bccf91b22d5a92e8150",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/invoice-counter-verification-presentation.ts",
+      "sha256": "c21439667a56bdb4ba47fc2459764272d508eb14b55b76a693404536cef3ec3c",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "invoice-counter-already-verified",
+        "invoice-counter-restore-required",
+        "invoice-counter-offline",
+        "invoice-counter-unavailable",
+        "invoice-counter-cancelled",
+        "invoice-counter-unavailable-invalid",
+        "invoice-counter-verified",
+        "invoice-counter-changed",
+        "invoice-counter-verification-gate",
+        "invoice-counter-forward-only",
+        "invoice-counter-outcome-unknown"
+      ]
+    },
+    {
+      "source_path": "src/renderer/main.ts",
+      "sha256": "6db6580c0eee1415446eed0347db818fefab8d61f7806e84c1f08d608d6a222a",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "boot-contract-error"
+      ]
+    },
+    {
+      "source_path": "src/renderer/navigation-state.ts",
+      "sha256": "5a0a402e9f97ee6cdafcf8535e9effeb2180d9c62a325d9ecdc4a4132bfaabde",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/navigation-view.ts",
+      "sha256": "7ba1dd6dd9a9f0718c113c11ccf0e1510e386ab255294e87effa914fa07a5af6",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/printer-setup/__tests__/printer-setup-controller.test.ts",
+      "sha256": "f5d857f990fa1af57be09bada2a6c6a19212d16ee5add0cad5aebd537725466f",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/printer-setup/__tests__/printer-setup-presentation.test.ts",
+      "sha256": "727cabef3444e5af6f9cd3ec2959b1b934227248f92f34c06d6ee3b9ba2e6fae",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/printer-setup/printer-setup-controller.ts",
+      "sha256": "1532f249deafc0e8bb281fed4c0c05a49cd3faca767581e4216854f8a2e3cd1f",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/printer-setup/printer-setup-presentation.ts",
+      "sha256": "ac8bad86a44528a790def892549e69e17bc71db0c90e16d6157eb8dbd9691dd5",
+      "classification": "phase1",
+      "rationale": "Runtime surface represented by the existing Phase 1 reference set.",
+      "state_ids": [
+        "printers",
+        "printer-select",
+        "receipt"
+      ]
+    },
+    {
+      "source_path": "src/renderer/read-only-workspaces.ts",
+      "sha256": "f9f84a0124d51aa3b7939922cfb8fc63277c4a7f1a3fe52525cbb321864f6d12",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/recovery/__tests__/recovery-command-client.test.ts",
+      "sha256": "189183933d1402245bc70e28ca7b22daf260cfee10fb7b706cde1754c59b9b96",
+      "classification": "explicit_exclusion",
+      "rationale": "Test-only renderer file; tested behavior is not a separately shippable UI surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/recovery/recovery-command-client.ts",
+      "sha256": "5cf370b580dd2c4f1eee639953183a6e7b4885329569b805a582226da67fde8b",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/renderer-fault-observer.ts",
+      "sha256": "58e00887afb701f34f47ad4dbf66eaa097083432ed85e6186b32ca64ca4bbe13",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/restore-entry-controller.ts",
+      "sha256": "a6c69e72494f081de19b470efc8138b69ed73451f2c3494e01ccc9e5e076c2ad",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/restore-entry-presentation.ts",
+      "sha256": "cc7e0c99b824a3a07e28923d3c5e6bacab47b3de43ea110895b6b43223669436",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "restore-entry-ready",
+        "restore-entry-transition-required",
+        "restore-entry-restore-required",
+        "restore-entry-offline",
+        "restore-entry-admission-gate",
+        "restore-entry-unavailable",
+        "restore-entry-cancelled",
+        "restore-entry-unavailable-invalid"
+      ]
+    },
+    {
+      "source_path": "src/renderer/skip-to-main-content.ts",
+      "sha256": "b9f0d9134a91a06e55ad15f553ba876c771166f848139f4d65d7beeccc93075e",
+      "classification": "shared_non_ui",
+      "rationale": "Renderer composition, controller, policy, utility, runtime, or accessibility support; no independently registered surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/staff-authorization-controller.ts",
+      "sha256": "be3a48f86d7a65d069f2c5ad0974487391c19e3c9cbfd4e6cfb30a73f2fd34f7",
+      "classification": "phase2",
+      "rationale": "Runtime support for listed Phase 2 state(s); not a separate visual screen claim.",
+      "state_ids": [
+        "staff-authorization",
+        "staff-member-security",
+        "staff-pin-recovery"
+      ]
+    },
+    {
+      "source_path": "src/renderer/windows-eula.generated.ts",
+      "sha256": "3852df5fef4d3dbf9cf804dd702736af149ccd567b670b84a064769db6e2a015",
+      "classification": "shared_non_ui",
+      "rationale": "Generated contract/policy data; visual state is anchored by its route/surface.",
+      "state_ids": []
+    },
+    {
+      "source_path": "src/renderer/windows-update-controller.ts",
+      "sha256": "ee58542b48a2f3a057d25df955b77c96dfae1b0a1e2757c2a5fe7054fe9d90b4",
+      "classification": "phase2",
+      "rationale": "Direct source anchor in the Phase 2 screen manifest.",
+      "state_ids": [
+        "windows-update-available",
+        "windows-update-deferred",
+        "windows-update-ready",
+        "windows-update-failed"
+      ]
+    }
+  ],
+  "known_ui_gaps": []
+}

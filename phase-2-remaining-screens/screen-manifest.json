@@ -1,0 +1,4838 @@
+[
+  {
+    "id": "phase2-overview",
+    "title": "More ways to run your business",
+    "group": "Overview",
+    "kind": "page",
+    "source": "src/shared/nav-model.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "phase2-navigation"
+    ],
+    "description": "Everything around the counter, with the same clear workspace.",
+    "actions": [],
+    "number": 73,
+    "phaseNumber": 1
+  },
+  {
+    "id": "supplier-directory-detail",
+    "title": "Supplier directory & account",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Search suppliers, inspect payables and open purchases or payments.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "supplier-directory-detail"
+    ],
+    "actions": [
+      [
+        "New supplier",
+        "supplier-new",
+        "primary"
+      ],
+      [
+        "Record payment",
+        "supplier-payment-record",
+        ""
+      ]
+    ],
+    "number": 74,
+    "phaseNumber": 2
+  },
+  {
+    "id": "supplier-new",
+    "title": "Add supplier",
+    "group": "Purchasing",
+    "kind": "drawer",
+    "parent": "supplier-directory-detail",
+    "description": "Create a supplier with the minimum legal and contact details.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "supplier-new"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "supplier-directory-detail",
+        ""
+      ],
+      [
+        "Save supplier",
+        "supplier-directory-detail",
+        "primary"
+      ]
+    ],
+    "number": 75,
+    "phaseNumber": 3
+  },
+  {
+    "id": "supplier-payment-record",
+    "title": "Record supplier payment",
+    "group": "Purchasing",
+    "kind": "dialog",
+    "parent": "supplier-directory-detail",
+    "description": "Apply a payment to the selected supplier account.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "supplier-payment-record"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "supplier-directory-detail",
+        ""
+      ],
+      [
+        "Record payment",
+        "supplier-directory-detail",
+        "primary"
+      ]
+    ],
+    "number": 76,
+    "phaseNumber": 4
+  },
+  {
+    "id": "purchase-register",
+    "title": "Purchase register",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Review supplier purchases for a bounded accounting period.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "purchase-register"
+    ],
+    "actions": [
+      [
+        "New purchase",
+        "purchase-create",
+        "primary"
+      ]
+    ],
+    "number": 77,
+    "phaseNumber": 5
+  },
+  {
+    "id": "purchase-create",
+    "title": "Create purchase",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Record a supplier bill and the stock actually received.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "purchase-create"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "purchase-register",
+        ""
+      ],
+      [
+        "Save purchase",
+        "purchase-register",
+        "primary"
+      ]
+    ],
+    "number": 78,
+    "phaseNumber": 6
+  },
+  {
+    "id": "purchase-received-stock-row",
+    "title": "Received stock row",
+    "group": "Purchasing",
+    "kind": "dialog",
+    "parent": "purchase-create",
+    "description": "Add one existing inventory product to a purchase receipt.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "purchase-received-stock-row"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "purchase-create",
+        ""
+      ],
+      [
+        "Add row",
+        "purchase-create",
+        "primary"
+      ]
+    ],
+    "number": 79,
+    "phaseNumber": 7
+  },
+  {
+    "id": "purchase-correction",
+    "title": "Correct purchase",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Append a linked correction while preserving the issued purchase.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "purchase-correction"
+    ],
+    "actions": [
+      [
+        "Back",
+        "purchase-register",
+        ""
+      ],
+      [
+        "Save purchase correction",
+        "purchase-register",
+        "primary"
+      ]
+    ],
+    "number": 80,
+    "phaseNumber": 8
+  },
+  {
+    "id": "expense-history-edit",
+    "title": "Expense history & correction",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Review expenses by occurrence date and append a correction or deletion.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "expense-history-edit"
+    ],
+    "actions": [
+      [
+        "Delete by correction",
+        "expense-history-edit",
+        "danger"
+      ]
+    ],
+    "number": 81,
+    "phaseNumber": 9
+  },
+  {
+    "id": "cash-paid-in-out-linked-expense",
+    "title": "Cash in / cash out",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "Record a drawer movement and optionally link a cash-out expense.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "cash-paid-in-out-linked-expense"
+    ],
+    "actions": [
+      [
+        "Back",
+        "financial-period-summary",
+        ""
+      ]
+    ],
+    "number": 82,
+    "phaseNumber": 10
+  },
+  {
+    "id": "financial-period-summary",
+    "title": "Financial overview",
+    "group": "Purchasing",
+    "kind": "page",
+    "parent": "",
+    "description": "One period view of purchases, expenses, drawer movements and supplier payable.",
+    "source": "src/renderer/features/financial/financial-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "financial-period-summary"
+    ],
+    "actions": [
+      [
+        "Purchases",
+        "purchase-register",
+        ""
+      ],
+      [
+        "Cash movement",
+        "cash-paid-in-out-linked-expense",
+        ""
+      ]
+    ],
+    "number": 83,
+    "phaseNumber": 11
+  },
+  {
+    "id": "document-search-register",
+    "title": "Sales, quotations & challans",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Search issued documents without loading an unbounded ledger.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "document-search-register"
+    ],
+    "actions": [
+      [
+        "New quotation",
+        "quotation-create-edit",
+        "primary"
+      ],
+      [
+        "New challan",
+        "challan-create-edit",
+        ""
+      ]
+    ],
+    "number": 84,
+    "phaseNumber": 12
+  },
+  {
+    "id": "document-detail-complete",
+    "title": "Invoice INV-2026-1042",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Inspect issued lines, payment and document completeness.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "document-detail-complete"
+    ],
+    "actions": [
+      [
+        "Copy document",
+        "document-detail-complete",
+        ""
+      ],
+      [
+        "Open A4 invoice",
+        "sales-a4-invoice",
+        "primary"
+      ]
+    ],
+    "number": 85,
+    "phaseNumber": 13
+  },
+  {
+    "id": "document-detail-incomplete-conflict",
+    "title": "Document evidence needs review",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Keep the issued document visible when source evidence is incomplete or conflicts.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "document-detail-incomplete-conflict"
+    ],
+    "actions": [
+      [
+        "Back",
+        "document-search-register",
+        ""
+      ]
+    ],
+    "number": 86,
+    "phaseNumber": 14
+  },
+  {
+    "id": "reprint-queue",
+    "title": "Reprint queue",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Review receipt jobs separately from the committed sale.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "reprint-queue"
+    ],
+    "actions": [
+      [
+        "Sales register",
+        "document-search-register",
+        ""
+      ]
+    ],
+    "number": 87,
+    "phaseNumber": 15
+  },
+  {
+    "id": "sales-a4-invoice",
+    "title": "Detailed A4 invoice",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Read-only issued invoice view with explicit print and reprint entry points.",
+    "source": "src/renderer/features/documents/a4-invoice-view.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sales-a4-invoice"
+    ],
+    "actions": [
+      [
+        "Back",
+        "document-detail-complete",
+        ""
+      ],
+      [
+        "Queue print",
+        "reprint-queue",
+        "primary"
+      ]
+    ],
+    "number": 88,
+    "phaseNumber": 16
+  },
+  {
+    "id": "sales-return-builder",
+    "title": "Build sales return",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Select original quantities and choose the correction document kind.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sales-return-builder"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "document-detail-complete",
+        ""
+      ],
+      [
+        "Preview return",
+        "sales-return-preview-confirm",
+        "primary"
+      ]
+    ],
+    "number": 89,
+    "phaseNumber": 17
+  },
+  {
+    "id": "sales-return-preview-confirm",
+    "title": "Confirm sales return",
+    "group": "Documents",
+    "kind": "dialog",
+    "parent": "sales-return-builder",
+    "description": "Review an immutable correction preview before committing it.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sales-return-preview-confirm"
+    ],
+    "actions": [
+      [
+        "Back to edit",
+        "sales-return-builder",
+        ""
+      ],
+      [
+        "Confirm correction",
+        "document-detail-complete",
+        "primary"
+      ]
+    ],
+    "number": 90,
+    "phaseNumber": 18
+  },
+  {
+    "id": "sales-void-preview-confirm",
+    "title": "Void sale preview",
+    "group": "Documents",
+    "kind": "dialog",
+    "parent": "document-detail-complete",
+    "description": "Enter a reason, preview the correction and confirm against the issued sale.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sales-void-preview-confirm"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "document-detail-complete",
+        ""
+      ],
+      [
+        "Confirm correction",
+        "document-search-register",
+        "danger"
+      ]
+    ],
+    "number": 91,
+    "phaseNumber": 19
+  },
+  {
+    "id": "quotation-create-edit",
+    "title": "Create quotation",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Prepare a quotation with up to 200 product or custom lines.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "quotation-create-edit"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "document-search-register",
+        ""
+      ],
+      [
+        "Save quotation",
+        "quotation-detail-review",
+        "primary"
+      ]
+    ],
+    "number": 92,
+    "phaseNumber": 20
+  },
+  {
+    "id": "quotation-detail-review",
+    "title": "Quotation QUO-2026-028",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Review validity and hand the current quotation to Billing.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "quotation-detail-review"
+    ],
+    "actions": [
+      [
+        "Edit",
+        "quotation-create-edit",
+        ""
+      ],
+      [
+        "Review in Billing",
+        "billing-quotation-review",
+        "primary"
+      ]
+    ],
+    "number": 93,
+    "phaseNumber": 21
+  },
+  {
+    "id": "quotation-draft-conflict",
+    "title": "Existing Billing draft",
+    "group": "Documents",
+    "kind": "dialog",
+    "parent": "quotation-detail-review",
+    "description": "Resolve a cart conflict before opening a quotation review.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "quotation-draft-conflict"
+    ],
+    "actions": [
+      [
+        "Return to quotation",
+        "quotation-detail-review",
+        ""
+      ],
+      [
+        "Open existing draft",
+        "billing",
+        "primary"
+      ]
+    ],
+    "number": 94,
+    "phaseNumber": 22
+  },
+  {
+    "id": "challan-create-edit",
+    "title": "Create delivery challan",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Prepare a delivery document with logistics and line details.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "challan-create-edit"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "document-search-register",
+        ""
+      ],
+      [
+        "Save challan",
+        "challan-selection-invoice-handoff",
+        "primary"
+      ]
+    ],
+    "number": 95,
+    "phaseNumber": 23
+  },
+  {
+    "id": "challan-selection-invoice-handoff",
+    "title": "Select challans for invoice",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Choose open challans with their current identities before Billing review.",
+    "source": "src/renderer/features/documents/documents-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "challan-selection-invoice-handoff"
+    ],
+    "actions": [
+      [
+        "Back",
+        "document-search-register",
+        ""
+      ],
+      [
+        "Review selected in Billing",
+        "billing-challan-review",
+        "primary"
+      ]
+    ],
+    "number": 96,
+    "phaseNumber": 24
+  },
+  {
+    "id": "gst-credit-note-completion",
+    "title": "Complete GST credit note",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Supply required legal identity and line classifications while money stays frozen.",
+    "source": "src/renderer/features/documents/document-legal-form.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-credit-note-completion"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "document-detail-complete",
+        ""
+      ],
+      [
+        "Complete legal details",
+        "gst-credit-note-review-chain",
+        "primary"
+      ]
+    ],
+    "number": 97,
+    "phaseNumber": 25
+  },
+  {
+    "id": "gst-credit-note-review-chain",
+    "title": "Credit-note correction history",
+    "group": "Documents",
+    "kind": "page",
+    "parent": "",
+    "description": "Trace every correction and its verification code without choosing one automatically.",
+    "source": "src/renderer/features/documents/document-legal-form.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-credit-note-review-chain"
+    ],
+    "actions": [
+      [
+        "Back",
+        "document-detail-complete",
+        ""
+      ]
+    ],
+    "number": 98,
+    "phaseNumber": 26
+  },
+  {
+    "id": "report-catalog",
+    "title": "Report catalogue",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Choose one of the 23 source-backed reports and a bounded date-time range.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "report-catalog"
+    ],
+    "actions": [
+      [
+        "Open operational dashboard",
+        "operational-dashboard-stock-exceptions",
+        ""
+      ]
+    ],
+    "number": 99,
+    "phaseNumber": 27
+  },
+  {
+    "id": "report-processing",
+    "title": "Building Sales summary",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Track a queued or running report with bounded progress and cancellation.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "report-processing"
+    ],
+    "actions": [
+      [
+        "Cancel report",
+        "report-catalog",
+        "danger"
+      ],
+      [
+        "View sample result",
+        "report-table-result",
+        ""
+      ]
+    ],
+    "number": 100,
+    "phaseNumber": 28
+  },
+  {
+    "id": "report-table-result",
+    "title": "Sales summary report",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Review identity, totals and a dynamically aligned paged result.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "report-table-result"
+    ],
+    "actions": [
+      [
+        "All reports",
+        "report-catalog",
+        ""
+      ],
+      [
+        "Export",
+        "report-private-export",
+        "primary"
+      ]
+    ],
+    "number": 101,
+    "phaseNumber": 29
+  },
+  {
+    "id": "report-private-export",
+    "title": "Save report privately",
+    "group": "Reports",
+    "kind": "dialog",
+    "parent": "report-table-result",
+    "description": "Export a ready report to a local private file.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "report-private-export"
+    ],
+    "actions": [
+      [
+        "Close",
+        "report-table-result",
+        ""
+      ]
+    ],
+    "number": 102,
+    "phaseNumber": 30
+  },
+  {
+    "id": "report-error-or-catalog-mismatch",
+    "title": "Report unavailable",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Recover a report error or a released-catalog mismatch without showing stale output.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "report-error-or-catalog-mismatch"
+    ],
+    "actions": [
+      [
+        "Back to catalogue",
+        "report-catalog",
+        ""
+      ],
+      [
+        "Retry report",
+        null,
+        "primary",
+        "GST tax selected. Its dedicated report retry and result are not represented in this reference."
+      ]
+    ],
+    "number": 103,
+    "phaseNumber": 31
+  },
+  {
+    "id": "operational-dashboard-stock-exceptions",
+    "title": "Operational overview",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "See revenue, tenders, expenses and inventory exceptions in one read-only view.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "operational-dashboard-stock-exceptions"
+    ],
+    "actions": [
+      [
+        "Reports",
+        "report-catalog",
+        ""
+      ]
+    ],
+    "number": 104,
+    "phaseNumber": 32
+  },
+  {
+    "id": "gst-filing-period",
+    "title": "Build GST filing pack",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Select an exclusive period before compiling filing evidence.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-filing-period"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "report-catalog",
+        ""
+      ],
+      [
+        "Build filing pack",
+        "gst-filing-identity-blockers",
+        "primary"
+      ]
+    ],
+    "number": 105,
+    "phaseNumber": 33
+  },
+  {
+    "id": "gst-filing-identity-blockers",
+    "title": "GST filing identity review",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Resolve incomplete business and document identity before using the pack.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-filing-identity-blockers"
+    ],
+    "actions": [
+      [
+        "Back",
+        "gst-filing-period",
+        ""
+      ],
+      [
+        "View provisional summary",
+        "gst-filing-pack-summary",
+        ""
+      ]
+    ],
+    "number": 106,
+    "phaseNumber": 34
+  },
+  {
+    "id": "gst-filing-pack-summary",
+    "title": "GST filing pack summary",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Review outward supply, return and credit-note metrics with explicit evidence counts.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-filing-pack-summary"
+    ],
+    "actions": [
+      [
+        "Review blockers",
+        "gst-relief-blockers",
+        ""
+      ],
+      [
+        "Back to reports",
+        "report-catalog",
+        ""
+      ]
+    ],
+    "number": 107,
+    "phaseNumber": 35
+  },
+  {
+    "id": "gst-relief-blockers",
+    "title": "GST relief blockers",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Inspect credit-note blocker codes and reasons without hiding affected value.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "gst-relief-blockers"
+    ],
+    "actions": [
+      [
+        "Back",
+        "gst-filing-pack-summary",
+        ""
+      ]
+    ],
+    "number": 108,
+    "phaseNumber": 36
+  },
+  {
+    "id": "day-close-denomination-entry",
+    "title": "Day-close cash count",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Count notes and coins, preview reconciliation and save the current close.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "day-close-denomination-entry"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "day-close",
+        ""
+      ],
+      [
+        "Save day close",
+        "day-close-history-reclose",
+        "primary"
+      ]
+    ],
+    "number": 109,
+    "phaseNumber": 37
+  },
+  {
+    "id": "day-close-history-reclose",
+    "title": "Day-close history",
+    "group": "Reports",
+    "kind": "page",
+    "parent": "",
+    "description": "Review variance trends and explicitly re-close a selected historical business date.",
+    "source": "src/renderer/features/reporting/reporting-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "day-close-history-reclose"
+    ],
+    "actions": [
+      [
+        "Current day",
+        "day-close-denomination-entry",
+        ""
+      ]
+    ],
+    "number": 110,
+    "phaseNumber": 38
+  },
+  {
+    "id": "inventory-catalog-browse",
+    "title": "Inventory catalogue",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Search, filter and page a bounded product window.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "inventory-catalog-browse"
+    ],
+    "actions": [
+      [
+        "Add product",
+        "product-create-advanced",
+        "primary"
+      ],
+      [
+        "Bulk import",
+        "bulk-import-preview",
+        ""
+      ]
+    ],
+    "number": 111,
+    "phaseNumber": 39
+  },
+  {
+    "id": "inventory-loading-empty-unavailable",
+    "title": "Inventory search states",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Keep loading, empty and unavailable states visually and semantically distinct.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "inventory-loading-empty-unavailable"
+    ],
+    "actions": [
+      [
+        "Back",
+        "inventory-catalog-browse",
+        ""
+      ]
+    ],
+    "number": 112,
+    "phaseNumber": 40
+  },
+  {
+    "id": "product-create-advanced",
+    "title": "Create product",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Set category, codes, units, prices, tax and stock behavior.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "product-create-advanced"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Save product",
+        "product-edit-delete-revision",
+        "primary"
+      ]
+    ],
+    "number": 113,
+    "phaseNumber": 41
+  },
+  {
+    "id": "product-edit-delete-revision",
+    "title": "Edit product",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Update or delete the loaded product against the latest saved version.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "product-edit-delete-revision"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Save changes",
+        "inventory-catalog-browse",
+        "primary"
+      ]
+    ],
+    "number": 114,
+    "phaseNumber": 42
+  },
+  {
+    "id": "inventory-entity-create-edit",
+    "title": "Categories, variants & modifiers",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Create or revise catalogue entities with their parent and price or stock effect.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "inventory-entity-create-edit"
+    ],
+    "actions": [
+      [
+        "Back",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Save entity",
+        "inventory-catalog-browse",
+        "primary"
+      ]
+    ],
+    "number": 115,
+    "phaseNumber": 43
+  },
+  {
+    "id": "stock-movement-entry",
+    "title": "Record stock movement",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Move stock in, out, to waste or back as a return.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "stock-movement-entry"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Record movement",
+        "stock-movement-history-undo",
+        "primary"
+      ]
+    ],
+    "number": 116,
+    "phaseNumber": 44
+  },
+  {
+    "id": "stock-movement-history-undo",
+    "title": "Stock movement history",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Review paged movements and append a compensating undo when authorised.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "stock-movement-history-undo"
+    ],
+    "actions": [
+      [
+        "New movement",
+        "stock-movement-entry",
+        "primary"
+      ]
+    ],
+    "number": 117,
+    "phaseNumber": 45
+  },
+  {
+    "id": "inventory-conflicts-quarantine",
+    "title": "Inventory review queue",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Separate current entities, movements, conflicts and quarantined evidence.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "inventory-conflicts-quarantine"
+    ],
+    "actions": [
+      [
+        "Inventory",
+        "inventory-catalog-browse",
+        ""
+      ]
+    ],
+    "number": 118,
+    "phaseNumber": 46
+  },
+  {
+    "id": "bulk-import-preview",
+    "title": "Preview catalogue import",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Check every CSV row before applying the import.",
+    "source": "src/renderer/features/inventory/bulk-import-panel.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "bulk-import-preview"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Apply import",
+        "bulk-import-progress-recovery",
+        "primary"
+      ]
+    ],
+    "number": 119,
+    "phaseNumber": 47
+  },
+  {
+    "id": "bulk-import-progress-recovery",
+    "title": "Apply or recover import",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Continue the same saved import when the last page result is unknown.",
+    "source": "src/renderer/features/inventory/bulk-import-panel.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "bulk-import-progress-recovery"
+    ],
+    "actions": [
+      [
+        "Cancel safely",
+        "bulk-import-terminal-states",
+        ""
+      ],
+      [
+        "Recover saved import",
+        "bulk-import-progress-recovery",
+        "primary"
+      ]
+    ],
+    "number": 120,
+    "phaseNumber": 48
+  },
+  {
+    "id": "bulk-import-reversal",
+    "title": "Reverse applied import pages",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Append source-linked corrections until every applied page is reversed.",
+    "source": "src/renderer/features/inventory/bulk-import-panel.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "bulk-import-reversal"
+    ],
+    "actions": [
+      [
+        "Stop",
+        "bulk-import-terminal-states",
+        ""
+      ],
+      [
+        "Continue reversal",
+        "bulk-import-terminal-states",
+        "primary"
+      ]
+    ],
+    "number": 121,
+    "phaseNumber": 49
+  },
+  {
+    "id": "bulk-import-terminal-states",
+    "title": "Import result states",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Keep complete, partial, corrected and failed outcomes visibly distinct.",
+    "source": "src/renderer/features/inventory/bulk-import-panel.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "bulk-import-terminal-states"
+    ],
+    "actions": [
+      [
+        "Inventory",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "New preview",
+        "bulk-import-preview",
+        ""
+      ]
+    ],
+    "number": 122,
+    "phaseNumber": 50
+  },
+  {
+    "id": "catalog-export-builder",
+    "title": "Build product catalogue",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Choose pricing, labels, ordering link and QR caption for a private PDF.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "catalog-export-builder"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "inventory-catalog-browse",
+        ""
+      ],
+      [
+        "Build catalogue",
+        "catalog-export-ready",
+        "primary"
+      ]
+    ],
+    "number": 123,
+    "phaseNumber": 51
+  },
+  {
+    "id": "catalog-export-ready",
+    "title": "Catalogue ready",
+    "group": "Inventory",
+    "kind": "page",
+    "parent": "",
+    "description": "Download the private PDF, inspect its order QR and prepare share text.",
+    "source": "src/renderer/features/inventory/inventory-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "catalog-export-ready"
+    ],
+    "actions": [
+      [
+        "Back",
+        "catalog-export-builder",
+        ""
+      ],
+      [
+        "Prepare share",
+        "catalog-export-ready",
+        "primary"
+      ]
+    ],
+    "number": 124,
+    "phaseNumber": 52
+  },
+  {
+    "id": "customer-search-aging",
+    "title": "Customer credit ageing",
+    "group": "Customers",
+    "kind": "page",
+    "parent": "",
+    "description": "Find customer balances by name, phone and ageing bucket.",
+    "source": "src/renderer/features/customers/customer-khata-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "customer-search-aging"
+    ],
+    "actions": [
+      [
+        "Customer list",
+        "customers",
+        ""
+      ]
+    ],
+    "number": 125,
+    "phaseNumber": 53
+  },
+  {
+    "id": "customer-profile-khata-detail",
+    "title": "Customer profile & khata",
+    "group": "Customers",
+    "kind": "page",
+    "parent": "",
+    "description": "Edit customer fields independently and inspect a self-consistent running statement.",
+    "source": "src/renderer/features/customers/customer-khata-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "customer-profile-khata-detail"
+    ],
+    "actions": [
+      [
+        "Back",
+        "customer-search-aging",
+        ""
+      ]
+    ],
+    "number": 126,
+    "phaseNumber": 54
+  },
+  {
+    "id": "khata-statement-share",
+    "title": "Prepare khata statement",
+    "group": "Customers",
+    "kind": "page",
+    "parent": "",
+    "description": "Open a manual WhatsApp composer while reporting only the outcome the app knows.",
+    "source": "src/renderer/features/customers/customer-khata-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "khata-statement-share"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "customer-profile-khata-detail",
+        ""
+      ],
+      [
+        "Open WhatsApp composer",
+        "khata-statement-share",
+        "primary"
+      ]
+    ],
+    "number": 127,
+    "phaseNumber": 55
+  },
+  {
+    "id": "khata-settlement-receipt",
+    "title": "Receive khata payment",
+    "group": "Customers",
+    "kind": "page",
+    "parent": "",
+    "description": "Settle against the expected balance and produce a local receipt identity.",
+    "source": "src/renderer/features/customers/customer-khata-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "khata-settlement-receipt"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "customer-profile-khata-detail",
+        ""
+      ],
+      [
+        "Record settlement",
+        "customer-profile-khata-detail",
+        "primary"
+      ]
+    ],
+    "number": 128,
+    "phaseNumber": 56
+  },
+  {
+    "id": "marketing-authority-workspace",
+    "title": "Marketing workspace",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Manage coupons, loyalty, customer consent and manual messages.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "marketing-authority-workspace"
+    ],
+    "actions": [],
+    "number": 129,
+    "phaseNumber": 57
+  },
+  {
+    "id": "coupon-authority-detail",
+    "title": "Coupon details",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Edit coupon eligibility and check it for an optional customer.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "coupon-authority-detail"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ]
+    ],
+    "number": 130,
+    "phaseNumber": 58
+  },
+  {
+    "id": "loyalty-authority-detail",
+    "title": "Loyalty programme",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Configure earning and redemption and inspect one customer ledger.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "loyalty-authority-detail"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ]
+    ],
+    "number": 131,
+    "phaseNumber": 59
+  },
+  {
+    "id": "outreach-consent-detail",
+    "title": "Message consent",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Record whether a customer allows messages and keep the change in the audit history.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "outreach-consent-detail"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ]
+    ],
+    "number": 132,
+    "phaseNumber": 60
+  },
+  {
+    "id": "manual-communication-preview",
+    "title": "Manual customer message",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Preview released template text before opening a manual composer.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "manual-communication-preview"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "marketing-authority-workspace",
+        ""
+      ],
+      [
+        "Open manual WhatsApp composer",
+        "manual-communication-preview",
+        "primary"
+      ]
+    ],
+    "number": 133,
+    "phaseNumber": 61
+  },
+  {
+    "id": "promotion-receipt-preview",
+    "title": "Receipt promotion preview",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Preview customer-facing coupon and ordering content for the receipt.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "promotion-receipt-preview"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ],
+      [
+        "Save preview settings",
+        "promotion-receipt-preview",
+        "primary"
+      ]
+    ],
+    "number": 134,
+    "phaseNumber": 62
+  },
+  {
+    "id": "marketing-recovery-diagnostics",
+    "title": "Checkout record recovery",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Owner-only tools for correcting coupon and loyalty records after a confirmed sale change.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "marketing-recovery-diagnostics"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ]
+    ],
+    "number": 135,
+    "phaseNumber": 63
+  },
+  {
+    "id": "manual-communication-and-promo-preview",
+    "title": "Messages & receipt promotions",
+    "group": "Marketing",
+    "kind": "page",
+    "parent": "",
+    "description": "Choose the customer-facing content you want to prepare.",
+    "source": "src/renderer/features/marketing/marketing-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "manual-communication-and-promo-preview"
+    ],
+    "actions": [
+      [
+        "Back",
+        "marketing-authority-workspace",
+        ""
+      ]
+    ],
+    "number": 136,
+    "phaseNumber": 64
+  },
+  {
+    "id": "auth-sign-in",
+    "title": "Sign in to Biteaze",
+    "group": "Setup",
+    "source": "src/renderer/auth-view.ts",
+    "description": "Open the workspace assigned to this counter.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "auth-sign-in"
+    ],
+    "number": 137,
+    "phaseNumber": 65
+  },
+  {
+    "id": "auth-create-account",
+    "title": "Create a business account",
+    "group": "Setup",
+    "source": "src/renderer/auth-view.ts",
+    "description": "Set up the owner identity and initial business category.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "auth-create-account"
+    ],
+    "number": 138,
+    "phaseNumber": 66
+  },
+  {
+    "id": "auth-password-reset",
+    "title": "Reset your password",
+    "group": "Setup",
+    "source": "src/renderer/auth-view.ts",
+    "description": "Request a secure reset link for the owner account.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "auth-password-reset"
+    ],
+    "number": 139,
+    "phaseNumber": 67
+  },
+  {
+    "id": "auth-google-pending",
+    "title": "Continue with Google",
+    "group": "Setup",
+    "source": "src/renderer/auth-view.ts",
+    "description": "Finish authorization in the secure browser window.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "auth-google-pending"
+    ],
+    "number": 140,
+    "phaseNumber": 68
+  },
+  {
+    "id": "eula-first-launch",
+    "title": "End User Licence Agreement",
+    "group": "Setup",
+    "source": "src/renderer/eula-acceptance.ts",
+    "description": "Illustrative layout only: production must load the approved, versioned agreement supplied with the installed build.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "eula-first-launch"
+    ],
+    "number": 141,
+    "phaseNumber": 69
+  },
+  {
+    "id": "boot-contract-error",
+    "title": "Biteaze could not open",
+    "group": "Setup",
+    "source": "src/renderer/main.ts",
+    "description": "Recover from a renderer, identity, or workspace contract problem.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "boot-contract-error"
+    ],
+    "number": 142,
+    "phaseNumber": 70
+  },
+  {
+    "id": "account-deletion-progress",
+    "title": "Account deletion in progress",
+    "group": "Recovery",
+    "source": "src/renderer/account-deletion-progress.ts",
+    "description": "Track an accepted deletion request before sign-in.",
+    "actions": [],
+    "kind": "gate",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-deletion-progress"
+    ],
+    "number": 143,
+    "phaseNumber": 71
+  },
+  {
+    "id": "device-claim",
+    "title": "Add this PC",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Claim this counter only after account readiness requires it.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "device-claim"
+    ],
+    "number": 144,
+    "phaseNumber": 72
+  },
+  {
+    "id": "setup-product-import",
+    "title": "Import products",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Preview a mapped product file before any catalog changes.",
+    "actions": [
+      [
+        "Preview import",
+        "setup-import-preview",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "setup-product-import"
+    ],
+    "number": 145,
+    "phaseNumber": 73
+  },
+  {
+    "id": "setup-import-preview",
+    "title": "Review product import",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Confirm planned catalog changes and resolve mapping issues.",
+    "actions": [
+      [
+        "Back to mapping",
+        "setup-product-import",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "setup-import-preview"
+    ],
+    "number": 146,
+    "phaseNumber": 74
+  },
+  {
+    "id": "setup-khata-import",
+    "title": "Import customer balances",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Preview customer credit balances separately from product data.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "setup-khata-import"
+    ],
+    "number": 147,
+    "phaseNumber": 75
+  },
+  {
+    "id": "restore-progress",
+    "title": "Restore business data",
+    "group": "Recovery",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Resume a bounded restore and show trust separately from progress.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-progress"
+    ],
+    "number": 148,
+    "phaseNumber": 76
+  },
+  {
+    "id": "restore-readiness-blocked",
+    "title": "Billing readiness",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding/onboarding-route.ts",
+    "description": "Resolve required setup checks before opening Billing.",
+    "actions": [
+      [
+        "Check bill readiness",
+        "wizard-category-account",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-readiness-blocked"
+    ],
+    "number": 149,
+    "phaseNumber": 77
+  },
+  {
+    "id": "wizard-category-account",
+    "title": "Setup guide · business and account",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+    "description": "Configure the category and account foundation.",
+    "actions": [
+      [
+        "Restart guide",
+        "wizard-category-account",
+        ""
+      ],
+      [
+        "Next: recovery",
+        "backup-recovery",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "wizard-category-account"
+    ],
+    "number": 150,
+    "phaseNumber": 78
+  },
+  {
+    "id": "wizard-hardware",
+    "title": "Setup guide · hardware",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+    "description": "Record what is configured, simulated, or physically verified.",
+    "actions": [
+      [
+        "Previous",
+        "wizard-category-account",
+        ""
+      ],
+      [
+        "Next",
+        "wizard-business-settings",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "wizard-hardware"
+    ],
+    "number": 151,
+    "phaseNumber": 79
+  },
+  {
+    "id": "wizard-business-settings",
+    "title": "Setup guide · business settings",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+    "description": "Preview tax, payment, language, and support settings before saving.",
+    "actions": [
+      [
+        "Cancel preview",
+        "wizard-hardware",
+        ""
+      ],
+      [
+        "Confirm settings",
+        "wizard-review-complete",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "wizard-business-settings"
+    ],
+    "number": 152,
+    "phaseNumber": 80
+  },
+  {
+    "id": "wizard-review-complete",
+    "title": "Setup guide · final review",
+    "group": "Setup",
+    "source": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+    "description": "Finish only when every required readiness result is current.",
+    "actions": [
+      [
+        "Previous",
+        "wizard-business-settings",
+        ""
+      ],
+      [
+        "Recheck",
+        "wizard-review-complete",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "wizard-review-complete"
+    ],
+    "number": 153,
+    "phaseNumber": 81
+  },
+  {
+    "id": "print-setup-discovery",
+    "title": "Discover receipt printers",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Choose, confirm, and save a primary receipt printer.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "print-setup-discovery"
+    ],
+    "number": 154,
+    "phaseNumber": 82
+  },
+  {
+    "id": "print-printer-editor",
+    "title": "Edit printer and routes",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Configure transport, roles, paper, and supported hardware.",
+    "actions": [
+      [
+        "Cancel edit",
+        "print-fleet-tests",
+        ""
+      ],
+      [
+        "Save printer",
+        "print-fleet-tests",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "print-printer-editor"
+    ],
+    "number": 155,
+    "phaseNumber": 83
+  },
+  {
+    "id": "print-fleet-tests",
+    "title": "Printers and device tests",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Inspect configured routes and run capability-aware tests.",
+    "actions": [
+      [
+        "Discover printers",
+        "print-setup-discovery",
+        ""
+      ],
+      [
+        "Import physical qualification",
+        "print-hardware-qualification",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "print-fleet-tests"
+    ],
+    "number": 156,
+    "phaseNumber": 84
+  },
+  {
+    "id": "print-hardware-qualification",
+    "title": "Physical printer qualification",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Import signed evidence recorded on the actual Windows counter.",
+    "actions": [
+      [
+        "Back",
+        "print-fleet-tests",
+        ""
+      ],
+      [
+        "Import physical qualification",
+        "print-hardware-qualification",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "print-hardware-qualification"
+    ],
+    "number": 157,
+    "phaseNumber": 85
+  },
+  {
+    "id": "receipt-operational-preview",
+    "title": "Receipt output and reprint",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Bind receipt content to a route and committed invoice.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "receipt-operational-preview"
+    ],
+    "number": 158,
+    "phaseNumber": 86
+  },
+  {
+    "id": "print-job-history",
+    "title": "Print job history",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Track attempts without confusing transport status with paper output.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "print-job-history"
+    ],
+    "number": 159,
+    "phaseNumber": 87
+  },
+  {
+    "id": "print-outcome-reconcile",
+    "title": "Confirm the last print outcome",
+    "group": "Printing",
+    "source": "src/renderer/features/print-center/print-center-route.ts",
+    "description": "Resolve an ambiguous attempt before any retry.",
+    "actions": [
+      [
+        "Cancel",
+        "print-job-history",
+        ""
+      ],
+      [
+        "Confirm printed",
+        "print-job-history",
+        ""
+      ],
+      [
+        "Confirm not printed",
+        "print-job-history",
+        "danger"
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "print-job-history",
+    "basis": "source-backed",
+    "coverage": [
+      "print-outcome-reconcile"
+    ],
+    "number": 160,
+    "phaseNumber": 88
+  },
+  {
+    "id": "labels-batch-setup",
+    "title": "Barcode label batch",
+    "group": "Printing",
+    "source": "src/renderer/features/barcode-labels/barcode-label-route.ts",
+    "description": "Select exact products, layout, route, and copy counts.",
+    "actions": [
+      [
+        "Generate exact preview",
+        "labels-exact-preview",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "labels-batch-setup"
+    ],
+    "number": 161,
+    "phaseNumber": 89
+  },
+  {
+    "id": "labels-exact-preview",
+    "title": "Exact label preview",
+    "group": "Printing",
+    "source": "src/renderer/features/barcode-labels/barcode-label-route.ts",
+    "description": "Review the generated layouts before one immutable submission.",
+    "actions": [
+      [
+        "Back",
+        "labels-batch-setup",
+        ""
+      ],
+      [
+        "Print previewed labels",
+        "print-job-history",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "labels-exact-preview"
+    ],
+    "number": 162,
+    "phaseNumber": 90
+  },
+  {
+    "id": "labels-submit-failure",
+    "title": "Label batch needs correction",
+    "group": "Printing",
+    "source": "src/renderer/features/barcode-labels/barcode-label-route.ts",
+    "description": "Preserve the preview while explaining why submission stopped.",
+    "actions": [
+      [
+        "Return to setup",
+        "labels-batch-setup",
+        ""
+      ],
+      [
+        "Refresh exact preview",
+        "labels-exact-preview",
+        "primary"
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "labels-exact-preview",
+    "basis": "source-backed",
+    "coverage": [
+      "labels-submit-failure"
+    ],
+    "number": 163,
+    "phaseNumber": 91
+  },
+  {
+    "id": "operator-settings",
+    "title": "Operator settings",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Control language and business-issued desktop preferences.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "operator-settings"
+    ],
+    "number": 164,
+    "phaseNumber": 92
+  },
+  {
+    "id": "windows-device-settings",
+    "title": "Windows device settings",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/windows-operations-surface.ts",
+    "description": "Configure startup, kiosk preference, and safe app exit.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "windows-device-settings"
+    ],
+    "number": 165,
+    "phaseNumber": 93
+  },
+  {
+    "id": "exit-biteaze-confirmation",
+    "title": "Exit Biteaze?",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/windows-operations-surface.ts",
+    "description": "Protect active counter work before closing the app.",
+    "actions": [
+      [
+        "Cancel",
+        "windows-device-settings",
+        ""
+      ],
+      [
+        "Exit Biteaze",
+        "windows-device-settings",
+        "danger",
+        "Safe-exit review retained. This demo cannot close the Windows application."
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "windows-device-settings",
+    "basis": "source-backed",
+    "coverage": [
+      "exit-biteaze-confirmation"
+    ],
+    "number": 166,
+    "phaseNumber": 94
+  },
+  {
+    "id": "backup-recovery",
+    "title": "Backup and recovery",
+    "group": "Recovery",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Create, rehearse, and restore encrypted local recovery material.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "backup-recovery"
+    ],
+    "number": 167,
+    "phaseNumber": 95
+  },
+  {
+    "id": "restore-backup-confirm",
+    "title": "Replace this PC’s billing data?",
+    "group": "Recovery",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Require an explicit destructive restore confirmation.",
+    "actions": [
+      [
+        "Cancel restore",
+        "backup-recovery",
+        ""
+      ],
+      [
+        "Confirm restore",
+        "restore-progress",
+        "danger"
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "backup-recovery",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-backup-confirm"
+    ],
+    "number": 168,
+    "phaseNumber": 96
+  },
+  {
+    "id": "profile-security",
+    "title": "Profile and account security",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Update credentials or end the current authenticated session.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "profile-security"
+    ],
+    "number": 169,
+    "phaseNumber": 97
+  },
+  {
+    "id": "delete-account-confirm",
+    "title": "Permanently delete this account?",
+    "group": "Recovery",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Confirm owner credentials and the exact deletion phrase.",
+    "actions": [
+      [
+        "Cancel",
+        "profile-security",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "profile-security",
+    "basis": "source-backed",
+    "coverage": [
+      "delete-account-confirm"
+    ],
+    "number": 170,
+    "phaseNumber": 98
+  },
+  {
+    "id": "staff-authorization",
+    "title": "Verify staff management",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Open a bounded management session before changing staff.",
+    "actions": [
+      [
+        "Cancel",
+        "staff",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "staff",
+    "basis": "source-backed",
+    "coverage": [
+      "staff-authorization"
+    ],
+    "number": 171,
+    "phaseNumber": 99
+  },
+  {
+    "id": "staff-member-security",
+    "title": "Staff access and PINs",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Update a verified staff roster with conflict-safe controls.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "staff-member-security"
+    ],
+    "number": 172,
+    "phaseNumber": 100
+  },
+  {
+    "id": "staff-pin-recovery",
+    "title": "Finish staff PIN setup",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Resume an incomplete create or reset operation.",
+    "actions": [
+      [
+        "Cancel",
+        "staff-member-security",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "staff-member-security",
+    "basis": "source-backed",
+    "coverage": [
+      "staff-pin-recovery"
+    ],
+    "number": 173,
+    "phaseNumber": 101
+  },
+  {
+    "id": "voice-command",
+    "title": "Preview a voice-typed command",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Use Windows voice typing while Biteaze receives text only.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "voice-command"
+    ],
+    "number": 174,
+    "phaseNumber": 102
+  },
+  {
+    "id": "voice-action-confirm",
+    "title": "Confirm voice action",
+    "group": "Device & staff",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Review every proposed mutation before applying it.",
+    "actions": [
+      [
+        "Cancel",
+        "voice-command",
+        ""
+      ],
+      [
+        "Confirm voice action",
+        "billing",
+        "primary"
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "voice-command",
+    "basis": "source-backed",
+    "coverage": [
+      "voice-action-confirm"
+    ],
+    "number": 175,
+    "phaseNumber": 103
+  },
+  {
+    "id": "sync-conflict-review",
+    "title": "Review sync conflict",
+    "group": "Recovery",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Resolve only conflicts explicitly marked resolvable.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "sync-conflict-review"
+    ],
+    "number": 176,
+    "phaseNumber": 104
+  },
+  {
+    "id": "sync-quarantine",
+    "title": "Sync quarantine",
+    "group": "Recovery",
+    "source": "src/renderer/features/operator-experience/operator-experience-route.ts",
+    "description": "Investigate records that cannot be safely auto-resolved.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "sync-quarantine"
+    ],
+    "number": 177,
+    "phaseNumber": 105
+  },
+  {
+    "id": "support-health",
+    "title": "Support health",
+    "group": "Support",
+    "source": "src/renderer/features/support/support-route.ts",
+    "description": "Give owners bounded diagnostics without customer or staff identities.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "support-health"
+    ],
+    "number": 178,
+    "phaseNumber": 106
+  },
+  {
+    "id": "support-diagnostics-preview",
+    "title": "Diagnostics preview",
+    "group": "Support",
+    "source": "src/renderer/features/support/support-route.ts",
+    "description": "Inspect bounded technical evidence before a private local save.",
+    "actions": [
+      [
+        "Close",
+        "support-health",
+        ""
+      ],
+      [
+        "Save diagnostics locally",
+        "support-health",
+        "primary"
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "support-health",
+    "basis": "source-backed",
+    "coverage": [
+      "support-diagnostics-preview"
+    ],
+    "number": 179,
+    "phaseNumber": 107
+  },
+  {
+    "id": "legal-operations",
+    "title": "Legal operations readiness",
+    "group": "Support",
+    "source": "src/renderer/features/legal-ops/legal-ops-route.ts",
+    "description": "Read internal operating rules and evidence boundaries.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "legal-operations"
+    ],
+    "number": 180,
+    "phaseNumber": 108
+  },
+  {
+    "id": "category-dashboard",
+    "title": "Category dashboard",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Show metrics issued for the selected business category.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "category-dashboard"
+    ],
+    "number": 181,
+    "phaseNumber": 109
+  },
+  {
+    "id": "category-setup-reports",
+    "title": "Category setup and reports",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Use category-issued starter counts, catalog labels, and report identifiers.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "category-setup-reports"
+    ],
+    "number": 182,
+    "phaseNumber": 110
+  },
+  {
+    "id": "appointments-schedule",
+    "title": "Appointment schedule",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Book and filter appointments for an entitled service business.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "appointments-schedule"
+    ],
+    "number": 183,
+    "phaseNumber": 111
+  },
+  {
+    "id": "appointment-detail",
+    "title": "Appointment details",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Reschedule or cancel against the latest appointment version.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "appointment-detail"
+    ],
+    "number": 184,
+    "phaseNumber": 112
+  },
+  {
+    "id": "jobs-intake",
+    "title": "New service or repair job",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Capture customer, work, device, money, and promise details.",
+    "actions": [
+      [
+        "Save new job",
+        "job-lifecycle",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "jobs-intake"
+    ],
+    "number": 185,
+    "phaseNumber": 113
+  },
+  {
+    "id": "job-lifecycle",
+    "title": "Job lifecycle",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Move a selected job through the exact supported status path.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "job-lifecycle"
+    ],
+    "number": 186,
+    "phaseNumber": 114
+  },
+  {
+    "id": "job-quotation-billing",
+    "title": "Job quotation and Billing review",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Link a revision-bound quotation and hand it to Billing for review.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "job-quotation-billing"
+    ],
+    "number": 187,
+    "phaseNumber": 115
+  },
+  {
+    "id": "repair-ready-message",
+    "title": "Repair-ready message",
+    "group": "Services",
+    "source": "src/renderer/features/vertical/vertical-route.ts",
+    "description": "Prepare a customer message and open a manual composer.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "conditional",
+    "coverage": [
+      "repair-ready-message"
+    ],
+    "number": 188,
+    "phaseNumber": 116
+  },
+  {
+    "id": "food-service-workspace",
+    "title": "Food-service workspace",
+    "group": "Food service",
+    "description": "Open new service orders and continue running tables from one operational view.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-service-workspace"
+    ],
+    "actions": [
+      [
+        "Compose order",
+        "food-order-compose",
+        "primary"
+      ],
+      [
+        "Refresh",
+        "food-service-workspace",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 189,
+    "phaseNumber": 117
+  },
+  {
+    "id": "food-order-compose",
+    "title": "Compose food order",
+    "group": "Food service",
+    "description": "Build a dine-in or takeaway order with route-aware modifiers and packaging.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-order-compose"
+    ],
+    "actions": [
+      [
+        "Open order",
+        "food-running-order",
+        "primary"
+      ],
+      [
+        "Cancel",
+        "food-service-workspace",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 190,
+    "phaseNumber": 118
+  },
+  {
+    "id": "food-modifier-requirements",
+    "title": "Choose item options",
+    "group": "Food service",
+    "description": "Complete every required modifier group before adding this line.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-modifier-requirements"
+    ],
+    "actions": [
+      [
+        "Cancel",
+        "food-order-compose",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "food-order-compose",
+    "number": 191,
+    "phaseNumber": 119
+  },
+  {
+    "id": "food-running-order",
+    "title": "Running order · T04",
+    "group": "Food service",
+    "description": "Operate an open order with explicit hold, commit and routed-KOT actions.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-running-order"
+    ],
+    "actions": [
+      [
+        "Commit order",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Hold",
+        "food-order-held",
+        "soft"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 192,
+    "phaseNumber": 120
+  },
+  {
+    "id": "food-order-held",
+    "title": "Held food order · #FS-1041",
+    "group": "Food service",
+    "description": "A held order stays intact until an operator explicitly resumes it.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-order-held"
+    ],
+    "actions": [
+      [
+        "Resume order",
+        null,
+        "primary",
+        "Resume the same held order #FS-1041 with its ₹520 total and retained lines."
+      ],
+      [
+        "Back to workspace",
+        "food-service-workspace",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 193,
+    "phaseNumber": 121
+  },
+  {
+    "id": "food-table-transfer",
+    "title": "Transfer table",
+    "group": "Food service",
+    "description": "Move the whole running order to an available table after a current-state check.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-table-transfer"
+    ],
+    "actions": [
+      [
+        "Transfer to T08",
+        "food-running-order",
+        "primary",
+        "Transfer preview retained for #FS-1042 from T04 to T08. No table was changed."
+      ],
+      [
+        "Cancel",
+        "food-running-order",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "food-running-order",
+    "number": 194,
+    "phaseNumber": 122
+  },
+  {
+    "id": "food-order-merge",
+    "title": "Merge running orders",
+    "group": "Food service",
+    "description": "Combine one running order into another without losing either source identity.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-order-merge"
+    ],
+    "actions": [
+      [
+        "Merge into #FS-1048",
+        "food-running-order",
+        "primary",
+        "Merge preview retained for #FS-1042 and #FS-1048. No order was changed."
+      ],
+      [
+        "Cancel",
+        "food-running-order",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "food-running-order",
+    "number": 195,
+    "phaseNumber": 123
+  },
+  {
+    "id": "food-order-split-lines",
+    "title": "Split order line",
+    "group": "Food service",
+    "description": "Move a bounded quantity into a new order while preserving what remains.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-order-split-lines"
+    ],
+    "actions": [
+      [
+        "Create split order",
+        "food-running-order",
+        "primary",
+        "Split preview retained for #FS-1042. No new order was created."
+      ],
+      [
+        "Cancel",
+        "food-running-order",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "food-running-order",
+    "number": 196,
+    "phaseNumber": 124
+  },
+  {
+    "id": "routed-kot-preview",
+    "title": "Routed kitchen tickets",
+    "group": "Food service",
+    "description": "Review route-specific output; KOT tickets deliberately omit item prices.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "routed-kot-preview"
+    ],
+    "actions": [
+      [
+        "Queue route tickets",
+        "food-running-order",
+        "primary"
+      ],
+      [
+        "Output settings",
+        "food-output-config",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 197,
+    "phaseNumber": 125
+  },
+  {
+    "id": "food-output-config",
+    "title": "Food output settings",
+    "group": "Food service",
+    "description": "Configure kitchen ticket content separately from receipt price visibility.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-output-config"
+    ],
+    "actions": [
+      [
+        "Save settings",
+        "food-service-workspace",
+        "primary"
+      ],
+      [
+        "Preview KOT",
+        "routed-kot-preview",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 198,
+    "phaseNumber": 126
+  },
+  {
+    "id": "food-service-stale",
+    "title": "Food-service data needs refresh",
+    "group": "Food service",
+    "description": "The last known workspace is retained while current records are restored.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "food-service-stale"
+    ],
+    "actions": [
+      [
+        "Refresh current data",
+        "food-service-workspace",
+        "primary"
+      ],
+      [
+        "Keep working elsewhere",
+        "dashboard",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 199,
+    "phaseNumber": 127
+  },
+  {
+    "id": "qr-backend-readiness",
+    "title": "QR ordering readiness",
+    "group": "QR ordering",
+    "description": "Check public-menu and intake availability before publishing or receiving orders.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "qr-backend-readiness"
+    ],
+    "actions": [
+      [
+        "Refresh readiness",
+        "qr-backend-readiness",
+        "primary"
+      ],
+      [
+        "QR settings",
+        "qr",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 200,
+    "phaseNumber": 128
+  },
+  {
+    "id": "menu-publish-confirm",
+    "title": "Publish QR menu",
+    "group": "QR ordering",
+    "description": "Review the exact menu snapshot before publishing a new customer version.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "menu-publish-confirm"
+    ],
+    "actions": [
+      [
+        "Publish this revision",
+        "menu-publish-mirror-pending",
+        "primary"
+      ],
+      [
+        "Cancel",
+        "phase2-overview",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "phase2-overview",
+    "number": 201,
+    "phaseNumber": 129
+  },
+  {
+    "id": "menu-publish-live",
+    "title": "QR menu is live",
+    "group": "QR ordering",
+    "description": "The saved menu version is confirmed visible on the customer site.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "menu-publish-live"
+    ],
+    "actions": [
+      [
+        "Open table QR",
+        "table-qr-create",
+        "primary"
+      ],
+      [
+        "Back",
+        "qr-backend-readiness",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 202,
+    "phaseNumber": 130
+  },
+  {
+    "id": "menu-publish-mirror-pending",
+    "title": "Menu saved · customer site pending",
+    "group": "QR ordering",
+    "description": "The new menu version is saved, but customer visibility is not confirmed yet.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "menu-publish-mirror-pending"
+    ],
+    "actions": [
+      [
+        "Refresh mirror status",
+        "menu-publish-live",
+        "primary"
+      ],
+      [
+        "View retrying state",
+        "menu-publish-mirror-failed",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 203,
+    "phaseNumber": 131
+  },
+  {
+    "id": "menu-publish-mirror-failed",
+    "title": "Menu saved · customer site retrying",
+    "group": "QR ordering",
+    "description": "The saved menu is safe while the customer site retries its update.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "menu-publish-mirror-failed"
+    ],
+    "actions": [
+      [
+        "Retry customer-site update",
+        "menu-publish-mirror-pending",
+        "primary"
+      ],
+      [
+        "Back to readiness",
+        "qr-backend-readiness",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 204,
+    "phaseNumber": 132
+  },
+  {
+    "id": "table-qr-create",
+    "title": "Create table QR",
+    "group": "QR ordering",
+    "description": "Generate a table-bound customer link only while QR ordering is live.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "table-qr-create"
+    ],
+    "actions": [
+      [
+        "Create table QR",
+        "table-qr-ready",
+        "primary"
+      ],
+      [
+        "Cancel",
+        "menu-publish-live",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "menu-publish-live",
+    "number": 205,
+    "phaseNumber": 133
+  },
+  {
+    "id": "table-qr-ready",
+    "title": "Table 12 QR ready",
+    "group": "QR ordering",
+    "description": "Copy or print the exact table-bound link from a non-payable reference preview.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "table-qr-ready"
+    ],
+    "actions": [
+      [
+        "Print / save preview",
+        "table-qr-ready",
+        "primary"
+      ],
+      [
+        "Create another",
+        "table-qr-create",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 206,
+    "phaseNumber": 134
+  },
+  {
+    "id": "qr-order-intake",
+    "title": "Incoming QR orders",
+    "group": "QR ordering",
+    "description": "Receive and accept customer orders without hiding truncation, recovery, or correction markers.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "qr-order-intake"
+    ],
+    "actions": [
+      [
+        "Receive latest orders",
+        "qr-order-intake",
+        "primary"
+      ],
+      [
+        "View unavailable state",
+        "qr-intake-unavailable",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 207,
+    "phaseNumber": 135
+  },
+  {
+    "id": "qr-order-accepted",
+    "title": "Review accepted QR order",
+    "group": "QR ordering",
+    "description": "Expose dropped and repriced items before continuing with the resulting running order.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "qr-order-accepted"
+    ],
+    "actions": [
+      [
+        "Open running order",
+        null,
+        "primary",
+        "Open #FS-1052 with accepted total ₹660 and the recorded correction markers."
+      ],
+      [
+        "Render KOT",
+        null,
+        "",
+        "Render route tickets for #FS-1052 only; preserve its accepted lines."
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 208,
+    "phaseNumber": 136
+  },
+  {
+    "id": "qr-intake-unavailable",
+    "title": "QR intake unavailable",
+    "group": "QR ordering",
+    "description": "Keep the last successful queue visible while a new intake attempt is unresolved.",
+    "source": "src/renderer/features/food-service/food-service-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "qr-intake-unavailable"
+    ],
+    "actions": [
+      [
+        "Retry same intake",
+        "qr-order-intake",
+        "primary"
+      ],
+      [
+        "Back",
+        "qr-backend-readiness",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 209,
+    "phaseNumber": 137
+  },
+  {
+    "id": "billing-attribution",
+    "title": "Sale attribution",
+    "group": "Billing recovery",
+    "description": "Keep customer, serving staff and signed-in operator as separate identities.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-attribution"
+    ],
+    "actions": [
+      [
+        "Apply attribution",
+        "billing",
+        "primary"
+      ],
+      [
+        "Clear optional fields",
+        "billing-attribution",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 210,
+    "phaseNumber": 138
+  },
+  {
+    "id": "billing-quotation-review",
+    "title": "Quotation review in Billing",
+    "group": "Billing recovery",
+    "description": "Complete a source-bound quotation only after current catalog and customer checks.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-quotation-review"
+    ],
+    "actions": [
+      [
+        "Continue to checkout",
+        null,
+        "primary",
+        "Preserve QUO-2026-028, Sample Customer B, and ₹18,600 in the fresh payment review."
+      ],
+      [
+        "Return to quotation",
+        "quotation-detail-review",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 211,
+    "phaseNumber": 139
+  },
+  {
+    "id": "billing-challan-review",
+    "title": "Challan review in Billing",
+    "group": "Billing recovery",
+    "description": "Invoice selected challans without treating them as a delivery service order.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-challan-review"
+    ],
+    "actions": [
+      [
+        "Continue to checkout",
+        null,
+        "primary",
+        "Preserve DC-2026-019, Sample Customer C, and ₹12,400 in the fresh payment review."
+      ],
+      [
+        "Return to challans",
+        "challan-selection-invoice-handoff",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 212,
+    "phaseNumber": 140
+  },
+  {
+    "id": "billing-document-correction",
+    "title": "Source document needs attention",
+    "group": "Billing recovery",
+    "description": "Resolve changed, unavailable, or ambiguous source items before checkout.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-document-correction"
+    ],
+    "actions": [
+      [
+        "Return to document",
+        "quotation-detail-review",
+        "primary"
+      ],
+      [
+        "Retry current-catalog review",
+        "billing-quotation-review",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 213,
+    "phaseNumber": 141
+  },
+  {
+    "id": "billing-document-discard-unknown",
+    "title": "Discard outcome unknown",
+    "group": "Billing recovery",
+    "description": "Preserve the document review until the same discard operation is confirmed.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-document-discard-unknown"
+    ],
+    "actions": [
+      [
+        "Retry same discard",
+        "billing-document-discard-unknown",
+        "primary"
+      ],
+      [
+        "Reopen source",
+        "quotation-detail-review",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 214,
+    "phaseNumber": 142
+  },
+  {
+    "id": "billing-checkout-recovery",
+    "title": "Checkout restored",
+    "group": "Billing recovery",
+    "description": "Continue a saved checkout after restart with a fresh payment review.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-checkout-recovery"
+    ],
+    "actions": [
+      [
+        "Continue payment",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Discard restored checkout",
+        "checkout-discard-unknown",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 215,
+    "phaseNumber": 143
+  },
+  {
+    "id": "ongoing-order-recovery",
+    "title": "Saved and held orders",
+    "group": "Billing recovery",
+    "description": "Resume or cancel only when the active cart and saved-checkout guards allow it.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "ongoing-order-recovery"
+    ],
+    "actions": [
+      [
+        "New bill",
+        "billing",
+        "primary"
+      ],
+      [
+        "View limit state",
+        "ongoing-order-limit",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 216,
+    "phaseNumber": 144
+  },
+  {
+    "id": "ongoing-order-limit",
+    "title": "Held-order limit reached",
+    "group": "Billing recovery",
+    "description": "Keep the current cart intact and free a slot deliberately before holding it.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "ongoing-order-limit"
+    ],
+    "actions": [
+      [
+        "Review existing holds",
+        "ongoing-order-recovery",
+        "primary"
+      ],
+      [
+        "Return to cart",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 217,
+    "phaseNumber": 145
+  },
+  {
+    "id": "ongoing-order-conflict",
+    "title": "Saved order changed",
+    "group": "Billing recovery",
+    "description": "Retain the selected order and cancellation reason while its latest state is refreshed.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "ongoing-order-conflict"
+    ],
+    "actions": [
+      [
+        "Refresh hold",
+        "ongoing-order-recovery",
+        "primary"
+      ],
+      [
+        "Retry after refresh",
+        "ongoing-order-recovery",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 218,
+    "phaseNumber": 146
+  },
+  {
+    "id": "retail-line-configuration",
+    "title": "Configure retail line",
+    "group": "Billing recovery",
+    "description": "Choose pricing, units, variation, add-ons, quantity, and packaging for a catalog line.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "retail-line-configuration"
+    ],
+    "actions": [
+      [
+        "Add configured line",
+        "billing",
+        "primary"
+      ],
+      [
+        "View validation",
+        "retail-line-invalid",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 219,
+    "phaseNumber": 147
+  },
+  {
+    "id": "retail-line-invalid",
+    "title": "Retail line needs correction",
+    "group": "Billing recovery",
+    "description": "Keep every editable choice visible when catalog availability or numeric validation changes.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "retail-line-invalid"
+    ],
+    "actions": [
+      [
+        "Reselect variation",
+        "retail-line-configuration",
+        "primary"
+      ],
+      [
+        "Cancel line",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 220,
+    "phaseNumber": 148
+  },
+  {
+    "id": "billing-promotions-authority",
+    "title": "Promotions and order note",
+    "group": "Billing recovery",
+    "description": "Apply customer-dependent coupon and loyalty against verified totals.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-promotions-authority"
+    ],
+    "actions": [
+      [
+        "Revalidate promotions",
+        "billing-promotions-authority",
+        "primary"
+      ],
+      [
+        "Continue",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 221,
+    "phaseNumber": 149
+  },
+  {
+    "id": "billing-tcs-review",
+    "title": "Review policy-gated TCS",
+    "group": "Billing recovery",
+    "description": "Apply TCS only when the current checkout policy explicitly enables it.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "billing-tcs-review"
+    ],
+    "actions": [
+      [
+        "Apply and recheck",
+        null,
+        "primary",
+        "Recalculate this checkout with TCS retained. Its current verified payable is ₹945.90."
+      ],
+      [
+        "Remove TCS",
+        "billing-promotions-authority",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 222,
+    "phaseNumber": 150
+  },
+  {
+    "id": "checkout-draft-locked",
+    "title": "Saved checkout locked",
+    "group": "Checkout",
+    "description": "Product and promotion edits pause while a saved checkout awaits completion or discard.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "checkout-draft-locked"
+    ],
+    "actions": [
+      [
+        "Review payment",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Discard checkout",
+        "checkout-discard-unknown",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 223,
+    "phaseNumber": 151
+  },
+  {
+    "id": "checkout-save-unknown",
+    "title": "Checkout save outcome unknown",
+    "group": "Checkout",
+    "description": "Check the same save request without creating a duplicate checkout.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "checkout-save-unknown"
+    ],
+    "actions": [
+      [
+        "Check same save again",
+        "checkout-save-unknown",
+        "primary"
+      ],
+      [
+        "Return to cart",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 224,
+    "phaseNumber": 152
+  },
+  {
+    "id": "checkout-draft-conflict",
+    "title": "Checkout could not be saved",
+    "group": "Checkout",
+    "description": "Separate conflict, permission denial, and business refusal while preserving the cart.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "checkout-draft-conflict"
+    ],
+    "actions": [
+      [
+        "Refresh checkout",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Return to cart",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 225,
+    "phaseNumber": 153
+  },
+  {
+    "id": "checkout-discard-unknown",
+    "title": "Checkout discard unresolved",
+    "group": "Checkout",
+    "description": "Keep checkout locked until the existing discard request has a known result.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "checkout-discard-unknown"
+    ],
+    "actions": [
+      [
+        "Check discard again",
+        "checkout-discard-unknown",
+        "primary"
+      ],
+      [
+        "Keep checkout",
+        "checkout-draft-locked",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 226,
+    "phaseNumber": 154
+  },
+  {
+    "id": "payment-authority-preview",
+    "title": "Review payment",
+    "group": "Checkout",
+    "description": "Confirm the verified payable and attribution before committing a sale.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "payment-authority-preview"
+    ],
+    "actions": [
+      [
+        "Save + queue print",
+        "sale-print-queued",
+        "primary"
+      ],
+      [
+        "Save without print",
+        "sale-saved-no-print",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 227,
+    "phaseNumber": 155
+  },
+  {
+    "id": "payment-preview-unavailable",
+    "title": "Payment review unavailable",
+    "group": "Checkout",
+    "description": "Retain the saved draft and tender while the latest payment check is restored.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "payment-preview-unavailable"
+    ],
+    "actions": [
+      [
+        "Retry payment review",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Return to tender",
+        "payment-cash",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 228,
+    "phaseNumber": 156
+  },
+  {
+    "id": "credit-warning",
+    "title": "Credit warning",
+    "group": "Checkout",
+    "description": "A warning requires explicit acknowledgement; it is not an allowed result.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "credit-warning"
+    ],
+    "actions": [
+      [
+        "Acknowledge and continue",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Back",
+        "payment-credit",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "payment-authority-preview",
+    "number": 229,
+    "phaseNumber": 157
+  },
+  {
+    "id": "credit-reservation-required",
+    "title": "Reserve credit authority",
+    "group": "Checkout",
+    "description": "Reserve current customer credit and bind that reservation to this sale.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "credit-reservation-required"
+    ],
+    "actions": [
+      [
+        "Reserve and continue",
+        "payment-authority-preview",
+        "primary"
+      ],
+      [
+        "Back",
+        "payment-credit",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "payment-authority-preview",
+    "number": 230,
+    "phaseNumber": 158
+  },
+  {
+    "id": "credit-override-required",
+    "title": "Manager credit override",
+    "group": "Checkout",
+    "description": "Record an owner or manager override when the current credit limit blocks completion.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "credit-override-required"
+    ],
+    "actions": [
+      [
+        "Verify manager",
+        "manager",
+        "primary"
+      ],
+      [
+        "Back",
+        "payment-credit",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "payment-authority-preview",
+    "number": 231,
+    "phaseNumber": 159
+  },
+  {
+    "id": "payment-completion-unknown",
+    "title": "Sale outcome unknown",
+    "group": "Checkout",
+    "description": "Check the same completion request and prevent an accidental second sale.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "payment-completion-unknown"
+    ],
+    "actions": [
+      [
+        "Check same request again",
+        "payment-completion-unknown",
+        "primary"
+      ],
+      [
+        "Keep checkout locked",
+        "checkout-draft-locked",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 232,
+    "phaseNumber": 160
+  },
+  {
+    "id": "payment-completion-conflict",
+    "title": "Sale completion blocked",
+    "group": "Checkout",
+    "description": "Resolve a permission or state conflict without starting a second sale.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "payment-completion-conflict"
+    ],
+    "actions": [
+      [
+        "Refresh payment review",
+        null,
+        "primary",
+        "Recheck the retained Credit tender and current customer credit authority; do not substitute Cash."
+      ],
+      [
+        "Back",
+        "payment-credit",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 233,
+    "phaseNumber": 161
+  },
+  {
+    "id": "payment-completion-stale",
+    "title": "Checkout totals changed",
+    "group": "Checkout",
+    "description": "Return to a fresh payment review when totals, policy, or cart data changed.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "payment-completion-stale"
+    ],
+    "actions": [
+      [
+        "Return to cart for recalculation",
+        "billing",
+        "primary"
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 234,
+    "phaseNumber": 162
+  },
+  {
+    "id": "sale-saved-no-print",
+    "title": "Sale saved without print",
+    "group": "Checkout",
+    "description": "A committed sale can complete without implying a receipt job exists.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sale-saved-no-print"
+    ],
+    "actions": [
+      [
+        "Start new bill",
+        "billing",
+        "primary"
+      ],
+      [
+        "Open sale",
+        "sale-detail",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 235,
+    "phaseNumber": 163
+  },
+  {
+    "id": "sale-print-queued",
+    "title": "Sale saved · receipt queued",
+    "group": "Checkout",
+    "description": "Keep sale commitment and print-queue status as two separate truths.",
+    "source": "src/renderer/features/billing/billing-cart-route.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "sale-print-queued"
+    ],
+    "actions": [
+      [
+        "Start new bill",
+        "billing",
+        "primary"
+      ],
+      [
+        "View print queue",
+        "print-job-history",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 236,
+    "phaseNumber": 164
+  },
+  {
+    "id": "command-palette",
+    "title": "Command palette",
+    "group": "Desktop",
+    "description": "Search application commands and expose the selected command’s availability reason.",
+    "source": "src/renderer/features/keyboard/command-palette.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "command-palette"
+    ],
+    "actions": [
+      [
+        "Open selected command",
+        "billing",
+        "primary"
+      ],
+      [
+        "Close",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "billing",
+    "number": 237,
+    "phaseNumber": 165
+  },
+  {
+    "id": "scanner-setup",
+    "title": "Barcode scanner setup",
+    "group": "Desktop",
+    "description": "Prefer prefix detection; timing-only mode can consume ordinary fast typing.",
+    "source": "src/renderer/features/scanner/scanner-setup-surface.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "scanner-setup"
+    ],
+    "actions": [
+      [
+        "Apply scanner setup",
+        "scanner-test",
+        "primary"
+      ],
+      [
+        "Cancel",
+        "operator-settings",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 238,
+    "phaseNumber": 166
+  },
+  {
+    "id": "scanner-test",
+    "title": "Test one barcode scan",
+    "group": "Desktop",
+    "description": "Arm one bounded test and show catalog lookup separately from hardware proof.",
+    "source": "src/renderer/features/scanner/scanner-setup-surface.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "scanner-test"
+    ],
+    "actions": [
+      [
+        "Done",
+        "operator-settings",
+        "primary"
+      ],
+      [
+        "Change setup",
+        "scanner-setup",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 239,
+    "phaseNumber": 167
+  },
+  {
+    "id": "scanner-runtime-status",
+    "title": "Scanner status in the shell",
+    "group": "Desktop",
+    "description": "Keep scanner readiness visible without blocking normal keyboard input.",
+    "source": "src/renderer/features/scanner/scanner-setup-surface.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "scanner-runtime-status"
+    ],
+    "actions": [
+      [
+        "Open scanner setup",
+        "scanner-setup",
+        "primary"
+      ],
+      [
+        "Return to Billing",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 240,
+    "phaseNumber": 168
+  },
+  {
+    "id": "plu-shortcode-result",
+    "title": "PLU / shortcode result",
+    "group": "Desktop",
+    "description": "Resolve the confirmed *code + Enter billing shortcut and return focus to Billing.",
+    "source": "src/renderer/features/keyboard/command-palette.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "plu-shortcode-result"
+    ],
+    "actions": [
+      [
+        "Add Paneer Tikka",
+        "billing",
+        "primary"
+      ],
+      [
+        "Cancel",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "billing",
+    "number": 241,
+    "phaseNumber": 169
+  },
+  {
+    "id": "windows-update-available",
+    "title": "Biteaze update available",
+    "group": "Desktop",
+    "description": "Download a flexible update now or defer it while preserving current work.",
+    "source": "src/renderer/windows-update-controller.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "windows-update-available"
+    ],
+    "actions": [
+      [
+        "Download update",
+        "windows-update-deferred",
+        "primary"
+      ],
+      [
+        "Later",
+        "billing",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "billing",
+    "number": 242,
+    "phaseNumber": 170
+  },
+  {
+    "id": "windows-update-deferred",
+    "title": "Update waiting for a safe point",
+    "group": "Desktop",
+    "description": "Wait until billing and printing are quiet before applying the downloaded update.",
+    "source": "src/renderer/windows-update-controller.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "windows-update-deferred"
+    ],
+    "actions": [
+      [
+        "Return to current work",
+        "checkout-draft-locked",
+        "primary"
+      ],
+      [
+        "Refresh status",
+        "windows-update-deferred",
+        ""
+      ]
+    ],
+    "kind": "page",
+    "parent": "",
+    "number": 243,
+    "phaseNumber": 171
+  },
+  {
+    "id": "windows-update-ready",
+    "title": "Update ready to restart",
+    "group": "Desktop",
+    "description": "Restart only after the verified update is ready and active work is safe.",
+    "source": "src/renderer/windows-update-controller.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "windows-update-ready"
+    ],
+    "actions": [
+      [
+        "Restart now",
+        "windows-update-ready",
+        "primary"
+      ],
+      [
+        "Return to app",
+        "dashboard",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "dashboard",
+    "number": 244,
+    "phaseNumber": 172
+  },
+  {
+    "id": "windows-update-failed",
+    "title": "Update service needs attention",
+    "group": "Desktop",
+    "description": "Keep the current app open and offer a bounded retry after update failure.",
+    "source": "src/renderer/windows-update-controller.ts",
+    "basis": "source-backed",
+    "coverage": [
+      "windows-update-failed"
+    ],
+    "actions": [
+      [
+        "Retry update",
+        "windows-update-available",
+        "primary"
+      ],
+      [
+        "Close",
+        "dashboard",
+        ""
+      ]
+    ],
+    "kind": "dialog",
+    "parent": "dashboard",
+    "number": 245,
+    "phaseNumber": 173
+  },
+  {
+    "id": "account-readiness-device-claim",
+    "title": "Add this PC",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "This PC must be added to the account before billing can open.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-device-claim"
+    ],
+    "number": 246,
+    "phaseNumber": 174
+  },
+  {
+    "id": "account-readiness-handover",
+    "title": "Finish device handover",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "The current device handover must finish before billing can open here.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-handover"
+    ],
+    "number": 247,
+    "phaseNumber": 175
+  },
+  {
+    "id": "account-readiness-restore",
+    "title": "Restore required",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "Account data must be restored before billing can open.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-restore"
+    ],
+    "number": 248,
+    "phaseNumber": 176
+  },
+  {
+    "id": "account-readiness-gate",
+    "title": "Verify the counter",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "Counter verification must finish before billing can open.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-gate"
+    ],
+    "number": 249,
+    "phaseNumber": 177
+  },
+  {
+    "id": "account-readiness-printer",
+    "title": "Set up a printer",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "Printer setup must finish before billing can open.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-printer"
+    ],
+    "number": 250,
+    "phaseNumber": 178
+  },
+  {
+    "id": "account-readiness-ready",
+    "title": "Account ready",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "The account-readiness check completed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-ready"
+    ],
+    "number": 251,
+    "phaseNumber": 179
+  },
+  {
+    "id": "account-readiness-offline",
+    "title": "You are offline",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "Connect to the internet and try the account-readiness check again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-offline"
+    ],
+    "number": 252,
+    "phaseNumber": 180
+  },
+  {
+    "id": "account-readiness-unavailable",
+    "title": "Account check unavailable",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "The account-readiness check could not be completed. Please try again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-unavailable"
+    ],
+    "number": 253,
+    "phaseNumber": 181
+  },
+  {
+    "id": "account-readiness-cancelled",
+    "title": "Account check cancelled",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "No account transition was performed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-cancelled"
+    ],
+    "number": 254,
+    "phaseNumber": 182
+  },
+  {
+    "id": "account-readiness-unavailable-invalid",
+    "title": "Account check unavailable",
+    "group": "Setup",
+    "source": "src/renderer/account-readiness-presentation.ts",
+    "description": "The account-readiness check could not be completed. Please try again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "account-readiness-unavailable-invalid"
+    ],
+    "number": 255,
+    "phaseNumber": 183
+  },
+  {
+    "id": "current-device-claim-success",
+    "title": "This PC was added",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "The current-device claim step completed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-success"
+    ],
+    "number": 256,
+    "phaseNumber": 184
+  },
+  {
+    "id": "current-device-claim-handover",
+    "title": "Device handover required",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "Finish the current-device handover before trying again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-handover"
+    ],
+    "number": 257,
+    "phaseNumber": 185
+  },
+  {
+    "id": "current-device-claim-gate",
+    "title": "No device seat available",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "Free a device seat before trying again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-gate"
+    ],
+    "number": 258,
+    "phaseNumber": 186
+  },
+  {
+    "id": "current-device-claim-offline",
+    "title": "You are offline",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "Connect to the internet and try adding this PC again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-offline"
+    ],
+    "number": 259,
+    "phaseNumber": 187
+  },
+  {
+    "id": "current-device-claim-unavailable",
+    "title": "Could not add this PC",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "The current-device claim could not be completed. Please try again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-unavailable"
+    ],
+    "number": 260,
+    "phaseNumber": 188
+  },
+  {
+    "id": "current-device-claim-cancelled",
+    "title": "Device claim cancelled",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "This PC was not added by that attempt.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-cancelled"
+    ],
+    "number": 261,
+    "phaseNumber": 189
+  },
+  {
+    "id": "current-device-claim-unavailable-invalid",
+    "title": "Could not add this PC",
+    "group": "Setup",
+    "source": "src/renderer/current-device-claim-presentation.ts",
+    "description": "The current-device claim could not be completed. Please try again.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "current-device-claim-unavailable-invalid"
+    ],
+    "number": 262,
+    "phaseNumber": 190
+  },
+  {
+    "id": "handover-admission-ready",
+    "title": "Handover check complete",
+    "group": "Setup",
+    "source": "src/renderer/handover-admission-presentation.ts",
+    "description": "Handover admission is proven. Billing stays closed until remaining checks complete.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "handover-admission-ready"
+    ],
+    "number": 263,
+    "phaseNumber": 191
+  },
+  {
+    "id": "handover-admission-gate",
+    "title": "Handover check pending",
+    "group": "Setup",
+    "source": "src/renderer/handover-admission-presentation.ts",
+    "description": "Billing remains closed. Try the check again later; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "handover-admission-gate"
+    ],
+    "number": 264,
+    "phaseNumber": 192
+  },
+  {
+    "id": "handover-admission-unavailable",
+    "title": "Check unavailable",
+    "group": "Setup",
+    "source": "src/renderer/handover-admission-presentation.ts",
+    "description": "Billing remains closed. Try the check again later.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "handover-admission-unavailable"
+    ],
+    "number": 265,
+    "phaseNumber": 193
+  },
+  {
+    "id": "handover-admission-cancelled",
+    "title": "Check cancelled",
+    "group": "Setup",
+    "source": "src/renderer/handover-admission-presentation.ts",
+    "description": "Billing remains closed. Start a new check when you are ready.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "handover-admission-cancelled"
+    ],
+    "number": 266,
+    "phaseNumber": 194
+  },
+  {
+    "id": "handover-admission-unavailable-invalid",
+    "title": "Check unavailable",
+    "group": "Setup",
+    "source": "src/renderer/handover-admission-presentation.ts",
+    "description": "Billing remains closed. Try the check again later.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "handover-admission-unavailable-invalid"
+    ],
+    "number": 267,
+    "phaseNumber": 195
+  },
+  {
+    "id": "invoice-counter-already-verified",
+    "title": "Invoice counter already checked",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "The counter proof is current. Billing stays closed until remaining checks complete.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-already-verified"
+    ],
+    "number": 268,
+    "phaseNumber": 196
+  },
+  {
+    "id": "invoice-counter-restore-required",
+    "title": "Restore required",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Restore the required history before checking the invoice counter.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-restore-required"
+    ],
+    "number": 269,
+    "phaseNumber": 197
+  },
+  {
+    "id": "invoice-counter-offline",
+    "title": "Counter check needs a connection",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Billing stays closed. Reconnect before starting a new check.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-offline"
+    ],
+    "number": 270,
+    "phaseNumber": 198
+  },
+  {
+    "id": "invoice-counter-unavailable",
+    "title": "Counter check unavailable",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Billing stays closed. Start a new check later.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-unavailable"
+    ],
+    "number": 271,
+    "phaseNumber": 199
+  },
+  {
+    "id": "invoice-counter-cancelled",
+    "title": "Counter check cancelled",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Nothing was confirmed. Billing stays closed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-cancelled"
+    ],
+    "number": 272,
+    "phaseNumber": 200
+  },
+  {
+    "id": "invoice-counter-unavailable-invalid",
+    "title": "Counter check unavailable",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Billing stays closed. Start a new check later.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-unavailable-invalid"
+    ],
+    "number": 273,
+    "phaseNumber": 201
+  },
+  {
+    "id": "invoice-counter-verified",
+    "title": "Invoice counter verified",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "The counter proof was recorded. Billing stays closed until remaining checks complete.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-verified"
+    ],
+    "number": 274,
+    "phaseNumber": 202
+  },
+  {
+    "id": "invoice-counter-changed",
+    "title": "Invoice counter changed",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "The counter changed during verification. Billing stays closed; start a new check.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-changed"
+    ],
+    "number": 275,
+    "phaseNumber": 203
+  },
+  {
+    "id": "restore-entry-ready",
+    "title": "Local restore check complete",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Local admission is proven. Billing stays closed until the remaining account checks complete.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-ready"
+    ],
+    "number": 276,
+    "phaseNumber": 204
+  },
+  {
+    "id": "restore-entry-transition-required",
+    "title": "Account transition required",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. Finish the local account transition; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-transition-required"
+    ],
+    "number": 277,
+    "phaseNumber": 205
+  },
+  {
+    "id": "restore-entry-restore-required",
+    "title": "Restore required",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. Complete the restore before continuing; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-restore-required"
+    ],
+    "number": 278,
+    "phaseNumber": 206
+  },
+  {
+    "id": "restore-entry-offline",
+    "title": "Restore requires a connection",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. Connect to complete the restore; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-offline"
+    ],
+    "number": 279,
+    "phaseNumber": 207
+  },
+  {
+    "id": "restore-entry-admission-gate",
+    "title": "Local data needs recovery",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. Use the recovery flow; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-admission-gate"
+    ],
+    "number": 280,
+    "phaseNumber": 208
+  },
+  {
+    "id": "restore-entry-unavailable",
+    "title": "Could not check local entry",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. The check could not be completed; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-unavailable"
+    ],
+    "number": 281,
+    "phaseNumber": 209
+  },
+  {
+    "id": "restore-entry-cancelled",
+    "title": "Local entry check cancelled",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. The check was cancelled; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-cancelled"
+    ],
+    "number": 282,
+    "phaseNumber": 210
+  },
+  {
+    "id": "restore-entry-unavailable-invalid",
+    "title": "Could not check local entry",
+    "group": "Recovery",
+    "source": "src/renderer/restore-entry-presentation.ts",
+    "description": "Entry remains closed. The check could not be completed; no data was changed.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "restore-entry-unavailable-invalid"
+    ],
+    "number": 283,
+    "phaseNumber": 211
+  },
+  {
+    "id": "invoice-counter-verification-gate",
+    "title": "Invoice counter check required",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Confirm a permitted forward-only next invoice number.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-verification-gate"
+    ],
+    "number": 284,
+    "phaseNumber": 212
+  },
+  {
+    "id": "invoice-counter-forward-only",
+    "title": "Use a later invoice number",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Correct a proposal that would move invoice numbering backward.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-forward-only"
+    ],
+    "number": 285,
+    "phaseNumber": 213
+  },
+  {
+    "id": "invoice-counter-outcome-unknown",
+    "title": "Counter outcome cannot be confirmed",
+    "group": "Recovery",
+    "source": "src/renderer/invoice-counter-verification-presentation.ts",
+    "description": "Stop after an invoice-counter submission has an unknown outcome.",
+    "actions": [],
+    "kind": "page",
+    "parent": "",
+    "basis": "source-backed",
+    "coverage": [
+      "invoice-counter-outcome-unknown"
+    ],
+    "number": 286,
+    "phaseNumber": 214
+  }
+]

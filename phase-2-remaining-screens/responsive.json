@@ -1,0 +1,450 @@
+[
+  {
+    "screen": "phase2-overview",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "073-phase2-overview-1280x720.png"
+  },
+  {
+    "screen": "phase2-overview",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "073-phase2-overview-1366x768.png"
+  },
+  {
+    "screen": "supplier-directory-detail",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "074-supplier-directory-detail-1280x720.png"
+  },
+  {
+    "screen": "supplier-directory-detail",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "074-supplier-directory-detail-1366x768.png"
+  },
+  {
+    "screen": "purchase-create",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "078-purchase-create-1280x720.png"
+  },
+  {
+    "screen": "purchase-create",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "078-purchase-create-1366x768.png"
+  },
+  {
+    "screen": "document-search-register",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "084-document-search-register-1280x720.png"
+  },
+  {
+    "screen": "document-search-register",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "084-document-search-register-1366x768.png"
+  },
+  {
+    "screen": "quotation-create-edit",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "092-quotation-create-edit-1280x720.png"
+  },
+  {
+    "screen": "quotation-create-edit",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "092-quotation-create-edit-1366x768.png"
+  },
+  {
+    "screen": "report-catalog",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "099-report-catalog-1280x720.png"
+  },
+  {
+    "screen": "report-catalog",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "099-report-catalog-1366x768.png"
+  },
+  {
+    "screen": "inventory-catalog-browse",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "111-inventory-catalog-browse-1280x720.png"
+  },
+  {
+    "screen": "inventory-catalog-browse",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "111-inventory-catalog-browse-1366x768.png"
+  },
+  {
+    "screen": "product-create-advanced",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "113-product-create-advanced-1280x720.png"
+  },
+  {
+    "screen": "product-create-advanced",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "113-product-create-advanced-1366x768.png"
+  },
+  {
+    "screen": "customer-search-aging",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "125-customer-search-aging-1280x720.png"
+  },
+  {
+    "screen": "customer-search-aging",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "125-customer-search-aging-1366x768.png"
+  },
+  {
+    "screen": "marketing-authority-workspace",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "129-marketing-authority-workspace-1280x720.png"
+  },
+  {
+    "screen": "marketing-authority-workspace",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "129-marketing-authority-workspace-1366x768.png"
+  },
+  {
+    "screen": "auth-sign-in",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "137-auth-sign-in-1280x720.png"
+  },
+  {
+    "screen": "auth-sign-in",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "137-auth-sign-in-1366x768.png"
+  },
+  {
+    "screen": "auth-create-account",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "138-auth-create-account-1280x720.png"
+  },
+  {
+    "screen": "auth-create-account",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "138-auth-create-account-1366x768.png"
+  },
+  {
+    "screen": "account-deletion-progress",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "143-account-deletion-progress-1280x720.png"
+  },
+  {
+    "screen": "account-deletion-progress",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "143-account-deletion-progress-1366x768.png"
+  },
+  {
+    "screen": "print-setup-discovery",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "154-print-setup-discovery-1280x720.png"
+  },
+  {
+    "screen": "print-setup-discovery",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "154-print-setup-discovery-1366x768.png"
+  },
+  {
+    "screen": "print-outcome-reconcile",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "160-print-outcome-reconcile-1280x720.png"
+  },
+  {
+    "screen": "print-outcome-reconcile",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "160-print-outcome-reconcile-1366x768.png"
+  },
+  {
+    "screen": "labels-batch-setup",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "161-labels-batch-setup-1280x720.png"
+  },
+  {
+    "screen": "labels-batch-setup",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "161-labels-batch-setup-1366x768.png"
+  },
+  {
+    "screen": "operator-settings",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "164-operator-settings-1280x720.png"
+  },
+  {
+    "screen": "operator-settings",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "164-operator-settings-1366x768.png"
+  },
+  {
+    "screen": "support-health",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "178-support-health-1280x720.png"
+  },
+  {
+    "screen": "support-health",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "178-support-health-1366x768.png"
+  },
+  {
+    "screen": "category-dashboard",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "181-category-dashboard-1280x720.png"
+  },
+  {
+    "screen": "category-dashboard",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "181-category-dashboard-1366x768.png"
+  },
+  {
+    "screen": "jobs-intake",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "185-jobs-intake-1280x720.png"
+  },
+  {
+    "screen": "jobs-intake",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "185-jobs-intake-1366x768.png"
+  },
+  {
+    "screen": "food-service-workspace",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "189-food-service-workspace-1280x720.png"
+  },
+  {
+    "screen": "food-service-workspace",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "189-food-service-workspace-1366x768.png"
+  },
+  {
+    "screen": "food-order-compose",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "190-food-order-compose-1280x720.png"
+  },
+  {
+    "screen": "food-order-compose",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "190-food-order-compose-1366x768.png"
+  },
+  {
+    "screen": "qr-backend-readiness",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "200-qr-backend-readiness-1280x720.png"
+  },
+  {
+    "screen": "qr-backend-readiness",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "200-qr-backend-readiness-1366x768.png"
+  },
+  {
+    "screen": "billing-attribution",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "210-billing-attribution-1280x720.png"
+  },
+  {
+    "screen": "billing-attribution",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "210-billing-attribution-1366x768.png"
+  },
+  {
+    "screen": "retail-line-configuration",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "219-retail-line-configuration-1280x720.png"
+  },
+  {
+    "screen": "retail-line-configuration",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "219-retail-line-configuration-1366x768.png"
+  },
+  {
+    "screen": "checkout-draft-locked",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "223-checkout-draft-locked-1280x720.png"
+  },
+  {
+    "screen": "checkout-draft-locked",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "223-checkout-draft-locked-1366x768.png"
+  },
+  {
+    "screen": "payment-completion-unknown",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "232-payment-completion-unknown-1280x720.png"
+  },
+  {
+    "screen": "payment-completion-unknown",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "232-payment-completion-unknown-1366x768.png"
+  },
+  {
+    "screen": "command-palette",
+    "size": [
+      1280,
+      720
+    ],
+    "file": "237-command-palette-1280x720.png"
+  },
+  {
+    "screen": "command-palette",
+    "size": [
+      1366,
+      768
+    ],
+    "file": "237-command-palette-1366x768.png"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "area": "readiness",
+  "source_revision": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "entries": [
+    {
+      "number": 1,
+      "inventory_id": "account-readiness-gate",
+      "rendered_ids": [
+        "account-readiness-device-claim",
+        "account-readiness-handover",
+        "account-readiness-restore",
+        "account-readiness-gate",
+        "account-readiness-printer",
+        "account-readiness-ready",
+        "account-readiness-offline",
+        "account-readiness-unavailable",
+        "account-readiness-cancelled",
+        "account-readiness-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/account-readiness-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "readiness status",
+          "next action",
+          "reason"
+        ],
+        "actions": [
+          "continue to required admission step"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 2,
+      "inventory_id": "current-device-claim-gate",
+      "rendered_ids": [
+        "current-device-claim-success",
+        "current-device-claim-handover",
+        "current-device-claim-gate",
+        "current-device-claim-offline",
+        "current-device-claim-unavailable",
+        "current-device-claim-cancelled",
+        "current-device-claim-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/current-device-claim-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "claim status",
+          "device-seat outcome",
+          "reason"
+        ],
+        "actions": [
+          "continue or retry only when issued state permits"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 3,
+      "inventory_id": "handover-admission-gate",
+      "rendered_ids": [
+        "handover-admission-ready",
+        "handover-admission-gate",
+        "handover-admission-unavailable",
+        "handover-admission-cancelled",
+        "handover-admission-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/handover-admission-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "handover admission status",
+          "reason"
+        ],
+        "actions": [
+          "continue only after admission result"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 4,
+      "inventory_id": "invoice-counter-verification-gate",
+      "rendered_ids": [
+        "invoice-counter-already-verified",
+        "invoice-counter-restore-required",
+        "invoice-counter-offline",
+        "invoice-counter-unavailable",
+        "invoice-counter-cancelled",
+        "invoice-counter-unavailable-invalid",
+        "invoice-counter-verified",
+        "invoice-counter-changed",
+        "invoice-counter-verification-gate",
+        "invoice-counter-forward-only",
+        "invoice-counter-outcome-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/invoice-counter-verification-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "counter verification status",
+          "forward-only next invoice",
+          "latched unknown outcome"
+        ],
+        "actions": [
+          "continue or resolve issued counter outcome"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 5,
+      "inventory_id": "restore-entry-admission-gate",
+      "rendered_ids": [
+        "restore-entry-ready",
+        "restore-entry-transition-required",
+        "restore-entry-restore-required",
+        "restore-entry-offline",
+        "restore-entry-admission-gate",
+        "restore-entry-unavailable",
+        "restore-entry-cancelled",
+        "restore-entry-unavailable-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/restore-entry-presentation.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "local restore-entry status",
+          "account-transition reason"
+        ],
+        "actions": [
+          "continue to required recovery step"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    }
+  ]
+}

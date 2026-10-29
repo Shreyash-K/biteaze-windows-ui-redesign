@@ -1,0 +1,1493 @@
+{
+  "area": "commerce",
+  "source_revision": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "entries": [
+    {
+      "number": 1,
+      "inventory_id": "supplier-directory-detail",
+      "rendered_ids": [
+        "supplier-directory-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name",
+          "phone",
+          "GSTIN",
+          "payable",
+          "purchases",
+          "payments"
+        ],
+        "actions": [
+          "search",
+          "add",
+          "save",
+          "record payment"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 2,
+      "inventory_id": "supplier-new",
+      "rendered_ids": [
+        "supplier-new"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name",
+          "phone",
+          "GSTIN"
+        ],
+        "actions": [
+          "save supplier"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 3,
+      "inventory_id": "supplier-payment-record",
+      "rendered_ids": [
+        "supplier-payment-record"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "supplier",
+          "payable",
+          "amount",
+          "reason"
+        ],
+        "actions": [
+          "record payment"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 4,
+      "inventory_id": "purchase-register",
+      "rendered_ids": [
+        "purchase-register"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "start",
+          "exclusive end",
+          "bill number",
+          "supplier",
+          "total",
+          "paid"
+        ],
+        "actions": [
+          "filter period",
+          "open",
+          "new purchase"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 5,
+      "inventory_id": "purchase-create",
+      "rendered_ids": [
+        "purchase-create"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "supplier",
+          "total",
+          "paid",
+          "bill number",
+          "note",
+          "received stock"
+        ],
+        "actions": [
+          "add stock row",
+          "save purchase"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 6,
+      "inventory_id": "purchase-received-stock-row",
+      "rendered_ids": [
+        "purchase-received-stock-row"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "product",
+          "variation",
+          "batch",
+          "quantity",
+          "expiry"
+        ],
+        "actions": [
+          "add row"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 7,
+      "inventory_id": "purchase-correction",
+      "rendered_ids": [
+        "purchase-correction"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "immutable source",
+          "corrected values",
+          "reason",
+          "financial effect"
+        ],
+        "actions": [
+          "save linked correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 8,
+      "inventory_id": "expense-history-edit",
+      "rendered_ids": [
+        "expense-history-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "title",
+          "amount",
+          "category",
+          "locked occurrence",
+          "reason"
+        ],
+        "actions": [
+          "select",
+          "save correction",
+          "delete by correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 9,
+      "inventory_id": "cash-paid-in-out-linked-expense",
+      "rendered_ids": [
+        "cash-paid-in-out-linked-expense"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "direction",
+          "amount",
+          "reason",
+          "expense link",
+          "operator history"
+        ],
+        "actions": [
+          "record movement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 10,
+      "inventory_id": "financial-period-summary",
+      "rendered_ids": [
+        "financial-period-summary"
+      ],
+      "source_paths": [
+        "src/renderer/features/financial/financial-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "period",
+          "purchases",
+          "expenses",
+          "cash in",
+          "cash out",
+          "payable"
+        ],
+        "actions": [
+          "refresh",
+          "open registers"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 11,
+      "inventory_id": "document-search-register",
+      "rendered_ids": [
+        "document-search-register"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "document tabs",
+          "search",
+          "status",
+          "total",
+          "cursor page"
+        ],
+        "actions": [
+          "load more",
+          "open",
+          "new quotation",
+          "new challan"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 12,
+      "inventory_id": "document-detail-complete",
+      "rendered_ids": [
+        "document-detail-complete"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "number",
+          "customer",
+          "lines",
+          "total",
+          "completeness",
+          "activity"
+        ],
+        "actions": [
+          "copy document",
+          "open A4 invoice"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 13,
+      "inventory_id": "document-detail-incomplete-conflict",
+      "rendered_ids": [
+        "document-detail-incomplete-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "issued values",
+          "conflicting values",
+          "incomplete evidence"
+        ],
+        "actions": [
+          "retry same request",
+          "prepare qualified copy"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 14,
+      "inventory_id": "reprint-queue",
+      "rendered_ids": [
+        "reprint-queue"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "job",
+          "invoice",
+          "printer",
+          "status",
+          "attempt"
+        ],
+        "actions": [
+          "check",
+          "open retry options"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 15,
+      "inventory_id": "sales-a4-invoice",
+      "rendered_ids": [
+        "sales-a4-invoice"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/a4-invoice-view.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "invoice identity",
+          "bill-to",
+          "issued lines",
+          "tax",
+          "total"
+        ],
+        "actions": [
+          "queue print",
+          "back"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 16,
+      "inventory_id": "sales-return-builder",
+      "rendered_ids": [
+        "sales-return-builder"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "per-line quantities",
+          "reason",
+          "refund mode",
+          "document kind"
+        ],
+        "actions": [
+          "preview return"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 17,
+      "inventory_id": "sales-return-preview-confirm",
+      "rendered_ids": [
+        "sales-return-preview-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "source",
+          "preview identity",
+          "financial effect",
+          "tax effect"
+        ],
+        "actions": [
+          "back to edit",
+          "confirm correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 18,
+      "inventory_id": "sales-void-preview-confirm",
+      "rendered_ids": [
+        "sales-void-preview-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "reason",
+          "sale total",
+          "tender reversal",
+          "source status"
+        ],
+        "actions": [
+          "confirm correction"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 19,
+      "inventory_id": "quotation-create-edit",
+      "rendered_ids": [
+        "quotation-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "phone",
+          "notes",
+          "valid until",
+          "up to 200 lines",
+          "prices"
+        ],
+        "actions": [
+          "add line",
+          "save quotation"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 20,
+      "inventory_id": "quotation-detail-review",
+      "rendered_ids": [
+        "quotation-detail-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "validity",
+          "lines",
+          "customer",
+          "total",
+          "catalog validation"
+        ],
+        "actions": [
+          "edit",
+          "review in Billing"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 21,
+      "inventory_id": "quotation-draft-conflict",
+      "rendered_ids": [
+        "quotation-draft-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "active draft identity",
+          "requested quotation identity"
+        ],
+        "actions": [
+          "return",
+          "open existing draft"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 22,
+      "inventory_id": "challan-create-edit",
+      "rendered_ids": [
+        "challan-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "site",
+          "vehicle",
+          "driver",
+          "notes",
+          "lines"
+        ],
+        "actions": [
+          "add line",
+          "save challan"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 23,
+      "inventory_id": "challan-selection-invoice-handoff",
+      "rendered_ids": [
+        "challan-selection-invoice-handoff"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/documents-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "open challans",
+          "selection",
+          "expected identities",
+          "totals"
+        ],
+        "actions": [
+          "review selected in Billing"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 24,
+      "inventory_id": "gst-credit-note-completion",
+      "rendered_ids": [
+        "gst-credit-note-completion"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/document-legal-form.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "frozen money",
+          "recipient type",
+          "legal identity",
+          "place of supply",
+          "HSN/SAC",
+          "signature",
+          "reason"
+        ],
+        "actions": [
+          "complete legal details"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 25,
+      "inventory_id": "gst-credit-note-review-chain",
+      "rendered_ids": [
+        "gst-credit-note-review-chain"
+      ],
+      "source_paths": [
+        "src/renderer/features/documents/document-legal-form.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "immutable branches",
+          "relationship",
+          "reason",
+          "actor",
+          "digest",
+          "line-set digest",
+          "publication"
+        ],
+        "actions": [
+          "review only"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 26,
+      "inventory_id": "report-catalog",
+      "rendered_ids": [
+        "report-catalog"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "exact 23 report types",
+          "start",
+          "exclusive end",
+          "search"
+        ],
+        "actions": [
+          "select report"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 27,
+      "inventory_id": "report-processing",
+      "rendered_ids": [
+        "report-processing"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "queued/running state",
+          "processed rows",
+          "total rows",
+          "identity"
+        ],
+        "actions": [
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 28,
+      "inventory_id": "report-table-result",
+      "rendered_ids": [
+        "report-table-result"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "business",
+          "range",
+          "summary",
+          "dynamic columns",
+          "totals",
+          "pagination"
+        ],
+        "actions": [
+          "next page",
+          "export"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 29,
+      "inventory_id": "report-private-export",
+      "rendered_ids": [
+        "report-private-export"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "report identity",
+          "CSV",
+          "PDF",
+          "local path outcome"
+        ],
+        "actions": [
+          "save CSV privately",
+          "save PDF privately"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 30,
+      "inventory_id": "report-error-or-catalog-mismatch",
+      "rendered_ids": [
+        "report-error-or-catalog-mismatch"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "state",
+          "reason",
+          "progress",
+          "expected catalogue denominator"
+        ],
+        "actions": [
+          "retry",
+          "back"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 31,
+      "inventory_id": "operational-dashboard-stock-exceptions",
+      "rendered_ids": [
+        "operational-dashboard-stock-exceptions"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "revenue",
+          "bills",
+          "average",
+          "tenders",
+          "expenses",
+          "low stock",
+          "expiry"
+        ],
+        "actions": [
+          "open inventory"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 32,
+      "inventory_id": "gst-filing-period",
+      "rendered_ids": [
+        "gst-filing-period"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "start",
+          "exclusive end",
+          "evidence counts"
+        ],
+        "actions": [
+          "build pack"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 33,
+      "inventory_id": "gst-filing-identity-blockers",
+      "rendered_ids": [
+        "gst-filing-identity-blockers"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "business",
+          "range",
+          "blockers",
+          "source evidence"
+        ],
+        "actions": [
+          "complete identity",
+          "review source"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 34,
+      "inventory_id": "gst-filing-pack-summary",
+      "rendered_ids": [
+        "gst-filing-pack-summary"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "outward supply",
+          "output GST",
+          "returns",
+          "credit-note components",
+          "evidence quality"
+        ],
+        "actions": [
+          "review blockers"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 35,
+      "inventory_id": "gst-relief-blockers",
+      "rendered_ids": [
+        "gst-relief-blockers"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "credit note",
+          "value",
+          "blocker code",
+          "reason"
+        ],
+        "actions": [
+          "complete",
+          "review"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 36,
+      "inventory_id": "day-close-denomination-entry",
+      "rendered_ids": [
+        "day-close-denomination-entry"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "note counts",
+          "coins",
+          "expected",
+          "counted",
+          "opening float",
+          "variance"
+        ],
+        "actions": [
+          "preview",
+          "save close"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 37,
+      "inventory_id": "day-close-history-reclose",
+      "rendered_ids": [
+        "day-close-history-reclose"
+      ],
+      "source_paths": [
+        "src/renderer/features/reporting/reporting-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "14-close history",
+          "selected business date",
+          "expected",
+          "counted",
+          "variance"
+        ],
+        "actions": [
+          "select",
+          "save re-close"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 38,
+      "inventory_id": "inventory-catalog-browse",
+      "rendered_ids": [
+        "inventory-catalog-browse"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "search",
+          "favorites",
+          "category",
+          "bounded range",
+          "stock",
+          "prices"
+        ],
+        "actions": [
+          "page",
+          "edit",
+          "create",
+          "import"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 39,
+      "inventory_id": "inventory-loading-empty-unavailable",
+      "rendered_ids": [
+        "inventory-loading-empty-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "preparing",
+          "no matches",
+          "temporary unavailable"
+        ],
+        "actions": [
+          "clear",
+          "retry"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 40,
+      "inventory_id": "product-create-advanced",
+      "rendered_ids": [
+        "product-create-advanced"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "identity",
+          "category",
+          "codes",
+          "units",
+          "prices",
+          "stock",
+          "tax",
+          "addons",
+          "metadata"
+        ],
+        "actions": [
+          "save product"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 41,
+      "inventory_id": "product-edit-delete-revision",
+      "rendered_ids": [
+        "product-edit-delete-revision"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "loaded product",
+          "prices",
+          "blank cost semantics",
+          "stock",
+          "tax"
+        ],
+        "actions": [
+          "save",
+          "delete"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 42,
+      "inventory_id": "inventory-entity-create-edit",
+      "rendered_ids": [
+        "inventory-entity-create-edit"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "entity type",
+          "name",
+          "parent",
+          "price",
+          "cost",
+          "stock",
+          "metadata"
+        ],
+        "actions": [
+          "save",
+          "delete"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 43,
+      "inventory_id": "stock-movement-entry",
+      "rendered_ids": [
+        "stock-movement-entry"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "type",
+          "product",
+          "variation",
+          "batch",
+          "quantity",
+          "reason",
+          "reference",
+          "expiry"
+        ],
+        "actions": [
+          "record movement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 44,
+      "inventory_id": "stock-movement-history-undo",
+      "rendered_ids": [
+        "stock-movement-history-undo"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "paged history",
+          "operator",
+          "reason",
+          "source"
+        ],
+        "actions": [
+          "append compensating undo"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 45,
+      "inventory_id": "inventory-conflicts-quarantine",
+      "rendered_ids": [
+        "inventory-conflicts-quarantine"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "entities",
+          "movements",
+          "conflicts",
+          "quarantines",
+          "codes",
+          "reasons"
+        ],
+        "actions": [
+          "reload editable record"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 46,
+      "inventory_id": "bulk-import-preview",
+      "rendered_ids": [
+        "bulk-import-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "mode",
+          "CSV",
+          "limits",
+          "rows",
+          "pages",
+          "digest"
+        ],
+        "actions": [
+          "preview",
+          "apply"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 47,
+      "inventory_id": "bulk-import-progress-recovery",
+      "rendered_ids": [
+        "bulk-import-progress-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "committed pages",
+          "replayed pages",
+          "rows",
+          "attempt",
+          "unknown outcome"
+        ],
+        "actions": [
+          "recover same import",
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 48,
+      "inventory_id": "bulk-import-reversal",
+      "rendered_ids": [
+        "bulk-import-reversal"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "applied pages",
+          "correction pages",
+          "remaining"
+        ],
+        "actions": [
+          "continue source-linked reversal"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 49,
+      "inventory_id": "bulk-import-terminal-states",
+      "rendered_ids": [
+        "bulk-import-terminal-states"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/bulk-import-panel.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "complete",
+          "partial",
+          "corrected",
+          "cancelled",
+          "invalid",
+          "stale",
+          "denied",
+          "unknown"
+        ],
+        "actions": [
+          "new preview",
+          "return"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 50,
+      "inventory_id": "catalog-export-builder",
+      "rendered_ids": [
+        "catalog-export-builder"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "retail/wholesale",
+          "business",
+          "labels",
+          "captions",
+          "HTTPS/WhatsApp URL"
+        ],
+        "actions": [
+          "build catalogue"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 51,
+      "inventory_id": "catalog-export-ready",
+      "rendered_ids": [
+        "catalog-export-ready"
+      ],
+      "source_paths": [
+        "src/renderer/features/inventory/inventory-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "PDF",
+          "QR",
+          "share text",
+          "ready state"
+        ],
+        "actions": [
+          "download privately",
+          "preview QR",
+          "prepare share"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 52,
+      "inventory_id": "customer-search-aging",
+      "rendered_ids": [
+        "customer-search-aging"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "name/phone search",
+          "five ageing buckets",
+          "balance"
+        ],
+        "actions": [
+          "filter",
+          "open profile"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 53,
+      "inventory_id": "customer-profile-khata-detail",
+      "rendered_ids": [
+        "customer-profile-khata-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "profile fields",
+          "per-field authority",
+          "ageing",
+          "self-consistent statement",
+          "running balance"
+        ],
+        "actions": [
+          "save fields",
+          "settle",
+          "prepare statement"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 54,
+      "inventory_id": "khata-statement-share",
+      "rendered_ids": [
+        "khata-statement-share"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "customer",
+          "phone",
+          "balance",
+          "message",
+          "outcome language"
+        ],
+        "actions": [
+          "open manual composer",
+          "cancel"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 55,
+      "inventory_id": "khata-settlement-receipt",
+      "rendered_ids": [
+        "khata-settlement-receipt"
+      ],
+      "source_paths": [
+        "src/renderer/features/customers/customer-khata-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "expected balance",
+          "amount",
+          "tender",
+          "receipt",
+          "QR",
+          "repeat/price checks"
+        ],
+        "actions": [
+          "record settlement",
+          "review order",
+          "check price"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 56,
+      "inventory_id": "marketing-authority-workspace",
+      "rendered_ids": [
+        "marketing-authority-workspace",
+        "coupon-authority-detail",
+        "loyalty-authority-detail",
+        "outreach-consent-detail",
+        "marketing-recovery-diagnostics"
+      ],
+      "source_paths": [
+        "src/renderer/features/marketing/marketing-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "coupon authority",
+          "loyalty configuration/history",
+          "consent",
+          "suppression",
+          "audit export",
+          "checkout ledger recovery"
+        ],
+        "actions": [
+          "save",
+          "quote",
+          "delete",
+          "record consent",
+          "suppress",
+          "preview recovery"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 57,
+      "inventory_id": "manual-communication-and-promo-preview",
+      "rendered_ids": [
+        "manual-communication-and-promo-preview",
+        "manual-communication-preview",
+        "promotion-receipt-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/marketing/marketing-route.ts"
+      ],
+      "functionality": {
+        "fields": [
+          "released message",
+          "customer",
+          "phone",
+          "PDF display name",
+          "prior attempt",
+          "receipt promotion",
+          "order QR"
+        ],
+        "actions": [
+          "open manual composer",
+          "save receipt preview"
+        ]
+      },
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    }
+  ]
+}

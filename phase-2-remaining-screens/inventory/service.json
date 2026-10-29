@@ -1,0 +1,804 @@
+{
+  "area": "service",
+  "source_revision": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "entries": [
+    {
+      "number": 1,
+      "inventory_id": "food-service-workspace",
+      "rendered_ids": [
+        "food-service-workspace"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "menu count, open and held orders, order type, table, item, route, refresh, compose, open",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 2,
+      "inventory_id": "food-order-compose",
+      "rendered_ids": [
+        "food-order-compose"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "DINE_IN or TAKEAWAY, table, packaging, item, route, variation, quantity, note, draft lines, open",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 3,
+      "inventory_id": "food-modifier-requirements",
+      "rendered_ids": [
+        "food-modifier-requirements"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "required and optional groups, min/max, add-ons, price estimate, add line",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 4,
+      "inventory_id": "food-running-order",
+      "rendered_ids": [
+        "food-running-order"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "order status, type, table, total, lines, hold, commit, KOT, transfer, merge, split",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 5,
+      "inventory_id": "food-order-held",
+      "rendered_ids": [
+        "food-order-held"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "held state, retained totals and kitchen history, resume",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 6,
+      "inventory_id": "food-table-transfer",
+      "rendered_ids": [
+        "food-table-transfer"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "current order and table, available destination, preview, transfer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 7,
+      "inventory_id": "food-order-merge",
+      "rendered_ids": [
+        "food-order-merge"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "source and target orders, totals, retained history, merge",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 8,
+      "inventory_id": "food-order-split-lines",
+      "rendered_ids": [
+        "food-order-split-lines"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "source line, bounded quantity, target table, remains and moves preview, split",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 9,
+      "inventory_id": "routed-kot-preview",
+      "rendered_ids": [
+        "routed-kot-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "multi-route 58/80 mm tickets, table, count, variation, add-ons, price omission, queue",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 10,
+      "inventory_id": "food-output-config",
+      "rendered_ids": [
+        "food-output-config"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "KOT title, paper width, table/count/variation/add-on toggles, receipt price, save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 11,
+      "inventory_id": "food-service-stale",
+      "rendered_ids": [
+        "food-service-stale"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "last-known orders, stale/unavailable labels, retained work, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 12,
+      "inventory_id": "qr-backend-readiness",
+      "rendered_ids": [
+        "qr-backend-readiness"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "LIVE/NOT LIVE backend, menu, mirror, intake, refresh, gated publish/QR/intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 13,
+      "inventory_id": "menu-publish-confirm",
+      "rendered_ids": [
+        "menu-publish-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "menu counts, source and last-live revisions, category summary, publish",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 14,
+      "inventory_id": "menu-publish-live",
+      "rendered_ids": [
+        "menu-publish-live"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed revision, digest, customer-live confirmation, table QR and intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 15,
+      "inventory_id": "menu-publish-mirror-pending",
+      "rendered_ids": [
+        "menu-publish-mirror-pending"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed source versus pending mirror, previous live, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 16,
+      "inventory_id": "menu-publish-mirror-failed",
+      "rendered_ids": [
+        "menu-publish-mirror-failed"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "committed source, failed-retrying mirror, customer-live false, same-operation retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 17,
+      "inventory_id": "table-qr-create",
+      "rendered_ids": [
+        "table-qr-create"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "table 1-200, backend/menu status, create",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 18,
+      "inventory_id": "table-qr-ready",
+      "rendered_ids": [
+        "table-qr-ready"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "non-payable table QR reference, purpose and revision, print/save, create another",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 19,
+      "inventory_id": "qr-order-intake",
+      "rendered_ids": [
+        "qr-order-intake"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "successful queue, table/takeaway, customer, time, lines, total, accepted-here and correction states, receive",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 20,
+      "inventory_id": "qr-order-accepted",
+      "rendered_ids": [
+        "qr-order-accepted"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "pending and resulting IDs, repriced/dropped items, finalized flag, order/KOT next actions",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 21,
+      "inventory_id": "qr-intake-unavailable",
+      "rendered_ids": [
+        "qr-intake-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/food-service/food-service-route.ts"
+      ],
+      "functionality": "retained last queue, unavailable truth, retry same intake",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 22,
+      "inventory_id": "billing-attribution",
+      "rendered_ids": [
+        "billing-attribution"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "customer search/select, serving staff, signed-in operator, apply and clear",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 23,
+      "inventory_id": "billing-quotation-review",
+      "rendered_ids": [
+        "billing-quotation-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "source quotation, locked customer, current-catalog check, restored lines, checkout or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 24,
+      "inventory_id": "billing-challan-review",
+      "rendered_ids": [
+        "billing-challan-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "source challan lineage, locked customer, current-catalog check, checkout or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 25,
+      "inventory_id": "billing-document-correction",
+      "rendered_ids": [
+        "billing-document-correction"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unavailable product, ambiguous customer, changed price, preserved lines, return/retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 26,
+      "inventory_id": "billing-document-discard-unknown",
+      "rendered_ids": [
+        "billing-document-discard-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "preserved review, unknown discard, payment hidden, same-operation retry and reopen",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 27,
+      "inventory_id": "billing-checkout-recovery",
+      "rendered_ids": [
+        "billing-checkout-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "restored draft/cart/customer/staff/promotions, current-authority warning, continue or discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 28,
+      "inventory_id": "ongoing-order-recovery",
+      "rendered_ids": [
+        "ongoing-order-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "hold limit, active cart and checkout guards, customer, staff, amount, resume/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 29,
+      "inventory_id": "ongoing-order-limit",
+      "rendered_ids": [
+        "ongoing-order-limit"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "current/max holds, retained cart, attempted hold not created, existing holds review",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 30,
+      "inventory_id": "ongoing-order-conflict",
+      "rendered_ids": [
+        "ongoing-order-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "stale/conflict result, retained cancellation reason, refresh and safe retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 31,
+      "inventory_id": "retail-line-configuration",
+      "rendered_ids": [
+        "retail-line-configuration"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retail/wholesale, unit, variation, add-on, decimal quantity, custom price, packaging, note",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 32,
+      "inventory_id": "retail-line-invalid",
+      "rendered_ids": [
+        "retail-line-invalid"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unavailable variation, retained values, numeric validation, reselect or cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 33,
+      "inventory_id": "billing-promotions-authority",
+      "rendered_ids": [
+        "billing-promotions-authority"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "line/cart discounts, uppercase coupon, loyalty, order note, customer dependency, revalidate",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 34,
+      "inventory_id": "billing-tcs-review",
+      "rendered_ids": [
+        "billing-tcs-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "policy availability, TCS rate, apply/remove, canonical totals",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 35,
+      "inventory_id": "checkout-draft-locked",
+      "rendered_ids": [
+        "checkout-draft-locked"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "draft identity, canonical payable, locked edits, payment review and discard",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 36,
+      "inventory_id": "checkout-save-unknown",
+      "rendered_ids": [
+        "checkout-save-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retained cart, uncertain save, original operation, exact retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 37,
+      "inventory_id": "checkout-draft-conflict",
+      "rendered_ids": [
+        "checkout-draft-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "conflict/denied/refused distinctions, retained cart, refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 38,
+      "inventory_id": "checkout-discard-unknown",
+      "rendered_ids": [
+        "checkout-discard-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "locked checkout, payment hidden, same discard request retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 39,
+      "inventory_id": "payment-authority-preview",
+      "rendered_ids": [
+        "payment-authority-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "canonical payable, tender, change, checkout, attribution, promotions, save or save-plus-print",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 40,
+      "inventory_id": "payment-preview-unavailable",
+      "rendered_ids": [
+        "payment-preview-unavailable"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "retained draft and tender, no completion/print claim, retry or return",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 41,
+      "inventory_id": "credit-warning",
+      "rendered_ids": [
+        "credit-warning"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "current balance, sale, exposure, limit, explicit acknowledgement",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 42,
+      "inventory_id": "credit-reservation-required",
+      "rendered_ids": [
+        "credit-reservation-required"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "available limit, reservation, remaining authority, customer, confirm",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 43,
+      "inventory_id": "credit-override-required",
+      "rendered_ids": [
+        "credit-override-required"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "blocked exposure, amount over limit, manager verification, back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 44,
+      "inventory_id": "payment-completion-unknown",
+      "rendered_ids": [
+        "payment-completion-unknown"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "unknown result, locked checkout, no new sale, exact confirmation retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 45,
+      "inventory_id": "payment-completion-conflict",
+      "rendered_ids": [
+        "payment-completion-conflict"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "conflict/denied/refused paths, protected draft, refresh/manager/back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 46,
+      "inventory_id": "payment-completion-stale",
+      "rendered_ids": [
+        "payment-completion-stale"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "old versus current totals, retained checkout, fresh preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 47,
+      "inventory_id": "sale-saved-no-print",
+      "rendered_ids": [
+        "sale-saved-no-print"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "committed invoice, tender and attribution, explicit no-print state, new bill/open sale",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 48,
+      "inventory_id": "sale-print-queued",
+      "rendered_ids": [
+        "sale-print-queued"
+      ],
+      "source_paths": [
+        "src/renderer/features/billing/billing-cart-route.ts"
+      ],
+      "functionality": "committed invoice separate from queued receipt, no physical-print claim, queue link",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 49,
+      "inventory_id": "command-palette",
+      "rendered_ids": [
+        "command-palette"
+      ],
+      "source_paths": [
+        "src/renderer/features/keyboard/command-palette.ts"
+      ],
+      "functionality": "search, selected commands, shortcuts, unavailable reason, keyboard navigation",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 50,
+      "inventory_id": "scanner-setup",
+      "rendered_ids": [
+        "scanner-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "prefix/timing mode, prefix/suffix, inter-key and quiet timings, risk, apply",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 51,
+      "inventory_id": "scanner-test",
+      "rendered_ids": [
+        "scanner-test"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "arm one scan, captured code, catalog result, rejection variants, NOT MEASURED hardware",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 52,
+      "inventory_id": "scanner-runtime-status",
+      "rendered_ids": [
+        "scanner-runtime-status"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "disconnected/ready/collecting shell status, keyboard remains available, setup",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 53,
+      "inventory_id": "plu-shortcode-result",
+      "rendered_ids": [
+        "plu-shortcode-result"
+      ],
+      "source_paths": [
+        "src/renderer/features/keyboard/application-commands.ts"
+      ],
+      "functionality": "*code Enter syntax, exact match, not-found/ambiguous/unavailable, add or cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 54,
+      "inventory_id": "windows-update-available",
+      "rendered_ids": [
+        "windows-update-available"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "installed/target version, flexible versus mandatory policy, download/later",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 55,
+      "inventory_id": "windows-update-deferred",
+      "rendered_ids": [
+        "windows-update-deferred"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "downloaded version, open checkout, sending jobs, safe-point interlock, return/refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 56,
+      "inventory_id": "windows-update-ready",
+      "rendered_ids": [
+        "windows-update-ready"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "verified package, idle billing/printing, restart or return",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 57,
+      "inventory_id": "windows-update-failed",
+      "rendered_ids": [
+        "windows-update-failed"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "current app remains open, versions, unaffected billing data, retry or close",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    }
+  ]
+}

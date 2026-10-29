@@ -2,7 +2,7 @@
 
 **Start with [START-HERE.md](START-HERE.md), then paste [GEMINI-START-PROMPT.md](GEMINI-START-PROMPT.md) into Antigravity.**
 
-This private repository contains the complete reference kit and a code-informed implementation plan for the existing Windows app. It is not a replacement application or a claim that the redesign has been implemented.
+This public repository contains the complete reference kit and a code-informed implementation plan for the existing Windows app. It is not a replacement application or a claim that the redesign has been implemented.
 
 | Need | File |
 |---|---|
@@ -24,6 +24,12 @@ This private repository contains the complete reference kit and a code-informed 
 | Package integrity | [asset-manifest.json](asset-manifest.json) |
 | Validation and PDF rebuild source | [docs/REFERENCE-TOOLING.md](docs/REFERENCE-TOOLING.md) |
 
+## Phase 2 — remaining Windows workflows
+
+Continue after the current Phase 1 build with [Phase 2](phase-2-remaining-screens/README.md): 213 additional screen states plus a directory, a 300-page PDF, 236 full-HD images including continuations, 56 compact examples, editable demo source, 174 audited workflow requirements and the [Gemini continuation prompt](phase-2-remaining-screens/GEMINI-PHASE-2-PROMPT.md). The original 72 references remain available below.
+
+Open `phase-2-remaining-screens/index.html` for the Phase 2 explorer. Its screen numbers run from 73 to 245.
+
 ## Preview
 
 Download or clone this repository. Open `reference/design/index.html` locally, or run:
@@ -32,11 +38,11 @@ Download or clone this repository. Open `reference/design/index.html` locally, o
 python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
-Then open `http://127.0.0.1:8765/reference/design/index.html`. On Windows, `py -m http.server 8765 --bind 127.0.0.1` is the equivalent. GitHub displays source HTML; it does not run this private interactive demo directly.
+Then open `http://127.0.0.1:8765/reference/design/index.html`. On Windows, `py -m http.server 8765 --bind 127.0.0.1` is the equivalent. GitHub displays source HTML; it does not run this interactive demo directly.
 
 ## Application repository
 
-[Shreyash-K/android-billing-desktop](https://github.com/Shreyash-K/android-billing-desktop) is the production code repository. Both repositories require access to the owner's GitHub account. The inspected remote baseline is `7932bbbedabdd0cef4295919a91674f35fa815cf`. Reconcile newer source before editing; this kit does not freeze development on that revision.
+[Shreyash-K/android-billing-desktop](https://github.com/Shreyash-K/android-billing-desktop) is the production code repository. The application repository requires authorized access. This reference repository is public. The inspected remote baseline is `7932bbbedabdd0cef4295919a91674f35fa815cf`. Reconcile newer source before editing; this kit does not freeze development on that revision.
 
 The local checkout had 49 uncommitted/untracked entries and an older HEAD. Those changes are not included here. They must not be reset or silently assumed to exist in GitHub. The clean remote snapshot was inspected separately.
 
@@ -46,4 +52,4 @@ Reproduce the supplied desktop visual design across all 72 reference states and 
 
 The original design guide/PDF correctly says the Windows code was not inspected when version one was produced. The later code inspection and implementation instructions live in this repository's `docs/` directory. No product implementation or native Windows qualification is claimed by these documents.
 
-Confidential: the supplied tablet PDF contains outlet/account context. Keep this repository private. All sample customers and transactions in the new desktop prototype are illustrative.
+This reference repository was made public at the owner’s request. The new Phase 2 records are synthetic; the private application source and local uncommitted changes are excluded.

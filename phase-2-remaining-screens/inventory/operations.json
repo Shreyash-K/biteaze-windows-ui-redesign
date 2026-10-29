@@ -1,0 +1,779 @@
+{
+  "area": "operations",
+  "source_revision": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "entries": [
+    {
+      "number": 1,
+      "inventory_id": "auth-sign-in",
+      "rendered_ids": [
+        "auth-sign-in"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "email, password, Google authorization, reset, create account",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 2,
+      "inventory_id": "auth-create-account",
+      "rendered_ids": [
+        "auth-create-account"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "business, category, email, phone, password, create",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 3,
+      "inventory_id": "auth-password-reset",
+      "rendered_ids": [
+        "auth-password-reset"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "email, request, back",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 4,
+      "inventory_id": "auth-google-pending",
+      "rendered_ids": [
+        "auth-google-pending"
+      ],
+      "source_paths": [
+        "src/renderer/auth-view.ts"
+      ],
+      "functionality": "provider progress, cancel, denied/timeout boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 5,
+      "inventory_id": "eula-first-launch",
+      "rendered_ids": [
+        "eula-first-launch"
+      ],
+      "source_paths": [
+        "src/renderer/eula-acceptance.ts"
+      ],
+      "functionality": "versioned scroll area, accept, verification failure boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 6,
+      "inventory_id": "boot-contract-error",
+      "rendered_ids": [
+        "boot-contract-error"
+      ],
+      "source_paths": [
+        "src/renderer/main.ts"
+      ],
+      "functionality": "contract/identity/workspace variants, unlock retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 7,
+      "inventory_id": "account-deletion-progress",
+      "rendered_ids": [
+        "account-deletion-progress"
+      ],
+      "source_paths": [
+        "src/renderer/account-deletion-progress.ts"
+      ],
+      "functionality": "accepted progress, billing paused, status refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 8,
+      "inventory_id": "device-claim",
+      "rendered_ids": [
+        "device-claim"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "device, outlet, seat readiness, continue",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 9,
+      "inventory_id": "setup-product-import",
+      "rendered_ids": [
+        "setup-product-import"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "file, mapping, stock choice, starter catalog, preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 10,
+      "inventory_id": "setup-import-preview",
+      "rendered_ids": [
+        "setup-import-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "create/update/skip/needs-price, issues, commit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 11,
+      "inventory_id": "setup-khata-import",
+      "rendered_ids": [
+        "setup-khata-import"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "customer balance CSV, duplicate decision, preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 12,
+      "inventory_id": "restore-progress",
+      "rendered_ids": [
+        "restore-progress"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding/onboarding-route.ts"
+      ],
+      "functionality": "page progress, trust, resume/cancel/refresh",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 13,
+      "inventory_id": "restore-readiness-blocked",
+      "rendered_ids": [
+        "restore-readiness-blocked"
+      ],
+      "source_paths": [
+        "src/renderer/account-readiness-presentation.ts"
+      ],
+      "functionality": "required/optional checks, soft override, recheck",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 14,
+      "inventory_id": "wizard-category-account",
+      "rendered_ids": [
+        "wizard-category-account"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "stepper, category, starter catalog, account status",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 15,
+      "inventory_id": "wizard-hardware",
+      "rendered_ids": [
+        "wizard-hardware"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "printer/scanner/display evidence levels and links",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 16,
+      "inventory_id": "wizard-business-settings",
+      "rendered_ids": [
+        "wizard-business-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "GST, UPI, language, preview/confirm",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 17,
+      "inventory_id": "wizard-review-complete",
+      "rendered_ids": [
+        "wizard-review-complete"
+      ],
+      "source_paths": [
+        "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts"
+      ],
+      "functionality": "readiness summary, previous/recheck/finish",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 18,
+      "inventory_id": "print-setup-discovery",
+      "rendered_ids": [
+        "print-setup-discovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "discover, candidate, paper, confirm, save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 19,
+      "inventory_id": "print-printer-editor",
+      "rendered_ids": [
+        "print-printer-editor"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "ID/name, transport, endpoint, routes, paper, cutter, drawer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 20,
+      "inventory_id": "print-fleet-tests",
+      "rendered_ids": [
+        "print-fleet-tests"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "fleet status, route/cutter tests, edit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 21,
+      "inventory_id": "print-hardware-qualification",
+      "rendered_ids": [
+        "print-hardware-qualification"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "build/machine/time, target evidence, NOT PASS semantics",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 22,
+      "inventory_id": "receipt-operational-preview",
+      "rendered_ids": [
+        "receipt-operational-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "business copy, route, QR toggles, exact preview, reprint reason",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 23,
+      "inventory_id": "print-job-history",
+      "rendered_ids": [
+        "print-job-history"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "role/status/attempts/failure, retry/reprint/reconcile",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 24,
+      "inventory_id": "print-outcome-reconcile",
+      "rendered_ids": [
+        "print-outcome-reconcile"
+      ],
+      "source_paths": [
+        "src/renderer/features/print-center/print-center-route.ts"
+      ],
+      "functionality": "unknown attempt, confirm printed/not printed",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 25,
+      "inventory_id": "labels-batch-setup",
+      "rendered_ids": [
+        "labels-batch-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "route, size, offsets, fields, product rows, copies",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 26,
+      "inventory_id": "labels-exact-preview",
+      "rendered_ids": [
+        "labels-exact-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "exact layout, warnings, immutable preview submit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 27,
+      "inventory_id": "labels-submit-failure",
+      "rendered_ids": [
+        "labels-submit-failure"
+      ],
+      "source_paths": [
+        "src/renderer/features/barcode-labels/barcode-label-route.ts"
+      ],
+      "functionality": "conflict reason, no-job truth, correction path",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 28,
+      "inventory_id": "operator-settings",
+      "rendered_ids": [
+        "operator-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "language, issued settings, scanner/device/update links",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 29,
+      "inventory_id": "scanner-configuration",
+      "rendered_ids": [
+        "scanner-setup"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "prefix/timing, keys, inter-key and quiet gap, apply",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 30,
+      "inventory_id": "scanner-test",
+      "rendered_ids": [
+        "scanner-test"
+      ],
+      "source_paths": [
+        "src/renderer/features/scanner/scanner-setup-surface.ts"
+      ],
+      "functionality": "arm one scan, catalog result and rejection variants",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 31,
+      "inventory_id": "windows-device-settings",
+      "rendered_ids": [
+        "windows-device-settings"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/windows-operations-surface.ts"
+      ],
+      "functionality": "startup, kiosk preference, activity, exit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 32,
+      "inventory_id": "exit-biteaze-confirmation",
+      "rendered_ids": [
+        "exit-biteaze-confirmation"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/windows-operations-surface.ts"
+      ],
+      "functionality": "active-work warning, cancel/exit",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 33,
+      "inventory_id": "backup-recovery",
+      "rendered_ids": [
+        "backup-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "recovery password, create/rehearse/restore/cancel/status",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 34,
+      "inventory_id": "restore-backup-confirm",
+      "rendered_ids": [
+        "restore-backup-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/recovery/recovery-command-client.ts"
+      ],
+      "functionality": "destructive boundary, package identity, confirm/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 35,
+      "inventory_id": "profile-security",
+      "rendered_ids": [
+        "profile-security"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "business/email, password change, sign out, delete entry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 36,
+      "inventory_id": "delete-account-confirm",
+      "rendered_ids": [
+        "delete-account-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "DELETE phrase, current password, custody boundary",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 37,
+      "inventory_id": "staff-authorization",
+      "rendered_ids": [
+        "staff-authorization"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "challenge method, protected credential, submit/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 38,
+      "inventory_id": "staff-member-security",
+      "rendered_ids": [
+        "staff-member-security"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "roster, role, PIN, deactivate, refresh, lock",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 39,
+      "inventory_id": "staff-pin-recovery",
+      "rendered_ids": [
+        "staff-pin-recovery"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "member identity, PIN/confirm, resume",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 40,
+      "inventory_id": "voice-command",
+      "rendered_ids": [
+        "voice-command"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "mode, text, Windows voice typing, preview, privacy",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 41,
+      "inventory_id": "voice-action-confirm",
+      "rendered_ids": [
+        "voice-action-confirm"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "proposal, tender option, speech, confirm/cancel",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 42,
+      "inventory_id": "sync-conflict-review",
+      "rendered_ids": [
+        "sync-conflict-review"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "reason, local/synced values, resolvable choices",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 43,
+      "inventory_id": "sync-quarantine",
+      "rendered_ids": [
+        "sync-quarantine"
+      ],
+      "source_paths": [
+        "src/renderer/features/operator-experience/operator-experience-route.ts"
+      ],
+      "functionality": "record, code, path, read-only detail",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 44,
+      "inventory_id": "support-health",
+      "rendered_ids": [
+        "support-health"
+      ],
+      "source_paths": [
+        "src/renderer/features/support/support-route.ts"
+      ],
+      "functionality": "version, alerts, feature switches, refresh/preview",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 45,
+      "inventory_id": "support-diagnostics-preview",
+      "rendered_ids": [
+        "support-diagnostics-preview"
+      ],
+      "source_paths": [
+        "src/renderer/features/support/support-route.ts"
+      ],
+      "functionality": "bounded redacted preview, private local save",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 46,
+      "inventory_id": "legal-operations",
+      "rendered_ids": [
+        "legal-operations"
+      ],
+      "source_paths": [
+        "src/renderer/features/legal-ops/legal-ops-route.ts"
+      ],
+      "functionality": "release, retention, inventory, crash/MPL/EULA/DPDP boundaries",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 47,
+      "inventory_id": "windows-update-banner",
+      "rendered_ids": [
+        "windows-update-available",
+        "windows-update-deferred",
+        "windows-update-ready",
+        "windows-update-failed"
+      ],
+      "source_paths": [
+        "src/renderer/windows-update-controller.ts"
+      ],
+      "functionality": "flexible/mandatory, download/later, safe defer, restart/retry",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 48,
+      "inventory_id": "category-dashboard",
+      "rendered_ids": [
+        "category-dashboard"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "category selector, issued metrics, gated service routes",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 49,
+      "inventory_id": "category-setup-reports",
+      "rendered_ids": [
+        "category-setup-reports"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "starter count, catalog label, issued reports",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 50,
+      "inventory_id": "appointments-schedule",
+      "rendered_ids": [
+        "appointments-schedule"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "range/status/query filters, booking fields and list",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 51,
+      "inventory_id": "appointment-detail",
+      "rendered_ids": [
+        "appointment-detail"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "status, new start/duration, cancel reason",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 52,
+      "inventory_id": "jobs-intake",
+      "rendered_ids": [
+        "jobs-intake"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "customer, item/fault/work/time/money/device/warranty/notes",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 53,
+      "inventory_id": "job-lifecycle",
+      "rendered_ids": [
+        "job-lifecycle"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "exact status path, cancel and cancelled-only delete",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 54,
+      "inventory_id": "job-quotation-billing",
+      "rendered_ids": [
+        "job-quotation-billing"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "quotation create/link and Billing review handoff",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    },
+    {
+      "number": 55,
+      "inventory_id": "repair-ready-message",
+      "rendered_ids": [
+        "repair-ready-message"
+      ],
+      "source_paths": [
+        "src/renderer/features/vertical/vertical-route.ts"
+      ],
+      "functionality": "shop, language, exact preview, manual composer",
+      "missing": null,
+      "implementation_status": "NOT_STARTED",
+      "native_validation": "NOT_MEASURED"
+    }
+  ]
+}

@@ -1,0 +1,1502 @@
+[
+  {
+    "page": 1,
+    "title": "Start Phase 2",
+    "key": "phase2-cover"
+  },
+  {
+    "page": 2,
+    "title": "How to implement Phase 2",
+    "key": "phase2-handoff"
+  },
+  {
+    "page": 3,
+    "title": "Screen directory 1",
+    "key": "phase2-index-1"
+  },
+  {
+    "page": 4,
+    "title": "Screen directory 2",
+    "key": "phase2-index-2"
+  },
+  {
+    "page": 5,
+    "title": "Screen directory 3",
+    "key": "phase2-index-3"
+  },
+  {
+    "page": 6,
+    "title": "Screen directory 4",
+    "key": "phase2-index-4"
+  },
+  {
+    "page": 7,
+    "title": "Screen directory 5",
+    "key": "phase2-index-5"
+  },
+  {
+    "page": 8,
+    "title": "Screen directory 6",
+    "key": "phase2-index-6"
+  },
+  {
+    "page": 9,
+    "title": "More ways to run your business",
+    "key": "phase2-overview"
+  },
+  {
+    "page": 10,
+    "title": "More ways to run your business \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 11,
+    "title": "Supplier directory & account",
+    "key": "supplier-directory-detail"
+  },
+  {
+    "page": 12,
+    "title": "Supplier directory & account \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 13,
+    "title": "Add supplier",
+    "key": "supplier-new"
+  },
+  {
+    "page": 14,
+    "title": "Record supplier payment",
+    "key": "supplier-payment-record"
+  },
+  {
+    "page": 15,
+    "title": "Purchase register",
+    "key": "purchase-register"
+  },
+  {
+    "page": 16,
+    "title": "Create purchase",
+    "key": "purchase-create"
+  },
+  {
+    "page": 17,
+    "title": "Create purchase \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 18,
+    "title": "Received stock row",
+    "key": "purchase-received-stock-row"
+  },
+  {
+    "page": 19,
+    "title": "Correct purchase",
+    "key": "purchase-correction"
+  },
+  {
+    "page": 20,
+    "title": "Expense history & correction",
+    "key": "expense-history-edit"
+  },
+  {
+    "page": 21,
+    "title": "Expense history & correction \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 22,
+    "title": "Cash in / cash out",
+    "key": "cash-paid-in-out-linked-expense"
+  },
+  {
+    "page": 23,
+    "title": "Financial overview",
+    "key": "financial-period-summary"
+  },
+  {
+    "page": 24,
+    "title": "Sales, quotations & challans",
+    "key": "document-search-register"
+  },
+  {
+    "page": 25,
+    "title": "Invoice INV-2026-1042",
+    "key": "document-detail-complete"
+  },
+  {
+    "page": 26,
+    "title": "Document evidence needs review",
+    "key": "document-detail-incomplete-conflict"
+  },
+  {
+    "page": 27,
+    "title": "Reprint queue",
+    "key": "reprint-queue"
+  },
+  {
+    "page": 28,
+    "title": "Detailed A4 invoice",
+    "key": "sales-a4-invoice"
+  },
+  {
+    "page": 29,
+    "title": "Build sales return",
+    "key": "sales-return-builder"
+  },
+  {
+    "page": 30,
+    "title": "Confirm sales return",
+    "key": "sales-return-preview-confirm"
+  },
+  {
+    "page": 31,
+    "title": "Void sale preview",
+    "key": "sales-void-preview-confirm"
+  },
+  {
+    "page": 32,
+    "title": "Create quotation",
+    "key": "quotation-create-edit"
+  },
+  {
+    "page": 33,
+    "title": "Quotation QUO-2026-028",
+    "key": "quotation-detail-review"
+  },
+  {
+    "page": 34,
+    "title": "Existing Billing draft",
+    "key": "quotation-draft-conflict"
+  },
+  {
+    "page": 35,
+    "title": "Create delivery challan",
+    "key": "challan-create-edit"
+  },
+  {
+    "page": 36,
+    "title": "Select challans for invoice",
+    "key": "challan-selection-invoice-handoff"
+  },
+  {
+    "page": 37,
+    "title": "Complete GST credit note",
+    "key": "gst-credit-note-completion"
+  },
+  {
+    "page": 38,
+    "title": "Complete GST credit note \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 39,
+    "title": "Credit-note correction history",
+    "key": "gst-credit-note-review-chain"
+  },
+  {
+    "page": 40,
+    "title": "Report catalogue",
+    "key": "report-catalog"
+  },
+  {
+    "page": 41,
+    "title": "Building Sales summary",
+    "key": "report-processing"
+  },
+  {
+    "page": 42,
+    "title": "Sales summary report",
+    "key": "report-table-result"
+  },
+  {
+    "page": 43,
+    "title": "Save report privately",
+    "key": "report-private-export"
+  },
+  {
+    "page": 44,
+    "title": "Report unavailable",
+    "key": "report-error-or-catalog-mismatch"
+  },
+  {
+    "page": 45,
+    "title": "Operational overview",
+    "key": "operational-dashboard-stock-exceptions"
+  },
+  {
+    "page": 46,
+    "title": "Build GST filing pack",
+    "key": "gst-filing-period"
+  },
+  {
+    "page": 47,
+    "title": "GST filing identity review",
+    "key": "gst-filing-identity-blockers"
+  },
+  {
+    "page": 48,
+    "title": "GST filing pack summary",
+    "key": "gst-filing-pack-summary"
+  },
+  {
+    "page": 49,
+    "title": "GST relief blockers",
+    "key": "gst-relief-blockers"
+  },
+  {
+    "page": 50,
+    "title": "Day-close cash count",
+    "key": "day-close-denomination-entry"
+  },
+  {
+    "page": 51,
+    "title": "Day-close history",
+    "key": "day-close-history-reclose"
+  },
+  {
+    "page": 52,
+    "title": "Inventory catalogue",
+    "key": "inventory-catalog-browse"
+  },
+  {
+    "page": 53,
+    "title": "Inventory search states",
+    "key": "inventory-loading-empty-unavailable"
+  },
+  {
+    "page": 54,
+    "title": "Create product",
+    "key": "product-create-advanced"
+  },
+  {
+    "page": 55,
+    "title": "Create product \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 56,
+    "title": "Edit product",
+    "key": "product-edit-delete-revision"
+  },
+  {
+    "page": 57,
+    "title": "Categories, variants & modifiers",
+    "key": "inventory-entity-create-edit"
+  },
+  {
+    "page": 58,
+    "title": "Record stock movement",
+    "key": "stock-movement-entry"
+  },
+  {
+    "page": 59,
+    "title": "Stock movement history",
+    "key": "stock-movement-history-undo"
+  },
+  {
+    "page": 60,
+    "title": "Inventory review queue",
+    "key": "inventory-conflicts-quarantine"
+  },
+  {
+    "page": 61,
+    "title": "Preview catalogue import",
+    "key": "bulk-import-preview"
+  },
+  {
+    "page": 62,
+    "title": "Preview catalogue import \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 63,
+    "title": "Apply or recover import",
+    "key": "bulk-import-progress-recovery"
+  },
+  {
+    "page": 64,
+    "title": "Reverse applied import pages",
+    "key": "bulk-import-reversal"
+  },
+  {
+    "page": 65,
+    "title": "Import result states",
+    "key": "bulk-import-terminal-states"
+  },
+  {
+    "page": 66,
+    "title": "Import result states \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 67,
+    "title": "Build product catalogue",
+    "key": "catalog-export-builder"
+  },
+  {
+    "page": 68,
+    "title": "Catalogue ready",
+    "key": "catalog-export-ready"
+  },
+  {
+    "page": 69,
+    "title": "Customer credit ageing",
+    "key": "customer-search-aging"
+  },
+  {
+    "page": 70,
+    "title": "Customer profile & khata",
+    "key": "customer-profile-khata-detail"
+  },
+  {
+    "page": 71,
+    "title": "Customer profile & khata \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 72,
+    "title": "Prepare khata statement",
+    "key": "khata-statement-share"
+  },
+  {
+    "page": 73,
+    "title": "Prepare khata statement \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 74,
+    "title": "Receive khata payment",
+    "key": "khata-settlement-receipt"
+  },
+  {
+    "page": 75,
+    "title": "Marketing workspace",
+    "key": "marketing-authority-workspace"
+  },
+  {
+    "page": 76,
+    "title": "Coupon details",
+    "key": "coupon-authority-detail"
+  },
+  {
+    "page": 77,
+    "title": "Loyalty programme",
+    "key": "loyalty-authority-detail"
+  },
+  {
+    "page": 78,
+    "title": "Message consent",
+    "key": "outreach-consent-detail"
+  },
+  {
+    "page": 79,
+    "title": "Message consent \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 80,
+    "title": "Manual customer message",
+    "key": "manual-communication-preview"
+  },
+  {
+    "page": 81,
+    "title": "Manual customer message \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 82,
+    "title": "Receipt promotion preview",
+    "key": "promotion-receipt-preview"
+  },
+  {
+    "page": 83,
+    "title": "Checkout record recovery",
+    "key": "marketing-recovery-diagnostics"
+  },
+  {
+    "page": 84,
+    "title": "Messages & receipt promotions",
+    "key": "manual-communication-and-promo-preview"
+  },
+  {
+    "page": 85,
+    "title": "Sign in to Biteaze",
+    "key": "auth-sign-in"
+  },
+  {
+    "page": 86,
+    "title": "Create a business account",
+    "key": "auth-create-account"
+  },
+  {
+    "page": 87,
+    "title": "Reset your password",
+    "key": "auth-password-reset"
+  },
+  {
+    "page": 88,
+    "title": "Continue with Google",
+    "key": "auth-google-pending"
+  },
+  {
+    "page": 89,
+    "title": "End User Licence Agreement",
+    "key": "eula-first-launch"
+  },
+  {
+    "page": 90,
+    "title": "Biteaze could not open",
+    "key": "boot-contract-error"
+  },
+  {
+    "page": 91,
+    "title": "Account deletion in progress",
+    "key": "account-deletion-progress"
+  },
+  {
+    "page": 92,
+    "title": "Add this PC",
+    "key": "device-claim"
+  },
+  {
+    "page": 93,
+    "title": "Import products",
+    "key": "setup-product-import"
+  },
+  {
+    "page": 94,
+    "title": "Import products \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 95,
+    "title": "Review product import",
+    "key": "setup-import-preview"
+  },
+  {
+    "page": 96,
+    "title": "Import customer balances",
+    "key": "setup-khata-import"
+  },
+  {
+    "page": 97,
+    "title": "Restore business data",
+    "key": "restore-progress"
+  },
+  {
+    "page": 98,
+    "title": "Billing readiness",
+    "key": "restore-readiness-blocked"
+  },
+  {
+    "page": 99,
+    "title": "Setup guide \u00b7 business and account",
+    "key": "wizard-category-account"
+  },
+  {
+    "page": 100,
+    "title": "Setup guide \u00b7 hardware",
+    "key": "wizard-hardware"
+  },
+  {
+    "page": 101,
+    "title": "Setup guide \u00b7 business settings",
+    "key": "wizard-business-settings"
+  },
+  {
+    "page": 102,
+    "title": "Setup guide \u00b7 final review",
+    "key": "wizard-review-complete"
+  },
+  {
+    "page": 103,
+    "title": "Discover receipt printers",
+    "key": "print-setup-discovery"
+  },
+  {
+    "page": 104,
+    "title": "Edit printer and routes",
+    "key": "print-printer-editor"
+  },
+  {
+    "page": 105,
+    "title": "Printers and device tests",
+    "key": "print-fleet-tests"
+  },
+  {
+    "page": 106,
+    "title": "Physical printer qualification",
+    "key": "print-hardware-qualification"
+  },
+  {
+    "page": 107,
+    "title": "Receipt output and reprint",
+    "key": "receipt-operational-preview"
+  },
+  {
+    "page": 108,
+    "title": "Print job history",
+    "key": "print-job-history"
+  },
+  {
+    "page": 109,
+    "title": "Confirm the last print outcome",
+    "key": "print-outcome-reconcile"
+  },
+  {
+    "page": 110,
+    "title": "Barcode label batch",
+    "key": "labels-batch-setup"
+  },
+  {
+    "page": 111,
+    "title": "Barcode label batch \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 112,
+    "title": "Exact label preview",
+    "key": "labels-exact-preview"
+  },
+  {
+    "page": 113,
+    "title": "Label batch needs correction",
+    "key": "labels-submit-failure"
+  },
+  {
+    "page": 114,
+    "title": "Operator settings",
+    "key": "operator-settings"
+  },
+  {
+    "page": 115,
+    "title": "Windows device settings",
+    "key": "windows-device-settings"
+  },
+  {
+    "page": 116,
+    "title": "Exit Biteaze?",
+    "key": "exit-biteaze-confirmation"
+  },
+  {
+    "page": 117,
+    "title": "Backup and recovery",
+    "key": "backup-recovery"
+  },
+  {
+    "page": 118,
+    "title": "Replace this PC\u2019s billing data?",
+    "key": "restore-backup-confirm"
+  },
+  {
+    "page": 119,
+    "title": "Profile and account security",
+    "key": "profile-security"
+  },
+  {
+    "page": 120,
+    "title": "Permanently delete this account?",
+    "key": "delete-account-confirm"
+  },
+  {
+    "page": 121,
+    "title": "Verify staff management",
+    "key": "staff-authorization"
+  },
+  {
+    "page": 122,
+    "title": "Staff access and PINs",
+    "key": "staff-member-security"
+  },
+  {
+    "page": 123,
+    "title": "Finish staff PIN setup",
+    "key": "staff-pin-recovery"
+  },
+  {
+    "page": 124,
+    "title": "Preview a voice-typed command",
+    "key": "voice-command"
+  },
+  {
+    "page": 125,
+    "title": "Confirm voice action",
+    "key": "voice-action-confirm"
+  },
+  {
+    "page": 126,
+    "title": "Review sync conflict",
+    "key": "sync-conflict-review"
+  },
+  {
+    "page": 127,
+    "title": "Sync quarantine",
+    "key": "sync-quarantine"
+  },
+  {
+    "page": 128,
+    "title": "Support health",
+    "key": "support-health"
+  },
+  {
+    "page": 129,
+    "title": "Support health \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 130,
+    "title": "Diagnostics preview",
+    "key": "support-diagnostics-preview"
+  },
+  {
+    "page": 131,
+    "title": "Legal operations readiness",
+    "key": "legal-operations"
+  },
+  {
+    "page": 132,
+    "title": "Category dashboard",
+    "key": "category-dashboard"
+  },
+  {
+    "page": 133,
+    "title": "Category setup and reports",
+    "key": "category-setup-reports"
+  },
+  {
+    "page": 134,
+    "title": "Appointment schedule",
+    "key": "appointments-schedule"
+  },
+  {
+    "page": 135,
+    "title": "Appointment details",
+    "key": "appointment-detail"
+  },
+  {
+    "page": 136,
+    "title": "New service or repair job",
+    "key": "jobs-intake"
+  },
+  {
+    "page": 137,
+    "title": "Job lifecycle",
+    "key": "job-lifecycle"
+  },
+  {
+    "page": 138,
+    "title": "Job quotation and Billing review",
+    "key": "job-quotation-billing"
+  },
+  {
+    "page": 139,
+    "title": "Repair-ready message",
+    "key": "repair-ready-message"
+  },
+  {
+    "page": 140,
+    "title": "Food-service workspace",
+    "key": "food-service-workspace"
+  },
+  {
+    "page": 141,
+    "title": "Compose food order",
+    "key": "food-order-compose"
+  },
+  {
+    "page": 142,
+    "title": "Compose food order \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 143,
+    "title": "Choose item options",
+    "key": "food-modifier-requirements"
+  },
+  {
+    "page": 144,
+    "title": "Choose item options \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 145,
+    "title": "Running order \u00b7 T04",
+    "key": "food-running-order"
+  },
+  {
+    "page": 146,
+    "title": "Held food order \u00b7 #FS-1041",
+    "key": "food-order-held"
+  },
+  {
+    "page": 147,
+    "title": "Transfer table",
+    "key": "food-table-transfer"
+  },
+  {
+    "page": 148,
+    "title": "Merge running orders",
+    "key": "food-order-merge"
+  },
+  {
+    "page": 149,
+    "title": "Split order line",
+    "key": "food-order-split-lines"
+  },
+  {
+    "page": 150,
+    "title": "Routed kitchen tickets",
+    "key": "routed-kot-preview"
+  },
+  {
+    "page": 151,
+    "title": "Food output settings",
+    "key": "food-output-config"
+  },
+  {
+    "page": 152,
+    "title": "Food output settings \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 153,
+    "title": "Food-service data needs refresh",
+    "key": "food-service-stale"
+  },
+  {
+    "page": 154,
+    "title": "QR ordering readiness",
+    "key": "qr-backend-readiness"
+  },
+  {
+    "page": 155,
+    "title": "Publish QR menu",
+    "key": "menu-publish-confirm"
+  },
+  {
+    "page": 156,
+    "title": "QR menu is live",
+    "key": "menu-publish-live"
+  },
+  {
+    "page": 157,
+    "title": "Menu saved \u00b7 customer site pending",
+    "key": "menu-publish-mirror-pending"
+  },
+  {
+    "page": 158,
+    "title": "Menu saved \u00b7 customer site retrying",
+    "key": "menu-publish-mirror-failed"
+  },
+  {
+    "page": 159,
+    "title": "Create table QR",
+    "key": "table-qr-create"
+  },
+  {
+    "page": 160,
+    "title": "Table 12 QR ready",
+    "key": "table-qr-ready"
+  },
+  {
+    "page": 161,
+    "title": "Incoming QR orders",
+    "key": "qr-order-intake"
+  },
+  {
+    "page": 162,
+    "title": "Review accepted QR order",
+    "key": "qr-order-accepted"
+  },
+  {
+    "page": 163,
+    "title": "QR intake unavailable",
+    "key": "qr-intake-unavailable"
+  },
+  {
+    "page": 164,
+    "title": "Sale attribution",
+    "key": "billing-attribution"
+  },
+  {
+    "page": 165,
+    "title": "Quotation review in Billing",
+    "key": "billing-quotation-review"
+  },
+  {
+    "page": 166,
+    "title": "Quotation review in Billing \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 167,
+    "title": "Challan review in Billing",
+    "key": "billing-challan-review"
+  },
+  {
+    "page": 168,
+    "title": "Challan review in Billing \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 169,
+    "title": "Source document needs attention",
+    "key": "billing-document-correction"
+  },
+  {
+    "page": 170,
+    "title": "Discard outcome unknown",
+    "key": "billing-document-discard-unknown"
+  },
+  {
+    "page": 171,
+    "title": "Checkout restored",
+    "key": "billing-checkout-recovery"
+  },
+  {
+    "page": 172,
+    "title": "Saved and held orders",
+    "key": "ongoing-order-recovery"
+  },
+  {
+    "page": 173,
+    "title": "Held-order limit reached",
+    "key": "ongoing-order-limit"
+  },
+  {
+    "page": 174,
+    "title": "Saved order changed",
+    "key": "ongoing-order-conflict"
+  },
+  {
+    "page": 175,
+    "title": "Configure retail line",
+    "key": "retail-line-configuration"
+  },
+  {
+    "page": 176,
+    "title": "Configure retail line \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 177,
+    "title": "Retail line needs correction",
+    "key": "retail-line-invalid"
+  },
+  {
+    "page": 178,
+    "title": "Promotions and order note",
+    "key": "billing-promotions-authority"
+  },
+  {
+    "page": 179,
+    "title": "Review policy-gated TCS",
+    "key": "billing-tcs-review"
+  },
+  {
+    "page": 180,
+    "title": "Saved checkout locked",
+    "key": "checkout-draft-locked"
+  },
+  {
+    "page": 181,
+    "title": "Checkout save outcome unknown",
+    "key": "checkout-save-unknown"
+  },
+  {
+    "page": 182,
+    "title": "Checkout could not be saved",
+    "key": "checkout-draft-conflict"
+  },
+  {
+    "page": 183,
+    "title": "Checkout discard unresolved",
+    "key": "checkout-discard-unknown"
+  },
+  {
+    "page": 184,
+    "title": "Review payment",
+    "key": "payment-authority-preview"
+  },
+  {
+    "page": 185,
+    "title": "Payment review unavailable",
+    "key": "payment-preview-unavailable"
+  },
+  {
+    "page": 186,
+    "title": "Credit warning",
+    "key": "credit-warning"
+  },
+  {
+    "page": 187,
+    "title": "Reserve credit authority",
+    "key": "credit-reservation-required"
+  },
+  {
+    "page": 188,
+    "title": "Manager credit override",
+    "key": "credit-override-required"
+  },
+  {
+    "page": 189,
+    "title": "Sale outcome unknown",
+    "key": "payment-completion-unknown"
+  },
+  {
+    "page": 190,
+    "title": "Sale completion blocked",
+    "key": "payment-completion-conflict"
+  },
+  {
+    "page": 191,
+    "title": "Checkout totals changed",
+    "key": "payment-completion-stale"
+  },
+  {
+    "page": 192,
+    "title": "Sale saved without print",
+    "key": "sale-saved-no-print"
+  },
+  {
+    "page": 193,
+    "title": "Sale saved \u00b7 receipt queued",
+    "key": "sale-print-queued"
+  },
+  {
+    "page": 194,
+    "title": "Command palette",
+    "key": "command-palette"
+  },
+  {
+    "page": 195,
+    "title": "Barcode scanner setup",
+    "key": "scanner-setup"
+  },
+  {
+    "page": 196,
+    "title": "Test one barcode scan",
+    "key": "scanner-test"
+  },
+  {
+    "page": 197,
+    "title": "Scanner status in the shell",
+    "key": "scanner-runtime-status"
+  },
+  {
+    "page": 198,
+    "title": "PLU / shortcode result",
+    "key": "plu-shortcode-result"
+  },
+  {
+    "page": 199,
+    "title": "Biteaze update available",
+    "key": "windows-update-available"
+  },
+  {
+    "page": 200,
+    "title": "Update waiting for a safe point",
+    "key": "windows-update-deferred"
+  },
+  {
+    "page": 201,
+    "title": "Update ready to restart",
+    "key": "windows-update-ready"
+  },
+  {
+    "page": 202,
+    "title": "Update ready to restart \u00b7 continued",
+    "key": null
+  },
+  {
+    "page": 203,
+    "title": "Update service needs attention",
+    "key": "windows-update-failed"
+  },
+  {
+    "page": 204,
+    "title": "Add this PC",
+    "key": "account-readiness-device-claim"
+  },
+  {
+    "page": 205,
+    "title": "Finish device handover",
+    "key": "account-readiness-handover"
+  },
+  {
+    "page": 206,
+    "title": "Restore required",
+    "key": "account-readiness-restore"
+  },
+  {
+    "page": 207,
+    "title": "Verify the counter",
+    "key": "account-readiness-gate"
+  },
+  {
+    "page": 208,
+    "title": "Set up a printer",
+    "key": "account-readiness-printer"
+  },
+  {
+    "page": 209,
+    "title": "Account ready",
+    "key": "account-readiness-ready"
+  },
+  {
+    "page": 210,
+    "title": "You are offline",
+    "key": "account-readiness-offline"
+  },
+  {
+    "page": 211,
+    "title": "Account check unavailable",
+    "key": "account-readiness-unavailable"
+  },
+  {
+    "page": 212,
+    "title": "Account check cancelled",
+    "key": "account-readiness-cancelled"
+  },
+  {
+    "page": 213,
+    "title": "Account check unavailable",
+    "key": "account-readiness-unavailable-invalid"
+  },
+  {
+    "page": 214,
+    "title": "This PC was added",
+    "key": "current-device-claim-success"
+  },
+  {
+    "page": 215,
+    "title": "Device handover required",
+    "key": "current-device-claim-handover"
+  },
+  {
+    "page": 216,
+    "title": "No device seat available",
+    "key": "current-device-claim-gate"
+  },
+  {
+    "page": 217,
+    "title": "You are offline",
+    "key": "current-device-claim-offline"
+  },
+  {
+    "page": 218,
+    "title": "Could not add this PC",
+    "key": "current-device-claim-unavailable"
+  },
+  {
+    "page": 219,
+    "title": "Device claim cancelled",
+    "key": "current-device-claim-cancelled"
+  },
+  {
+    "page": 220,
+    "title": "Could not add this PC",
+    "key": "current-device-claim-unavailable-invalid"
+  },
+  {
+    "page": 221,
+    "title": "Handover check complete",
+    "key": "handover-admission-ready"
+  },
+  {
+    "page": 222,
+    "title": "Handover check pending",
+    "key": "handover-admission-gate"
+  },
+  {
+    "page": 223,
+    "title": "Check unavailable",
+    "key": "handover-admission-unavailable"
+  },
+  {
+    "page": 224,
+    "title": "Check cancelled",
+    "key": "handover-admission-cancelled"
+  },
+  {
+    "page": 225,
+    "title": "Check unavailable",
+    "key": "handover-admission-unavailable-invalid"
+  },
+  {
+    "page": 226,
+    "title": "Invoice counter already checked",
+    "key": "invoice-counter-already-verified"
+  },
+  {
+    "page": 227,
+    "title": "Restore required",
+    "key": "invoice-counter-restore-required"
+  },
+  {
+    "page": 228,
+    "title": "Counter check needs a connection",
+    "key": "invoice-counter-offline"
+  },
+  {
+    "page": 229,
+    "title": "Counter check unavailable",
+    "key": "invoice-counter-unavailable"
+  },
+  {
+    "page": 230,
+    "title": "Counter check cancelled",
+    "key": "invoice-counter-cancelled"
+  },
+  {
+    "page": 231,
+    "title": "Counter check unavailable",
+    "key": "invoice-counter-unavailable-invalid"
+  },
+  {
+    "page": 232,
+    "title": "Invoice counter verified",
+    "key": "invoice-counter-verified"
+  },
+  {
+    "page": 233,
+    "title": "Invoice counter changed",
+    "key": "invoice-counter-changed"
+  },
+  {
+    "page": 234,
+    "title": "Local restore check complete",
+    "key": "restore-entry-ready"
+  },
+  {
+    "page": 235,
+    "title": "Account transition required",
+    "key": "restore-entry-transition-required"
+  },
+  {
+    "page": 236,
+    "title": "Restore required",
+    "key": "restore-entry-restore-required"
+  },
+  {
+    "page": 237,
+    "title": "Restore requires a connection",
+    "key": "restore-entry-offline"
+  },
+  {
+    "page": 238,
+    "title": "Local data needs recovery",
+    "key": "restore-entry-admission-gate"
+  },
+  {
+    "page": 239,
+    "title": "Could not check local entry",
+    "key": "restore-entry-unavailable"
+  },
+  {
+    "page": 240,
+    "title": "Local entry check cancelled",
+    "key": "restore-entry-cancelled"
+  },
+  {
+    "page": 241,
+    "title": "Could not check local entry",
+    "key": "restore-entry-unavailable-invalid"
+  },
+  {
+    "page": 242,
+    "title": "Invoice counter check required",
+    "key": "invoice-counter-verification-gate"
+  },
+  {
+    "page": 243,
+    "title": "Use a later invoice number",
+    "key": "invoice-counter-forward-only"
+  },
+  {
+    "page": 244,
+    "title": "Counter outcome cannot be confirmed",
+    "key": "invoice-counter-outcome-unknown"
+  },
+  {
+    "page": 245,
+    "title": "More ways to run your business \u00b7 1280 \u00d7 720",
+    "key": "responsive-073-phase2-overview-1280x720.png"
+  },
+  {
+    "page": 246,
+    "title": "More ways to run your business \u00b7 1366 \u00d7 768",
+    "key": "responsive-073-phase2-overview-1366x768.png"
+  },
+  {
+    "page": 247,
+    "title": "Supplier directory & account \u00b7 1280 \u00d7 720",
+    "key": "responsive-074-supplier-directory-detail-1280x720.png"
+  },
+  {
+    "page": 248,
+    "title": "Supplier directory & account \u00b7 1366 \u00d7 768",
+    "key": "responsive-074-supplier-directory-detail-1366x768.png"
+  },
+  {
+    "page": 249,
+    "title": "Create purchase \u00b7 1280 \u00d7 720",
+    "key": "responsive-078-purchase-create-1280x720.png"
+  },
+  {
+    "page": 250,
+    "title": "Create purchase \u00b7 1366 \u00d7 768",
+    "key": "responsive-078-purchase-create-1366x768.png"
+  },
+  {
+    "page": 251,
+    "title": "Sales, quotations & challans \u00b7 1280 \u00d7 720",
+    "key": "responsive-084-document-search-register-1280x720.png"
+  },
+  {
+    "page": 252,
+    "title": "Sales, quotations & challans \u00b7 1366 \u00d7 768",
+    "key": "responsive-084-document-search-register-1366x768.png"
+  },
+  {
+    "page": 253,
+    "title": "Create quotation \u00b7 1280 \u00d7 720",
+    "key": "responsive-092-quotation-create-edit-1280x720.png"
+  },
+  {
+    "page": 254,
+    "title": "Create quotation \u00b7 1366 \u00d7 768",
+    "key": "responsive-092-quotation-create-edit-1366x768.png"
+  },
+  {
+    "page": 255,
+    "title": "Report catalogue \u00b7 1280 \u00d7 720",
+    "key": "responsive-099-report-catalog-1280x720.png"
+  },
+  {
+    "page": 256,
+    "title": "Report catalogue \u00b7 1366 \u00d7 768",
+    "key": "responsive-099-report-catalog-1366x768.png"
+  },
+  {
+    "page": 257,
+    "title": "Inventory catalogue \u00b7 1280 \u00d7 720",
+    "key": "responsive-111-inventory-catalog-browse-1280x720.png"
+  },
+  {
+    "page": 258,
+    "title": "Inventory catalogue \u00b7 1366 \u00d7 768",
+    "key": "responsive-111-inventory-catalog-browse-1366x768.png"
+  },
+  {
+    "page": 259,
+    "title": "Create product \u00b7 1280 \u00d7 720",
+    "key": "responsive-113-product-create-advanced-1280x720.png"
+  },
+  {
+    "page": 260,
+    "title": "Create product \u00b7 1366 \u00d7 768",
+    "key": "responsive-113-product-create-advanced-1366x768.png"
+  },
+  {
+    "page": 261,
+    "title": "Customer credit ageing \u00b7 1280 \u00d7 720",
+    "key": "responsive-125-customer-search-aging-1280x720.png"
+  },
+  {
+    "page": 262,
+    "title": "Customer credit ageing \u00b7 1366 \u00d7 768",
+    "key": "responsive-125-customer-search-aging-1366x768.png"
+  },
+  {
+    "page": 263,
+    "title": "Marketing workspace \u00b7 1280 \u00d7 720",
+    "key": "responsive-129-marketing-authority-workspace-1280x720.png"
+  },
+  {
+    "page": 264,
+    "title": "Marketing workspace \u00b7 1366 \u00d7 768",
+    "key": "responsive-129-marketing-authority-workspace-1366x768.png"
+  },
+  {
+    "page": 265,
+    "title": "Sign in to Biteaze \u00b7 1280 \u00d7 720",
+    "key": "responsive-137-auth-sign-in-1280x720.png"
+  },
+  {
+    "page": 266,
+    "title": "Sign in to Biteaze \u00b7 1366 \u00d7 768",
+    "key": "responsive-137-auth-sign-in-1366x768.png"
+  },
+  {
+    "page": 267,
+    "title": "Create a business account \u00b7 1280 \u00d7 720",
+    "key": "responsive-138-auth-create-account-1280x720.png"
+  },
+  {
+    "page": 268,
+    "title": "Create a business account \u00b7 1366 \u00d7 768",
+    "key": "responsive-138-auth-create-account-1366x768.png"
+  },
+  {
+    "page": 269,
+    "title": "Account deletion in progress \u00b7 1280 \u00d7 720",
+    "key": "responsive-143-account-deletion-progress-1280x720.png"
+  },
+  {
+    "page": 270,
+    "title": "Account deletion in progress \u00b7 1366 \u00d7 768",
+    "key": "responsive-143-account-deletion-progress-1366x768.png"
+  },
+  {
+    "page": 271,
+    "title": "Discover receipt printers \u00b7 1280 \u00d7 720",
+    "key": "responsive-154-print-setup-discovery-1280x720.png"
+  },
+  {
+    "page": 272,
+    "title": "Discover receipt printers \u00b7 1366 \u00d7 768",
+    "key": "responsive-154-print-setup-discovery-1366x768.png"
+  },
+  {
+    "page": 273,
+    "title": "Confirm the last print outcome \u00b7 1280 \u00d7 720",
+    "key": "responsive-160-print-outcome-reconcile-1280x720.png"
+  },
+  {
+    "page": 274,
+    "title": "Confirm the last print outcome \u00b7 1366 \u00d7 768",
+    "key": "responsive-160-print-outcome-reconcile-1366x768.png"
+  },
+  {
+    "page": 275,
+    "title": "Barcode label batch \u00b7 1280 \u00d7 720",
+    "key": "responsive-161-labels-batch-setup-1280x720.png"
+  },
+  {
+    "page": 276,
+    "title": "Barcode label batch \u00b7 1366 \u00d7 768",
+    "key": "responsive-161-labels-batch-setup-1366x768.png"
+  },
+  {
+    "page": 277,
+    "title": "Operator settings \u00b7 1280 \u00d7 720",
+    "key": "responsive-164-operator-settings-1280x720.png"
+  },
+  {
+    "page": 278,
+    "title": "Operator settings \u00b7 1366 \u00d7 768",
+    "key": "responsive-164-operator-settings-1366x768.png"
+  },
+  {
+    "page": 279,
+    "title": "Support health \u00b7 1280 \u00d7 720",
+    "key": "responsive-178-support-health-1280x720.png"
+  },
+  {
+    "page": 280,
+    "title": "Support health \u00b7 1366 \u00d7 768",
+    "key": "responsive-178-support-health-1366x768.png"
+  },
+  {
+    "page": 281,
+    "title": "Category dashboard \u00b7 1280 \u00d7 720",
+    "key": "responsive-181-category-dashboard-1280x720.png"
+  },
+  {
+    "page": 282,
+    "title": "Category dashboard \u00b7 1366 \u00d7 768",
+    "key": "responsive-181-category-dashboard-1366x768.png"
+  },
+  {
+    "page": 283,
+    "title": "New service or repair job \u00b7 1280 \u00d7 720",
+    "key": "responsive-185-jobs-intake-1280x720.png"
+  },
+  {
+    "page": 284,
+    "title": "New service or repair job \u00b7 1366 \u00d7 768",
+    "key": "responsive-185-jobs-intake-1366x768.png"
+  },
+  {
+    "page": 285,
+    "title": "Food-service workspace \u00b7 1280 \u00d7 720",
+    "key": "responsive-189-food-service-workspace-1280x720.png"
+  },
+  {
+    "page": 286,
+    "title": "Food-service workspace \u00b7 1366 \u00d7 768",
+    "key": "responsive-189-food-service-workspace-1366x768.png"
+  },
+  {
+    "page": 287,
+    "title": "Compose food order \u00b7 1280 \u00d7 720",
+    "key": "responsive-190-food-order-compose-1280x720.png"
+  },
+  {
+    "page": 288,
+    "title": "Compose food order \u00b7 1366 \u00d7 768",
+    "key": "responsive-190-food-order-compose-1366x768.png"
+  },
+  {
+    "page": 289,
+    "title": "QR ordering readiness \u00b7 1280 \u00d7 720",
+    "key": "responsive-200-qr-backend-readiness-1280x720.png"
+  },
+  {
+    "page": 290,
+    "title": "QR ordering readiness \u00b7 1366 \u00d7 768",
+    "key": "responsive-200-qr-backend-readiness-1366x768.png"
+  },
+  {
+    "page": 291,
+    "title": "Sale attribution \u00b7 1280 \u00d7 720",
+    "key": "responsive-210-billing-attribution-1280x720.png"
+  },
+  {
+    "page": 292,
+    "title": "Sale attribution \u00b7 1366 \u00d7 768",
+    "key": "responsive-210-billing-attribution-1366x768.png"
+  },
+  {
+    "page": 293,
+    "title": "Configure retail line \u00b7 1280 \u00d7 720",
+    "key": "responsive-219-retail-line-configuration-1280x720.png"
+  },
+  {
+    "page": 294,
+    "title": "Configure retail line \u00b7 1366 \u00d7 768",
+    "key": "responsive-219-retail-line-configuration-1366x768.png"
+  },
+  {
+    "page": 295,
+    "title": "Saved checkout locked \u00b7 1280 \u00d7 720",
+    "key": "responsive-223-checkout-draft-locked-1280x720.png"
+  },
+  {
+    "page": 296,
+    "title": "Saved checkout locked \u00b7 1366 \u00d7 768",
+    "key": "responsive-223-checkout-draft-locked-1366x768.png"
+  },
+  {
+    "page": 297,
+    "title": "Sale outcome unknown \u00b7 1280 \u00d7 720",
+    "key": "responsive-232-payment-completion-unknown-1280x720.png"
+  },
+  {
+    "page": 298,
+    "title": "Sale outcome unknown \u00b7 1366 \u00d7 768",
+    "key": "responsive-232-payment-completion-unknown-1366x768.png"
+  },
+  {
+    "page": 299,
+    "title": "Command palette \u00b7 1280 \u00d7 720",
+    "key": "responsive-237-command-palette-1280x720.png"
+  },
+  {
+    "page": 300,
+    "title": "Command palette \u00b7 1366 \u00d7 768",
+    "key": "responsive-237-command-palette-1366x768.png"
+  }
+]

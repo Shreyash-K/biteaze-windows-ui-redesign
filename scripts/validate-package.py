@@ -14,6 +14,7 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 DESIGN = ROOT / 'reference/design'
+PHASE2 = ROOT / 'phase-2-remaining-screens'
 STARTED = time.perf_counter()
 CHECKS = 0
 FAILURES = []
@@ -105,7 +106,7 @@ def run():
     check(len(page_map) == 104, 'PDF index length')
 
     # All static local HTML/CSS dependencies; dynamic state routes are covered in Chromium.
-    for source in list(DESIGN.glob('*.html')) + list(DESIGN.rglob('*.css')):
+    for source in list(DESIGN.glob('*.html')) + list(DESIGN.rglob('*.css')) + list(PHASE2.glob('*.html')) + list(PHASE2.glob('*.css')):
         text = source.read_text(encoding='utf-8')
         refs = re.findall(r'(?:src|href)=[\"\']([^\"\']+)[\"\']', text)
         refs += re.findall(r'url\([\"\']?([^\)\"\']+)', text)
@@ -113,7 +114,7 @@ def run():
             target = local_target(source, href)
             if target:
                 check(target.is_relative_to(ROOT) and target.exists(), f'Broken local asset/link: {source.name} → {href}')
-    for source in [ROOT / 'README.md', ROOT / 'START-HERE.md', *list((ROOT / 'docs').glob('*.md'))]:
+    for source in [*ROOT.glob('*.md'), *list((ROOT / 'docs').glob('*.md')), *PHASE2.glob('*.md')]:
         for href in re.findall(r'\]\(([^)]+)\)', source.read_text(encoding='utf-8')):
             target = local_target(source, href)
             if target:

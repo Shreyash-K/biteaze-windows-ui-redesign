@@ -1,9 +1,13 @@
 # Start here
 
-1. Sign in to GitHub with access to **both** private repositories: this reference repository and `Shreyash-K/android-billing-desktop`.
+1. The reference repository is public. Sign in to GitHub with authorized access to the private application repository, `Shreyash-K/android-billing-desktop`.
 2. Open the existing app checkout in Antigravity. Clone this reference repository into a sibling directory, or let the starting prompt do that. Keep app source and reference files distinct.
 3. Paste `GEMINI-START-PROMPT.md`. The prompt requires Gemini to read this kit, inspect the current application, set ownership for a team of subagents, implement the design in phases, and verify the result.
 4. Review the finished app screenshots, coverage ledger and test evidence before release. A local implementation is not evidence that printers, payment providers or real Windows hardware work.
+
+## Continuing after the current build
+
+For the remaining Windows workflows, use [Phase 2](phase-2-remaining-screens/README.md) and paste its [Gemini continuation prompt](phase-2-remaining-screens/GEMINI-PHASE-2-PROMPT.md) after Phase 1 reaches a stable accepted integration point. It adds 213 states and a workflow directory; do not restart or replace the work already completed.
 
 ## Clean setup (only when no existing application checkout needs preserving)
 

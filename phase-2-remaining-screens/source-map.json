@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/Shreyash-K/android-billing-desktop",
+  "revision": "7932bbbedabdd0cef4295919a91674f35fa815cf",
+  "local_changes_included": false,
+  "content_included": false,
+  "files": [
+    {
+      "path": "src/renderer/account-deletion-progress.ts",
+      "sha256": "1ec5a01881e001e4e020e0412396288b734a2dfc286640a2b41f025afefbb5fb",
+      "bytes": 3191
+    },
+    {
+      "path": "src/renderer/account-readiness-presentation.ts",
+      "sha256": "2eec02ced32ade68e6f6ada8bad06f431f9c0ba4d1b028e9ada0c78fa9e1eb88",
+      "bytes": 2267
+    },
+    {
+      "path": "src/renderer/auth-view.ts",
+      "sha256": "5351663fa3ff3a71cccc06f9a7eecfd9baef62387dc49212d39f70c4cdd18a59",
+      "bytes": 6613
+    },
+    {
+      "path": "src/renderer/current-device-claim-presentation.ts",
+      "sha256": "21aa858f8a370eff3b1bc91ce351d99f2ede3c69bedde3d59305637d12dae1a3",
+      "bytes": 1718
+    },
+    {
+      "path": "src/renderer/eula-acceptance.ts",
+      "sha256": "31c92321cfe20594889294e6ba9b72303532bddbe29720fcb639bcc7c7b3aade",
+      "bytes": 2441
+    },
+    {
+      "path": "src/renderer/features/barcode-labels/barcode-label-route.ts",
+      "sha256": "1afc098a29a77dbe7a37e1854a803f72187935ea314510efdc00083cd272f144",
+      "bytes": 19408
+    },
+    {
+      "path": "src/renderer/features/billing/billing-cart-route.ts",
+      "sha256": "e5031a71da5506192900417c1173eaf5b7825dbb67082770de391e5aeaafd781",
+      "bytes": 122560
+    },
+    {
+      "path": "src/renderer/features/customers/customer-khata-route.ts",
+      "sha256": "938b76464621d2d6d52768b22eebd1726a8ecacae13f9b2eaaf472935c7565bd",
+      "bytes": 13602
+    },
+    {
+      "path": "src/renderer/features/documents/a4-invoice-view.ts",
+      "sha256": "a0d7f6bc955ac601977c710d0390696f507385362fdd3ce505408b1697bd25bc",
+      "bytes": 6062
+    },
+    {
+      "path": "src/renderer/features/documents/document-legal-form.ts",
+      "sha256": "9c1939ff9a2d2ce5544e0244c1c5ffc4bb53b51e54c15eee6eb2a6379a5026f9",
+      "bytes": 8275
+    },
+    {
+      "path": "src/renderer/features/documents/documents-route.ts",
+      "sha256": "622c49cd429e74e40bccfb044bae610eeabda9e51cbd1c3ae595af56f84197cb",
+      "bytes": 24492
+    },
+    {
+      "path": "src/renderer/features/financial/financial-route.ts",
+      "sha256": "bebe5a62dde1abdac4deb24a2b976ee31b26b317b23430183934e24126aaac1a",
+      "bytes": 17487
+    },
+    {
+      "path": "src/renderer/features/food-service/food-service-route.ts",
+      "sha256": "791f1c1aa308cfcdc9aee80cc8f319a581c855e1d81d85caef22e5ff2f6b3bf0",
+      "bytes": 17954
+    },
+    {
+      "path": "src/renderer/features/inventory/bulk-import-panel.ts",
+      "sha256": "e4ffd6fe53b9cfb746d416c731b73375ddc2da8a90ec9e638ae2f546618f1011",
+      "bytes": 15727
+    },
+    {
+      "path": "src/renderer/features/inventory/inventory-route.ts",
+      "sha256": "4a02e2418274c08be5f51c9405f3d3f3f0379612f02dc4f11224edf267def805",
+      "bytes": 54311
+    },
+    {
+      "path": "src/renderer/features/keyboard/application-commands.ts",
+      "sha256": "3e71a4a267eb78a5aaca7fe4618cf4af2eb4a75e529b9cad0a6c889c3fdd39af",
+      "bytes": 9534
+    },
+    {
+      "path": "src/renderer/features/keyboard/command-palette.ts",
+      "sha256": "583b43b1c5ca491e4679a1d57a605e8a517cd8bea0d2c576ad147bc5fc82270c",
+      "bytes": 6291
+    },
+    {
+      "path": "src/renderer/features/legal-ops/legal-ops-route.ts",
+      "sha256": "72def23c828cccdbf3600d2637cb197752e76d8bb6985fb2325ec5b47bda67af",
+      "bytes": 4391
+    },
+    {
+      "path": "src/renderer/features/marketing/marketing-route.ts",
+      "sha256": "0be5551b8f5bf523b41cc82730f4568bf2d2223ddf715e129bd039df4e0b4014",
+      "bytes": 14699
+    },
+    {
+      "path": "src/renderer/features/onboarding-wizard/onboarding-wizard-route.ts",
+      "sha256": "59b6b23604126df2722e3efb06ed433ef1396060625e331f28de7badcae9776f",
+      "bytes": 50864
+    },
+    {
+      "path": "src/renderer/features/onboarding/onboarding-route.ts",
+      "sha256": "ba38b7771d303b2c8ae734bd8fbb3f79a9b5ba4f303cc3a44825082c8a98c8f9",
+      "bytes": 21496
+    },
+    {
+      "path": "src/renderer/features/operator-experience/operator-experience-route.ts",
+      "sha256": "8e27536917312197b711c3f285600bb95137b9935a4a8eb9ab4189d467018238",
+      "bytes": 66863
+    },
+    {
+      "path": "src/renderer/features/operator-experience/windows-operations-surface.ts",
+      "sha256": "67e68f3352738fa9ead760a81efb55cc7a9c5ed0bdf4753b145634bd8c224343",
+      "bytes": 13063
+    },
+    {
+      "path": "src/renderer/features/print-center/print-center-route.ts",
+      "sha256": "3a85569a931cc19791c66077148ed285c0ec0adbad5d45c2ec474523af884ae8",
+      "bytes": 47028
+    },
+    {
+      "path": "src/renderer/features/reporting/reporting-route.ts",
+      "sha256": "eb9ac4303b62dfdeee188f5240c9079ed4006dbe885d97937dab946e364683ee",
+      "bytes": 28514
+    },
+    {
+      "path": "src/renderer/features/scanner/scanner-setup-surface.ts",
+      "sha256": "63b7776755437349c7f23c9b27d20c1df1e3bf0d3a406560162be86f220ee5b5",
+      "bytes": 17972
+    },
+    {
+      "path": "src/renderer/features/support/support-route.ts",
+      "sha256": "48a3c58a109a610d68f455d32f3a1185c4815ae95b17024acad4f41990459baa",
+      "bytes": 5357
+    },
+    {
+      "path": "src/renderer/features/vertical/vertical-route.ts",
+      "sha256": "f07fb1eadd84576f45b4f1f22bc694b379e0adb5022634bde9083caa26fcd294",
+      "bytes": 22524
+    },
+    {
+      "path": "src/renderer/handover-admission-presentation.ts",
+      "sha256": "b9b8e358278e463ab71131e97b602761952a3fe068b4e32c879ac1d787200f6b",
+      "bytes": 1444
+    },
+    {
+      "path": "src/renderer/invoice-counter-verification-presentation.ts",
+      "sha256": "c21439667a56bdb4ba47fc2459764272d508eb14b55b76a693404536cef3ec3c",
+      "bytes": 2577
+    },
+    {
+      "path": "src/renderer/main.ts",
+      "sha256": "6db6580c0eee1415446eed0347db818fefab8d61f7806e84c1f08d608d6a222a",
+      "bytes": 19176
+    },
+    {
+      "path": "src/renderer/recovery/recovery-command-client.ts",
+      "sha256": "5cf370b580dd2c4f1eee639953183a6e7b4885329569b805a582226da67fde8b",
+      "bytes": 5254
+    },
+    {
+      "path": "src/renderer/restore-entry-presentation.ts",
+      "sha256": "cc7e0c99b824a3a07e28923d3c5e6bacab47b3de43ea110895b6b43223669436",
+      "bytes": 2037
+    },
+    {
+      "path": "src/renderer/windows-update-controller.ts",
+      "sha256": "ee58542b48a2f3a057d25df955b77c96dfae1b0a1e2757c2a5fe7054fe9d90b4",
+      "bytes": 8507
+    },
+    {
+      "path": "src/shared/nav-model.ts",
+      "sha256": "c7c82b5334257c2058b23cfd07252d6ba35bf8b78a9b05435a531def8fbd838c",
+      "bytes": 23908
+    }
+  ]
+}

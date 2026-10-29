@@ -34,18 +34,18 @@
     },
     {
       "path": "GEMINI.md",
-      "bytes": 2098,
-      "sha256": "91355abd34dcea024d2809259a1822164589bbc09907117a3269f867660cd39d"
+      "bytes": 2431,
+      "sha256": "1055a41357c99581b89771d86051bcfad5ba6d6e1cec48207e4af9c75847a18d"
     },
     {
       "path": "README.md",
-      "bytes": 3892,
-      "sha256": "705b4c93202e11165f0eeb950c8f28fbaf21c200a1e4e829c4f604a34cdc2cd8"
+      "bytes": 4481,
+      "sha256": "31641490a13593a94cc9f5151e403e8c67678c8fe89febe48a9862df8828205f"
     },
     {
       "path": "START-HERE.md",
-      "bytes": 3114,
-      "sha256": "030181eb85063374ac6f349e1e05c33c94c86bb3fba919829f2b895861610e17"
+      "bytes": 3517,
+      "sha256": "755adbc0095dcb8428cd6e6a8396d6e1510f14a15c5a5674f6a47aefe8d64a27"
     },
     {
       "path": "app-source.json",
@@ -89,8 +89,8 @@
     },
     {
       "path": "docs/REFERENCE-TOOLING.md",
-      "bytes": 3603,
-      "sha256": "f8d88baa8a1028dfb4076be4537fb53ceb9ba2c658a6b29b83a340fa87b19030"
+      "bytes": 5317,
+      "sha256": "e1e034bb0cb0afd78b7e0c892c242a438ebf4d73a181cbac5ee871f5f4b3eb66"
     },
     {
       "path": "docs/SCREEN-COVERAGE.csv",
@@ -119,8 +119,1608 @@
     },
     {
       "path": "package.json",
-      "bytes": 407,
-      "sha256": "8f765065fb07f1ae67b3f480749b02c952b8e03ebec965a198982b6da27bc39b"
+      "bytes": 466,
+      "sha256": "f25517c1aff79650a08ded9e0249c8c65a598065cdc0a74b0a860d39af2cd1ab"
+    },
+    {
+      "path": "phase-2-remaining-screens/ACCEPTANCE.md",
+      "bytes": 4270,
+      "sha256": "552ff26a9087675bbb827397a3296265b7d8ba1785cbc206fe6d439657114f7a"
+    },
+    {
+      "path": "phase-2-remaining-screens/Biteaze-Windows-Phase-2-Reference.pdf",
+      "bytes": 48039384,
+      "sha256": "3ee109c38527caabe8143e02b9e00b243a9be0a1a28e525d508aca5b4a917e1f"
+    },
+    {
+      "path": "phase-2-remaining-screens/EVIDENCE.md",
+      "bytes": 6552,
+      "sha256": "669fccc55a3475eafc5f0d0d2e6ed47d386104475a0e1bf7201f975a207dace3"
+    },
+    {
+      "path": "phase-2-remaining-screens/GEMINI-PHASE-2-PROMPT.md",
+      "bytes": 8032,
+      "sha256": "123365056bc5b99f104e9eba3a355b0941e8477c715529e207cc7a4ae9e3fd3c"
+    },
+    {
+      "path": "phase-2-remaining-screens/IMPLEMENTATION-PLAN.md",
+      "bytes": 5499,
+      "sha256": "8fa1decee1c95345a7e731db1370d769695782d8039ca1c895c2fbe8ca9f3619"
+    },
+    {
+      "path": "phase-2-remaining-screens/README.md",
+      "bytes": 4715,
+      "sha256": "a7658a33253682730e6b35172f03cc88405caaa017af47b4c8fd532e16602c12"
+    },
+    {
+      "path": "phase-2-remaining-screens/SOURCE-SURFACE-INVENTORY.md",
+      "bytes": 2573,
+      "sha256": "4d9975ac8bd5c9c812d359a9650d28cbf2c3d7e47b918b4a4c20facbde57a3e5"
+    },
+    {
+      "path": "phase-2-remaining-screens/app.js",
+      "bytes": 13546,
+      "sha256": "28b7f220d6523494265940f5698ccbc4d74a6925de6b905cfe09df04a228eb6d"
+    },
+    {
+      "path": "phase-2-remaining-screens/capture-evidence.json",
+      "bytes": 134522,
+      "sha256": "7b036b1278333ea23828ef76c2836b7143ed5e56471fde5788372f30ff08025f"
+    },
+    {
+      "path": "phase-2-remaining-screens/commerce.js",
+      "bytes": 65916,
+      "sha256": "f5fa34796ef02c75eaf3cfc6e2074ba712d9fee07223acd2a4dbb7a28c421d2a"
+    },
+    {
+      "path": "phase-2-remaining-screens/common.js",
+      "bytes": 4640,
+      "sha256": "05947689eb4ae32a387f40570c4d4e5f485b82da54317e29983242fbe4d8b66f"
+    },
+    {
+      "path": "phase-2-remaining-screens/continuations.json",
+      "bytes": 3078,
+      "sha256": "2b01cfe7c45a760ec1cda065eff3f470a6b173c7ad9be7ec5c7f29de42585dca"
+    },
+    {
+      "path": "phase-2-remaining-screens/index.html",
+      "bytes": 781,
+      "sha256": "29144e64ef41a0fcfcd8f66c86384cf969fb0fecb54cc4f301a6822fbb2d2ec0"
+    },
+    {
+      "path": "phase-2-remaining-screens/inventory/commerce.json",
+      "bytes": 35545,
+      "sha256": "5177a3a5a5c039a6885e11f7082f6ff19b76deb61248249ae92e16ac3e6c8d25"
+    },
+    {
+      "path": "phase-2-remaining-screens/inventory/operations.json",
+      "bytes": 23611,
+      "sha256": "b83275e24f7fad660be0b42485f087cb39ac47dc41c3d738ea3985c0f2514d84"
+    },
+    {
+      "path": "phase-2-remaining-screens/inventory/readiness.json",
+      "bytes": 4492,
+      "sha256": "3f64f21f80add17efa8bed9685880db20e892420f8b8a176846d3b6cc7496f31"
+    },
+    {
+      "path": "phase-2-remaining-screens/inventory/service.json",
+      "bytes": 26014,
+      "sha256": "157ea931875af3182f53d27b14b3072370c54504c64cdf52ecdf3c6947032f94"
+    },
+    {
+      "path": "phase-2-remaining-screens/operations.js",
+      "bytes": 43768,
+      "sha256": "3e8f5ef26363378bf8fc838af6115a1bec6efd504e38b0101d701570f766a5d2"
+    },
+    {
+      "path": "phase-2-remaining-screens/pdf-page-map.json",
+      "bytes": 32908,
+      "sha256": "06ce648c95fad3c334e9c396bf8d4a56f38d193960d30dc1107dd99f3d63daf2"
+    },
+    {
+      "path": "phase-2-remaining-screens/phase2.css",
+      "bytes": 10573,
+      "sha256": "5d0336dcf04138de38ba2ae214a0d8e0cec305b19366c5b8e53b92ac1f78238b"
+    },
+    {
+      "path": "phase-2-remaining-screens/readiness.js",
+      "bytes": 15696,
+      "sha256": "9223825a6f633ef1a2287da86bb20adb70f983865ab56eed871b013f531aa567"
+    },
+    {
+      "path": "phase-2-remaining-screens/requirements-coverage.json",
+      "bytes": 106156,
+      "sha256": "9497ea45f2d214c2334e2b72ff25d0f4d17b10ed53e49c45b2147a85a9333483"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/073-phase2-overview-1280x720.png",
+      "bytes": 72024,
+      "sha256": "38cee3177500d3605e356c356d9a973b4f5931033a4bb064bd587d05aff9875b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/073-phase2-overview-1366x768.png",
+      "bytes": 75965,
+      "sha256": "1194d4eabba37e53648ba60d7249cd00dc22fe543094ac95e8f1d3aea0f93c47"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/074-supplier-directory-detail-1280x720.png",
+      "bytes": 115448,
+      "sha256": "a935884f3373faef83d69341d6315e713ea4676deb108f4d82f823eb5fbdc091"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/074-supplier-directory-detail-1366x768.png",
+      "bytes": 120779,
+      "sha256": "ea9e49dc76b4515b6d95f1b433b9c28ea67eccbbaa7dda32d7bdedfef338613a"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/078-purchase-create-1280x720.png",
+      "bytes": 105304,
+      "sha256": "318abc3db2b5af5eee72121315dee8377d64fb241164dec1ab7ddd858ac65bcf"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/078-purchase-create-1366x768.png",
+      "bytes": 111252,
+      "sha256": "65fac6bcf38712eb40340af52d644514562cbe7d1f3d43de7e8de42da6264759"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/084-document-search-register-1280x720.png",
+      "bytes": 116658,
+      "sha256": "27a72df8a062b8b5acead44f46e890fd60a84e8a7450c0ef41c4829eaba0f45f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/084-document-search-register-1366x768.png",
+      "bytes": 124154,
+      "sha256": "ca96e785c5f8fc30d25a2abb416148f20fee371e6a19608233910ced362f3296"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/092-quotation-create-edit-1280x720.png",
+      "bytes": 121775,
+      "sha256": "d1168e61fb3eb6d99959092e315bac0e31f6ca320f470cf04bad455968599274"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/092-quotation-create-edit-1366x768.png",
+      "bytes": 130504,
+      "sha256": "c62a21878214895b499a06dd4e5b5d8c0f6315ab66a613cde31b884b06ec49aa"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/099-report-catalog-1280x720.png",
+      "bytes": 106236,
+      "sha256": "686f1be35f15360ae6213d82692d4c86f51d8eee9b286b0ae2cac366be2b19a9"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/099-report-catalog-1366x768.png",
+      "bytes": 112422,
+      "sha256": "40a6f08c8d9ee92d101790e72be23ab3f6e59abbb3aa56f5c5d7ee280790aa91"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/111-inventory-catalog-browse-1280x720.png",
+      "bytes": 119110,
+      "sha256": "ad5b720af169a6d28a579ac88d0d3145a1710fac4be0102c4e2bac47ff918c56"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/111-inventory-catalog-browse-1366x768.png",
+      "bytes": 124606,
+      "sha256": "3b5488c501f0f51525c2a5018700fac00396f51282939e7fbdee52c72abe6f23"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/113-product-create-advanced-1280x720.png",
+      "bytes": 117965,
+      "sha256": "8bc324fa4975c54728ffc326f5263820608968ff4abf27dc1fd884a44db44335"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/113-product-create-advanced-1366x768.png",
+      "bytes": 122990,
+      "sha256": "83dc66f62ef73bb868a149b71b699a90b0ffd111c25f17b0593b856523263df5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/125-customer-search-aging-1280x720.png",
+      "bytes": 100961,
+      "sha256": "ae317748b871a59cac0a14da9ac56cbd6898589507a45e36a5a0ac7ea623acad"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/125-customer-search-aging-1366x768.png",
+      "bytes": 106114,
+      "sha256": "7eb9cc41af0b05bd6d1c100669b6107904685637e48b12fa9f5aef5f74892cf1"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/129-marketing-authority-workspace-1280x720.png",
+      "bytes": 86330,
+      "sha256": "06f145d5b3cb3d7d50a1513bef48e0a110098a3f8098486dc50bb3e936e9afea"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/129-marketing-authority-workspace-1366x768.png",
+      "bytes": 91731,
+      "sha256": "ffbffa6f6dda71d1c6e468430c0f20f1c20430aaeffb9f47c45f84eab18949b4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/137-auth-sign-in-1280x720.png",
+      "bytes": 79670,
+      "sha256": "4d87e209deafb7f61b1194909ea1ec61a636e37042aa6087007b3fef6fbab225"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/137-auth-sign-in-1366x768.png",
+      "bytes": 85668,
+      "sha256": "35c3895979cbede248d4453719be8d697b26ce92798156bec145747b3b07c3c2"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/138-auth-create-account-1280x720.png",
+      "bytes": 89650,
+      "sha256": "07e08e7b2927acd764b7cef7f4d938f0667f33dd719866dc7f54ba14034fce8a"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/138-auth-create-account-1366x768.png",
+      "bytes": 95003,
+      "sha256": "6c04b8c5f0181088701cde3e66b3441c6c018fd1bf4e9ba1898be91b379a1e0b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/143-account-deletion-progress-1280x720.png",
+      "bytes": 101944,
+      "sha256": "b1a2c436c3f592ad3c8637c5972f6e826bf81a181ba6a0045db14b08bf746ce4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/143-account-deletion-progress-1366x768.png",
+      "bytes": 109605,
+      "sha256": "63e9b573a03fa7f619662fe7f2fd863f6396e343a7419e132c74a2173b4f8140"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/154-print-setup-discovery-1280x720.png",
+      "bytes": 111863,
+      "sha256": "2ac950e46e3d494e4421f645a2f80ffa7e337edf917ddaf33188aeb9e40e6d25"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/154-print-setup-discovery-1366x768.png",
+      "bytes": 116859,
+      "sha256": "f1687db1f5fadbfeba8efcab1cae361bdffa4d96522a684045e57c938b480b8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/160-print-outcome-reconcile-1280x720.png",
+      "bytes": 130628,
+      "sha256": "350b0cb040f1da148b0b389a786dc15ab6bbe533f6dffef7b7a5bf6c2e26f344"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/160-print-outcome-reconcile-1366x768.png",
+      "bytes": 140337,
+      "sha256": "909664192ea665101f52e7927d95b963c309aa19d59e35c89e3f78c20747de13"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/161-labels-batch-setup-1280x720.png",
+      "bytes": 94396,
+      "sha256": "00b1df1a923404457594d63bf348241e9617a94f0d660a2a336dd198160e64d5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/161-labels-batch-setup-1366x768.png",
+      "bytes": 98718,
+      "sha256": "d39ff5facc441015a16fde874caf82eb36dbce36532aed6ee9dbd6d1e98b44e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/164-operator-settings-1280x720.png",
+      "bytes": 105956,
+      "sha256": "c6644cfdaeb84f4dc2dee0aeec1804a016887ce00d2a158d1874fc978e8e42e5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/164-operator-settings-1366x768.png",
+      "bytes": 111039,
+      "sha256": "591cb60bdea40d2cb871f22595b0389258511c89c200b4e36c1a54ea4c5d63e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/178-support-health-1280x720.png",
+      "bytes": 90830,
+      "sha256": "9e9b6ec875d3b5e089a0ce653a9200ccad6b238210c0888ecc332a134f0ad19d"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/178-support-health-1366x768.png",
+      "bytes": 95062,
+      "sha256": "1ad8a8d5f3040712818525ec151c26680055cb0bb877054ede29a6ac56d5ddd3"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/181-category-dashboard-1280x720.png",
+      "bytes": 90871,
+      "sha256": "27b58dab38f13d50c240ee5b998a2f00568c3b0be1e0383b7a95c811d9fad9d5"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/181-category-dashboard-1366x768.png",
+      "bytes": 97503,
+      "sha256": "c363eea665760722eab9db82815264b16e09783746057a69ac5fb7f11809eeeb"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/185-jobs-intake-1280x720.png",
+      "bytes": 110812,
+      "sha256": "a4bee39f503271f5966da59082573c4ff9a9ad6d1a2c0275ee037ef732db53cf"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/185-jobs-intake-1366x768.png",
+      "bytes": 118519,
+      "sha256": "f77bf7734e00b79d92b9fad5e0a6f52a8e6a1ff9987822f9e6e1a4a31f3680d6"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/189-food-service-workspace-1280x720.png",
+      "bytes": 112790,
+      "sha256": "a7b1e0d1ad6f6d07756f867a3d350d1e36095e6d1f8d2b854e38082259ca0cba"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/189-food-service-workspace-1366x768.png",
+      "bytes": 118781,
+      "sha256": "048ec92d4ada4b7c6f711ea1acac4efbd701018a53be0ee9ea8328e9f3473396"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/190-food-order-compose-1280x720.png",
+      "bytes": 110968,
+      "sha256": "ccc6f2970789626f92413ea430901ee38e041af2a950fbc516b70b3369c3b0fc"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/190-food-order-compose-1366x768.png",
+      "bytes": 116690,
+      "sha256": "ca2219cbc1dd80e2d1ff28ce964305a599786af5b34a482dc1e685a5239d94b8"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/200-qr-backend-readiness-1280x720.png",
+      "bytes": 111182,
+      "sha256": "0c1a2abe823673ef30d8f4067ff2f49af22b3781535dcb04cf091d808f07bced"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/200-qr-backend-readiness-1366x768.png",
+      "bytes": 115688,
+      "sha256": "04af820b8691718fc79657998608ffc58d19cca03ca45c9fda321e2a02fd7052"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/210-billing-attribution-1280x720.png",
+      "bytes": 123257,
+      "sha256": "129008361c3d735bae381483462ad27ccd69eafec5e1efb5e005676537fa8ccc"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/210-billing-attribution-1366x768.png",
+      "bytes": 128183,
+      "sha256": "6653ee0bdd39e103383055f56cb4314fb4090c30d63b2c2c3f469f327d41506f"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/219-retail-line-configuration-1280x720.png",
+      "bytes": 114759,
+      "sha256": "de555c91dcef62bc5537c1144adbb2389d5a7c4f42df32c5f6abca230263993e"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/219-retail-line-configuration-1366x768.png",
+      "bytes": 123223,
+      "sha256": "258f5e896f4780991f0a6fba9364ade84909d268da2f69c605e6360dbbf1d972"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/223-checkout-draft-locked-1280x720.png",
+      "bytes": 124774,
+      "sha256": "67221dc3ddd0034c10834ea539dc3e3dcb3e8c666517eaa79721e4d0e4c272b6"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/223-checkout-draft-locked-1366x768.png",
+      "bytes": 130691,
+      "sha256": "6a31f86cb385847c35a61b14edc1b2d5ac983fdedd4b50317de9d487059f1f50"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/232-payment-completion-unknown-1280x720.png",
+      "bytes": 111867,
+      "sha256": "9ad4eaa34705814dba22c2241000345dd4be66d733f45420a9be967ec45615fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/232-payment-completion-unknown-1366x768.png",
+      "bytes": 116829,
+      "sha256": "6d37895f817e3585b5fbdbed451d11d0a7c3e28a501edf6b9a98947d4aa4be24"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/237-command-palette-1280x720.png",
+      "bytes": 102660,
+      "sha256": "e89954ebc81ac3cdfb80caf40c1e8e8bd5376dde63f5e6c63f9b92b93519611b"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive/237-command-palette-1366x768.png",
+      "bytes": 110535,
+      "sha256": "26f930c66feb9f3722be099b32096e4e120fb925226970916e1fc4ef603c1c45"
+    },
+    {
+      "path": "phase-2-remaining-screens/responsive.json",
+      "bytes": 7935,
+      "sha256": "09e7d756e6397872ec26694c379c1bef602aca33da0734d14b29d51453a5038c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screen-coverage.csv",
+      "bytes": 74419,
+      "sha256": "05d686329ad7847689ea955fdc857e7991e7aa33b0aa783bda16a45101c1a0ca"
+    },
+    {
+      "path": "phase-2-remaining-screens/screen-manifest.json",
+      "bytes": 121481,
+      "sha256": "3dec359fe3369d2559dba1e0499090386329540dae395369b35a793ec66752a2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/073-phase2-overview-continued-1.png",
+      "bytes": 117989,
+      "sha256": "ca05da1b965e7b967263bb183f8d526b3054a12b90c8509212c0059fc5538d0a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/073-phase2-overview.png",
+      "bytes": 122355,
+      "sha256": "20804a371c19f7ee65e3899cb1bb5234eae8e31830f173c38def7a72b0c6bd2c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/074-supplier-directory-detail-continued-1.png",
+      "bytes": 156841,
+      "sha256": "71f0bf74764759737caf6812bfbcc16380d9809824d61ef3347bc58296c55eb5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/074-supplier-directory-detail.png",
+      "bytes": 164216,
+      "sha256": "6dd06785d2325ccc9c4276f5708e42c78a46d32d9d0cc6e7c29c2e0455afeff5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/075-supplier-new.png",
+      "bytes": 233883,
+      "sha256": "67d8b9d0200eddcf03974dcf8d7794297295fa1f8310bd972241764648bd0f8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/076-supplier-payment-record.png",
+      "bytes": 260000,
+      "sha256": "2f0d1bea2dfbefe6a1b1699ba4d70d749a718b9d8f363710aff215ce74e29d9d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/077-purchase-register.png",
+      "bytes": 132300,
+      "sha256": "823e077c73930996e6e7d0f610403fca83e842d14b771cde27b6aef9523a2b48"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/078-purchase-create-continued-1.png",
+      "bytes": 138777,
+      "sha256": "c38f535c6ce2f90e78d24fc660690d194fbf7ad1e32b281b54e08241538b5df7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/078-purchase-create.png",
+      "bytes": 141482,
+      "sha256": "79066cf6c819bb312e3e98e5a36c9d93edc540d393b827bf8bddc73dda41f417"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/079-purchase-received-stock-row.png",
+      "bytes": 229773,
+      "sha256": "32e3b9ce9042f592671e8d567515a39116f7fd4a7935cd32786644416d647d4b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/080-purchase-correction.png",
+      "bytes": 136947,
+      "sha256": "0abc44cae2d3d81563d76eb7b69e22a4386dcc44dbc95187701bddbaa6befb08"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/081-expense-history-edit-continued-1.png",
+      "bytes": 130993,
+      "sha256": "5635b233f048674eea727a536eeca3e834f312ac5c007948964702cdc8c85bfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/081-expense-history-edit.png",
+      "bytes": 140917,
+      "sha256": "20089391d2710f201aa6f0830d129e502dbff7248f53cf4ed4ef3994ec1b9409"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/082-cash-paid-in-out-linked-expense.png",
+      "bytes": 129051,
+      "sha256": "ade01e03c648ee15f86e498055c4b444791da12819805b2892d48ee00265dba1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/083-financial-period-summary.png",
+      "bytes": 133029,
+      "sha256": "c6eb8bd6bc6780a222e4d670b74560a1c901df461aed1b0cc52f08aa6c76bc3e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/084-document-search-register.png",
+      "bytes": 142795,
+      "sha256": "444be6314cc953c3266131fae66987e6c4ea2d16b969b93810e76ff3e5bd073d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/085-document-detail-complete.png",
+      "bytes": 155651,
+      "sha256": "ccd3c5d79814de18def71a44a85f56bab95d353dd53be663eb09f43a880f971e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/086-document-detail-incomplete-conflict.png",
+      "bytes": 148035,
+      "sha256": "b04532fc72bc41f63d2df9c4ed461a1f29ac1e114af2a30261c7d5735b3facc9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/087-reprint-queue.png",
+      "bytes": 123996,
+      "sha256": "1dfa1d02c7f1d40192e8409f6aa6e0cba551bd499a9d076775183e08de8a5c20"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/088-sales-a4-invoice.png",
+      "bytes": 141716,
+      "sha256": "821ee0d20a4f0f78d6345f3a62397c1b8db511754928461aaa50f7d4cf54f45e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/089-sales-return-builder.png",
+      "bytes": 136991,
+      "sha256": "ecaf1436a2645f4f05e097668ebedb8aa61a23273735d56ac85d96631a106d73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/090-sales-return-preview-confirm.png",
+      "bytes": 223935,
+      "sha256": "b2a7b0b407dafb617a74adddfe1d4aa3fc65d43154959873ba549b2dfa568c37"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/091-sales-void-preview-confirm.png",
+      "bytes": 254019,
+      "sha256": "70a09e1b0460f5fcbb45874e47e87793749409372d9675ce6db2cf34335740b2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/092-quotation-create-edit.png",
+      "bytes": 153949,
+      "sha256": "89c88f4533847831670fee368359f154b51108696685a77e7b110b069cca7d17"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/093-quotation-detail-review.png",
+      "bytes": 144741,
+      "sha256": "5ef907e7943e9c125f42f2d0969fd6cefa44e7cd27d20df3026293afd60b3cd5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/094-quotation-draft-conflict.png",
+      "bytes": 240778,
+      "sha256": "14cea78212de9eaf48374b592ca749d47c800a79dcb70c2fe130c14f82bd16ac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/095-challan-create-edit.png",
+      "bytes": 153421,
+      "sha256": "003e53a812bb17d62378bbe56cd919dfb47416e93d326b72a8f0538115fbf4cb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/096-challan-selection-invoice-handoff.png",
+      "bytes": 142117,
+      "sha256": "60d7bb9534356ad10182fa24240447eb20b503eb1d2ea556933ffde5ef8f0f42"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/097-gst-credit-note-completion-continued-1.png",
+      "bytes": 151765,
+      "sha256": "ba9570a27f6265e320bba82df7ab59482fcb09613c64c7a9061a96bef87699e8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/097-gst-credit-note-completion.png",
+      "bytes": 166350,
+      "sha256": "77b54e22fbcc110535f1ff41c705e6bb8316a1c159387ccb30104c916cb6e809"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/098-gst-credit-note-review-chain.png",
+      "bytes": 146849,
+      "sha256": "6c7355c61be34ed3ac6f5da1e6f596e375e6bba3f2319a6efdd0f2102ccb2f04"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/099-report-catalog.png",
+      "bytes": 148062,
+      "sha256": "5a2a1737f9617b1a2ab81bae7b33b1f0923442dab7cf09308311f1cebe3e9ada"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/100-report-processing.png",
+      "bytes": 122473,
+      "sha256": "ab03b62c67c36bb1978c21442bc1e2dbbfea07f72c332d0b06326f8682d377c8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/101-report-table-result.png",
+      "bytes": 134750,
+      "sha256": "71f63a859f543efba557bf89707ce2ddb3c05fc37444b7f17355841676199f85"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/102-report-private-export.png",
+      "bytes": 222805,
+      "sha256": "fa6135a8926949413d1e1ae4746a873c7be14114d66aacfbfe80cb8e44953426"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/103-report-error-or-catalog-mismatch.png",
+      "bytes": 130512,
+      "sha256": "ea251f37aab5075184ddd7bb659ae720ec41b936b4e990f8934649e2e3d6cc38"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/104-operational-dashboard-stock-exceptions.png",
+      "bytes": 128450,
+      "sha256": "343180d622a00c6ec88c75cab19b31be07d5d52c49ac9dde4bca5dc64f1c0832"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/105-gst-filing-period.png",
+      "bytes": 116711,
+      "sha256": "e36edf7aba4501621f8bd3dc534f4ab33b6b0d01ca20797da7819b206bb72710"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/106-gst-filing-identity-blockers.png",
+      "bytes": 129831,
+      "sha256": "acd318bd247b0d08628aae8e732fb847df5acd1158350a38ea213297e589ed5d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/107-gst-filing-pack-summary.png",
+      "bytes": 144320,
+      "sha256": "d16581ab5c78367c239edab4dafa4e74c40802fe98953bde746750564cb677d0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/108-gst-relief-blockers.png",
+      "bytes": 113695,
+      "sha256": "2b68c20c5011a0dd54248165a3e7fb9e7acdeb46e15c1d642af331688a454442"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/109-day-close-denomination-entry.png",
+      "bytes": 131299,
+      "sha256": "3873d1e2986b087225ec73e47770dfaeb2bf0aabb002d7e4202a687fe7dc0db1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/110-day-close-history-reclose.png",
+      "bytes": 128199,
+      "sha256": "6e38b917b0a4dd9dfca9da83aae6e000d14f333c5d0ab0a34e366c8dd5b0a9d4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/111-inventory-catalog-browse.png",
+      "bytes": 143558,
+      "sha256": "f13a4ec2b2733e16207d9be5612204aa48786f9f0bb95a646e038156d0a77857"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/112-inventory-loading-empty-unavailable.png",
+      "bytes": 127927,
+      "sha256": "4e534b5dc85a9482c78cbc527bc75bc217a697a0faf78571a2f4f3fbb6823da8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/113-product-create-advanced-continued-1.png",
+      "bytes": 123950,
+      "sha256": "07d4e5c028fb13c6aab255d419b975c9cdb4ecf0018e0ad48c9051fb85b2df73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/113-product-create-advanced.png",
+      "bytes": 149567,
+      "sha256": "e3c843b84b24fd9479b9348fb425d28a40999fe8be8e57dbfb98b2f8253a0891"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/114-product-edit-delete-revision.png",
+      "bytes": 139382,
+      "sha256": "445000242ca7db2720de6c71d338abb3c594ddca49d6c0d20c1c43564e0d070c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/115-inventory-entity-create-edit.png",
+      "bytes": 135279,
+      "sha256": "dc40189aee27686be92364bcf8da1a71d707a20c45447c73058cf434972d6ef6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/116-stock-movement-entry.png",
+      "bytes": 133551,
+      "sha256": "b951557d61081fda070a5b8a55dc02034549525d25a268656c9a294b70e7c579"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/117-stock-movement-history-undo.png",
+      "bytes": 126856,
+      "sha256": "31f33186656cfaf2c974434bb05b4fef4a8f2f97b9c5dcac23f66cb017d7605e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/118-inventory-conflicts-quarantine.png",
+      "bytes": 134122,
+      "sha256": "483e49740ff1b674871a63d6fcb2fd2009ecee0febfbde3fdd85309ca3a509a3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/119-bulk-import-preview-continued-1.png",
+      "bytes": 143076,
+      "sha256": "5267a6e49674044e8bdef27fb21d6a5ea4d71235f2ba5dd5228b87a0c78f1da8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/119-bulk-import-preview.png",
+      "bytes": 141578,
+      "sha256": "ff606f9704685008d735e02a30cec9c86711e2151f111af9ccc34baefe6b5e97"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/120-bulk-import-progress-recovery.png",
+      "bytes": 129367,
+      "sha256": "1ad8184e096499d18729ed8da62daac4c9dd78e4a50507f1f0247ab30cf7c188"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/121-bulk-import-reversal.png",
+      "bytes": 126208,
+      "sha256": "7485427b617a7b6176706339ee0f0b175cad60fe2d5ecb1082b0dc6feb30aed9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/122-bulk-import-terminal-states-continued-1.png",
+      "bytes": 134203,
+      "sha256": "f67fb2886711464e16250edf45239432e1f1986ec0384b08ff6cbac4f449ee84"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/122-bulk-import-terminal-states.png",
+      "bytes": 135828,
+      "sha256": "860fe23f54c27e2429304a993fc19c62624f3517cbe8288a321aa82aa99a721d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/123-catalog-export-builder.png",
+      "bytes": 157567,
+      "sha256": "d6ded7599591ae509208f0fa65e9dd197499fa99acd03657e9f3e12d55f87ab6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/124-catalog-export-ready.png",
+      "bytes": 142801,
+      "sha256": "418dac9ae6cd4ca899c86266bf8abb6fbfaa6b81d17cc3f1f5870b80eaf96252"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/125-customer-search-aging.png",
+      "bytes": 118369,
+      "sha256": "f03e8b38269469e14d5530e8a60cada5f54836c82f14b4180e2cf7903e038dcd"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/126-customer-profile-khata-detail-continued-1.png",
+      "bytes": 142340,
+      "sha256": "bcb6615ac70365ed92ccb7568dac0c8302c3a6bb90939963cf35cfb1aba2f143"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/126-customer-profile-khata-detail.png",
+      "bytes": 142319,
+      "sha256": "3bd2b8d10d44211b1b3bd70a1cbc7ba18df8537c3e95f84a8b35605c2127eaa6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/127-khata-statement-share-continued-1.png",
+      "bytes": 123762,
+      "sha256": "cbda156561540762e24148649462a69bcf332135b37719652101f43aba676621"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/127-khata-statement-share.png",
+      "bytes": 122294,
+      "sha256": "9b4e17ef4b3b77941814b8bd05cb1b5f7bc807c377892c01ba1c20e43eab8b28"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/128-khata-settlement-receipt.png",
+      "bytes": 126153,
+      "sha256": "9446eced86df20e8ebbceef214581b1da1aa3e460bdd63345445931a9c227af5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/129-marketing-authority-workspace.png",
+      "bytes": 115776,
+      "sha256": "b8c642cf1a575d7392faae6aa40e2d93dcf24dee3e10da9f801e5a04e88d6ce8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/130-coupon-authority-detail.png",
+      "bytes": 120294,
+      "sha256": "fa4f1ef559bb8be8bb6402a5a088d0c31b1db045d1f39045c7f1c6a8015c35df"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/131-loyalty-authority-detail.png",
+      "bytes": 137071,
+      "sha256": "521f068975f71f7b40a82dbb95f60ca310cc51e48e4ca0cde612aa4dfbce4f4c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/132-outreach-consent-detail-continued-1.png",
+      "bytes": 134475,
+      "sha256": "c490cbbf5d0a54acfe0df2617f866d2458cd86f2806b769431959fa120422107"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/132-outreach-consent-detail.png",
+      "bytes": 134695,
+      "sha256": "4ae5346b53490527f6b30b40bf9fa8a8f8e1781ff6fafc28084de2d2c0022b12"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/133-manual-communication-preview-continued-1.png",
+      "bytes": 137634,
+      "sha256": "b8b01493560b7b040715641ef33739969faa5cfa330c6296c6b8549a63573501"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/133-manual-communication-preview.png",
+      "bytes": 138913,
+      "sha256": "f470bd4226ce2cc47c6118a6329881df53a20a2d8fbb22db2e359d5f253f09d3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/134-promotion-receipt-preview.png",
+      "bytes": 128420,
+      "sha256": "7289b195f3799f2699bb614ee848841883516ab6c1efec5273acd0dad3ec141e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/135-marketing-recovery-diagnostics.png",
+      "bytes": 134362,
+      "sha256": "8dfaeb1e95a204130fe2ca33bb8864f9575a57934875e9ec4e740d469c7697cf"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/136-manual-communication-and-promo-preview.png",
+      "bytes": 94319,
+      "sha256": "a9b40d2b14d73f4d2ca245c139884f50fd329558adb89f1fe2a7df3db912fea2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/137-auth-sign-in.png",
+      "bytes": 114648,
+      "sha256": "7f3dc3302cb91518c2777a4272235deda89380fb005012f67bf7a90cbb04744a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/138-auth-create-account.png",
+      "bytes": 114140,
+      "sha256": "8ef811638f14e839672fbe58210a1fa89c27118e5d5b6aa7c4fe06dc3240646e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/139-auth-password-reset.png",
+      "bytes": 102058,
+      "sha256": "006542f7dc95535fbb9032235e0da06e01343c48a354af6cdd0ffe2290841d16"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/140-auth-google-pending.png",
+      "bytes": 108687,
+      "sha256": "2d8d09304913ccd76bea464564a6ba94e5fbf7b208ed81fa1b2cd7e10dd7e2ed"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/141-eula-first-launch.png",
+      "bytes": 134343,
+      "sha256": "68f9e519af4262a89577f709d65b5f0830615f7a5b70d4477fa8e495e242c220"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/142-boot-contract-error.png",
+      "bytes": 116043,
+      "sha256": "7ebf3d0fd734364aa0876a243ed64f1dbf580fba45887dcb1d0a93c6e2da58d7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/143-account-deletion-progress.png",
+      "bytes": 121250,
+      "sha256": "b7f5c7a506d60c999a925cc178270f14a021b209d1d3c7c79032974a11d9d462"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/144-device-claim.png",
+      "bytes": 143565,
+      "sha256": "6bd179ed3fda4154929c9dd1e889955f26f0917a483657770c40da63729f89b3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/145-setup-product-import-continued-1.png",
+      "bytes": 146667,
+      "sha256": "8aad18e57529911cfc32f629345b48684bba70cca91d0be1bc39941bc2b21642"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/145-setup-product-import.png",
+      "bytes": 155075,
+      "sha256": "2c5a9351d763c63e9a67fb0f6b75d7060638858d1ebab0f81382418ba4693fc1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/146-setup-import-preview.png",
+      "bytes": 144500,
+      "sha256": "3d713a540a8747fb7749d2ef34bd2a620c5e6acd39e24663e85e9a6af3104777"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/147-setup-khata-import.png",
+      "bytes": 145621,
+      "sha256": "8aa6ab57c47fe5dfc3c22c8a0edf8d90daa6af7ba88219b6f4639665c63c2261"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/148-restore-progress.png",
+      "bytes": 140217,
+      "sha256": "53b7a093efb63d31c2e36268a14d61bdebc8dfc8b1de8215e01c8ce5ea79ad56"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/149-restore-readiness-blocked.png",
+      "bytes": 144390,
+      "sha256": "9a915608e60d964ba4211c15aa87c09a9ab662615f3678bf264f2e4be652db9e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/150-wizard-category-account.png",
+      "bytes": 145819,
+      "sha256": "65d356acb3d1854451b967be0d80f765e363f0a06ad5cd74a48290d8c371e1ff"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/151-wizard-hardware.png",
+      "bytes": 148316,
+      "sha256": "7931690dfb973fab67e46470a013d32fc2ba91aa57d487acb56e4a70d29fe3fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/152-wizard-business-settings.png",
+      "bytes": 156945,
+      "sha256": "d23d1f11d074af8a1595feb2bd62bd800d68e94bec89afdcb039373daa0f6d96"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/153-wizard-review-complete.png",
+      "bytes": 156765,
+      "sha256": "1c1019308649cb0f41c098e26c7f14a9c654b56ccdd7a75bdb0533039849c1ae"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/154-print-setup-discovery.png",
+      "bytes": 129143,
+      "sha256": "c241f4c537c5c9254203e925bafaba8247cf2da2808ffc5c2c889b30fc493b73"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/155-print-printer-editor.png",
+      "bytes": 129249,
+      "sha256": "3af5360c9374d2e90e8af82f09fdde5958e66158c29d637b987f78bb8d9bcb01"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/156-print-fleet-tests.png",
+      "bytes": 111552,
+      "sha256": "8aac130e0b6f851d0a99326097c982fa6a77be3922a30a6ba9b7ec3c6f085f9a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/157-print-hardware-qualification.png",
+      "bytes": 134660,
+      "sha256": "987907963431db7a413510c19d4903e28573e2e0b36e504a609883def742bcf7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/158-receipt-operational-preview.png",
+      "bytes": 147302,
+      "sha256": "28738ff15040d4d502907d5781aef98f214626dbee2138746001f471672a75b7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/159-print-job-history.png",
+      "bytes": 112749,
+      "sha256": "a59168a14691da2753f048a7ed392662ca04aa62ee551bf12cdffb0546272044"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/160-print-outcome-reconcile.png",
+      "bytes": 191472,
+      "sha256": "cc01a00dbc2276b2a8e24272f90870b5887435a67bf713c312ae5025a20a92ed"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/161-labels-batch-setup-continued-1.png",
+      "bytes": 117966,
+      "sha256": "928a797184e12176203adc787a088a8c3ea2e561755643d32e5ab7da2f0eff8d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/161-labels-batch-setup.png",
+      "bytes": 125026,
+      "sha256": "30d36846a5a9d73173574e2b072e278893680daf871e73395d380d05a2266524"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/162-labels-exact-preview.png",
+      "bytes": 114973,
+      "sha256": "0bfd07764a17801f44a0555b9c7374b604eaeb051c62db8ee93760faad804626"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/163-labels-submit-failure.png",
+      "bytes": 204628,
+      "sha256": "7162d02b553838d86345393811f09ef92cbca1246047ed5e7f089432731c94d7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/164-operator-settings.png",
+      "bytes": 131065,
+      "sha256": "f7a65f1ded4ba80e6b9763828a58972d9ee3d63b7e6fe293e0793bad0daa3336"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/165-windows-device-settings.png",
+      "bytes": 115818,
+      "sha256": "fa01dad34656912d117f3e81e0694ff22b70ebee9839bc082f0c8ee11b5e46eb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/166-exit-biteaze-confirmation.png",
+      "bytes": 198025,
+      "sha256": "73796dc83fe7aabf522fdb644c1f2d05dca6c809fb6705e08e9bd39cfede97a0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/167-backup-recovery.png",
+      "bytes": 150288,
+      "sha256": "08fb5102cb44d2d2a01e21d529f2a25863665f6f6e9767d1016190c8a4f69bbe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/168-restore-backup-confirm.png",
+      "bytes": 251014,
+      "sha256": "d1fe7a2bd3559aa0d21a302b8e65412410100b1a808c5c60032eb2b46615f276"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/169-profile-security.png",
+      "bytes": 119732,
+      "sha256": "b4350e238eff3923970f2532a325f94146c382bb5932c68896cd4a2b13cccfd1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/170-delete-account-confirm.png",
+      "bytes": 204944,
+      "sha256": "ac273c031edd3d175b201dbc94ba747daecdac08eaccc3edd32e87dceb23902d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/171-staff-authorization.png",
+      "bytes": 129918,
+      "sha256": "a7ef4b0682d16de0b0dac7bb36b3715d6952c5c32cebf825dc3f7c326d1c1f33"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/172-staff-member-security.png",
+      "bytes": 121481,
+      "sha256": "53df8db3b8c474ec7eb682b662fc35c4382bdaa0789fb8bed1eb76947859f220"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/173-staff-pin-recovery.png",
+      "bytes": 191337,
+      "sha256": "86adeb171243f0fbf35e90e4da294502a48b08cdffe715595ffc7bd9d5788421"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/174-voice-command.png",
+      "bytes": 124315,
+      "sha256": "79eaab87d4249b027978f0638319ccf51722860d950114202380d7edfb674366"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/175-voice-action-confirm.png",
+      "bytes": 216821,
+      "sha256": "e8061b03e85b3f79d4a5168fa19f36e8bd06f549e4c4957c90638475c031c380"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/176-sync-conflict-review.png",
+      "bytes": 146999,
+      "sha256": "690bc2d4650731b0e40c085cf665620d8c9940b98c4ffd2bfe8b8fb389f3c933"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/177-sync-quarantine.png",
+      "bytes": 134661,
+      "sha256": "85604e270117639c34c2ed7b09eeb806b9f6ae91277fd9e32c3e9684008b481d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/178-support-health-continued-1.png",
+      "bytes": 109186,
+      "sha256": "b79c95ef4123c8db39286594bbadb14b497c4990d3718ad132b3d6c21777b0d0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/178-support-health.png",
+      "bytes": 118208,
+      "sha256": "b4ed102075e920bdc86e09a5374446ad7d0dc3bf4af9d63e45e80ca2a7233323"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/179-support-diagnostics-preview.png",
+      "bytes": 212060,
+      "sha256": "d9a55060228d0325e2bd6e630f110ec8d848f45d82e6ba4a12285d5996d5e7c1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/180-legal-operations.png",
+      "bytes": 122167,
+      "sha256": "2a00b34770f8b00ee34f0a0c8e5498b0194837d5e77d61969469368a16dfe4ac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/181-category-dashboard.png",
+      "bytes": 119287,
+      "sha256": "3f67f9a97ca27d1e9f998eca547704a25293174a31738bd0f795c21465ade003"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/182-category-setup-reports.png",
+      "bytes": 122113,
+      "sha256": "40dda42a17707f08237e5829ef09da2e9d549f179fa21b602ced4723994436d2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/183-appointments-schedule.png",
+      "bytes": 127279,
+      "sha256": "fe8310c7e89a5726979568a366397c85af80524e9f8ab42e5ca0150985c2d576"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/184-appointment-detail.png",
+      "bytes": 117948,
+      "sha256": "0b77fd6aff83db4a6ff3aabee5000140095e68eb2ae0f2d359ad72d930fcc4fa"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/185-jobs-intake.png",
+      "bytes": 144873,
+      "sha256": "3a6a5c5e8c3c67686a7e9ff9092d03e389076e7051b23b70f4bedde5a1c3d9c8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/186-job-lifecycle.png",
+      "bytes": 129743,
+      "sha256": "4e9d5b157a553debe3bf658d68954aa04b9c1e2f649d032cc137436c7417b5e4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/187-job-quotation-billing.png",
+      "bytes": 124394,
+      "sha256": "489ca5aadd35f022fba9f542a9d614cf5c734d5c3c596f35533d550857333333"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/188-repair-ready-message.png",
+      "bytes": 118929,
+      "sha256": "6f3383b8e4a1a41282b1b852c8100cd714943fc1363049c286511b31965382fe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/189-food-service-workspace.png",
+      "bytes": 134504,
+      "sha256": "88dc545bd89a824479252c2180bcc4cbaa8f8c17c098f51d625b742c980ba113"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/190-food-order-compose-continued-1.png",
+      "bytes": 146686,
+      "sha256": "84cfaa26eafad639492d233f87be34e875fbcb55d69ea83c96f847a2fc064134"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/190-food-order-compose.png",
+      "bytes": 149864,
+      "sha256": "d1d2a4b352d0895c7f4b05adc5eabd6db01be399df1a009eee21d5c2590ba4e1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/191-food-modifier-requirements-continued-1.png",
+      "bytes": 238424,
+      "sha256": "f9ce05906f196bd9a50ff0bd3f9307f20bf5be00cd7ed9f3c7c72141557ac9eb"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/191-food-modifier-requirements.png",
+      "bytes": 256685,
+      "sha256": "e239278c024d2693d93685e1c7db072ae831d921c06fc8b4e00861cd0c89fb6f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/192-food-running-order.png",
+      "bytes": 144332,
+      "sha256": "aee1c3768c1ea85b037090a784f4c45294ff40dabb9cc3a08595719eea0a14b3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/193-food-order-held.png",
+      "bytes": 126852,
+      "sha256": "87bf0904f70d07c76cdc053920ab8faaa120ca8adeff72d27e812624d1912da4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/194-food-table-transfer.png",
+      "bytes": 244595,
+      "sha256": "f0f4375b1cdcaaff86b548b0378a9107b10c85ce5ac7d9d60da71fccf2d96b3b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/195-food-order-merge.png",
+      "bytes": 246082,
+      "sha256": "ef73550d2f669059c82dad380f079f4d931cc1fa2befc5375bbc2017b7c7c673"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/196-food-order-split-lines.png",
+      "bytes": 239359,
+      "sha256": "c41bc541a86eb0d1bd74635fd0f57c3e410a9a69d00121a50c09410ab9a4d82f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/197-routed-kot-preview.png",
+      "bytes": 131111,
+      "sha256": "78f115b46b1cc5dd86997207ef8a0f19af006f95decaf1006259e82558793a02"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/198-food-output-config-continued-1.png",
+      "bytes": 131820,
+      "sha256": "15671e7b8ab9077dc194ce8461fb712d29fa3d343b6a4aed260ef7595dc777fd"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/198-food-output-config.png",
+      "bytes": 132896,
+      "sha256": "1617fa4ee02f82344645e4fb07380ebbea97e1412828ff63ea5c8aa66a798bfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/199-food-service-stale.png",
+      "bytes": 127041,
+      "sha256": "cdf2501beec743b3000defcca9964573c250b29ace5bc5aff7994961af77f69b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/200-qr-backend-readiness.png",
+      "bytes": 139848,
+      "sha256": "296d8bd242e596c572a4e34eefd11363ba26c4bcb7db0697a3249a5250c09a0f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/201-menu-publish-confirm.png",
+      "bytes": 222483,
+      "sha256": "ed73b9fae4810194e36085f266bff25762db1d328fbd3e6a477f445ac6902732"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/202-menu-publish-live.png",
+      "bytes": 118598,
+      "sha256": "f84f2dc50a6692380996e7867f0fa683758be95a83f7d5d7487feab8ddc8460b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/203-menu-publish-mirror-pending.png",
+      "bytes": 122352,
+      "sha256": "b00549fbc1edcab0e3efd4d9ef7d07d09f78be4b8832d3784c7db6cdedfe06e5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/204-menu-publish-mirror-failed.png",
+      "bytes": 130150,
+      "sha256": "e374d3d895dcd40be6a54ff916207425ca60627549a3ce37d4e417974a1fe4c1"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/205-table-qr-create.png",
+      "bytes": 202896,
+      "sha256": "27a3893d172fe9a9e62bca6f5a5c73f08f7c274c3d582fbf36034923ac31fd8f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/206-table-qr-ready.png",
+      "bytes": 117264,
+      "sha256": "1118efea4adf9847762c86a72f61be95ae881be6f8cd5f87292bc8ebcabcc20d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/207-qr-order-intake.png",
+      "bytes": 131706,
+      "sha256": "52cc828707ce0fcd554b6ef99be8fe2d2bf1114c31687dec27a5f4faf36c7d43"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/208-qr-order-accepted.png",
+      "bytes": 140927,
+      "sha256": "ba5393d149ca8a430db660f5a6fa0748cb736b43fb80d53d4215d7a180fc7cbc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/209-qr-intake-unavailable.png",
+      "bytes": 118197,
+      "sha256": "8bd6d257c27752c03908a446d92066a44ec3366b782a7bd6850f535dd0cf3aac"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/210-billing-attribution.png",
+      "bytes": 144681,
+      "sha256": "ae6a57ca65f5f12a750b0acfcdfae6c0fb707dd6e1c4df1cc414b28141c963f9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/211-billing-quotation-review-continued-1.png",
+      "bytes": 158861,
+      "sha256": "4e59b5659483cfd9769478d1c0554ff08260b91d1ec7c3e412106160c4e1023f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/211-billing-quotation-review.png",
+      "bytes": 160462,
+      "sha256": "45f0db842a4dde5be4cbe0b8961e93c9bcaf24b67bdc59e9c5b2d7b008f8d432"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/212-billing-challan-review-continued-1.png",
+      "bytes": 155634,
+      "sha256": "bedd35cf8d0ea0048ce3045a10250ee10ccfb4c7cebbb76ab5fc18d47c422cf3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/212-billing-challan-review.png",
+      "bytes": 157337,
+      "sha256": "62a710b1772a4e42592ace83ac8038ae02b61bbcf3077061ac2c81f219373dbf"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/213-billing-document-correction.png",
+      "bytes": 141331,
+      "sha256": "c621f037215a2b1b672236e1a9af61fb53246c0437f5b10aad3b4fdaddd5a188"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/214-billing-document-discard-unknown.png",
+      "bytes": 129703,
+      "sha256": "6fbe7d6e6da7d2bd9d0a8e9b60fe5b9f30b740b5105e685f5bd4b500011d4e75"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/215-billing-checkout-recovery.png",
+      "bytes": 152607,
+      "sha256": "913cdbf3716e48f1ac418efad2b78b9fa9f199d9c8be3513161e278c3f83aefe"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/216-ongoing-order-recovery.png",
+      "bytes": 134064,
+      "sha256": "7a620e0f8030d4e8d87dc4c307eb82fb7d5024144aebdd1c9580c55d4da3d693"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/217-ongoing-order-limit.png",
+      "bytes": 131980,
+      "sha256": "03b06a3e1100379984bb88c061f73e783ffd6328301b1808123a21c9395319a0"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/218-ongoing-order-conflict.png",
+      "bytes": 121670,
+      "sha256": "4961fced217ca193dab85cdcc1143ab2694ce91f49ef701e640d36e01eb2671b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/219-retail-line-configuration-continued-1.png",
+      "bytes": 142059,
+      "sha256": "15e5168b5e51cae5c0100311cc07d19a28cbcec1d808e29ba46937445c9f0bd9"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/219-retail-line-configuration.png",
+      "bytes": 146533,
+      "sha256": "14acc237d028427b342a6a2465388ce8e6051e310411f55433d9707b55ac881a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/220-retail-line-invalid.png",
+      "bytes": 136270,
+      "sha256": "01de95d9b7c8b4f5e06efa78442ce0f38bf4d8c0dbd1c82a7df14435bc41e241"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/221-billing-promotions-authority.png",
+      "bytes": 154962,
+      "sha256": "c20832839f0f451c7461a476adcd58218cd5322867642a543aa77ea3fe4453f3"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/222-billing-tcs-review.png",
+      "bytes": 134265,
+      "sha256": "6bcb89d983fc854dae0a96403503b4ac2eb9d0415e6bff39e43d3fbe9c4514c4"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/223-checkout-draft-locked.png",
+      "bytes": 148720,
+      "sha256": "1b1f465ec3e3db650c6a7f1b553f10f66b52ec5b3a337a26321a60040b81d39a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/224-checkout-save-unknown.png",
+      "bytes": 130209,
+      "sha256": "c60ee7efabe1786da62c09e7d418c14d34bdd5351bae54c7a04a8e009f8b423b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/225-checkout-draft-conflict.png",
+      "bytes": 140074,
+      "sha256": "653f28d05c54be683bb82cc18085bd7f0854c5e1561fdfd10c7b0a62de95d51b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/226-checkout-discard-unknown.png",
+      "bytes": 132499,
+      "sha256": "1e8666c5c3db95cb164a36368d78bedf0aad74031d1942489a64e37ef9f8c872"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/227-payment-authority-preview.png",
+      "bytes": 167410,
+      "sha256": "461e3485e462179d567d0ce27ce39b29231088e611ab17bf6509ded7593a9e20"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/228-payment-preview-unavailable.png",
+      "bytes": 128007,
+      "sha256": "ef67a6af3759ecc6f6fd608ab626dbb8180b19a2f6d490d8743d1db085081ad8"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/229-credit-warning.png",
+      "bytes": 270801,
+      "sha256": "37b0e1268872b3b7a8e31c63723a1a5e913bf53dc6bae0b10d651e617f68aa35"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/230-credit-reservation-required.png",
+      "bytes": 273727,
+      "sha256": "eff683e26b9cb199c17b77625bc80800e1109375e0ce4cd39816b4b80e1cbe8b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/231-credit-override-required.png",
+      "bytes": 271157,
+      "sha256": "d2111778e426e39c358df360dbfd25fd0c888e6858ad75bab1b5132622f4fcd5"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/232-payment-completion-unknown.png",
+      "bytes": 132893,
+      "sha256": "d4cf8de922909642cff6b6ab43c3f4223d7d962c1c14047883ade710bdb87d85"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/233-payment-completion-conflict.png",
+      "bytes": 142066,
+      "sha256": "7da7504edced9c4b6ceeb5d2b2648d6129ff5762c1465b6fdb2187e3a2d52330"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/234-payment-completion-stale.png",
+      "bytes": 133390,
+      "sha256": "8391f8d63a78de3cb2254a5dc94b7f7677e41ccbeaefed59c8a667385222e319"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/235-sale-saved-no-print.png",
+      "bytes": 144303,
+      "sha256": "9f658f0225123d4d25fec0b6f6d0f30a765694ad89cb54b795ca40a14bf14cfc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/236-sale-print-queued.png",
+      "bytes": 144106,
+      "sha256": "d31ef4561b2b527fc0623385da1d590d82e0b18a1f2ac4aeb0e085e368d0643b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/237-command-palette.png",
+      "bytes": 143510,
+      "sha256": "d67a17b020456af677f6935cb8b95a4f725e45321d4d65f09963dfd03820080e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/238-scanner-setup.png",
+      "bytes": 141061,
+      "sha256": "a4f3b19cd1a75e5f3949eef7c41f613c7b107eb41a7bfc7e012725668e9e3b76"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/239-scanner-test.png",
+      "bytes": 148349,
+      "sha256": "772f70288ae70e8ad3aa62f89efc175d67b41b7f43a56f5ee7ebbaf543f317da"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/240-scanner-runtime-status.png",
+      "bytes": 132672,
+      "sha256": "b96474ba869d088e8660dd210113a407cacd68c568e25588e6202bbc1407904a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/241-plu-shortcode-result.png",
+      "bytes": 151832,
+      "sha256": "77d2d0f0d6749f17f123d5639089741ad58a48b6026fa0485ff25f25d2057412"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/242-windows-update-available.png",
+      "bytes": 145801,
+      "sha256": "84f2e2b8b3abef67096890b60167103d13cab9fba3dca92ab1f2979964ece9a2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/243-windows-update-deferred.png",
+      "bytes": 127857,
+      "sha256": "021dc1fc66a2eb924fa04989faed250416618cde2842c9da80618ace38c84d6f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/244-windows-update-ready-continued-1.png",
+      "bytes": 146404,
+      "sha256": "670dee18ade86e057046e52a79eed2e492ace982176e6b4dc3ad2157efd0c900"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/244-windows-update-ready.png",
+      "bytes": 147483,
+      "sha256": "541f3b1af96439a21a4e38ed19f289c1c8fd8fc4e2b74ce7846cda5ab6628462"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/245-windows-update-failed.png",
+      "bytes": 143112,
+      "sha256": "a360bf4c34634ef6f16ca4803d556548ef785a18a25c7f6dfe35bcd4e30471fc"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/246-account-readiness-device-claim.png",
+      "bytes": 156725,
+      "sha256": "9d5f7f1d8738b1ec3aa517f59c47c179aac01eb8f608de0ff6c9dade35d85c84"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/247-account-readiness-handover.png",
+      "bytes": 160381,
+      "sha256": "3b732636a3a74df373ced40cb4e550d7a0704da0056e1ef2c662f42b70a89a9a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/248-account-readiness-restore.png",
+      "bytes": 155295,
+      "sha256": "87138b5e4c1f8eb8b1c23762959ea014b596716f575d54b2b4ac9c66bc443a81"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/249-account-readiness-gate.png",
+      "bytes": 157943,
+      "sha256": "80603fdf4723c9a94646a6b2ed2fd91aff31dd52b3ae211d9382dc751a6ad730"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/250-account-readiness-printer.png",
+      "bytes": 155124,
+      "sha256": "2e11844fc53023c7ecf851ba4dc0558ae20b99eb16f97fd293f623bcce28890e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/251-account-readiness-ready.png",
+      "bytes": 154615,
+      "sha256": "8e20bb8175434499fe532d31255180b852520e37f223d59a2aeaf7eb45235718"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/252-account-readiness-offline.png",
+      "bytes": 156666,
+      "sha256": "babc1298df8aca7d699199dd5a1713c4ea27b2a5860e1698410531ca9f3db79e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/253-account-readiness-unavailable.png",
+      "bytes": 162013,
+      "sha256": "d294d7f9be73111dd4ce7a81eac74162d7f3dae1feff0bc62fb5f6bddf522535"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/254-account-readiness-cancelled.png",
+      "bytes": 157649,
+      "sha256": "6230900c1ee999e5b46e578a9c8bb5648f6f6631910c208920db9bf385056e0f"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/255-account-readiness-unavailable-invalid.png",
+      "bytes": 161913,
+      "sha256": "f00f8637dc7a32e7b9b1de211148685c8abedeb4e462a5870bfd2c2f69e88920"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/256-current-device-claim-success.png",
+      "bytes": 156888,
+      "sha256": "a365c1df7b72e079e615f40a7ec4aed6433a2858b9193b51e710ef1decb412b7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/257-current-device-claim-handover.png",
+      "bytes": 161078,
+      "sha256": "da066ca1babac7438e88fbc696a0424b9d3da9cb8b951883741267320e238b0c"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/258-current-device-claim-gate.png",
+      "bytes": 158180,
+      "sha256": "3d7aa9a2be97b54fad43a9fae4bfc24c10712c8d45a315b31e7ed1fc52958519"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/259-current-device-claim-offline.png",
+      "bytes": 156643,
+      "sha256": "79363d4eab5042b3644160fe55aa65f5f5f41c6a3c71ba2d2ba5dd38d0bd0700"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/260-current-device-claim-unavailable.png",
+      "bytes": 160844,
+      "sha256": "f30be5db6ebbe1ae0de3b1c9483eeeddf12cf347c4ce59233268d3c53f2d785e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/261-current-device-claim-cancelled.png",
+      "bytes": 157705,
+      "sha256": "81cd430579f761139866fc78eeef62b3e55b5c1d457cde768b9d8d5198d01fa6"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/262-current-device-claim-unavailable-invalid.png",
+      "bytes": 160844,
+      "sha256": "f30be5db6ebbe1ae0de3b1c9483eeeddf12cf347c4ce59233268d3c53f2d785e"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/263-handover-admission-ready.png",
+      "bytes": 160953,
+      "sha256": "97c9df38c13880f5da362171d2fe5225951d8e744b4e539bcbda46fa6f959048"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/264-handover-admission-gate.png",
+      "bytes": 158839,
+      "sha256": "5417ad0e584a0ae92068e1b42ab6adcf7a0238048f4a9ca71d130846fd5d4023"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/265-handover-admission-unavailable.png",
+      "bytes": 155047,
+      "sha256": "91ab3ec0710ecbdf6abe90da1ef3027987f8545595449dd4c6aa349457eac772"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/266-handover-admission-cancelled.png",
+      "bytes": 155691,
+      "sha256": "f80fd560bca598179b28b8e1dea2cdaa4091e1feb6dd82ee05563a4114725e44"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/267-handover-admission-unavailable-invalid.png",
+      "bytes": 155047,
+      "sha256": "91ab3ec0710ecbdf6abe90da1ef3027987f8545595449dd4c6aa349457eac772"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/268-invoice-counter-already-verified.png",
+      "bytes": 169863,
+      "sha256": "05688f873f81ee2c2f6dde981b21c189e720143a0a8675f282a8931601743248"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/269-invoice-counter-restore-required.png",
+      "bytes": 162237,
+      "sha256": "152714089ffc2cd70f2a213fb4cb934ed7715c622a944256274310003f6dfa83"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/270-invoice-counter-offline.png",
+      "bytes": 168679,
+      "sha256": "3e67cbbd44ce8c8c2f8b9def0cb7dc706cdff3049b0ecfbd79f8dc1df813b926"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/271-invoice-counter-unavailable.png",
+      "bytes": 165226,
+      "sha256": "52d28725bdef14b910a8fbbe8d1f52bb927e35390a9bcb33b11c9e332b65d3e2"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/272-invoice-counter-cancelled.png",
+      "bytes": 165547,
+      "sha256": "79c3086db7a02294ba2f41a6bf81115ebff08da2a57736f86aa9d9fde7597b9d"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/273-invoice-counter-unavailable-invalid.png",
+      "bytes": 165252,
+      "sha256": "328dfe29f74e18c1346421e4867a53b926f22706a7d62090ebba5bc3c817afaa"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/274-invoice-counter-verified.png",
+      "bytes": 168002,
+      "sha256": "d9ff870262f042a5611268454433a4a74ddafcdd7761e2baaee66b432e897781"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/275-invoice-counter-changed.png",
+      "bytes": 167782,
+      "sha256": "ae48baaace4720a351a88dbc46fa3d090118553053613e094b24d40bff78ed8a"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/276-restore-entry-ready.png",
+      "bytes": 168930,
+      "sha256": "ca803ad4b06f6d2f7889631f7a5c691683b5c5e9cebadcd55d3cf1efc0ed1c21"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/277-restore-entry-transition-required.png",
+      "bytes": 166390,
+      "sha256": "af64e10d6091fabb154418c73e084a858d6285f50b4fba2ceb2bc391f377f792"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/278-restore-entry-restore-required.png",
+      "bytes": 163001,
+      "sha256": "862bb544e566e25a1619397b80d20a40037743948de64deda4ed2c90769e0851"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/279-restore-entry-offline.png",
+      "bytes": 169135,
+      "sha256": "6a7e3165ba4efc1bc24761484862187148f09bea8f6387d2a6c8610b3e601b01"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/280-restore-entry-admission-gate.png",
+      "bytes": 165816,
+      "sha256": "afcf7a2a2712f23097241746d9a08a4b27948d709795a80a652e8f609d17d0f7"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/281-restore-entry-unavailable.png",
+      "bytes": 168695,
+      "sha256": "67b1eeba1d618d5bfe7e7ecfcdc147b0e97a6ecd4dd82c0d93c3eb564f121126"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/282-restore-entry-cancelled.png",
+      "bytes": 165496,
+      "sha256": "5beea60f6d044e242425e6c65285ba9276aebac8c467e81d9fd4a6480072c638"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/283-restore-entry-unavailable-invalid.png",
+      "bytes": 168201,
+      "sha256": "fd3bbc01a645f21f17f7c4540e74829b3e7a7a177b0a33f0196326ac65a28553"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/284-invoice-counter-verification-gate.png",
+      "bytes": 171483,
+      "sha256": "383339dfa0edddbf943b5990a7057f1fe1a4c740163ddc2b8970bb015c822a04"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/285-invoice-counter-forward-only.png",
+      "bytes": 163705,
+      "sha256": "11062b6ac12b465f495cf04861d6f178d503bfe52ee1e1bc4bf85e89d4b1a99b"
+    },
+    {
+      "path": "phase-2-remaining-screens/screens/286-invoice-counter-outcome-unknown.png",
+      "bytes": 169830,
+      "sha256": "f96782653773f9f15a9d48bee66789590336633463c8721ddc7544e43efdf26a"
+    },
+    {
+      "path": "phase-2-remaining-screens/service.js",
+      "bytes": 51980,
+      "sha256": "dcdae219d8753e0db979e18cb344399cc57d26e4697087abf5c1200134fab838"
+    },
+    {
+      "path": "phase-2-remaining-screens/source-map.json",
+      "bytes": 6696,
+      "sha256": "03429bb8bd1c5c6fed872777c3c4098e3881818f9965a97e6b285f8b48c228ea"
+    },
+    {
+      "path": "phase-2-remaining-screens/source-surface-inventory.json",
+      "bytes": 63602,
+      "sha256": "3d9119871eebfa4691b0badbfc826d48916f288ee4bc3b3b49a1788596f36627"
     },
     {
       "path": "reference/Android-tablet-original.pdf",
@@ -748,14 +2348,34 @@
       "sha256": "8658176cac1f1c768173f8955086f36fb57ae67c1e1e9e7e12f37e3bd9d668a1"
     },
     {
+      "path": "scripts/build-phase2-book.py",
+      "bytes": 9751,
+      "sha256": "87bd8755970f53815c362099b9b602b9b74eb0c7a1c1ae815824c4a8c1823425"
+    },
+    {
+      "path": "scripts/build-phase2-coverage.py",
+      "bytes": 7810,
+      "sha256": "e3a769e561c5e5ea1932ef8643c73f068354380eabf8d57b6478b8f6b3054ff9"
+    },
+    {
       "path": "scripts/generate-manifest.py",
       "bytes": 1136,
       "sha256": "798a9f9887410c8594231e81b7f216401e694d764a4cb869beaf7673e8129ac6"
     },
     {
+      "path": "scripts/generate-phase2-source-surface-inventory.py",
+      "bytes": 7913,
+      "sha256": "0b023235b95d616cc742c6cc7d0df3732f4d58c19dbdc157ccb67095d40ca92e"
+    },
+    {
+      "path": "scripts/record-phase2-capture.py",
+      "bytes": 2656,
+      "sha256": "47ee4fec5663080cc28200ee90357f3b2f2d0f4053770b22af15ac41d6c5e0f3"
+    },
+    {
       "path": "scripts/run-reference-checks.py",
-      "bytes": 2175,
-      "sha256": "f4754051575fadfea456e207a70d92caa4118e43df018f056c9a791804165d9d"
+      "bytes": 3558,
+      "sha256": "8969dca210d2504aa17d0efcd2a2b3cc6fdbfe0e190739d71928e4055dc8860c"
     },
     {
       "path": "scripts/validate-interactions.cjs",
@@ -764,8 +2384,23 @@
     },
     {
       "path": "scripts/validate-package.py",
-      "bytes": 6882,
-      "sha256": "597d746c2b06c94af8c6d5060aa3980a24a0292b281730995203f7cd96a16680"
+      "bytes": 6983,
+      "sha256": "5fb3e4aac33bce928d3a09cbb83a8cd4fabdebb4ec272502ed020c2d21d58396"
+    },
+    {
+      "path": "scripts/validate-phase2-package.py",
+      "bytes": 12266,
+      "sha256": "b62514f409c964c5ffb404d6e8407b71af29ca3b3ea31baf7f13774481f6f899"
+    },
+    {
+      "path": "scripts/validate-phase2-source-surface-inventory.py",
+      "bytes": 3722,
+      "sha256": "d2375921985e8fdacd5e36dbbc5b883041ed8641f8a71addfb5d231989ee625b"
+    },
+    {
+      "path": "scripts/validate-phase2.cjs",
+      "bytes": 16102,
+      "sha256": "2003685710193ac0928c4c9ba0fea8ada9ac74927978df3b71c3c71484590376"
     },
     {
       "path": "scripts/validate-reference.cjs",
@@ -778,6 +2413,6 @@
       "sha256": "a965238dfcfaa56b7270235f834cce88267448aa967ca4b2bcff18efa2575f07"
     }
   ],
-  "file_count": 155,
-  "total_bytes": 49663453
+  "file_count": 482,
+  "total_bytes": 140193822
 }
